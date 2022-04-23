@@ -9,6 +9,6 @@ var test= child_process.exec("/home/runner/work/clashpool/clashpool/utils/clash/
 
 
 setTimeout(()=>{
-    test.kill()
+    test.kill('SIGHUP')
     console.log("000000");
 },10000)
