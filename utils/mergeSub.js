@@ -62,37 +62,37 @@ module.exports = async (config) => {
     console.log(`节点去重完成，共${proxies.length}个`);
 
     var proxy_list = []
-    var NameMap={}
-    var proxygroups={
-        name:"所有节点",
-        type:"select",
-        proxies:[]
+    var NameMap = {}
+    var proxygroups = {
+        name: "所有节点",
+        type: "select",
+        proxies: []
     }
     for (const proxie of proxies) {
         //重命名
         const { err, address } = await lookup(proxie.server)
-            if (!err) {
-                // console.log(proxie.server,address);
-                const lookup = geoip.lookup(address)
-                if (lookup != null) {
-                    let name_emoji;
-                    if (emoji[lookup.country]) {
-                        name_emoji = emoji[lookup.country]
-                    } else {
-                        name_emoji = emoji["NOWHERE"]
-                    }
-                    if(NameMap[`${name_emoji}${lookup.country}`]==undefined){
-                        NameMap[`${name_emoji}${lookup.country}`]=0
-                    }else{
-                        NameMap[`${name_emoji}${lookup.country}`]+=1
-                    }
-                    proxie.name = `${name_emoji}${lookup.country}|${ NameMap[`${name_emoji}${lookup.country}`]}`
-                    proxy_list.push(proxie)
-                    proxygroups.proxies.push(proxie.name)
+        if (!err) {
+            // console.log(proxie.server,address);
+            const lookup = geoip.lookup(address)
+            if (lookup != null) {
+                let name_emoji;
+                if (emoji[lookup.country]) {
+                    name_emoji = emoji[lookup.country]
+                } else {
+                    name_emoji = emoji["NOWHERE"]
                 }
+                if (NameMap[`${name_emoji}${lookup.country}`] == undefined) {
+                    NameMap[`${name_emoji}${lookup.country}`] = 0
+                } else {
+                    NameMap[`${name_emoji}${lookup.country}`] += 1
+                }
+                proxie.name = `${name_emoji}${lookup.country}|${NameMap[`${name_emoji}${lookup.country}`]}`
+                proxy_list.push(proxie)
+                proxygroups.proxies.push(proxie.name)
             }
-        
+        }
+
     }
     console.log(`重命名完成，共${proxy_list.length}个节点，写入文件:./temp/nodes.yaml`);
-    fs.writeFileSync(`./temp/nodes.yaml`, yaml.stringify({ proxies: proxy_list,"proxy-groups":[proxygroups] }))
+    fs.writeFileSync(`./temp/nodes.yaml`, yaml.stringify({ proxies: proxy_list, "proxy-groups": [proxygroups] }))
 }
