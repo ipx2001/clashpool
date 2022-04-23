@@ -1,6 +1,6 @@
 var child_process = require('child_process');
 
-var test= child_process.exec("/home/runner/work/clashpool/clashpool/utils/clash/clash -d .",(err,stdout,stderr)=>{
+const test= child_process.exec("/home/runner/work/clashpool/clashpool/utils/clash/clash -d .",(err,stdout,stderr)=>{
     if(err){
         console.log(err);
     }
@@ -9,6 +9,7 @@ var test= child_process.exec("/home/runner/work/clashpool/clashpool/utils/clash/
 
 
 setTimeout(()=>{
-    test.kill('SIGHUP')
+    test.kill()
+    
     console.log("000000");
-},10000)
+},10*1000)
