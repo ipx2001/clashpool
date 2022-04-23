@@ -1,7 +1,7 @@
 const yaml = require("yaml");
 const moment = require("moment")
 const fs = require("fs");
-const config_path = "./config.yaml"
+const config_path = "./utils/config.yaml"
 const _config = yaml.parse(fs.readFileSync(config_path, "utf8"))
 
 

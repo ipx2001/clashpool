@@ -1,0 +1,186 @@
+remote_conver: http://127.0.0.1:25500/sub
+remote_config: https://raw.nameless13.com/api/public/dl/zKF9vFbb/easy.ini
+proxy:
+  host: 127.0.0.1
+  port: 7890
+  protocol: http
+  enabled: false
+SubList:
+  - id: 1
+    remarks: 节点池1
+    site: https://github.com/yu-steven/openit
+    url: https://openit.ml/Clash.yaml
+    enabled: true
+  - id: 2
+    remarks: 节点池2
+    site: https://github.com/chfchf0306/clash/
+    url: https://raw.githubusercontent.com/chfchf0306/clash/main/clash
+    enabled: true
+  - id: 3
+    remarks: 节点池3
+    site: https://paste.in/
+    url: https://paste.in/raw/dGlJKy
+    enabled: true
+  - id: 4
+    remarks: 节点池4
+    site: https://github.com/AzadNetCH/Clash/
+    url: https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml
+    enabled: true
+  - id: 5
+    remarks: 节点池5
+    site: https://github.com/AzadNetCH/Clash/
+    url: https://raw.githubusercontent.com/AzadNetCH/Clash/main/UFO.yml
+    enabled: true
+  - id: 6
+    remarks: 节点池6
+    site: https://github.com/colatiger/v2ray-nodes/
+    url: https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/clash.yaml
+    enabled: true
+  - id: 7
+    remarks: 节点池7
+    site: https://github.com/freefq/free
+    url: https://raw.githubusercontent.com/freefq/free/master/v2
+    enabled: true
+  - id: 8
+    remarks: 节点池8
+    site: https://github.com/GreenFishStudio/GreenFish
+    url: https://raw.githubusercontent.com/GreenFishStudio/GreenFish/master/Subscription/GreenFishYYDS
+    enabled: true
+  - id: 9
+    remarks: 节点池9
+    site: https://github.com/Jsnzkpg/Jsnzkpg
+    url: https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
+    enabled: true
+  - id: 10
+    remarks: 节点池10
+    site: https://github.com/freefq/free
+    url: https://raw.githubusercontent.com/freefq/free/master/v2
+    enabled: true
+  - id: 11
+    remarks: 节点池11
+    site: https://proxies.bihai.cf/
+    url: https://proxies.bihai.cf/clash/proxies
+    enabled: true
+  - id: 12
+    remarks: 节点池12
+    site: https://t.me/bpjzx1
+    url: https://paste.in/raw/bpjzx1
+    enabled: true
+  - id: 13
+    remarks: 节点池13
+    site: https://t.me/ssrtelegram
+    url: https://paste.in/raw/8j7QWX
+    enabled: true
+  - id: 14
+    remarks: 节点池14
+    site: https://free886.herokuapp.com/
+    url: https://free886.herokuapp.com/clash/proxies
+    enabled: true
+  - id: 15
+    remarks: 节点池15
+    site: https://paste.in/
+    url: https://paste.in/raw/c4nOjg
+    enabled: true
+  - id: 16
+    remarks: 节点池16
+    site: https://paste.in/
+    url: https://paste.in/raw/bpjzx2
+    enabled: true
+  - id: 17
+    remarks: 节点池17
+    site: https://github.com/Lewis-1217/FreeNodes
+    url: https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx2
+    enabled: true
+  - id: 18
+    remarks: 节点池18
+    site: https://github.com/yu-steven/openit
+    url: https://raw.githubusercontent.com/yu-steven/openit/main/long
+    enabled: true
+  - id: 19
+    remarks: 节点池19
+    site: https://fq.lonxin.net/
+    url: https://fq.lonxin.net/clash/proxies
+    enabled: true
+  - id: 20
+    remarks: 节点池20
+    site: http://clash.3wking.com:12580
+    url: http://clash.3wking.com:12580/clash/proxies
+    enabled: true
+  - id: 21
+    remarks: 节点池21
+    site: https://proxypoolss.fly.dev/
+    url: https://proxypoolss.fly.dev/clash/proxies
+    enabled: true
+  - id: 22
+    remarks: 节点池22
+    site: https://github.com/pojiezhiyuanjun/freev2
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0423.txt
+    lastUpdateTime: 2022-04-23
+    enabled: true
+  - id: 23
+    remarks: 节点池23
+    site: https://www.mattkaydiary.com/
+    url: https://drive.google.com/uc?export=download&id=1TfnXT_9Selx6hwhlrphUSZPElbXffkay
+    lastUpdateTime: 2022-04-21T15:30:09.920Z
+    enabled: false
+  - id: 24
+    remarks: 节点池24
+    site: https://github.com/FMYC2015/V2ray
+    url: https://raw.githubusercontent.com/FMYC2015/V2ray/main/2022/2022-04-14
+    lastUpdateTime: 2022-04-21T15:30:09.920Z
+    enabled: false
+  - id: 25
+    remarks: 节点池25
+    site: http://49.233.28.108:1314
+    url: http://49.233.28.108:1314/clash/proxies
+    enabled: true
+  - id: 26
+    remarks: 节点池26
+    site: https://jiang.netlify.app/
+    url: https://jiang.netlify.app/
+    enabled: true
+  - id: 27
+    remarks: 节点池27
+    site: https://github.com/ronghuaxueleng/get_v2/
+    url: https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/changfengoss.yaml
+    enabled: true
+  - id: 28
+    remarks: 节点池28
+    site: https://github.com/oslook/clash-freenode
+    url: https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml
+    enabled: true
+  - id: 29
+    remarks: 节点池29
+    site: https://github.com/York-Labs/nodes
+    url: https://raw.githubusercontent.com/York-Labs/nodes/main/sub/v2ray
+    enabled: true
+  - id: 30
+    remarks: 节点池30
+    site: https://gitlab.com/pipi_2333/114514
+    url: https://gitlab.com/api/v4/projects/32824328/repository/files/dingyue.txt/raw?ref=main&private_token=glpat-RDFsud48e2xN_ajVqWeX
+    enabled: true
+  - id: 31
+    remarks: 节点池31
+    site: https://dingyue-3843.onrender.com
+    url: https://dingyue-3843.onrender.com/yunbaitechnodes
+    enabled: true
+  - id: 32
+    remarks: 节点池32
+    site: https://github.com/ermaozi/get_subscribe
+    url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+    enabled: true
+  - id: 33
+    remarks: 节点池33
+    site: https://sspool.herokuapp.com/
+    url: https://sspool.herokuapp.com/ssr/sub
+    enabled: true
+  - id: 34
+    remarks: 节点池34
+    site: https://gfwglass.tk/
+    url: https://gfwglass.tk/ssr/sub
+    enabled: true
+  - id: 35
+    remarks: 节点池35
+    site: https://github.com/alanbobs999/TopFreeProxies
+    url: https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity.yml
+    enabled: true

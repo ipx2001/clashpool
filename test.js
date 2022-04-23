@@ -7,7 +7,7 @@ const { rejects } = require("assert");
 const os = require("os")
 
 setTimeout(() => {
-    request("http://127.0.0.1:9090/configs").then((res)=>{
+    request("http://124.222.33.208:9090/configs").then((res)=>{
     console.log(res.data);
     })
 }, 10*1000);
