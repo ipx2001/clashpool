@@ -11,12 +11,15 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - name: 迁出代码
+      uses: actions/checkout@v3
     - name: 安装node
       uses: actions/setup-node@v3
       with:
         node-version: 16.x
         cache: 'npm'
-    - run: npm i
-    - run: node index.js
+    - name: 安装依赖
+      run: npm i
+    - name: 执行任务
+      run: node index.js
     
