@@ -108,10 +108,10 @@ class ping:
 if __name__ == '__main__':
     server=sys.argv[1]
     port=int(sys.argv[2])
-    # ping_result = ping(server, port).tcp_ping()
+    ping_result = ping(server, port).tcp_ping()
     ping_result_g = ping(server, port).google_ping()
     # ping_result_y = ping(server, port).youtube_ping()
-    if ping_result_g[0] >= 0.01:
+    if ping_result[0] >= 0.01 or ping_result_g[0] >= 0.01:
         print (False)
     # elif ping_result[1] < 0.8 or ping_result_g[1] < 0.8:
     #     print (False)

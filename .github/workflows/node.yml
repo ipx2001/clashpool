@@ -7,8 +7,7 @@ on:
  workflow_dispatch:
 
 jobs:
-  build:
-
+  start:
     runs-on: ubuntu-latest
     steps:
     - name: 迁出代码
@@ -22,4 +21,14 @@ jobs:
       run: npm i
     - name: 执行任务
       run: node index.js
-    
+    - name: 提交更改
+      run: |                 
+         git config --local user.email "wally94@163.com"
+         git config --local user.name "wally94"
+         git add ./
+         git commit -m "更新订阅链接"
+    - name: 推送更改
+      uses:  ad-m/github-push-action@master
+      with:
+         # github_token: ${{ secrets.TOKEN }}
+         branch: main
