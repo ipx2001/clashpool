@@ -60,12 +60,22 @@ module.exports = async (config) => {
     await  Clash.setConfigs("/home/runner/work/clashpool/clashpool/temp/nodes.yaml")
     
     for (const proxie of  yaml_config.proxies) {
-        const res=await Clash.getDelay(proxie.name,5000)
-        if(!res.data.message){
-            console.log(res.data.delay);
-        }else{
-            console.log(res.data.message);
+        try {
+            const res=await Clash.getDelay(proxie.name,5000)
+            if(!res.data.message){
+                console.log(res.data.delay);
+            }else{
+                console.log(res.data.message);
+            }
+        } catch (error) {
+            if (error.response) {
+                if (error.response.status == 504 && error.response.data.message == "Timeout") {
+                    console.log(error.response.data.message);
+                }
+            }
         }
+       
+       
        
     }
 }
