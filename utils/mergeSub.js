@@ -5,11 +5,8 @@ const speedtest = require("./speedtest")
 const config_path = "./config.yaml"
 const geoip = require("geoip-lite")
 const dns = require("dns");
-const { resolve } = require("path");
-const { rejects } = require("assert");
-
+const Clash = require("./ClashApi");
 var proxies = []
-
 //数组去重的方法
 function unique(arr) {
     let result = {};
@@ -29,21 +26,6 @@ async function lookup(server) {
         })
     })
 }
-const emoji = {
-    'US': '🇺🇸', 'HK': '🇭🇰', 'SG': '🇸🇬',
-    'JP': '🇯🇵', 'TW': '🇹🇼', 'CA': '🇨🇦',
-    'GB': '🇬🇧', 'CN': '🇨🇳', 'NL': '🇳🇱',
-    'TH': '🇹🇭', 'BE': '🇧🇪', 'IN': '🇮🇳',
-    'IT': '🇮🇹', 'PE': '🇵🇪', 'RO': '🇷🇴',
-    'AU': '🇦🇺', 'DE': '🇩🇪', 'RU': '🇷🇺',
-    'KR': '🇰🇷', 'DK': '🇩🇰', 'PT': '🇵🇹',
-    'FR': '🇫🇷', 'CY': '🇨🇾', 'ES': '🇪🇸',
-    'NL': '🇳🇱', 'VN': '🇻🇳', 'FL': '🇫🇮',
-    'CH': '🇨🇭', 'BG': '🇧🇬', 'ZA': '🇿🇦',
-    'RELAY': '',
-    'NOWHERE': '',
-}
-
 module.exports = async (config) => {
     const sub_list = config.$config.SubList
     for (const sub of sub_list) {
@@ -61,33 +43,44 @@ module.exports = async (config) => {
     proxies = unique(proxies)
     console.log(`节点去重完成，共${proxies.length}个`);
 
-    var proxy_list = []
-    var NameMap = {}
-    var proxygroups = {
-        name: "所有节点",
-        type: "select",
-        proxies: []
+
+    var yaml_config = {
+        proxies:[],
+        "proxy-groups": [ {
+            name: "所有节点",
+            type: "select",
+            proxies: []
+        }]
     }
     proxies.forEach((proxie, index) => {
         proxie.name = index
-        proxy_list.push(proxie)
-        proxygroups.proxies.push(index)
+        yaml_config.proxies.push(proxie)
+        yaml_config["proxy-groups"][0].proxies.push(index)
     });
-    var yaml_config = {
-        port: 7890,
-        "socks-port": 7891,
-        "allow-lan": true,
-        mode: "Rule",
-        "log-level": "info",
-        "external-controller": "127.0.0.1:9090",
-        proxies:proxy_list,
-        "proxy-groups": [proxygroups]
-    }
-    console.log(`共${proxy_list.length}个节点，写入文件:./temp/nodes.yaml`);
+   
+    console.log(`共${yaml_config.proxies.length}个节点，写入文件:./temp/nodes.yaml`);
     fs.writeFileSync(`./temp/nodes.yaml`, yaml.stringify(yaml_config))
+    
+     const res=await  Clash.setConfigs("/home/runner/work/clashpool/clashpool/temp/nodes.yaml")
+     const p=await Clash.getProxies()
+     console.log(p.data);
+
 }
 
-
+// const emoji = {
+//     'US': '🇺🇸', 'HK': '🇭🇰', 'SG': '🇸🇬',
+//     'JP': '🇯🇵', 'TW': '🇹🇼', 'CA': '🇨🇦',
+//     'GB': '🇬🇧', 'CN': '🇨🇳', 'NL': '🇳🇱',
+//     'TH': '🇹🇭', 'BE': '🇧🇪', 'IN': '🇮🇳',
+//     'IT': '🇮🇹', 'PE': '🇵🇪', 'RO': '🇷🇴',
+//     'AU': '🇦🇺', 'DE': '🇩🇪', 'RU': '🇷🇺',
+//     'KR': '🇰🇷', 'DK': '🇩🇰', 'PT': '🇵🇹',
+//     'FR': '🇫🇷', 'CY': '🇨🇾', 'ES': '🇪🇸',
+//     'NL': '🇳🇱', 'VN': '🇻🇳', 'FL': '🇫🇮',
+//     'CH': '🇨🇭', 'BG': '🇧🇬', 'ZA': '🇿🇦',
+//     'RELAY': '',
+//     'NOWHERE': '',
+// }
 // for (const proxie of proxies) {
 //     //重命名
 //     const { err, address } = await lookup(proxie.server)

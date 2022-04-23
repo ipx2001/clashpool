@@ -19,6 +19,12 @@ jobs:
         cache: 'npm'
     - name: 启动转换服务器
       run: docker run -d -p 25500:25500 --name subconverter tindy2013/subconverter
+    - name: 启动 clash 
+      run: |
+        cd utils/clash 
+        chmod +x ./clash
+        nohup ./clash -d . &
+        cd /home/runner/work/clashpool/clashpool
     - name: 安装依赖
       run: npm i
     - name: 执行任务
