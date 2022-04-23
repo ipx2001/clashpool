@@ -17,7 +17,7 @@ module.exports.getProxies=async ()=>{
 //name节点名称
 //timeout超时时间
 //url测试的网址
-module.exports.getDelay=async (name,timeout,url="http:%2F%2Fwww.gstatic.com%2Fgenerate_204")=>{
+module.exports.getDelay=async (name,timeout,url="http://www.gstatic.com/generate_204")=>{
     return  request.get(`http://127.0.0.1:9090/proxies/${encodeURIComponent(name)}/delay?timeout=${timeout}&url=${encodeURIComponent(url)}`)
 }
 
