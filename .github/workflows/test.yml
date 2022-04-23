@@ -19,7 +19,9 @@ jobs:
         cache: 'npm'
    
     - name: 启动 clash 
-      run: docker run -d -p 7890:7890 -p 7891:7891 -p 9090:9090 --name clash dreamacro/clash -v /home/runner/work/clashpool/clashpool/utils/clash/config.yaml:/root/.config/clash/config.yaml -v /home/runner/work/clashpool/clashpool/utils/clash/Country.mmdb:/root/.config/clash/Country.mmdb
+      run: |
+        chmod +x /home/runner/work/clashpool/clashpool/utils/clash/clash
+        nohup /home/runner/work/clashpool/clashpool/utils/clash/clash -d . &
     - name: 安装依赖
       run: npm i
     - name: 测试
