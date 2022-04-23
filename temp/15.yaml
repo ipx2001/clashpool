@@ -1,0 +1,114 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 中国-台湾1【1x】, server: tw2503.cloudmatrix.xyz, port: 2503, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw2503.cloudmatrix.xyz}}, udp: true}
+  - {name: 中国-台湾2【1x】, server: tw2502.cloudmatrix.xyz, port: 2502, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw2502.cloudmatrix.xyz}}, udp: true}
+  - {name: 中国-台湾3【1x】, server: tw2501.cloudmatrix.xyz, port: 2501, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw2501.cloudmatrix.xyz}}, udp: true}
+  - {name: 中国-台湾4【1x】, server: tw2504.cloudmatrix.xyz, port: 2504, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw2504.cloudmatrix.xyz}}, udp: true}
+  - {name: 中国-台湾5【1x】, server: tw2505.cloudmatrix.xyz, port: 2505, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw2505.cloudmatrix.xyz}}, udp: true}
+  - {name: 中国-台湾6【1x】, server: tw2506.cloudmatrix.xyz, port: 2506, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw2506.cloudmatrix.xyz}}, udp: true}
+  - {name: 中国-台湾7【1x】, server: tw21401.cloudmatrix.xyz, port: 21401, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw21401.cloudmatrix.xyz}}, udp: true}
+  - {name: 中国-台湾8【1x】, server: tw21402.cloudmatrix.xyz, port: 21402, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw21402.cloudmatrix.xyz}}, udp: true}
+  - {name: 中国-香港1【1x】, server: hk2701.cloudmatrix.xyz, port: 2701, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk2701.cloudmatrix.xyz}}, udp: true}
+  - {name: 中国-香港2【1x】, server: hk2702.cloudmatrix.xyz, port: 2702, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk2702.cloudmatrix.xyz}}, udp: true}
+  - {name: 中国-香港3【1x】, server: hk2703.cloudmatrix.xyz, port: 2703, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk2703.cloudmatrix.xyz}}, udp: true}
+  - {name: 中国-香港4【1x】, server: hk2704.cloudmatrix.xyz, port: 2704, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk2704.cloudmatrix.xyz}}, udp: true}
+  - {name: 中国-香港5【1x】, server: hk21201.cloudmatrix.xyz, port: 21201, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk21201.cloudmatrix.xyz}}, udp: true}
+  - {name: 中国-香港6【1x】, server: hk21202.cloudmatrix.xyz, port: 21202, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk21202.cloudmatrix.xyz}}, udp: true}
+  - {name: 新加坡1【1x】, server: sg2601.cloudmatrix.xyz, port: 2601, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg2601.cloudmatrix.xyz}}, udp: true}
+  - {name: 新加坡2【1x】, server: sg2602.cloudmatrix.xyz, port: 2602, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg2602.cloudmatrix.xyz}}, udp: true}
+  - {name: 新加坡3【1x】, server: sg2603.cloudmatrix.xyz, port: 2603, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg2603.cloudmatrix.xyz}}, udp: true}
+  - {name: 新加坡4【1x】, server: sg2604.cloudmatrix.xyz, port: 2604, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg2604.cloudmatrix.xyz}}, udp: true}
+  - {name: 新加坡5【1x】, server: sg21101.cloudmatrix.xyz, port: 21101, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg21101.cloudmatrix.xyz}}, udp: true}
+  - {name: 新加坡6【1x】, server: sg21102.cloudmatrix.xyz, port: 21102, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg21102.cloudmatrix.xyz}}, udp: true}
+  - {name: 日本-东京1【1x】, server: jp21301.cloudmatrix.xyz, port: 21301, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp21301.cloudmatrix.xyz}}, udp: true}
+  - {name: 日本-东京2【1x】, server: jp2803.cloudmatrix.xyz, port: 2803, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp2803.cloudmatrix.xyz}}, udp: true}
+  - {name: 日本-东京3【1x】, server: jp2802.cloudmatrix.xyz, port: 2802, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp2802.cloudmatrix.xyz}}, udp: true}
+  - {name: 美国 -圣何塞2【1x】, server: us24052.cloudmatrix.xyz, port: 24052, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24052.cloudmatrix.xyz}}, udp: true}
+  - {name: 美国-圣何塞1【1x】, server: us24051.cloudmatrix.xyz, port: 24051, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24051.cloudmatrix.xyz}}, udp: true}
+  - {name: 美国-圣何塞3【1x】, server: us24053.cloudmatrix.xyz, port: 24053, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24053.cloudmatrix.xyz}}, udp: true}
+  - {name: 美国-圣何塞4【1x】, server: us24054.cloudmatrix.xyz, port: 24054, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24054.cloudmatrix.xyz}}, udp: true}
+  - {name: 美国-圣何塞5【1x】, server: us24055.cloudmatrix.xyz, port: 24055, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24055.cloudmatrix.xyz}}, udp: true}
+  - {name: 美国-洛杉矶1【1x】, server: us2406.cloudmatrix.xyz, port: 2406, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us2406.cloudmatrix.xyz}}, udp: true}
+  - {name: 美国-洛杉矶2【1x】, server: us2407.cloudmatrix.xyz, port: 2407, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us2407.cloudmatrix.xyz}}, udp: true}
+  - {name: 美国-洛杉矶3【1x】, server: us24058.cloudmatrix.xyz, port: 24058, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24058.cloudmatrix.xyz}}, udp: true}
+  - {name: 美国-洛杉矶4【1x】, server: us2407.cloudmatrix.xyz, port: 2407, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us2407.cloudmatrix.xyz}}, udp: true}
+  - {name: 英国-伦敦1【1x】, server: uk2901.cloudmatrix.xyz, port: 2901, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: uk2901.cloudmatrix.xyz}}, udp: true}
+  - {name: 英国-伦敦2【1x】, server: uk21501.cloudmatrix.xyz, port: 21501, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: uk21501.cloudmatrix.xyz}}, udp: true}
+  - {name: "\n防失联☞tg@freeyule", server: matrixap.com, port: 10086, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+proxy-groups:
+  - name: 代理
+    type: select
+    proxies:
+      - 中国-台湾1【1x】
+      - 中国-台湾2【1x】
+      - 中国-台湾3【1x】
+      - 中国-台湾4【1x】
+      - 中国-台湾5【1x】
+      - 中国-台湾6【1x】
+      - 中国-台湾7【1x】
+      - 中国-台湾8【1x】
+      - 中国-香港1【1x】
+      - 中国-香港2【1x】
+      - 中国-香港3【1x】
+      - 中国-香港4【1x】
+      - 中国-香港5【1x】
+      - 中国-香港6【1x】
+      - 新加坡1【1x】
+      - 新加坡2【1x】
+      - 新加坡3【1x】
+      - 新加坡4【1x】
+      - 新加坡5【1x】
+      - 新加坡6【1x】
+      - 日本-东京1【1x】
+      - 日本-东京2【1x】
+      - 日本-东京3【1x】
+      - 美国 -圣何塞2【1x】
+      - 美国-圣何塞1【1x】
+      - 美国-圣何塞3【1x】
+      - 美国-圣何塞4【1x】
+      - 美国-圣何塞5【1x】
+      - 美国-洛杉矶1【1x】
+      - 美国-洛杉矶2【1x】
+      - 美国-洛杉矶3【1x】
+      - 美国-洛杉矶4【1x】
+      - 英国-伦敦1【1x】
+      - 英国-伦敦2【1x】
+      - "\n防失联☞tg@freeyule"
+  - name: 规则外路由选择
+    type: select
+    proxies:
+      - 代理
+      - DIRECT
+rules:
+ - DOMAIN-SUFFIX,local,DIRECT
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR6,::1/128,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+ - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+ - PROCESS-NAME,aria2c,DIRECT
+ - PROCESS-NAME,fdm,DIRECT
+ - PROCESS-NAME,Folx,DIRECT
+ - PROCESS-NAME,NetTransport,DIRECT
+ - PROCESS-NAME,Thunder,DIRECT
+ - PROCESS-NAME,Transmission,DIRECT
+ - PROCESS-NAME,uTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent Helper,DIRECT
+ - PROCESS-NAME,DownloadService,DIRECT
+ - PROCESS-NAME,Weiyun,DIRECT
+ - DOMAIN-KEYWORD,aria2,DIRECT
+ - DOMAIN-KEYWORD,xunlei,DIRECT
+ - DOMAIN-KEYWORD,yunpan,DIRECT
+ - DOMAIN-KEYWORD,Thunder,DIRECT
+ - DOMAIN-KEYWORD,XLLiveUD,DIRECT
+ - MATCH,规则外路由选择

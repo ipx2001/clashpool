@@ -1,0 +1,72 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 香港1-tg频道:@ripaojiedian, server: 421hk.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 421hk.fans8.xyz}}, udp: true}
+  - {name: 测试-tg频道:@ripaojiedian, server: 193.134.209.226, port: 10839, type: vmess, uuid: 78e1482a-8f88-4635-bd7a-992fa077b24d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港ssr-tg频道:@ripaojiedian, server: 120.232.214.113, port: 13116, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 256:ySh8ar, obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
+  - {name: 台湾-tg频道:@ripaojiedian, server: 417tw.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 417tw.fans8.xyz}}, udp: true}
+  - {name: 新加坡-tg频道:@ripaojiedian, server: sg2.31vpn.com, port: 80, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/seikozero/62621831a0fc7/, headers: {Host: sg2.31vpn.com}}, udp: true}
+  - {name: 日本1-tg频道:@ripaojiedian, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 新加坡1-tg频道:@ripaojiedian, server: 412sgsg.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 412sgsg.fans8.xyz}}, udp: true}
+  - {name: 香港02-tg频道:@ripaojiedian, server: v3hgc02.kuli888.xyz, port: 52032, type: trojan, password: 7193174d-2dfe-3def-ac2d-6a811a0ff6e1, sni: hgc03.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本-tg频道:@ripaojiedian, server: centralchina1.cloudlink123.com, port: 37003, type: ss, cipher: aes-128-gcm, password: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, udp: true}
+  - {name: 香港2-tg频道:@ripaojiedian, server: hk5.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk5.fdns.cloudlink123.com}}, udp: true}
+  - {name: 洛杉矶-禁ping能用, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: node.774.gs}}, udp: true}
+  - {name: 新加坡ssr-tg频道:@ripaojiedian, server: ieplszhk-sz.qqgg.work, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 台湾1-tg频道:@ripaojiedian, server: iplc01.2333dns.com, port: 3071, type: vmess, uuid: 8cc8320f-f880-31c8-bb6a-1ecfc503a2ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港3-tg频道:@ripaojiedian, server: hk05-vm5.entry.ikuuu.casa, port: 11200, type: vmess, uuid: 11b02c81-0ea7-32c2-9385-8fa7593d188a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-01-05.entry-0.chinasnow.net}}, udp: true}
+proxy-groups:
+  - name: 代理
+    type: select
+    proxies:
+      - 香港1-tg频道:@ripaojiedian
+      - 测试-tg频道:@ripaojiedian
+      - 香港ssr-tg频道:@ripaojiedian
+      - 台湾-tg频道:@ripaojiedian
+      - 新加坡-tg频道:@ripaojiedian
+      - 日本1-tg频道:@ripaojiedian
+      - 新加坡1-tg频道:@ripaojiedian
+      - 香港02-tg频道:@ripaojiedian
+      - 日本-tg频道:@ripaojiedian
+      - 香港2-tg频道:@ripaojiedian
+      - 洛杉矶-禁ping能用
+      - 新加坡ssr-tg频道:@ripaojiedian
+      - 台湾1-tg频道:@ripaojiedian
+      - 香港3-tg频道:@ripaojiedian
+  - name: 规则外路由选择
+    type: select
+    proxies:
+      - 代理
+      - DIRECT
+rules:
+ - DOMAIN-SUFFIX,local,DIRECT
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR6,::1/128,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+ - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+ - PROCESS-NAME,aria2c,DIRECT
+ - PROCESS-NAME,fdm,DIRECT
+ - PROCESS-NAME,Folx,DIRECT
+ - PROCESS-NAME,NetTransport,DIRECT
+ - PROCESS-NAME,Thunder,DIRECT
+ - PROCESS-NAME,Transmission,DIRECT
+ - PROCESS-NAME,uTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent Helper,DIRECT
+ - PROCESS-NAME,DownloadService,DIRECT
+ - PROCESS-NAME,Weiyun,DIRECT
+ - DOMAIN-KEYWORD,aria2,DIRECT
+ - DOMAIN-KEYWORD,xunlei,DIRECT
+ - DOMAIN-KEYWORD,yunpan,DIRECT
+ - DOMAIN-KEYWORD,Thunder,DIRECT
+ - DOMAIN-KEYWORD,XLLiveUD,DIRECT
+ - MATCH,规则外路由选择

@@ -1,0 +1,928 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: US_https://1808.ga 节点_1, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: node.774.gs, network: ws, ws-opts: {path: /, headers: {Host: node.774.gs}}, udp: true}
+  - {name: CN_https://1808.ga 节点_2, server: 43.154.46.228, port: 49930, type: vmess, uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_3, server: 47.100.124.138, port: 443, type: vmess, uuid: 51a21940-7b57-473f-9228-6871c533ff9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cf.ccpdie.cf, network: ws, ws-opts: {path: /2yevws, headers: {Host: cf.ccpdie.cf}}, udp: true}
+  - {name: CN_https://1808.ga 节点_4, server: 101.132.135.33, port: 443, type: vmess, uuid: 51a21940-7b57-473f-9228-6871c533ff9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cf.ccpdie.cf, network: ws, ws-opts: {path: /2yevws, headers: {Host: cf.ccpdie.cf}}, udp: true}
+  - {name: CN_https://1808.ga 节点_5, server: 110.43.204.172, port: 443, type: vmess, uuid: 51a21940-7b57-473f-9228-6871c533ff9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cf.ccpdie.cf, network: ws, ws-opts: {path: /2yevws, headers: {Host: cf.ccpdie.cf}}, udp: true}
+  - {name: AL_https://1808.ga 节点_6, server: 31.171.154.219, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: AT_https://1808.ga 节点_7, server: 89.187.168.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: AT_https://1808.ga 节点_8, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: IE_https://1808.ga 节点_9, server: 5.157.13.101, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: LV_https://1808.ga 节点_10, server: 188.92.78.145, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: https://1808.ga 节点_11, server: magic-ddns02.88host.buzz, port: 18073, type: vmess, uuid: 31953072-a928-308a-b67a-c45e2438fbac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://1808.ga 节点_12, server: magic-ddns01.88host.buzz, port: 18080, type: vmess, uuid: 31953072-a928-308a-b67a-c45e2438fbac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://1808.ga 节点_13, server: zhongzhuangazhk22.xiaobaiyun.me, port: 800, type: vmess, uuid: 28aae7ef-076e-3e57-818f-29ff89e38d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls, headers: {Host: els.xiaobaiyun.me}}, udp: true}
+  - {name: https://1808.ga 节点_14, server: taowai1.xiaobaiyun.me, port: 817, type: vmess, uuid: 6d04dd65-c0b0-38b0-8d3a-be30a68cb55d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls, headers: {Host: mgalsj.xiaobaiyun.me}}, udp: true}
+  - {name: https://1808.ga 节点_15, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jj, headers: {Host: c-us3.ooxc.cc}}, udp: true}
+  - {name: https://1808.ga 节点_16, server: free.milagropets.tech, port: 80, type: vmess, uuid: fe4b09d6-8af6-33a2-8340-d3539f8c8a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: free.milagropets.tech}}, udp: true}
+  - {name: https://1808.ga 节点_17, server: hax2.hax01.ml, port: 443, type: vmess, uuid: 25af03c3-27ff-4c14-c142-ad7694ec42f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hax2.hax01.ml}}, udp: true}
+  - {name: US_https://1808.ga 节点_18, server: hax.hax01.tk, port: 443, type: vmess, uuid: e2e073ce-c1d4-43ed-89f5-ca978507548a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hax.hax01.tk}}, udp: true}
+  - {name: US_https://1808.ga 节点_19, server: nl.oracleusa.ml, port: 2053, type: vmess, uuid: a7c876a7-a838-3083-a970-95571fe7b57f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nl.oracleusa.ml}}, udp: true}
+  - {name: https://1808.ga 节点_20, server: oz.moonfree.top, port: 443, type: vmess, uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
+  - {name: https://1808.ga 节点_21, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
+  - {name: US_https://1808.ga 节点_22, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: AU_https://1808.ga 节点_23, server: 185.167.116.252, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: AU_https://1808.ga 节点_24, server: 185.167.116.253, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: AU_https://1808.ga 节点_25, server: sg-server-01.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: AU_https://1808.ga 节点_26, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: AU_https://1808.ga 节点_27, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: AU_https://1808.ga 节点_28, server: jp-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: AU_https://1808.ga 节点_29, server: 185.167.116.38, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: BG_https://1808.ga 节点_30, server: 213.183.63.217, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: BG_https://1808.ga 节点_31, server: 213.183.63.218, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: BG_https://1808.ga 节点_32, server: 213.183.63.218, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: BG_https://1808.ga 节点_33, server: 213.183.63.219, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: CA_https://1808.ga 节点_34, server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CA_https://1808.ga 节点_35, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA_https://1808.ga 节点_36, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CA_https://1808.ga 节点_37, server: 134.195.198.252, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CA_https://1808.ga 节点_38, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA_https://1808.ga 节点_39, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA_https://1808.ga 节点_40, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA_https://1808.ga 节点_41, server: 198.57.27.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA_https://1808.ga 节点_42, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA_https://1808.ga 节点_43, server: 66.115.147.67, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: CA_https://1808.ga 节点_44, server: las-05.leafff.com, port: 50225, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CH_https://1808.ga 节点_45, server: 185.126.116.117, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: CH_https://1808.ga 节点_46, server: 185.126.116.117, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: CH_https://1808.ga 节点_47, server: 185.126.116.125, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: CH_https://1808.ga 节点_48, server: 185.126.116.125, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: CN_https://1808.ga 节点_49, server: 117.50.106.86, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_50, server: 120.132.50.158, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_51, server: 106.75.168.104, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_52, server: 116.129.253.201, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_53, server: 106.75.233.91, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_54, server: 113.31.155.165, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_55, server: sg-s-route.teacher2060.com, port: 602, type: ss, cipher: chacha20-ietf-poly1305, password: oq7Hsx00G4, udp: true}
+  - {name: CN_https://1808.ga 节点_56, server: hk-s-route.teacher2060.com, port: 603, type: ss, cipher: chacha20-ietf-poly1305, password: oq7Hsx00G4, udp: true}
+  - {name: CN_https://1808.ga 节点_57, server: cn1.iepl.starlink.st, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: CN_https://1808.ga 节点_58, server: sh.cu.01.211129.xyz, port: 54356, type: trojan, password: a7f7db62-1863-4f80-9d4d-656151994926, sni: awskr2.698436.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_59, server: 119.147.20.236, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
+  - {name: CN_https://1808.ga 节点_60, server: 112.48.177.74, port: 61118, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 112.48.177.74}}, udp: true}
+  - {name: CN_https://1808.ga 节点_61, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}, udp: true}
+  - {name: CN_https://1808.ga 节点_62, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_63, server: pt.iplc.skin, port: 11124, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pt.iplc.skin}}, udp: true}
+  - {name: CN_https://1808.ga 节点_64, server: tr.iplc.skin, port: 11117, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tr.iplc.skin}}, udp: true}
+  - {name: CN_https://1808.ga 节点_65, server: in.iplc.skin, port: 11109, type: ss, cipher: chacha20-ietf-poly1305, password: 10ca989d-17b5-421d-bf30-23593bf1cc3b, udp: true}
+  - {name: CN_https://1808.ga 节点_66, server: my.iplc.skin, port: 11110, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my.iplc.skin}}, udp: true}
+  - {name: CN_https://1808.ga 节点_67, server: ph.iplc.skin, port: 11125, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ph.iplc.skin}}, udp: true}
+  - {name: CN_https://1808.ga 节点_68, server: ca.iplc.skin, port: 11119, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca.iplc.skin}}, udp: true}
+  - {name: CN_https://1808.ga 节点_69, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 120.240.48.19}}, udp: true}
+  - {name: CN_https://1808.ga 节点_70, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: CN_https://1808.ga 节点_71, server: 49.234.158.14, port: 10909, type: vmess, uuid: c3082e6f-37b2-41b6-b40a-1063bc8e2853, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_72, server: 122.9.62.37, port: 4720, type: ss, cipher: chacha20-ietf-poly1305, password: 573d4c8f31e9e003ea3cb800aa29f00a4c744f63ed57a807cbbc6e725db1e21d, udp: true}
+  - {name: CN_https://1808.ga 节点_73, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_74, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_75, server: 122.9.62.6, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
+  - {name: CN_https://1808.ga 节点_76, server: 122.9.54.58, port: 2266, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
+  - {name: CN_https://1808.ga 节点_77, server: 120.232.214.240, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
+  - {name: CN_https://1808.ga 节点_78, server: 122.9.54.40, port: 3947, type: ss, cipher: chacha20-ietf-poly1305, password: 853cc71c85896eb5658696f9a027815eb31ab225b1ccd8bbb6c033e6d016fe53, udp: true}
+  - {name: CN_https://1808.ga 节点_79, server: 120.232.214.153, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
+  - {name: CN_https://1808.ga 节点_80, server: 116.129.253.187, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_81, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_82, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_83, server: 120.232.192.250, port: 3385, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_84, server: s1.lg-blpop.wds-dsa.com, port: 19705, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_85, server: tw-04.linkstar.icu, port: 50706, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw-04.linkstar.icu}}, udp: true}
+  - {name: CN_https://1808.ga 节点_86, server: gtr.ghz1.nodeg.cloud, port: 25021, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_87, server: iepl.hk.stoha.nodeg.cloud, port: 30005, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_88, server: iepl.hk.stohb.nodeg.cloud, port: 30010, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_89, server: iepl.hk.stohb.nodeg.cloud, port: 30021, type: vmess, uuid: 4ec88050-bcf9-389b-8cd9-d392b22cbdc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_90, server: zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 10726, type: trojan, password: 214bb2d0-7309-4649-a398-0fbf7ac387fa, sni: zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_91, server: jm-yd-3421.cloudapicloudapi.top, port: 1008, type: ss, cipher: aes-256-gcm, password: 615CC959-8002-9CB4-1F8F-6B38C4166368, udp: true}
+  - {name: CZ_https://1808.ga 节点_92, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: true, udp: true}
+  - {name: CZ_https://1808.ga 节点_93, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
+  - {name: CZ_https://1808.ga 节点_94, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: true, udp: true}
+  - {name: CZ_https://1808.ga 节点_95, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: true, udp: true}
+  - {name: DE_https://1808.ga 节点_96, server: 5.183.179.146, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: DE_https://1808.ga 节点_97, server: 5.183.179.170, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: DE_https://1808.ga 节点_98, server: 5.183.179.137, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: DE_https://1808.ga 节点_99, server: 5.183.179.148, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: DE_https://1808.ga 节点_100, server: 5.183.179.140, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: DE_https://1808.ga 节点_101, server: 156.146.33.79, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: DK_https://1808.ga 节点_102, server: 193.29.107.109, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: DK_https://1808.ga 节点_103, server: 193.29.107.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: DK_https://1808.ga 节点_104, server: 193.29.107.117, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: DK_https://1808.ga 节点_105, server: 193.29.107.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: DK_https://1808.ga 节点_106, server: 2.58.46.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: DK_https://1808.ga 节点_107, server: 193.29.107.125, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: ES_https://1808.ga 节点_108, server: 185.153.150.63, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: FR_https://1808.ga 节点_109, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: FR_https://1808.ga 节点_110, server: 185.108.106.176, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: FR_https://1808.ga 节点_111, server: 217.138.207.243, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: GB_https://1808.ga 节点_112, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: GB_https://1808.ga 节点_113, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: GB_https://1808.ga 节点_114, server: 185.44.78.174, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: GB_https://1808.ga 节点_115, server: 37.10.114.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: GB_https://1808.ga 节点_116, server: 185.44.76.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: GB_https://1808.ga 节点_117, server: 152.89.210.105, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: GB_https://1808.ga 节点_118, server: 152.89.210.105, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: GB_https://1808.ga 节点_119, server: 152.89.210.84, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: GB_https://1808.ga 节点_120, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: GB_https://1808.ga 节点_121, server: 89.238.130.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: HK_https://1808.ga 节点_122, server: api.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: HK_https://1808.ga 节点_123, server: 129.226.178.235, port: 443, type: vmess, uuid: 7824cbc1-f82d-48cf-fb1d-54d8911849c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yorknodes-fr-par-1, headers: {Host: 129.226.178.235}}, udp: true}
+  - {name: HK_https://1808.ga 节点_124, server: 104.208.76.5, port: 2023, type: vmess, uuid: a7c876a7-a838-3083-a970-95571fe7b57f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 104.208.76.5}}, udp: true}
+  - {name: US_https://1808.ga 节点_125, server: hk5.fdns.cloudlink123.com, port: 80, type: vmess, uuid: ed7c982a-ff74-4dd3-9f6c-155ec13b67ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk5.fdns.cloudlink123.com}}, udp: true}
+  - {name: US_https://1808.ga 节点_126, server: hk4.fdns.unino.tech, port: 80, type: vmess, uuid: 7378550f-b373-44be-a6e8-92ffe3e42050, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk4.fdns.unino.tech}}, udp: true}
+  - {name: HK_https://1808.ga 节点_127, server: gyazm.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
+  - {name: HK_https://1808.ga 节点_128, server: 165.154.225.231, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330hk02.fans8.xyz}}, udp: true}
+  - {name: HK_https://1808.ga 节点_129, server: 165.154.225.176, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326hk01.fans8.xyz}}, udp: true}
+  - {name: HK_https://1808.ga 节点_130, server: hkt.node.qchwnd.moe, port: 44609, type: trojan, password: 57e797a5-9a1d-4a26-b658-91fbf97f7741, skip-cert-verify: true, udp: true}
+  - {name: HK_https://1808.ga 节点_131, server: hkaz006.xmrth-node.xyz, port: 10037, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: HK_https://1808.ga 节点_132, server: hkaz005.xmrth-node.xyz, port: 10276, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: CN_https://1808.ga 节点_133, server: 43.154.72.145, port: 27091, type: vmess, uuid: 2f1e82e4-5319-4278-92aa-74d49c04683f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_134, server: 43.155.117.192, port: 37132, type: vmess, uuid: 0dda776a-5426-4003-8b08-c791971613c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_https://1808.ga 节点_135, server: hkaz007.xmrth-node.xyz, port: 10296, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: US_https://1808.ga 节点_136, server: hkaz1.xmrth-node.xyz, port: 10978, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: HK_https://1808.ga 节点_137, server: hkaz009.xmrth-node.xyz, port: 10275, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: HK_https://1808.ga 节点_138, server: hkaz3.xmrth-node.xyz, port: 10305, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: HK_https://1808.ga 节点_139, server: hkaz7.xmrth-node.xyz, port: 10162, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: CN_https://1808.ga 节点_140, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_https://1808.ga 节点_141, server: 207.46.133.218, port: 2574, type: vmess, uuid: 8699abfb-218a-425d-dd22-d13934766bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_https://1808.ga 节点_142, server: hkml.fenglingcloud.com, port: 8080, type: vmess, uuid: 430c7831-2d33-4e9b-94f7-0850b199a90e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linggg, headers: {Host: hkml.fenglingcloud.com}}, udp: true}
+  - {name: IN_https://1808.ga 节点_143, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
+  - {name: JP_https://1808.ga 节点_144, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: JP_https://1808.ga 节点_145, server: 210.152.13.168, port: 443, type: trojan, password: 18e513fe-f7f4-353d-84ca-bc9646fb2528mielink, skip-cert-verify: true, udp: true}
+  - {name: JP_https://1808.ga 节点_146, server: 54.168.241.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US_https://1808.ga 节点_147, server: jgwdj1.gaox.ml, port: 443, type: trojan, password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4, skip-cert-verify: true, udp: true}
+  - {name: JP_https://1808.ga 节点_148, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
+  - {name: JP_https://1808.ga 节点_149, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_150, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
+  - {name: JP_https://1808.ga 节点_151, server: vpn2.52tgds666.tk, port: 443, type: vmess, uuid: 976cf9fb-3ff1-48f7-939d-56a0e25f7376, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: "%7B%22host%22:%22vpnb.tgds.workers.dev%22%7D"}}, udp: true}
+  - {name: JP_https://1808.ga 节点_152, server: jplin004.xmrth-node.xyz, port: 11307, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: US_https://1808.ga 节点_153, server: jpaz3.xmrth-node.xyz, port: 11012, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: US_https://1808.ga 节点_154, server: jpaz1.xmrth-node.xyz, port: 10052, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: US_https://1808.ga 节点_155, server: 20.27.54.191, port: 10001, type: vmess, uuid: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20.27.54.191}}, udp: true}
+  - {name: JP_https://1808.ga 节点_156, server: jp3.bpyun.live, port: 443, type: vmess, uuid: b081acc8-a10c-359a-85b0-97157767fe8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cocksucker, headers: {Host: jp3.bpyun.live}}, udp: true}
+  - {name: JP_https://1808.ga 节点_157, server: 52.140.213.121, port: 80, type: vmess, uuid: fb558ac3-584b-4b9e-af34-be4e06833cf1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_158, server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_159, server: 20.210.96.240, port: 2574, type: vmess, uuid: e9c393d4-41b0-40bc-a5c3-f3659466ccbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP_https://1808.ga 节点_160, server: v2.godlight.xyz, port: 26937, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f34f3-f32f364, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: KR_https://1808.ga 节点_161, server: jgw4.gaox.ml, port: 443, type: trojan, password: b7e0e71f-070c-437a-9826-6e23caeb0307, skip-cert-verify: true, udp: true}
+  - {name: KR_https://1808.ga 节点_162, server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, skip-cert-verify: true, udp: true}
+  - {name: KR_https://1808.ga 节点_163, server: tj-node-2.gfwairport.net, port: 50001, type: trojan, password: 122b9200-c5e0-4003-836c-973eef59b6b2, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_164, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
+  - {name: GB_https://1808.ga 节点_165, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
+  - {name: AU_https://1808.ga 节点_166, server: 129.154.54.75, port: 33004, type: vmess, uuid: 4f14695c-31b9-45bf-ca34-1d82170fc100, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 129.154.54.75}}, udp: true}
+  - {name: KR_https://1808.ga 节点_167, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: KR_https://1808.ga 节点_168, server: v2-4.godlight.xyz, port: 50491, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /g1641hvx, headers: {Host: v2-4.godlight.xyz}}, udp: true}
+  - {name: NL_https://1808.ga 节点_169, server: 213.183.51.172, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: NL_https://1808.ga 节点_170, server: nl-01.linkstar.icu, port: 51014, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL_https://1808.ga 节点_171, server: 213.183.51.171, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: NL_https://1808.ga 节点_172, server: 154.84.1.213, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120211331422, headers: {Host: 154.84.1.213}}, udp: true}
+  - {name: PL_https://1808.ga 节点_173, server: 217.30.10.68, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: PL_https://1808.ga 节点_174, server: 217.30.10.66, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: PL_https://1808.ga 节点_175, server: 217.30.10.67, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: PL_https://1808.ga 节点_176, server: 217.30.10.65, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: PL_https://1808.ga 节点_177, server: 217.30.10.67, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: PL_https://1808.ga 节点_178, server: 217.30.10.65, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: RO_https://1808.ga 节点_179, server: jp.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: RO_https://1808.ga 节点_180, server: 185.102.217.161, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: RU_https://1808.ga 节点_181, server: 412twtw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 412twtw.fans8.xyz}}, udp: true}
+  - {name: RU_https://1808.ga 节点_182, server: 213.183.53.200, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: RU_https://1808.ga 节点_183, server: 213.183.53.200, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: RU_https://1808.ga 节点_184, server: 213.183.53.200, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: RU_https://1808.ga 节点_185, server: 213.183.53.177, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: RU_https://1808.ga 节点_186, server: novosibirsk-04.leafff.com, port: 50225, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG_https://1808.ga 节点_187, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
+  - {name: SG_https://1808.ga 节点_188, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: SG_https://1808.ga 节点_189, server: 184.168.127.50, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: SG_https://1808.ga 节点_190, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, skip-cert-verify: true, udp: true}
+  - {name: https://1808.ga 节点_191, server: 103.172.116.8, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: US_https://1808.ga 节点_192, server: 20.24.144.178, port: 8009, type: vmess, uuid: a7c876a7-a838-3083-a970-95571fe7b57f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20.24.144.178}}, udp: true}
+  - {name: https://1808.ga 节点_193, server: 103.172.116.7, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: https://1808.ga 节点_194, server: 103.172.116.10, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: https://1808.ga 节点_195, server: 103.172.116.9, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: SG_https://1808.ga 节点_196, server: v2-3.godlight.xyz, port: 39273, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f45361465j175, headers: {Host: v2-3.godlight.xyz}}, udp: true}
+  - {name: TW_https://1808.ga 节点_197, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: TW_https://1808.ga 节点_198, server: 211.72.35.153, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_199, server: 85.209.159.105, port: 10011, type: vmess, uuid: 8d36810e-b0b3-11ec-80b8-00163c3fe0cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2U4LiB6X/, headers: {Host: 85.209.159.105}}, udp: true}
+  - {name: US_https://1808.ga 节点_200, server: wsclash1.free4444.xyz, port: 10019, type: vmess, uuid: b6124e52-b4bc-11ec-8937-00163cdcde4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /PnlgSf7a/, headers: {Host: wsclash1.free4444.xyz}}, udp: true}
+  - {name: US_https://1808.ga 节点_201, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
+  - {name: US_https://1808.ga 节点_202, server: vpna1.herokuapp.com, port: 443, type: vmess, uuid: 8ccdfb2e-e039-47f9-a460-8ca6183d701c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: vpna1.herokuapp.com}}, udp: true}
+  - {name: US_https://1808.ga 节点_203, server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_204, server: us-trojan.bonds.id, port: 443, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_205, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_https://1808.ga 节点_206, server: 169.197.141.15, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_https://1808.ga 节点_207, server: v.9051246.xyz, port: 443, type: trojan, password: !<str> 18825786, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_208, server: trojan.wefuckgfw.gq, port: 443, type: trojan, password: bHzDpuel, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_209, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_https://1808.ga 节点_210, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_https://1808.ga 节点_211, server: 38.91.101.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_https://1808.ga 节点_212, server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_https://1808.ga 节点_213, server: 167.88.63.61, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_https://1808.ga 节点_214, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_https://1808.ga 节点_215, server: 167.88.62.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_https://1808.ga 节点_216, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_217, server: nat-us-1.licom.ga, port: 60002, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_218, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: US_https://1808.ga 节点_219, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}, udp: true}
+  - {name: US_https://1808.ga 节点_220, server: app.ssfree.ru, port: 443, type: vmess, uuid: efc15686-c0c2-11ec-8454-000017022008, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: US_https://1808.ga 节点_221, server: misaka1433.tk, port: 443, type: trojan, password: YcQgIbGZNNd1PwsF, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_222, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 138.197.236.77}}, udp: true}
+  - {name: US_https://1808.ga 节点_223, server: asd1v.baozipay.top, port: 443, type: trojan, password: rYA8dFQI6R2qTwP0, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_224, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_225, server: zhuzhucloud.xyz, port: 443, type: vmess, uuid: fc4a1411-10b5-467a-f6e4-5469d412e5dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_226, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: US_https://1808.ga 节点_227, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_228, server: la-01.linkstar.icu, port: 50924, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_229, server: la-02.linkstar.icu, port: 51202, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_230, server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/310910211916, headers: {Host: 142.4.127.67}}, udp: true}
+  - {name: US_https://1808.ga 节点_231, server: 23.224.69.21, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120211331422, headers: {Host: 23.224.69.21}}, udp: true}
+  - {name: US_https://1808.ga 节点_232, server: t3.ssrsub.one, port: 8443, type: trojan, password: ssrsub, sni: t3.ssrsub.one, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_233, server: 143.244.60.172, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: US_https://1808.ga 节点_234, server: 143.244.60.162, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: US_https://1808.ga 节点_235, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: US_https://1808.ga 节点_236, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62, udp: true}
+  - {name: US_https://1808.ga 节点_237, server: 207.244.84.58, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: US_https://1808.ga 节点_238, server: 209.216.92.3, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: US_https://1808.ga 节点_239, server: 199.10.64.133, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: US_https://1808.ga 节点_240, server: 185.124.240.169, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: US_https://1808.ga 节点_241, server: 185.124.240.153, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: AU_https://1808.ga 节点_242, server: 185.167.116.252, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: AU_https://1808.ga 节点_243, server: 185.167.116.252, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: AU_https://1808.ga 节点_244, server: 185.167.116.253, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: AU_https://1808.ga 节点_245, server: 185.167.116.253, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: AU_https://1808.ga 节点_246, server: 185.167.116.253, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: AU_https://1808.ga 节点_247, server: 185.167.116.252, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: AU_https://1808.ga 节点_248, server: 185.167.116.253, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: AU_https://1808.ga 节点_249, server: 185.167.116.253, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: CN_https://1808.ga 节点_250, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: CN_https://1808.ga 节点_251, server: vn.iplc.skin, port: 11113, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vn.iplc.skin}}, udp: true}
+  - {name: CN_https://1808.ga 节点_252, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_https://1808.ga 节点_253, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: CN_https://1808.ga 节点_254, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: HK_https://1808.ga 节点_255, server: baidu.hongkong.dnsfree.top, port: 12345, type: trojan, password: 44d62787-1cbf-42aa-99d7-21e9bcdb1c24, sni: baidu.hongkong.dnsfree.top, skip-cert-verify: true, udp: true}
+  - {name: HK_https://1808.ga 节点_256, server: pro.tls.hongkongaz.dnsfree.top, port: 55091, type: trojan, password: 44d62787-1cbf-42aa-99d7-21e9bcdb1c24, sni: pro.tls.hongkongaz.dnsfree.top, skip-cert-verify: true, udp: true}
+  - {name: PL_https://1808.ga 节点_257, server: 217.30.10.67, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: PL_https://1808.ga 节点_258, server: 217.30.10.67, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: PL_https://1808.ga 节点_259, server: 217.30.10.67, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: PL_https://1808.ga 节点_260, server: 217.30.10.67, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: PL_https://1808.ga 节点_261, server: 217.30.10.67, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: PL_https://1808.ga 节点_262, server: 217.30.10.67, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: PL_https://1808.ga 节点_263, server: 217.30.10.68, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: PL_https://1808.ga 节点_264, server: 217.30.10.67, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: PL_https://1808.ga 节点_265, server: 217.30.10.67, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: PL_https://1808.ga 节点_266, server: 217.30.10.67, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: PL_https://1808.ga 节点_267, server: 217.30.10.66, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: PL_https://1808.ga 节点_268, server: 217.30.10.66, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: PL_https://1808.ga 节点_269, server: 217.30.10.66, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: PL_https://1808.ga 节点_270, server: 217.30.10.66, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: PL_https://1808.ga 节点_271, server: 217.30.10.66, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: US_https://1808.ga 节点_272, server: gy.gothy.cyou, port: 14401, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gy.gothy.cyou}}, udp: true}
+  - {name: US_https://1808.ga 节点_273, server: superjapan1111.dnsfree.top, port: 12387, type: trojan, password: 44d62787-1cbf-42aa-99d7-21e9bcdb1c24, sni: superjapan1111.dnsfree.top, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_274, server: aead.tls.sksupersususu.dnsfree.top, port: 12345, type: trojan, password: 44d62787-1cbf-42aa-99d7-21e9bcdb1c24, sni: aead.tls.sksupersususu.dnsfree.top, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_275, server: 20.222.157.39, port: 50293, type: ss, cipher: chacha20-ietf-poly1305, password: 44d62787-1cbf-42aa-99d7-21e9bcdb1c24, udp: true}
+  - {name: AU_https://1808.ga 节点_276, server: 185.167.116.252, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: CN_https://1808.ga 节点_277, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_278, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_279, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_280, server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_281, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: CN_https://1808.ga 节点_282, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_https://1808.ga 节点_283, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_https://1808.ga 节点_284, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_https://1808.ga 节点_285, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: CN_https://1808.ga 节点_286, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: CN_https://1808.ga 节点_287, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: CN_https://1808.ga 节点_288, server: iplc01.2333dns.com, port: 3071, type: vmess, uuid: 8cc8320f-f880-31c8-bb6a-1ecfc503a2ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG_https://1808.ga 节点_289, server: 54.254.241.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP_https://1808.ga 节点_290, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: 8a9dbb59-fa5a-4004-9673-28f037631b3c, sni: nfjp1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: SG_https://1808.ga 节点_291, server: 54.254.25.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: NL_https://1808.ga 节点_292, server: 213.183.51.171, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: NL_https://1808.ga 节点_293, server: 213.183.51.171, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: PL_https://1808.ga 节点_294, server: 217.30.10.66, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: PL_https://1808.ga 节点_295, server: 217.30.10.66, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: PL_https://1808.ga 节点_296, server: 217.30.10.64, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: PL_https://1808.ga 节点_297, server: 217.30.10.66, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: PL_https://1808.ga 节点_298, server: 217.30.10.66, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: PL_https://1808.ga 节点_299, server: 217.30.10.66, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: PL_https://1808.ga 节点_300, server: 217.30.10.66, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: PL_https://1808.ga 节点_301, server: 217.30.10.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: PL_https://1808.ga 节点_302, server: 217.30.10.66, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: PL_https://1808.ga 节点_303, server: 217.30.10.64, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: PL_https://1808.ga 节点_304, server: 217.30.10.64, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: PL_https://1808.ga 节点_305, server: 217.30.10.64, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: PL_https://1808.ga 节点_306, server: 217.30.10.64, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: PL_https://1808.ga 节点_307, server: 217.30.10.64, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: RS_https://1808.ga 节点_308, server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: CN_https://1808.ga 节点_309, server: guangzhou.kuli888.xyz, port: 52004, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, sni: guangzhou.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_310, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: be968b43-e7c9-4118-9c52-8c4a9108daf1, sni: kr1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_311, server: 97.64.21.214, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: US_https://1808.ga 节点_312, server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: CN_https://1808.ga 节点_313, server: 119.147.20.236, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: CN_https://1808.ga 节点_314, server: 120.240.48.20, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: CN_https://1808.ga 节点_315, server: 120.240.48.20, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: CN_https://1808.ga 节点_316, server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: US_https://1808.ga 节点_317, server: bvus.xsus.xyz, port: 443, type: vmess, uuid: a1874ec0-83e1-4e0c-adfd-975e81098a32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bvus.xsus.xyz, network: ws, ws-opts: {path: /xsus, headers: {Host: bvus.xsus.xyz}}, udp: true}
+  - {name: https://1808.ga 节点_318, server: 104.16.47.181, port: 443, type: vmess, uuid: 1e9be421-4135-4edb-9655-804042753442, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: eu19.144050.cf, network: ws, ws-opts: {path: /yorknodes-de1, headers: {Host: eu19.144050.cf}}, udp: true}
+  - {name: US_https://1808.ga 节点_319, server: 2.71137223.xyz, port: 443, type: vmess, uuid: f99f4e79-a924-4890-a0df-b8a470b77a31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 2.71137223.xyz, network: ws, ws-opts: {path: "/bfwhvws?ed=2048", headers: {Host: 2.71137223.xyz}}, udp: true}
+  - {name: CN_https://1808.ga 节点_320, server: gz.bgp.rx.naiun.pw, port: 45149, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: CN_https://1808.ga 节点_321, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_https://1808.ga 节点_322, server: gz.bgp.rx.naiun.pw, port: 45184, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: CN_https://1808.ga 节点_323, server: hz.bgp.rx.naiun.pw, port: 45184, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: CN_https://1808.ga 节点_324, server: hz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: CN_https://1808.ga 节点_325, server: hz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: CN_https://1808.ga 节点_326, server: gz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: CN_https://1808.ga 节点_327, server: hz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: CN_https://1808.ga 节点_328, server: gz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: CN_https://1808.ga 节点_329, server: gz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: CN_https://1808.ga 节点_330, server: hz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: CN_https://1808.ga 节点_331, server: hk.iplc.skin, port: 11101, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.iplc.skin}}, udp: true}
+  - {name: CN_https://1808.ga 节点_332, server: hz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: CN_https://1808.ga 节点_333, server: hz.bgp.rx.naiun.pw, port: 45149, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: CN_https://1808.ga 节点_334, server: hz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: CN_https://1808.ga 节点_335, server: hz.bgp.rx.naiun.pw, port: 45190, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: CN_https://1808.ga 节点_336, server: de.iplc.skin, port: 11116, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de.iplc.skin}}, udp: true}
+  - {name: CN_https://1808.ga 节点_337, server: gz.bgp.rx.naiun.pw, port: 45194, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: CN_https://1808.ga 节点_338, server: hz.bgp.rx.naiun.pw, port: 45194, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: CN_https://1808.ga 节点_339, server: cz.iplc.skin, port: 11123, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cz.iplc.skin}}, udp: true}
+  - {name: CN_https://1808.ga 节点_340, server: gz.bgp.rx.naiun.pw, port: 45190, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: CN_https://1808.ga 节点_341, server: gz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: CN_https://1808.ga 节点_342, server: gy-hkhgc.fenglingcloud.com, port: 28001, type: ss, cipher: chacha20-ietf-poly1305, password: 958e2b96-d28e-46b4-8447-06f72089d11b, udp: true}
+  - {name: CN_https://1808.ga 节点_343, server: gz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: CN_https://1808.ga 节点_344, server: hz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: CN_https://1808.ga 节点_345, server: gz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: CN_https://1808.ga 节点_346, server: gz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: CN_https://1808.ga 节点_347, server: hz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: CN_https://1808.ga 节点_348, server: kh.iplc.skin, port: 11121, type: ss, cipher: chacha20-ietf-poly1305, password: 10ca989d-17b5-421d-bf30-23593bf1cc3b, udp: true}
+  - {name: CN_https://1808.ga 节点_349, server: gz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: GB_https://1808.ga 节点_350, server: yin1.qingyun123.xyz, port: 10000, type: trojan, password: be968b43-e7c9-4118-9c52-8c4a9108daf1, sni: yin1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP_https://1808.ga 节点_351, server: v2-1.godlight.xyz, port: 12233, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2-1.godlight.xyz, network: ws, ws-opts: {path: /j75g1461x, headers: {Host: v2-1.godlight.xyz}}, udp: true}
+  - {name: JP_https://1808.ga 节点_352, server: jpaz4.xmrth-node.xyz, port: 10091, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: JP_https://1808.ga 节点_353, server: v2.godlight.xyz, port: 26933, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2.godlight.xyz, network: ws, ws-opts: {path: /f34f3-f32f364, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: KR_https://1808.ga 节点_354, server: v2-5.godlight.xyz, port: 39783, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2-5.godlight.xyz, network: ws, ws-opts: {path: /71h4b3s1f53, headers: {Host: v2-5.godlight.xyz}}, udp: true}
+  - {name: NL_https://1808.ga 节点_355, server: 213.183.51.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: NL_https://1808.ga 节点_356, server: 213.183.51.171, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: NL_https://1808.ga 节点_357, server: 213.183.51.171, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: NL_https://1808.ga 节点_358, server: 213.183.51.171, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: NL_https://1808.ga 节点_359, server: 213.183.51.171, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: NL_https://1808.ga 节点_360, server: 213.183.51.171, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: NL_https://1808.ga 节点_361, server: 213.183.51.171, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: NL_https://1808.ga 节点_362, server: 213.183.51.171, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: NL_https://1808.ga 节点_363, server: 213.183.51.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: NL_https://1808.ga 节点_364, server: 213.183.51.171, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: NL_https://1808.ga 节点_365, server: 213.183.51.171, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: NL_https://1808.ga 节点_366, server: 213.183.51.171, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: PL_https://1808.ga 节点_367, server: 217.30.10.68, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: PL_https://1808.ga 节点_368, server: 217.30.10.64, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: PL_https://1808.ga 节点_369, server: 217.30.10.66, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: PL_https://1808.ga 节点_370, server: 217.30.10.65, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: PL_https://1808.ga 节点_371, server: 217.30.10.68, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: PL_https://1808.ga 节点_372, server: 217.30.10.68, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: PL_https://1808.ga 节点_373, server: 217.30.10.65, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: PL_https://1808.ga 节点_374, server: 217.30.10.68, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: PL_https://1808.ga 节点_375, server: 217.30.10.65, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: PL_https://1808.ga 节点_376, server: 217.30.10.65, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: PL_https://1808.ga 节点_377, server: 217.30.10.65, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: PL_https://1808.ga 节点_378, server: 217.30.10.65, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: PL_https://1808.ga 节点_379, server: 217.30.10.68, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: PL_https://1808.ga 节点_380, server: 217.30.10.68, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: PL_https://1808.ga 节点_381, server: 217.30.10.65, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: PL_https://1808.ga 节点_382, server: 217.30.10.65, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: PL_https://1808.ga 节点_383, server: 217.30.10.65, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: PL_https://1808.ga 节点_384, server: 217.30.10.65, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: PL_https://1808.ga 节点_385, server: 217.30.10.68, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: PL_https://1808.ga 节点_386, server: 217.30.10.65, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: PL_https://1808.ga 节点_387, server: 217.30.10.65, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: PL_https://1808.ga 节点_388, server: 217.30.10.64, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: PL_https://1808.ga 节点_389, server: 217.30.10.66, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: PL_https://1808.ga 节点_390, server: 217.30.10.64, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: PL_https://1808.ga 节点_391, server: 217.30.10.65, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: PL_https://1808.ga 节点_392, server: 217.30.10.68, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: PL_https://1808.ga 节点_393, server: 217.30.10.64, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: PL_https://1808.ga 节点_394, server: 217.30.10.65, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: PL_https://1808.ga 节点_395, server: 217.30.10.66, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: PL_https://1808.ga 节点_396, server: 217.30.10.64, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: PL_https://1808.ga 节点_397, server: 217.30.10.65, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: PL_https://1808.ga 节点_398, server: 217.30.10.64, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: PL_https://1808.ga 节点_399, server: 217.30.10.65, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: PL_https://1808.ga 节点_400, server: 217.30.10.65, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: PL_https://1808.ga 节点_401, server: 217.30.10.64, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: PL_https://1808.ga 节点_402, server: 217.30.10.64, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: PL_https://1808.ga 节点_403, server: 217.30.10.64, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: PL_https://1808.ga 节点_404, server: 217.30.10.64, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: PL_https://1808.ga 节点_405, server: 217.30.10.64, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: PL_https://1808.ga 节点_406, server: 217.30.10.64, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: PL_https://1808.ga 节点_407, server: 217.30.10.66, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: PL_https://1808.ga 节点_408, server: 217.30.10.64, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: PL_https://1808.ga 节点_409, server: 217.30.10.64, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: PL_https://1808.ga 节点_410, server: 217.30.10.64, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: PL_https://1808.ga 节点_411, server: 217.30.10.66, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: PL_https://1808.ga 节点_412, server: 217.30.10.66, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: RU_https://1808.ga 节点_413, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: 331tw.fans8.xyz, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: US_https://1808.ga 节点_414, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v3.ssrsub.com, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
+  - {name: US_https://1808.ga 节点_415, server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 8.ezydfdd.com, network: ws, ws-opts: {path: /qwe, headers: {Host: 8.ezydfdd.com}}, udp: true}
+  - {name: US_https://1808.ga 节点_416, server: zhuzhucloud.xyz, port: 8537, type: vmess, uuid: 79958397-87b7-436d-c5ec-2d2c1e587cf9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zhuzhucloud.xyz, udp: true}
+  - {name: https://1808.ga 节点_417, server: www.digitalocean.com, port: 443, type: vmess, uuid: 6bf68fb9-e0d2-1418-6704-ef5805258a5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: olo.aoyyds.tk, network: ws, ws-opts: {path: /cctvvws, headers: {Host: olo.aoyyds.tk}}, udp: true}
+  - {name: CN_https://1808.ga 节点_418, server: 119.147.20.236, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
+  - {name: CN_https://1808.ga 节点_419, server: in-v1.sdgdn.com, port: 50401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: CN_https://1808.ga 节点_420, server: 113.240.72.211, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}, udp: true}
+  - {name: CN_https://1808.ga 节点_421, server: 101.230.149.29, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: CN_https://1808.ga 节点_422, server: 120.240.48.19, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
+  - {name: US_https://1808.ga 节点_423, server: us.456url.com, port: 10087, type: trojan, password: fbd77250-a674-4a24-be1a-d1a76f695c34, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_424, server: us.456url.com, port: 10086, type: trojan, password: fbd77250-a674-4a24-be1a-d1a76f695c34, skip-cert-verify: true, udp: true}
+  - {name: TW_https://1808.ga 节点_425, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: 330tw.fans8.xyz, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: HK_https://1808.ga 节点_426, server: 330hk02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: 330hk02.fans8.xyz, network: ws, ws-opts: {path: /ray, headers: {Host: 330hk02.fans8.xyz}}, udp: true}
+  - {name: CN_https://1808.ga 节点_427, server: in-v1.sdgdn.com, port: 50701, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
+  - {name: CN_https://1808.ga 节点_428, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: CN_https://1808.ga 节点_429, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
+  - {name: CN_https://1808.ga 节点_430, server: in-v1.sdgdn.com, port: 50301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: AU_https://1808.ga 节点_431, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_432, server: v2ray.ifuckgfw.ga, port: 2053, type: vmess, uuid: d7de45b4-bc72-11ec-9c13-525400e887f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mRaX587V/, headers: {Host: v2ray.ifuckgfw.ga}}, udp: true}
+  - {name: CN_https://1808.ga 节点_433, server: 412sgsg.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: 412sgsg.fans8.xyz, network: ws, ws-opts: {path: /ray, headers: {Host: 412sgsg.fans8.xyz}}, udp: true}
+  - {name: US_https://1808.ga 节点_434, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
+  - {name: https://1808.ga 节点_435, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: niaop.tk, network: ws, ws-opts: {path: /wsssdr1, headers: {Host: niaop.tk}}, udp: true}
+  - {name: https://1808.ga 节点_436, server: 104.16.42.170, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: foxus.fovi.tk, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
+  - {name: US_https://1808.ga 节点_437, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_438, server: s162.s2022.xyz, port: 23802, type: trojan, password: 770c9e92-f51b-3e52-b932-eba13fb56801, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_439, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, skip-cert-verify: true, udp: true}
+  - {name: US_https://1808.ga 节点_440, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
+  - {name: CN_https://1808.ga 节点_441, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: HK_https://1808.ga 节点_442, server: 0326hk01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: 0326hk01.fans8.xyz, network: ws, ws-opts: {path: /ray, headers: {Host: 0326hk01.fans8.xyz}}, udp: true}
+proxy-groups:
+  - name: 代理
+    type: select
+    proxies:
+      - US_https://1808.ga 节点_1
+      - CN_https://1808.ga 节点_2
+      - CN_https://1808.ga 节点_3
+      - CN_https://1808.ga 节点_4
+      - CN_https://1808.ga 节点_5
+      - AL_https://1808.ga 节点_6
+      - AT_https://1808.ga 节点_7
+      - AT_https://1808.ga 节点_8
+      - IE_https://1808.ga 节点_9
+      - LV_https://1808.ga 节点_10
+      - https://1808.ga 节点_11
+      - https://1808.ga 节点_12
+      - https://1808.ga 节点_13
+      - https://1808.ga 节点_14
+      - https://1808.ga 节点_15
+      - https://1808.ga 节点_16
+      - https://1808.ga 节点_17
+      - US_https://1808.ga 节点_18
+      - US_https://1808.ga 节点_19
+      - https://1808.ga 节点_20
+      - https://1808.ga 节点_21
+      - US_https://1808.ga 节点_22
+      - AU_https://1808.ga 节点_23
+      - AU_https://1808.ga 节点_24
+      - AU_https://1808.ga 节点_25
+      - AU_https://1808.ga 节点_26
+      - AU_https://1808.ga 节点_27
+      - AU_https://1808.ga 节点_28
+      - AU_https://1808.ga 节点_29
+      - BG_https://1808.ga 节点_30
+      - BG_https://1808.ga 节点_31
+      - BG_https://1808.ga 节点_32
+      - BG_https://1808.ga 节点_33
+      - CA_https://1808.ga 节点_34
+      - CA_https://1808.ga 节点_35
+      - CA_https://1808.ga 节点_36
+      - CA_https://1808.ga 节点_37
+      - CA_https://1808.ga 节点_38
+      - CA_https://1808.ga 节点_39
+      - CA_https://1808.ga 节点_40
+      - CA_https://1808.ga 节点_41
+      - CA_https://1808.ga 节点_42
+      - CA_https://1808.ga 节点_43
+      - CA_https://1808.ga 节点_44
+      - CH_https://1808.ga 节点_45
+      - CH_https://1808.ga 节点_46
+      - CH_https://1808.ga 节点_47
+      - CH_https://1808.ga 节点_48
+      - CN_https://1808.ga 节点_49
+      - CN_https://1808.ga 节点_50
+      - CN_https://1808.ga 节点_51
+      - CN_https://1808.ga 节点_52
+      - CN_https://1808.ga 节点_53
+      - CN_https://1808.ga 节点_54
+      - CN_https://1808.ga 节点_55
+      - CN_https://1808.ga 节点_56
+      - CN_https://1808.ga 节点_57
+      - CN_https://1808.ga 节点_58
+      - CN_https://1808.ga 节点_59
+      - CN_https://1808.ga 节点_60
+      - CN_https://1808.ga 节点_61
+      - CN_https://1808.ga 节点_62
+      - CN_https://1808.ga 节点_63
+      - CN_https://1808.ga 节点_64
+      - CN_https://1808.ga 节点_65
+      - CN_https://1808.ga 节点_66
+      - CN_https://1808.ga 节点_67
+      - CN_https://1808.ga 节点_68
+      - CN_https://1808.ga 节点_69
+      - CN_https://1808.ga 节点_70
+      - CN_https://1808.ga 节点_71
+      - CN_https://1808.ga 节点_72
+      - CN_https://1808.ga 节点_73
+      - CN_https://1808.ga 节点_74
+      - CN_https://1808.ga 节点_75
+      - CN_https://1808.ga 节点_76
+      - CN_https://1808.ga 节点_77
+      - CN_https://1808.ga 节点_78
+      - CN_https://1808.ga 节点_79
+      - CN_https://1808.ga 节点_80
+      - CN_https://1808.ga 节点_81
+      - CN_https://1808.ga 节点_82
+      - CN_https://1808.ga 节点_83
+      - CN_https://1808.ga 节点_84
+      - CN_https://1808.ga 节点_85
+      - CN_https://1808.ga 节点_86
+      - CN_https://1808.ga 节点_87
+      - CN_https://1808.ga 节点_88
+      - CN_https://1808.ga 节点_89
+      - CN_https://1808.ga 节点_90
+      - CN_https://1808.ga 节点_91
+      - CZ_https://1808.ga 节点_92
+      - CZ_https://1808.ga 节点_93
+      - CZ_https://1808.ga 节点_94
+      - CZ_https://1808.ga 节点_95
+      - DE_https://1808.ga 节点_96
+      - DE_https://1808.ga 节点_97
+      - DE_https://1808.ga 节点_98
+      - DE_https://1808.ga 节点_99
+      - DE_https://1808.ga 节点_100
+      - DE_https://1808.ga 节点_101
+      - DK_https://1808.ga 节点_102
+      - DK_https://1808.ga 节点_103
+      - DK_https://1808.ga 节点_104
+      - DK_https://1808.ga 节点_105
+      - DK_https://1808.ga 节点_106
+      - DK_https://1808.ga 节点_107
+      - ES_https://1808.ga 节点_108
+      - FR_https://1808.ga 节点_109
+      - FR_https://1808.ga 节点_110
+      - FR_https://1808.ga 节点_111
+      - GB_https://1808.ga 节点_112
+      - GB_https://1808.ga 节点_113
+      - GB_https://1808.ga 节点_114
+      - GB_https://1808.ga 节点_115
+      - GB_https://1808.ga 节点_116
+      - GB_https://1808.ga 节点_117
+      - GB_https://1808.ga 节点_118
+      - GB_https://1808.ga 节点_119
+      - GB_https://1808.ga 节点_120
+      - GB_https://1808.ga 节点_121
+      - HK_https://1808.ga 节点_122
+      - HK_https://1808.ga 节点_123
+      - HK_https://1808.ga 节点_124
+      - US_https://1808.ga 节点_125
+      - US_https://1808.ga 节点_126
+      - HK_https://1808.ga 节点_127
+      - HK_https://1808.ga 节点_128
+      - HK_https://1808.ga 节点_129
+      - HK_https://1808.ga 节点_130
+      - HK_https://1808.ga 节点_131
+      - HK_https://1808.ga 节点_132
+      - CN_https://1808.ga 节点_133
+      - CN_https://1808.ga 节点_134
+      - HK_https://1808.ga 节点_135
+      - US_https://1808.ga 节点_136
+      - HK_https://1808.ga 节点_137
+      - HK_https://1808.ga 节点_138
+      - HK_https://1808.ga 节点_139
+      - CN_https://1808.ga 节点_140
+      - HK_https://1808.ga 节点_141
+      - HK_https://1808.ga 节点_142
+      - IN_https://1808.ga 节点_143
+      - JP_https://1808.ga 节点_144
+      - JP_https://1808.ga 节点_145
+      - JP_https://1808.ga 节点_146
+      - US_https://1808.ga 节点_147
+      - JP_https://1808.ga 节点_148
+      - JP_https://1808.ga 节点_149
+      - US_https://1808.ga 节点_150
+      - JP_https://1808.ga 节点_151
+      - JP_https://1808.ga 节点_152
+      - US_https://1808.ga 节点_153
+      - US_https://1808.ga 节点_154
+      - US_https://1808.ga 节点_155
+      - JP_https://1808.ga 节点_156
+      - JP_https://1808.ga 节点_157
+      - US_https://1808.ga 节点_158
+      - US_https://1808.ga 节点_159
+      - JP_https://1808.ga 节点_160
+      - KR_https://1808.ga 节点_161
+      - KR_https://1808.ga 节点_162
+      - KR_https://1808.ga 节点_163
+      - US_https://1808.ga 节点_164
+      - GB_https://1808.ga 节点_165
+      - AU_https://1808.ga 节点_166
+      - KR_https://1808.ga 节点_167
+      - KR_https://1808.ga 节点_168
+      - NL_https://1808.ga 节点_169
+      - NL_https://1808.ga 节点_170
+      - NL_https://1808.ga 节点_171
+      - NL_https://1808.ga 节点_172
+      - PL_https://1808.ga 节点_173
+      - PL_https://1808.ga 节点_174
+      - PL_https://1808.ga 节点_175
+      - PL_https://1808.ga 节点_176
+      - PL_https://1808.ga 节点_177
+      - PL_https://1808.ga 节点_178
+      - RO_https://1808.ga 节点_179
+      - RO_https://1808.ga 节点_180
+      - RU_https://1808.ga 节点_181
+      - RU_https://1808.ga 节点_182
+      - RU_https://1808.ga 节点_183
+      - RU_https://1808.ga 节点_184
+      - RU_https://1808.ga 节点_185
+      - RU_https://1808.ga 节点_186
+      - SG_https://1808.ga 节点_187
+      - SG_https://1808.ga 节点_188
+      - SG_https://1808.ga 节点_189
+      - SG_https://1808.ga 节点_190
+      - https://1808.ga 节点_191
+      - US_https://1808.ga 节点_192
+      - https://1808.ga 节点_193
+      - https://1808.ga 节点_194
+      - https://1808.ga 节点_195
+      - SG_https://1808.ga 节点_196
+      - TW_https://1808.ga 节点_197
+      - TW_https://1808.ga 节点_198
+      - US_https://1808.ga 节点_199
+      - US_https://1808.ga 节点_200
+      - US_https://1808.ga 节点_201
+      - US_https://1808.ga 节点_202
+      - US_https://1808.ga 节点_203
+      - US_https://1808.ga 节点_204
+      - US_https://1808.ga 节点_205
+      - US_https://1808.ga 节点_206
+      - US_https://1808.ga 节点_207
+      - US_https://1808.ga 节点_208
+      - US_https://1808.ga 节点_209
+      - US_https://1808.ga 节点_210
+      - US_https://1808.ga 节点_211
+      - US_https://1808.ga 节点_212
+      - US_https://1808.ga 节点_213
+      - US_https://1808.ga 节点_214
+      - US_https://1808.ga 节点_215
+      - US_https://1808.ga 节点_216
+      - US_https://1808.ga 节点_217
+      - US_https://1808.ga 节点_218
+      - US_https://1808.ga 节点_219
+      - US_https://1808.ga 节点_220
+      - US_https://1808.ga 节点_221
+      - US_https://1808.ga 节点_222
+      - US_https://1808.ga 节点_223
+      - US_https://1808.ga 节点_224
+      - US_https://1808.ga 节点_225
+      - US_https://1808.ga 节点_226
+      - US_https://1808.ga 节点_227
+      - US_https://1808.ga 节点_228
+      - US_https://1808.ga 节点_229
+      - US_https://1808.ga 节点_230
+      - US_https://1808.ga 节点_231
+      - US_https://1808.ga 节点_232
+      - US_https://1808.ga 节点_233
+      - US_https://1808.ga 节点_234
+      - US_https://1808.ga 节点_235
+      - US_https://1808.ga 节点_236
+      - US_https://1808.ga 节点_237
+      - US_https://1808.ga 节点_238
+      - US_https://1808.ga 节点_239
+      - US_https://1808.ga 节点_240
+      - US_https://1808.ga 节点_241
+      - AU_https://1808.ga 节点_242
+      - AU_https://1808.ga 节点_243
+      - AU_https://1808.ga 节点_244
+      - AU_https://1808.ga 节点_245
+      - AU_https://1808.ga 节点_246
+      - AU_https://1808.ga 节点_247
+      - AU_https://1808.ga 节点_248
+      - AU_https://1808.ga 节点_249
+      - CN_https://1808.ga 节点_250
+      - CN_https://1808.ga 节点_251
+      - CN_https://1808.ga 节点_252
+      - CN_https://1808.ga 节点_253
+      - CN_https://1808.ga 节点_254
+      - HK_https://1808.ga 节点_255
+      - HK_https://1808.ga 节点_256
+      - PL_https://1808.ga 节点_257
+      - PL_https://1808.ga 节点_258
+      - PL_https://1808.ga 节点_259
+      - PL_https://1808.ga 节点_260
+      - PL_https://1808.ga 节点_261
+      - PL_https://1808.ga 节点_262
+      - PL_https://1808.ga 节点_263
+      - PL_https://1808.ga 节点_264
+      - PL_https://1808.ga 节点_265
+      - PL_https://1808.ga 节点_266
+      - PL_https://1808.ga 节点_267
+      - PL_https://1808.ga 节点_268
+      - PL_https://1808.ga 节点_269
+      - PL_https://1808.ga 节点_270
+      - PL_https://1808.ga 节点_271
+      - US_https://1808.ga 节点_272
+      - US_https://1808.ga 节点_273
+      - US_https://1808.ga 节点_274
+      - US_https://1808.ga 节点_275
+      - AU_https://1808.ga 节点_276
+      - CN_https://1808.ga 节点_277
+      - CN_https://1808.ga 节点_278
+      - CN_https://1808.ga 节点_279
+      - CN_https://1808.ga 节点_280
+      - CN_https://1808.ga 节点_281
+      - CN_https://1808.ga 节点_282
+      - CN_https://1808.ga 节点_283
+      - CN_https://1808.ga 节点_284
+      - CN_https://1808.ga 节点_285
+      - CN_https://1808.ga 节点_286
+      - CN_https://1808.ga 节点_287
+      - CN_https://1808.ga 节点_288
+      - SG_https://1808.ga 节点_289
+      - JP_https://1808.ga 节点_290
+      - SG_https://1808.ga 节点_291
+      - NL_https://1808.ga 节点_292
+      - NL_https://1808.ga 节点_293
+      - PL_https://1808.ga 节点_294
+      - PL_https://1808.ga 节点_295
+      - PL_https://1808.ga 节点_296
+      - PL_https://1808.ga 节点_297
+      - PL_https://1808.ga 节点_298
+      - PL_https://1808.ga 节点_299
+      - PL_https://1808.ga 节点_300
+      - PL_https://1808.ga 节点_301
+      - PL_https://1808.ga 节点_302
+      - PL_https://1808.ga 节点_303
+      - PL_https://1808.ga 节点_304
+      - PL_https://1808.ga 节点_305
+      - PL_https://1808.ga 节点_306
+      - PL_https://1808.ga 节点_307
+      - RS_https://1808.ga 节点_308
+      - CN_https://1808.ga 节点_309
+      - US_https://1808.ga 节点_310
+      - US_https://1808.ga 节点_311
+      - US_https://1808.ga 节点_312
+      - CN_https://1808.ga 节点_313
+      - CN_https://1808.ga 节点_314
+      - CN_https://1808.ga 节点_315
+      - CN_https://1808.ga 节点_316
+      - US_https://1808.ga 节点_317
+      - https://1808.ga 节点_318
+      - US_https://1808.ga 节点_319
+      - CN_https://1808.ga 节点_320
+      - CN_https://1808.ga 节点_321
+      - CN_https://1808.ga 节点_322
+      - CN_https://1808.ga 节点_323
+      - CN_https://1808.ga 节点_324
+      - CN_https://1808.ga 节点_325
+      - CN_https://1808.ga 节点_326
+      - CN_https://1808.ga 节点_327
+      - CN_https://1808.ga 节点_328
+      - CN_https://1808.ga 节点_329
+      - CN_https://1808.ga 节点_330
+      - CN_https://1808.ga 节点_331
+      - CN_https://1808.ga 节点_332
+      - CN_https://1808.ga 节点_333
+      - CN_https://1808.ga 节点_334
+      - CN_https://1808.ga 节点_335
+      - CN_https://1808.ga 节点_336
+      - CN_https://1808.ga 节点_337
+      - CN_https://1808.ga 节点_338
+      - CN_https://1808.ga 节点_339
+      - CN_https://1808.ga 节点_340
+      - CN_https://1808.ga 节点_341
+      - CN_https://1808.ga 节点_342
+      - CN_https://1808.ga 节点_343
+      - CN_https://1808.ga 节点_344
+      - CN_https://1808.ga 节点_345
+      - CN_https://1808.ga 节点_346
+      - CN_https://1808.ga 节点_347
+      - CN_https://1808.ga 节点_348
+      - CN_https://1808.ga 节点_349
+      - GB_https://1808.ga 节点_350
+      - JP_https://1808.ga 节点_351
+      - JP_https://1808.ga 节点_352
+      - JP_https://1808.ga 节点_353
+      - KR_https://1808.ga 节点_354
+      - NL_https://1808.ga 节点_355
+      - NL_https://1808.ga 节点_356
+      - NL_https://1808.ga 节点_357
+      - NL_https://1808.ga 节点_358
+      - NL_https://1808.ga 节点_359
+      - NL_https://1808.ga 节点_360
+      - NL_https://1808.ga 节点_361
+      - NL_https://1808.ga 节点_362
+      - NL_https://1808.ga 节点_363
+      - NL_https://1808.ga 节点_364
+      - NL_https://1808.ga 节点_365
+      - NL_https://1808.ga 节点_366
+      - PL_https://1808.ga 节点_367
+      - PL_https://1808.ga 节点_368
+      - PL_https://1808.ga 节点_369
+      - PL_https://1808.ga 节点_370
+      - PL_https://1808.ga 节点_371
+      - PL_https://1808.ga 节点_372
+      - PL_https://1808.ga 节点_373
+      - PL_https://1808.ga 节点_374
+      - PL_https://1808.ga 节点_375
+      - PL_https://1808.ga 节点_376
+      - PL_https://1808.ga 节点_377
+      - PL_https://1808.ga 节点_378
+      - PL_https://1808.ga 节点_379
+      - PL_https://1808.ga 节点_380
+      - PL_https://1808.ga 节点_381
+      - PL_https://1808.ga 节点_382
+      - PL_https://1808.ga 节点_383
+      - PL_https://1808.ga 节点_384
+      - PL_https://1808.ga 节点_385
+      - PL_https://1808.ga 节点_386
+      - PL_https://1808.ga 节点_387
+      - PL_https://1808.ga 节点_388
+      - PL_https://1808.ga 节点_389
+      - PL_https://1808.ga 节点_390
+      - PL_https://1808.ga 节点_391
+      - PL_https://1808.ga 节点_392
+      - PL_https://1808.ga 节点_393
+      - PL_https://1808.ga 节点_394
+      - PL_https://1808.ga 节点_395
+      - PL_https://1808.ga 节点_396
+      - PL_https://1808.ga 节点_397
+      - PL_https://1808.ga 节点_398
+      - PL_https://1808.ga 节点_399
+      - PL_https://1808.ga 节点_400
+      - PL_https://1808.ga 节点_401
+      - PL_https://1808.ga 节点_402
+      - PL_https://1808.ga 节点_403
+      - PL_https://1808.ga 节点_404
+      - PL_https://1808.ga 节点_405
+      - PL_https://1808.ga 节点_406
+      - PL_https://1808.ga 节点_407
+      - PL_https://1808.ga 节点_408
+      - PL_https://1808.ga 节点_409
+      - PL_https://1808.ga 节点_410
+      - PL_https://1808.ga 节点_411
+      - PL_https://1808.ga 节点_412
+      - RU_https://1808.ga 节点_413
+      - US_https://1808.ga 节点_414
+      - US_https://1808.ga 节点_415
+      - US_https://1808.ga 节点_416
+      - https://1808.ga 节点_417
+      - CN_https://1808.ga 节点_418
+      - CN_https://1808.ga 节点_419
+      - CN_https://1808.ga 节点_420
+      - CN_https://1808.ga 节点_421
+      - CN_https://1808.ga 节点_422
+      - US_https://1808.ga 节点_423
+      - US_https://1808.ga 节点_424
+      - TW_https://1808.ga 节点_425
+      - HK_https://1808.ga 节点_426
+      - CN_https://1808.ga 节点_427
+      - CN_https://1808.ga 节点_428
+      - CN_https://1808.ga 节点_429
+      - CN_https://1808.ga 节点_430
+      - AU_https://1808.ga 节点_431
+      - US_https://1808.ga 节点_432
+      - CN_https://1808.ga 节点_433
+      - US_https://1808.ga 节点_434
+      - https://1808.ga 节点_435
+      - https://1808.ga 节点_436
+      - US_https://1808.ga 节点_437
+      - US_https://1808.ga 节点_438
+      - US_https://1808.ga 节点_439
+      - US_https://1808.ga 节点_440
+      - CN_https://1808.ga 节点_441
+      - HK_https://1808.ga 节点_442
+  - name: 规则外路由选择
+    type: select
+    proxies:
+      - 代理
+      - DIRECT
+rules:
+ - DOMAIN-SUFFIX,local,DIRECT
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR6,::1/128,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+ - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+ - PROCESS-NAME,aria2c,DIRECT
+ - PROCESS-NAME,fdm,DIRECT
+ - PROCESS-NAME,Folx,DIRECT
+ - PROCESS-NAME,NetTransport,DIRECT
+ - PROCESS-NAME,Thunder,DIRECT
+ - PROCESS-NAME,Transmission,DIRECT
+ - PROCESS-NAME,uTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent Helper,DIRECT
+ - PROCESS-NAME,DownloadService,DIRECT
+ - PROCESS-NAME,Weiyun,DIRECT
+ - DOMAIN-KEYWORD,aria2,DIRECT
+ - DOMAIN-KEYWORD,xunlei,DIRECT
+ - DOMAIN-KEYWORD,yunpan,DIRECT
+ - DOMAIN-KEYWORD,Thunder,DIRECT
+ - DOMAIN-KEYWORD,XLLiveUD,DIRECT
+ - MATCH,规则外路由选择

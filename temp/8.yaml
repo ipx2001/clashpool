@@ -1,0 +1,88 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: "️‍🌈[TG电报群]https://t.me/payday4478", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDN, sni: payday2.eu.org, skip-cert-verify: true, udp: true}
+  - {name: "️‍🌈[TG电报频道]https://t.me/payday501", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDM, sni: payday2.eu.org, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚(绿头外网集团)(Public), server: hncu.relay01.insnow.xyz, port: 19937, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: au.node01.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public), server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 2, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 法国(绿头外网集团)(Public), server: hncu.relay01.insnow.xyz, port: 19919, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 英国(绿头外网集团)(Public), server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: 印度(绿头外网集团)(Public), server: hncu.relay01.insnow.xyz, port: 19921, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: doin.node001.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public), server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 2, server: cn1.iepl.starlink.st, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: 韩国(绿头外网集团)(Public), server: 120.233.10.230, port: 50400, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: 韩国(绿头外网集团)(Public) 2, server: cn1.iepl.starlink.st, port: 50400, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: 俄罗斯(绿头外网集团)(Public), server: gzcm.relay02.insnow.xyz, port: 19931, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(绿头外网集团)(Public) 2, server: 120.233.10.230, port: 50700, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: 俄罗斯(绿头外网集团)(Public) 3, server: cn1.iepl.starlink.st, port: 50700, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: 俄罗斯(绿头外网集团)(Public) 4, server: hncu.relay01.insnow.xyz, port: 19931, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: ru.node001.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: 瑞典(绿头外网集团)(Public), server: cn1.iepl.starlink.st, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: 瑞典(绿头外网集团)(Public) 2, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: 台湾(绿头外网集团)(Public), server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 2, server: cn1.iepl.starlink.st, port: 50200, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: 美国(绿头外网集团)(Public), server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 2, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+proxy-groups:
+  - name: 代理
+    type: select
+    proxies:
+      - ️‍🌈[TG电报群]https://t.me/payday4478
+      - ️‍🌈[TG电报频道]https://t.me/payday501
+      - 澳大利亚(绿头外网集团)(Public)
+      - 加拿大(绿头外网集团)(Public)
+      - 加拿大(绿头外网集团)(Public) 2
+      - 法国(绿头外网集团)(Public)
+      - 英国(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 2
+      - 韩国(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public) 2
+      - 俄罗斯(绿头外网集团)(Public)
+      - 俄罗斯(绿头外网集团)(Public) 2
+      - 俄罗斯(绿头外网集团)(Public) 3
+      - 俄罗斯(绿头外网集团)(Public) 4
+      - 瑞典(绿头外网集团)(Public)
+      - 瑞典(绿头外网集团)(Public) 2
+      - 台湾(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - 美国(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public) 2
+  - name: 规则外路由选择
+    type: select
+    proxies:
+      - 代理
+      - DIRECT
+rules:
+ - DOMAIN-SUFFIX,local,DIRECT
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR6,::1/128,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+ - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+ - PROCESS-NAME,aria2c,DIRECT
+ - PROCESS-NAME,fdm,DIRECT
+ - PROCESS-NAME,Folx,DIRECT
+ - PROCESS-NAME,NetTransport,DIRECT
+ - PROCESS-NAME,Thunder,DIRECT
+ - PROCESS-NAME,Transmission,DIRECT
+ - PROCESS-NAME,uTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent Helper,DIRECT
+ - PROCESS-NAME,DownloadService,DIRECT
+ - PROCESS-NAME,Weiyun,DIRECT
+ - DOMAIN-KEYWORD,aria2,DIRECT
+ - DOMAIN-KEYWORD,xunlei,DIRECT
+ - DOMAIN-KEYWORD,yunpan,DIRECT
+ - DOMAIN-KEYWORD,Thunder,DIRECT
+ - DOMAIN-KEYWORD,XLLiveUD,DIRECT
+ - MATCH,规则外路由选择

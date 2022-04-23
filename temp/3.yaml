@@ -1,0 +1,112 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: Anycast 台湾 TW 01 NF Bili Bahamut Disney+ V2ray, server: cmjm.senlinss.link, port: 21119, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 台湾 TW 02 NF Bili Bahamut Disney+ V2ray, server: cmjm.senlinss.link, port: 21120, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 台湾 TW 03 NF Bili Bahamut Disney+ V2ray, server: cmjm.senlinss.link, port: 21131, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 台湾 TW 04 NF Bili Bahamut Disney+ V2ray, server: cmjm.senlinss.link, port: 21132, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 孟买 印度 IN 01 NF Steam V2ray, server: cmjm.senlinss.link, port: 21133, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 孟买 印度 IN 02 NF Steam V2ray, server: cmjm.senlinss.link, port: 21134, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 日本 JP 01 NF  Disney+ V2ray, server: cmjm.senlinss.link, port: 21113, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 日本 JP 02 NF Disney+ V2ray, server: cmjm.senlinss.link, port: 21114, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 日本 JP 03 NF  Disney+ V2ray, server: cmjm.senlinss.link, port: 21139, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 日本 JP 04 NF  Disney+ V2ray, server: cmjm.senlinss.link, port: 21140, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 狮城 SG A 01 NF Disney+ V2ray, server: cmjm.senlinss.link, port: 21115, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 狮城 SG A 02 NF Disney+ V2ray, server: cmjm.senlinss.link, port: 21116, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 狮城 SG A 03 NF Disney+ V2ray, server: cmjm.senlinss.link, port: 21121, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 狮城 SG A 04 NF Disney+ V2ray, server: cmjm.senlinss.link, port: 21122, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 狮城 SG A 05 NF Disney+ V2ray, server: cmjm.senlinss.link, port: 21147, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 狮城 SG A 06 NF Disney+ V2ray, server: cmjm.senlinss.link, port: 21148, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 狮城 SG B 01 NF V2ray, server: cmjm.senlinss.link, port: 21111, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 狮城 SG B 02 NF V2ray, server: cmjm.senlinss.link, port: 21112, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 美国 US 01 NF HBO Hulu V2ray, server: cmjm.senlinss.link, port: 21127, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 美国 US 02 NF HBO Hulu V2ray, server: cmjm.senlinss.link, port: 21128, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 美国 US 03 NF HBO Hulu V2ray, server: cmjm.senlinss.link, port: 21129, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 美国 US 04 NF HBO Hulu V2ray, server: cmjm.senlinss.link, port: 21130, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 韩国 KR 01 NF Disney+ V2ray, server: cmjm.senlinss.link, port: 21141, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 韩国 KR 02 NF Disney+ V2ray, server: cmjm.senlinss.link, port: 21142, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 香港 HK 01 NF Bili HBO V2ray, server: cmjm.senlinss.link, port: 21117, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 香港 HK 02 NF Bili HBO V2ray, server: cmjm.senlinss.link, port: 21118, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 香港 HK 03 NF Bili HBO V2ray, server: cmjm.senlinss.link, port: 21123, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 香港 HK 04 NF Bili HBO V2ray, server: cmjm.senlinss.link, port: 21124, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 香港 HK 05 NF Bili HBO V2ray, server: cmjm.senlinss.link, port: 21125, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 香港 HK 06 NF Bili HBO V2ray, server: cmjm.senlinss.link, port: 21126, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 香港 HK A 01 NF Bili HBO Disney+ V2ray, server: cmjm.senlinss.link, port: 21135, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: Anycast 香港 HK A 02 NF Bili HBO Disney+ V2ray, server: cmjm.senlinss.link, port: 21136, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: "Free｜香港 HK 01 V2ray [ 限速紧急线路 ]", server: 112.48.177.74, port: 61117, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index}, udp: true}
+  - {name: "Free｜香港 HK 02 V2ray [ 限速紧急线路 ]", server: 112.48.177.74, port: 61118, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index}, udp: true}
+proxy-groups:
+  - name: 代理
+    type: select
+    proxies:
+      - Anycast 台湾 TW 01 NF Bili Bahamut Disney+ V2ray
+      - Anycast 台湾 TW 02 NF Bili Bahamut Disney+ V2ray
+      - Anycast 台湾 TW 03 NF Bili Bahamut Disney+ V2ray
+      - Anycast 台湾 TW 04 NF Bili Bahamut Disney+ V2ray
+      - Anycast 孟买 印度 IN 01 NF Steam V2ray
+      - Anycast 孟买 印度 IN 02 NF Steam V2ray
+      - Anycast 日本 JP 01 NF  Disney+ V2ray
+      - Anycast 日本 JP 02 NF Disney+ V2ray
+      - Anycast 日本 JP 03 NF  Disney+ V2ray
+      - Anycast 日本 JP 04 NF  Disney+ V2ray
+      - Anycast 狮城 SG A 01 NF Disney+ V2ray
+      - Anycast 狮城 SG A 02 NF Disney+ V2ray
+      - Anycast 狮城 SG A 03 NF Disney+ V2ray
+      - Anycast 狮城 SG A 04 NF Disney+ V2ray
+      - Anycast 狮城 SG A 05 NF Disney+ V2ray
+      - Anycast 狮城 SG A 06 NF Disney+ V2ray
+      - Anycast 狮城 SG B 01 NF V2ray
+      - Anycast 狮城 SG B 02 NF V2ray
+      - Anycast 美国 US 01 NF HBO Hulu V2ray
+      - Anycast 美国 US 02 NF HBO Hulu V2ray
+      - Anycast 美国 US 03 NF HBO Hulu V2ray
+      - Anycast 美国 US 04 NF HBO Hulu V2ray
+      - Anycast 韩国 KR 01 NF Disney+ V2ray
+      - Anycast 韩国 KR 02 NF Disney+ V2ray
+      - Anycast 香港 HK 01 NF Bili HBO V2ray
+      - Anycast 香港 HK 02 NF Bili HBO V2ray
+      - Anycast 香港 HK 03 NF Bili HBO V2ray
+      - Anycast 香港 HK 04 NF Bili HBO V2ray
+      - Anycast 香港 HK 05 NF Bili HBO V2ray
+      - Anycast 香港 HK 06 NF Bili HBO V2ray
+      - Anycast 香港 HK A 01 NF Bili HBO Disney+ V2ray
+      - Anycast 香港 HK A 02 NF Bili HBO Disney+ V2ray
+      - Free｜香港 HK 01 V2ray [ 限速紧急线路 ]
+      - Free｜香港 HK 02 V2ray [ 限速紧急线路 ]
+  - name: 规则外路由选择
+    type: select
+    proxies:
+      - 代理
+      - DIRECT
+rules:
+ - DOMAIN-SUFFIX,local,DIRECT
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR6,::1/128,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+ - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+ - PROCESS-NAME,aria2c,DIRECT
+ - PROCESS-NAME,fdm,DIRECT
+ - PROCESS-NAME,Folx,DIRECT
+ - PROCESS-NAME,NetTransport,DIRECT
+ - PROCESS-NAME,Thunder,DIRECT
+ - PROCESS-NAME,Transmission,DIRECT
+ - PROCESS-NAME,uTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent Helper,DIRECT
+ - PROCESS-NAME,DownloadService,DIRECT
+ - PROCESS-NAME,Weiyun,DIRECT
+ - DOMAIN-KEYWORD,aria2,DIRECT
+ - DOMAIN-KEYWORD,xunlei,DIRECT
+ - DOMAIN-KEYWORD,yunpan,DIRECT
+ - DOMAIN-KEYWORD,Thunder,DIRECT
+ - DOMAIN-KEYWORD,XLLiveUD,DIRECT
+ - MATCH,规则外路由选择

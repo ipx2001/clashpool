@@ -1,0 +1,260 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: TG @ShareCentrePro, server: SS-NODE-1.GFWAIRPORT.NET, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 122b9200-c5e0-4003-836c-973eef59b6b2, udp: true}
+  - {name: TG @ShareCentrePro 2, server: SS-NODE-2.GFWAIRPORT.NET, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 122b9200-c5e0-4003-836c-973eef59b6b2, udp: true}
+  - {name: TG @ShareCentrePro 3, server: SS-NODE-3.GFWAIRPORT.NET, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 122b9200-c5e0-4003-836c-973eef59b6b2, udp: true}
+  - {name: TG @ShareCentrePro 4, server: SS-NODE-4.GFWAIRPORT.NET, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 122b9200-c5e0-4003-836c-973eef59b6b2, udp: true}
+  - {name: TG @ShareCentrePro 5, server: SS-NODE-5.GFWAIRPORT.NET, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 122b9200-c5e0-4003-836c-973eef59b6b2, udp: true}
+  - {name: TG @ShareCentrePro 6, server: TJ-NODE-1.GFWAIRPORT.NET, port: 50001, type: trojan, password: 122b9200-c5e0-4003-836c-973eef59b6b2, skip-cert-verify: true, udp: true}
+  - {name: TG @ShareCentrePro 7, server: TJ-NODE-2.GFWAIRPORT.NET, port: 50001, type: trojan, password: 122b9200-c5e0-4003-836c-973eef59b6b2, skip-cert-verify: true, udp: true}
+  - {name: TG @ShareCentrePro 8, server: TJ-NODE-3.GFWAIRPORT.NET, port: 50001, type: trojan, password: 122b9200-c5e0-4003-836c-973eef59b6b2, skip-cert-verify: true, udp: true}
+  - {name: TG @ShareCentrePro 9, server: TJ-NODE-4.GFWAIRPORT.NET, port: 50001, type: trojan, password: 122b9200-c5e0-4003-836c-973eef59b6b2, skip-cert-verify: true, udp: true}
+  - {name: TG @ShareCentrePro 10, server: TJ-NODE-5.GFWAIRPORT.NET, port: 50001, type: trojan, password: 122b9200-c5e0-4003-836c-973eef59b6b2, skip-cert-verify: true, udp: true}
+  - {name: TG @ShareCentrePro 11, server: V2-NODE-1.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 122b9200-c5e0-4003-836c-973eef59b6b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: V2-NODE-1.GFWAIRPORT.NET}}, udp: true}
+  - {name: TG @ShareCentrePro 12, server: V2-NODE-2.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 122b9200-c5e0-4003-836c-973eef59b6b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: V2-NODE-2.GFWAIRPORT.NET}}, udp: true}
+  - {name: TG @ShareCentrePro 13, server: V2-NODE-3.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 122b9200-c5e0-4003-836c-973eef59b6b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: V2-NODE-3.GFWAIRPORT.NET}}, udp: true}
+  - {name: TG @ShareCentrePro 14, server: V2-NODE-4.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 122b9200-c5e0-4003-836c-973eef59b6b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: V2-NODE-4.GFWAIRPORT.NET}}, udp: true}
+  - {name: TG @ShareCentrePro 15, server: V2-NODE-5.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 122b9200-c5e0-4003-836c-973eef59b6b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: V2-NODE-5.GFWAIRPORT.NET}}, udp: true}
+  - {name: TG @ShareCentrePro 16, server: hk1.aead.ml, port: 101, type: ss, cipher: aes-128-gcm, password: ba7a1389-71dc-4cbc-be95-2be84492580f, udp: true}
+  - {name: TG @ShareCentrePro 17, server: hk2.aead.ml, port: 101, type: ss, cipher: aes-128-gcm, password: ba7a1389-71dc-4cbc-be95-2be84492580f, udp: true}
+  - {name: TG @ShareCentrePro 18, server: hk3.aead.ml, port: 101, type: ss, cipher: aes-128-gcm, password: ba7a1389-71dc-4cbc-be95-2be84492580f, udp: true}
+  - {name: TG @ShareCentrePro 19, server: hkt1.aead.ml, port: 443, type: trojan, password: ba7a1389-71dc-4cbc-be95-2be84492580f, skip-cert-verify: true, udp: true}
+  - {name: TG @ShareCentrePro 20, server: aulin001.xmrth-node.xyz, port: 10131, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 21, server: calin001.xmrth-node.xyz, port: 10076, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 22, server: delin001.xmrth-node.xyz, port: 10132, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 23, server: hkaws001.xmrth-node.xyz, port: 10163, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 24, server: hkaws002.xmrth-node.xyz, port: 10001, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 25, server: hkaws003.xmrth-node.xyz, port: 10002, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 26, server: hkaws004.xmrth-node.xyz, port: 10003, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 27, server: hkaws005.xmrth-node.xyz, port: 10036, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 28, server: hkaws006.xmrth-node.xyz, port: 10037, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 29, server: hkaws007.xmrth-node.xyz, port: 10038, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 30, server: hkaws008.xmrth-node.xyz, port: 10039, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 31, server: hkaws009.xmrth-node.xyz, port: 10071, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 32, server: hkaws010.xmrth-node.xyz, port: 10072, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 33, server: hkaz1.xmrth-node.xyz, port: 10128, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 34, server: hkaz2.xmrth-node.xyz, port: 10145, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 35, server: hkaz3.xmrth-node.xyz, port: 10147, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 36, server: hkaz4.xmrth-node.xyz, port: 10011, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 37, server: hkaz5.xmrth-node.xyz, port: 10077, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 38, server: hkaz6.xmrth-node.xyz, port: 10078, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 39, server: hkaz7.xmrth-node.xyz, port: 10162, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 40, server: hgc1.xmrth-node.xyz, port: 10151, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 41, server: hkaz1.xmrth-node.xyz, port: 10007, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 42, server: hkaz2.xmrth-node.xyz, port: 10197, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 43, server: hkaz3.xmrth-node.xyz, port: 10009, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 44, server: hkaz4.xmrth-node.xyz, port: 10010, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 45, server: hkaz5.xmrth-node.xyz, port: 10080, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 46, server: hkaz6.xmrth-node.xyz, port: 10152, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 47, server: hkaz7.xmrth-node.xyz, port: 10183, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 48, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 49, server: hkaz2.xmrth-node.xyz, port: 10034, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 50, server: hkaz3.xmrth-node.xyz, port: 10035, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 51, server: jpaz1.xmrth-node.xyz, port: 10133, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 52, server: jpaz2.xmrth-node.xyz, port: 10138, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 53, server: jpaz3.xmrth-node.xyz, port: 10135, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 54, server: jpaws001.xmrth-node.xyz, port: 10040, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 55, server: jpaws002.xmrth-node.xyz, port: 10041, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 56, server: jplin003.xmrth-node.xyz, port: 10165, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 57, server: jplin004.xmrth-node.xyz, port: 10043, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 58, server: jplin005.xmrth-node.xyz, port: 10069, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 59, server: jpaws006.xmrth-node.xyz, port: 10068, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 60, server: jpaz1.xmrth-node.xyz, port: 10052, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 61, server: jpaz2.xmrth-node.xyz, port: 10142, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 62, server: jpaz3.xmrth-node.xyz, port: 10136, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 63, server: jpaz1.xmrth-node.xyz, port: 10045, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 64, server: jpaz2.xmrth-node.xyz, port: 10046, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 65, server: jpaz3.xmrth-node.xyz, port: 10051, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 66, server: kraws001.xmrth-node.xyz, port: 10012, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 67, server: kraws002.xmrth-node.xyz, port: 10013, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 68, server: kraws003.xmrth-node.xyz, port: 10014, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 69, server: kraws004.xmrth-node.xyz, port: 10015, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 70, server: kraws005.xmrth-node.xyz, port: 10016, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 71, server: kraws006.xmrth-node.xyz, port: 10069, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 72, server: kraws007.xmrth-node.xyz, port: 10070, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 73, server: hkaz1.xmrth-node.xyz, port: 10017, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 74, server: hkaz2.xmrth-node.xyz, port: 10018, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 75, server: hkaz3.xmrth-node.xyz, port: 10019, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 76, server: hkaz4.xmrth-node.xyz, port: 10143, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 77, server: hkaz5.xmrth-node.xyz, port: 10184, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 78, server: hkaz6.xmrth-node.xyz, port: 10187, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 79, server: hkaz7.xmrth-node.xyz, port: 10087, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 80, server: sgaws001.xmrth-node.xyz, port: 10155, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 81, server: sgaws002.xmrth-node.xyz, port: 10156, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 82, server: sgaws003.xmrth-node.xyz, port: 10181, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 83, server: sgaws004.xmrth-node.xyz, port: 10182, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 84, server: sgaws005.xmrth-node.xyz, port: 10159, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 85, server: sgaws006.xmrth-node.xyz, port: 10164, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 86, server: sgaws007.xmrth-node.xyz, port: 10161, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 87, server: hkaz1.xmrth-node.xyz, port: 10026, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 88, server: hkaz2.xmrth-node.xyz, port: 10027, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 89, server: hkaz3.xmrth-node.xyz, port: 10028, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 90, server: hkaz4.xmrth-node.xyz, port: 10029, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 91, server: hkaz5.xmrth-node.xyz, port: 10185, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 92, server: hkaz6.xmrth-node.xyz, port: 10153, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 93, server: hkaz7.xmrth-node.xyz, port: 10186, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 94, server: tw1.xmrth-node.xyz, port: 10149, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 95, server: tw2.xmrth-node.xyz, port: 10065, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 96, server: hkaz1.xmrth-node.xyz, port: 10062, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 97, server: hkaz2.xmrth-node.xyz, port: 10066, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 98, server: jpaz1.xmrth-node.xyz, port: 10063, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 99, server: jpaz2.xmrth-node.xyz, port: 10067, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 100, server: uklin001.xmrth-node.xyz, port: 10049, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 101, server: ukaws002.xmrth-node.xyz, port: 10075, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 102, server: inap001.xmrth-node.xyz, port: 10055, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 103, server: inap002.xmrth-node.xyz, port: 10056, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 104, server: inap003.xmrth-node.xyz, port: 10057, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 105, server: inap004.xmrth-node.xyz, port: 10064, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 106, server: jpaz1.xmrth-node.xyz, port: 10058, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 107, server: jpaz2.xmrth-node.xyz, port: 10141, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TG @ShareCentrePro 108, server: jpaz3.xmrth-node.xyz, port: 10140, type: vmess, uuid: fff8caab-7472-32c1-9a70-3953002ebb35, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+proxy-groups:
+  - name: 代理
+    type: select
+    proxies:
+      - TG @ShareCentrePro
+      - TG @ShareCentrePro 2
+      - TG @ShareCentrePro 3
+      - TG @ShareCentrePro 4
+      - TG @ShareCentrePro 5
+      - TG @ShareCentrePro 6
+      - TG @ShareCentrePro 7
+      - TG @ShareCentrePro 8
+      - TG @ShareCentrePro 9
+      - TG @ShareCentrePro 10
+      - TG @ShareCentrePro 11
+      - TG @ShareCentrePro 12
+      - TG @ShareCentrePro 13
+      - TG @ShareCentrePro 14
+      - TG @ShareCentrePro 15
+      - TG @ShareCentrePro 16
+      - TG @ShareCentrePro 17
+      - TG @ShareCentrePro 18
+      - TG @ShareCentrePro 19
+      - TG @ShareCentrePro 20
+      - TG @ShareCentrePro 21
+      - TG @ShareCentrePro 22
+      - TG @ShareCentrePro 23
+      - TG @ShareCentrePro 24
+      - TG @ShareCentrePro 25
+      - TG @ShareCentrePro 26
+      - TG @ShareCentrePro 27
+      - TG @ShareCentrePro 28
+      - TG @ShareCentrePro 29
+      - TG @ShareCentrePro 30
+      - TG @ShareCentrePro 31
+      - TG @ShareCentrePro 32
+      - TG @ShareCentrePro 33
+      - TG @ShareCentrePro 34
+      - TG @ShareCentrePro 35
+      - TG @ShareCentrePro 36
+      - TG @ShareCentrePro 37
+      - TG @ShareCentrePro 38
+      - TG @ShareCentrePro 39
+      - TG @ShareCentrePro 40
+      - TG @ShareCentrePro 41
+      - TG @ShareCentrePro 42
+      - TG @ShareCentrePro 43
+      - TG @ShareCentrePro 44
+      - TG @ShareCentrePro 45
+      - TG @ShareCentrePro 46
+      - TG @ShareCentrePro 47
+      - TG @ShareCentrePro 48
+      - TG @ShareCentrePro 49
+      - TG @ShareCentrePro 50
+      - TG @ShareCentrePro 51
+      - TG @ShareCentrePro 52
+      - TG @ShareCentrePro 53
+      - TG @ShareCentrePro 54
+      - TG @ShareCentrePro 55
+      - TG @ShareCentrePro 56
+      - TG @ShareCentrePro 57
+      - TG @ShareCentrePro 58
+      - TG @ShareCentrePro 59
+      - TG @ShareCentrePro 60
+      - TG @ShareCentrePro 61
+      - TG @ShareCentrePro 62
+      - TG @ShareCentrePro 63
+      - TG @ShareCentrePro 64
+      - TG @ShareCentrePro 65
+      - TG @ShareCentrePro 66
+      - TG @ShareCentrePro 67
+      - TG @ShareCentrePro 68
+      - TG @ShareCentrePro 69
+      - TG @ShareCentrePro 70
+      - TG @ShareCentrePro 71
+      - TG @ShareCentrePro 72
+      - TG @ShareCentrePro 73
+      - TG @ShareCentrePro 74
+      - TG @ShareCentrePro 75
+      - TG @ShareCentrePro 76
+      - TG @ShareCentrePro 77
+      - TG @ShareCentrePro 78
+      - TG @ShareCentrePro 79
+      - TG @ShareCentrePro 80
+      - TG @ShareCentrePro 81
+      - TG @ShareCentrePro 82
+      - TG @ShareCentrePro 83
+      - TG @ShareCentrePro 84
+      - TG @ShareCentrePro 85
+      - TG @ShareCentrePro 86
+      - TG @ShareCentrePro 87
+      - TG @ShareCentrePro 88
+      - TG @ShareCentrePro 89
+      - TG @ShareCentrePro 90
+      - TG @ShareCentrePro 91
+      - TG @ShareCentrePro 92
+      - TG @ShareCentrePro 93
+      - TG @ShareCentrePro 94
+      - TG @ShareCentrePro 95
+      - TG @ShareCentrePro 96
+      - TG @ShareCentrePro 97
+      - TG @ShareCentrePro 98
+      - TG @ShareCentrePro 99
+      - TG @ShareCentrePro 100
+      - TG @ShareCentrePro 101
+      - TG @ShareCentrePro 102
+      - TG @ShareCentrePro 103
+      - TG @ShareCentrePro 104
+      - TG @ShareCentrePro 105
+      - TG @ShareCentrePro 106
+      - TG @ShareCentrePro 107
+      - TG @ShareCentrePro 108
+  - name: 规则外路由选择
+    type: select
+    proxies:
+      - 代理
+      - DIRECT
+rules:
+ - DOMAIN-SUFFIX,local,DIRECT
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR6,::1/128,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+ - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+ - PROCESS-NAME,aria2c,DIRECT
+ - PROCESS-NAME,fdm,DIRECT
+ - PROCESS-NAME,Folx,DIRECT
+ - PROCESS-NAME,NetTransport,DIRECT
+ - PROCESS-NAME,Thunder,DIRECT
+ - PROCESS-NAME,Transmission,DIRECT
+ - PROCESS-NAME,uTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent Helper,DIRECT
+ - PROCESS-NAME,DownloadService,DIRECT
+ - PROCESS-NAME,Weiyun,DIRECT
+ - DOMAIN-KEYWORD,aria2,DIRECT
+ - DOMAIN-KEYWORD,xunlei,DIRECT
+ - DOMAIN-KEYWORD,yunpan,DIRECT
+ - DOMAIN-KEYWORD,Thunder,DIRECT
+ - DOMAIN-KEYWORD,XLLiveUD,DIRECT
+ - MATCH,规则外路由选择

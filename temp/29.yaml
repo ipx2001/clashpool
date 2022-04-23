@@ -1,0 +1,56 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 法国｜巴黎｜Online.net｜流解｜@yorknodes, server: 104.16.47.181, port: 443, type: vmess, uuid: 7824cbc1-f82d-48cf-fb1d-54d8911849c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /yorknodes-fr-par-1, headers: {Host: fr1.144050.cf}}, udp: true}
+  - {name: 印尼｜Opentunnel｜@opentunnel_cn, server: idv-1.openv2ray.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-york618", headers: {Host: idv-1.openv2ray.com}}, udp: true}
+  - {name: 狮城｜Opentunnel｜@opentunnel_cn, server: sgv-3.openv2ray.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-york618", headers: {Host: sgv-3.openv2ray.com}}, udp: true}
+  - {name: 德国｜Hetzner｜@yorknodes, server: 104.16.47.181, port: 443, type: vmess, uuid: 1e9be421-4135-4edb-9655-804042753442, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /yorknodes-de1, headers: {Host: eu19.144050.cf}}, udp: true}
+  - {name: 德国#2｜Hetzner｜@yorknodes, server: 104.16.47.181, port: 443, type: vmess, uuid: f0fa2aef-c397-495d-a187-c72a31eee1c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /yorknodes-eu2, headers: {Host: eu20.144050.cf}}, udp: true}
+  - {name: Azure HK FREE 10GB, server: az.lemonawa.cf, port: 25677, type: vmess, uuid: f05fc70d-f9c9-4a93-97fb-fcc8bd8baada, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /1145141919810HengHengHengAAAaaAAaAAAaAAAAAaaaaaAaAaaaAAAaaAAAaaAAAAaaAAAAaaAAAAAaaaAAaaaaaAAAAAAaaaa, headers: {Host: az.lemonawa.cf}}, udp: true}
+proxy-groups:
+  - name: 代理
+    type: select
+    proxies:
+      - 法国｜巴黎｜Online.net｜流解｜@yorknodes
+      - 印尼｜Opentunnel｜@opentunnel_cn
+      - 狮城｜Opentunnel｜@opentunnel_cn
+      - 德国｜Hetzner｜@yorknodes
+      - 德国#2｜Hetzner｜@yorknodes
+      - Azure HK FREE 10GB
+  - name: 规则外路由选择
+    type: select
+    proxies:
+      - 代理
+      - DIRECT
+rules:
+ - DOMAIN-SUFFIX,local,DIRECT
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR6,::1/128,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+ - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+ - PROCESS-NAME,aria2c,DIRECT
+ - PROCESS-NAME,fdm,DIRECT
+ - PROCESS-NAME,Folx,DIRECT
+ - PROCESS-NAME,NetTransport,DIRECT
+ - PROCESS-NAME,Thunder,DIRECT
+ - PROCESS-NAME,Transmission,DIRECT
+ - PROCESS-NAME,uTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent Helper,DIRECT
+ - PROCESS-NAME,DownloadService,DIRECT
+ - PROCESS-NAME,Weiyun,DIRECT
+ - DOMAIN-KEYWORD,aria2,DIRECT
+ - DOMAIN-KEYWORD,xunlei,DIRECT
+ - DOMAIN-KEYWORD,yunpan,DIRECT
+ - DOMAIN-KEYWORD,Thunder,DIRECT
+ - DOMAIN-KEYWORD,XLLiveUD,DIRECT
+ - MATCH,规则外路由选择

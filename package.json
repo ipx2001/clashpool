@@ -1,0 +1,20 @@
+{
+  "name": "sub_spider",
+  "version": "1.0.0",
+  "description": "用于获取订阅地址合并去重测速",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "updatedb":"node ./node_modules/geoip-lite/scripts/updatedb.js license_key=QiXuTCt1vZ0QoMLc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "geoip-lite": "^1.4.4",
+    "moment": "^2.29.3",
+    "yaml": "^2.0.1"
+  }
+}

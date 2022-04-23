@@ -1,0 +1,50 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: VPN_JGW_ws, server: cdn.71137223.xyz, port: 443, type: vmess, uuid: 0f1e8195-f1b2-4c4c-8a3b-343f83fea71f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vt.71137223.xyz, network: ws, ws-opts: {path: "/xtjevws?ed=2048", headers: {Host: vt.71137223.xyz}}, udp: true}
+  - {name: VPN_JGW, server: vt.71137223.xyz, port: 443, type: trojan, password: 1a68a299-568f-40af-b274-1ae29b3e7a80, sni: vt.71137223.xyz, skip-cert-verify: true, udp: true}
+  - {name: herovm, server: cdn.71137223.xyz, port: 443, type: vmess, uuid: f99f4e79-a924-4890-a0df-b8a470b77a99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vmess.gittt.workers.dev, network: ws, ws-opts: {path: /ray, headers: {Host: vmess.gittt.workers.dev}}, udp: true}
+proxy-groups:
+  - name: 代理
+    type: select
+    proxies:
+      - VPN_JGW_ws
+      - VPN_JGW
+      - herovm
+  - name: 规则外路由选择
+    type: select
+    proxies:
+      - 代理
+      - DIRECT
+rules:
+ - DOMAIN-SUFFIX,local,DIRECT
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR6,::1/128,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+ - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+ - PROCESS-NAME,aria2c,DIRECT
+ - PROCESS-NAME,fdm,DIRECT
+ - PROCESS-NAME,Folx,DIRECT
+ - PROCESS-NAME,NetTransport,DIRECT
+ - PROCESS-NAME,Thunder,DIRECT
+ - PROCESS-NAME,Transmission,DIRECT
+ - PROCESS-NAME,uTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent Helper,DIRECT
+ - PROCESS-NAME,DownloadService,DIRECT
+ - PROCESS-NAME,Weiyun,DIRECT
+ - DOMAIN-KEYWORD,aria2,DIRECT
+ - DOMAIN-KEYWORD,xunlei,DIRECT
+ - DOMAIN-KEYWORD,yunpan,DIRECT
+ - DOMAIN-KEYWORD,Thunder,DIRECT
+ - DOMAIN-KEYWORD,XLLiveUD,DIRECT
+ - MATCH,规则外路由选择
