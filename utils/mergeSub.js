@@ -68,15 +68,9 @@ module.exports = async (config) => {
         type:"select",
         proxies:[]
     }
-    var index=0
-    console.log(`开始测试节点连通性，共${proxies.length}个`);
     for (const proxie of proxies) {
-        index+=1
-        console.log(`正在测试节点---(${index}/${proxies.length})----当前有效节点${proxy_list.length}个`);
-        //测速并重命名
-        if(true){
-        // if(speedtest(proxie.server,proxie.port)){
-            const { err, address } = await lookup(proxie.server)
+        //重命名
+        const { err, address } = await lookup(proxie.server)
             if (!err) {
                 // console.log(proxie.server,address);
                 const lookup = geoip.lookup(address)
@@ -97,9 +91,8 @@ module.exports = async (config) => {
                     proxygroups.proxies.push(proxie.name)
                 }
             }
-        }
+        
     }
-
-    console.log(`测速完成，共${proxy_list.length}个有效节点，写入文件:./temp/nodes.yaml`);
+    console.log(`重命名完成，共${proxy_list.length}个节点，写入文件:./temp/nodes.yaml`);
     fs.writeFileSync(`./temp/nodes.yaml`, yaml.stringify({ proxies: proxy_list,"proxy-groups":[proxygroups] }))
 }
