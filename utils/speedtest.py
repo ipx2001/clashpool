@@ -113,7 +113,7 @@ if __name__ == '__main__':
     # ping_result_y = ping(server, port).youtube_ping()
     if ping_result_g[0] >= 0.05 or ping_result_g[0] >= 0.05:
         print (False)
-    # elif ping_result[1] < 0.8 or ping_result_g[1] < 0.8:
-    #     print (False)
+    elif ping_result[1] < 0.8 or ping_result_g[1] < 0.8:
+        print (False)
     else :
         print (True)
