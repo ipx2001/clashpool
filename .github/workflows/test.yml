@@ -18,10 +18,8 @@ jobs:
         node-version: 16.x
         cache: 'npm'
    
-    - name: 赋予权限
-      run: |
-        chmod +x ./utils/clash/clash
-        chmod 777 ./utils/clash/clash
+    - name: 启动 clash 
+      run: docker run -d -p 7890:7890 -p 7891:7891 -p 9090:9090 --name clash dreamacro/clash -v /home/runner/work/clashpool/clashpool/utils/clash:/root/.config/clash
     - name: 测试
       run: node test.js
   

@@ -1,15 +1,12 @@
-var child_process = require('child_process');
+const moment = require("moment")
+const yaml = require("yaml");
+const request = require("./utils/request");
+const fs = require("fs");
+const { resolve } = require("path");
+const { rejects } = require("assert");
+const os = require("os")
 
-const test= child_process.exec("/home/runner/work/clashpool/clashpool/utils/clash/clash -d .",(err,stdout,stderr)=>{
-    if(err){
-        console.log(err);
-    }
-    console.log(stdout);
+
+request("http://127.0.0.1:9090/configs").then((res)=>{
+    console.log(res.data);
 })
-
-
-setTimeout(()=>{
-    test.kill()
-    
-    console.log("000000");
-},10*1000)
