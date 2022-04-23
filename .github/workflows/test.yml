@@ -17,10 +17,9 @@ jobs:
       with:
         node-version: 16.x
         cache: 'npm'
+   
+    - name: 赋予权限
+      run: chmod +x ./utils/clash
     - name: 测试
-      run: pwd
-    - name: 测试2
-      run: ls
-    - name: 测试2
       run: node test.js
   
