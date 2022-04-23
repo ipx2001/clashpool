@@ -1,4 +1,4 @@
-remote_conver: https://api.v1.mk/sub
+remote_conver: http://127.0.0.1:25500/sub
 remote_config: https://raw.nameless13.com/api/public/dl/zKF9vFbb/easy.ini
 proxy:
   host: 127.0.0.1
