@@ -23,6 +23,7 @@ jobs:
       run: npm i
     - name: 执行任务
       run: node index.js
+   
     - name: 提交更改
       run: |                 
          git config --local user.email "wally94@163.com"

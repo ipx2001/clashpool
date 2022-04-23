@@ -68,31 +68,48 @@ module.exports = async (config) => {
         type: "select",
         proxies: []
     }
-    for (const proxie of proxies) {
-        //重命名
-        const { err, address } = await lookup(proxie.server)
-        if (!err) {
-            // console.log(proxie.server,address);
-            const lookup = geoip.lookup(address)
-            if (lookup != null) {
-                let name_emoji;
-                if (emoji[lookup.country]) {
-                    name_emoji = emoji[lookup.country]
-                } else {
-                    name_emoji = emoji["NOWHERE"]
-                }
-                if (NameMap[`${name_emoji}${lookup.country}`] == undefined) {
-                    NameMap[`${name_emoji}${lookup.country}`] = 0
-                } else {
-                    NameMap[`${name_emoji}${lookup.country}`] += 1
-                }
-                proxie.name = `${name_emoji}${lookup.country}|${NameMap[`${name_emoji}${lookup.country}`]}`
-                proxy_list.push(proxie)
-                proxygroups.proxies.push(proxie.name)
-            }
-        }
-
+    proxies.forEach((proxie, index) => {
+        proxie.name = index
+        proxy_list.push(proxie)
+        proxygroups.proxies.push(index)
+    });
+    var yaml_config = {
+        port: 7890,
+        "socks-port": 7891,
+        "allow-lan": true,
+        mode: "Rule",
+        "log-level": "info",
+        "external-controller": "127.0.0.1:9090",
+        proxies:proxy_list,
+        "proxy-groups": [proxygroups]
     }
-    console.log(`重命名完成，共${proxy_list.length}个节点，写入文件:./temp/nodes.yaml`);
-    fs.writeFileSync(`./temp/nodes.yaml`, yaml.stringify({ proxies: proxy_list, "proxy-groups": [proxygroups] }))
+    console.log(`共${proxy_list.length}个节点，写入文件:./temp/nodes.yaml`);
+    fs.writeFileSync(`./temp/nodes.yaml`, yaml.stringify(yaml_config))
 }
+
+
+// for (const proxie of proxies) {
+//     //重命名
+//     const { err, address } = await lookup(proxie.server)
+//     if (!err) {
+//         // console.log(proxie.server,address);
+//         const lookup = geoip.lookup(address)
+//         if (lookup != null) {
+//             let name_emoji;
+//             if (emoji[lookup.country]) {
+//                 name_emoji = emoji[lookup.country]
+//             } else {
+//                 name_emoji = emoji["NOWHERE"]
+//             }
+//             if (NameMap[`${name_emoji}${lookup.country}`] == undefined) {
+//                 NameMap[`${name_emoji}${lookup.country}`] = 0
+//             } else {
+//                 NameMap[`${name_emoji}${lookup.country}`] += 1
+//             }
+//             proxie.name = `${name_emoji}${lookup.country}|${NameMap[`${name_emoji}${lookup.country}`]}`
+//             proxy_list.push(proxie)
+//             proxygroups.proxies.push(proxie.name)
+//         }
+//     }
+
+// }
