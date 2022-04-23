@@ -4,7 +4,7 @@ proxy:
   host: 127.0.0.1
   port: 7890
   protocol: http
-  enabled: true
+  enabled: false
 SubList:
   - id: 1
     remarks: 节点池1
