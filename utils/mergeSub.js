@@ -74,7 +74,8 @@ module.exports = async (config) => {
         index+=1
         console.log(`正在测试节点---(${index}/${proxies.length})----当前有效节点${proxy_list.length}个`);
         //测速并重命名
-        if(speedtest(proxie.server,proxie.port)){
+        if(true){
+        // if(speedtest(proxie.server,proxie.port)){
             const { err, address } = await lookup(proxie.server)
             if (!err) {
                 // console.log(proxie.server,address);
