@@ -20,9 +20,8 @@ jobs:
    
     - name: 赋予权限
       run: |
-        chmod +x ./utils/clash
-        chmod 777 ./utils/clash
-        nohup ./utils/clash -d .&
+        chmod +x ./utils/clash/clash
+        chmod 777 ./utils/clash/clash
     - name: 测试
       run: node test.js
   
