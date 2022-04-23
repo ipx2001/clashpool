@@ -42,8 +42,6 @@ module.exports = async (config) => {
     console.log(`节点合并完成，共${proxies.length}个`);
     proxies = unique(proxies)
     console.log(`节点去重完成，共${proxies.length}个`);
-
-
     var yaml_config = {
         proxies:[],
         "proxy-groups": [ {
@@ -57,14 +55,19 @@ module.exports = async (config) => {
         yaml_config.proxies.push(proxie)
         yaml_config["proxy-groups"][0].proxies.push(index)
     });
-   
     console.log(`共${yaml_config.proxies.length}个节点，写入文件:./temp/nodes.yaml`);
     fs.writeFileSync(`./temp/nodes.yaml`, yaml.stringify(yaml_config))
+    await  Clash.setConfigs("/home/runner/work/clashpool/clashpool/temp/nodes.yaml")
     
-     const res=await  Clash.setConfigs("/home/runner/work/clashpool/clashpool/temp/nodes.yaml")
-     const p=await Clash.getProxies()
-     console.log(p.data);
-
+    for (const proxie of  yaml_config.proxies) {
+        const res=await Clash.getDelay(proxie.name,5000)
+        if(!res.data.message){
+            console.log(res.data.delay);
+        }else{
+            console.log(res.data.message);
+        }
+       
+    }
 }
 
 // const emoji = {
