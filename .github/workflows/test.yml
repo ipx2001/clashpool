@@ -19,9 +19,15 @@ jobs:
         cache: 'npm'
    
     - name: 启动 clash 
+      #进入文件夹
+      #赋予权限
+      #后台运行clash
+      #返回工作目录
       run: |
-        chmod +x /home/runner/work/clashpool/clashpool/clash
-        nohup /home/runner/work/clashpool/clashpool/clash -d . &
+        cd /home/runner/work/clashpool/clashpool/utils/clash 
+        chmod +x ./clash
+        nohup ./clash -d . &
+        cd /home/runner/work/clashpool/clashpool
     - name: 安装依赖
       run: npm i
     - name: 测试
