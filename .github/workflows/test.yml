@@ -24,7 +24,7 @@ jobs:
       #后台运行clash
       #返回工作目录
       run: |
-        cd /home/runner/work/clashpool/clashpool/utils/clash 
+        cd utils/clash 
         chmod +x ./clash
         nohup ./clash -d . &
         cd /home/runner/work/clashpool/clashpool
