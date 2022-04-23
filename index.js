@@ -5,8 +5,8 @@ const mergeSub = require('./utils/mergeSub')
 startUpCheck()
 
 async function start (){
-    // await  updateSubUrl(config)
-    // await  downSub(config)
+    await  updateSubUrl(config)
+    await  downSub(config)
     await mergeSub(config);
   }
 
