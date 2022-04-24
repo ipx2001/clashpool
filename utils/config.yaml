@@ -1,5 +1,8 @@
 remote_conver: http://127.0.0.1:25500/sub
 remote_config: https://raw.nameless13.com/api/public/dl/zKF9vFbb/easy.ini
+clash: 
+ host: 127.0.0.1
+ port: 9090
 proxy:
   host: 127.0.0.1
   port: 7890
@@ -7,12 +10,12 @@ proxy:
   enabled: false
 SubList:
   - id: 1
-    remarks: 节点池1
+    remarks: openit
     site: https://github.com/yu-steven/openit
     url: https://openit.ml/Clash.yaml
     enabled: true
   - id: 2
-    remarks: 节点池2
+    remarks: chfchf0306
     site: https://github.com/chfchf0306/clash/
     url: https://raw.githubusercontent.com/chfchf0306/clash/main/clash
     enabled: true
@@ -22,39 +25,39 @@ SubList:
     url: https://paste.in/raw/dGlJKy
     enabled: true
   - id: 4
-    remarks: 节点池4
+    remarks: AzadNetCH
     site: https://github.com/AzadNetCH/Clash/
     url: https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml
     enabled: true
   - id: 5
-    remarks: 节点池5
+    remarks: AzadNetCH
     site: https://github.com/AzadNetCH/Clash/
     url: https://raw.githubusercontent.com/AzadNetCH/Clash/main/UFO.yml
     enabled: true
   - id: 6
-    remarks: 节点池6
+    remarks: colatiger
     site: https://github.com/colatiger/v2ray-nodes/
     url: https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/clash.yaml
     enabled: true
   - id: 7
-    remarks: 节点池7
+    remarks: freefq
     site: https://github.com/freefq/free
     url: https://raw.githubusercontent.com/freefq/free/master/v2
     enabled: true
   - id: 8
-    remarks: 节点池8
+    remarks: GreenFishStudio
     site: https://github.com/GreenFishStudio/GreenFish
     url: https://raw.githubusercontent.com/GreenFishStudio/GreenFish/master/Subscription/GreenFishYYDS
     enabled: true
   - id: 9
-    remarks: 节点池9
+    remarks: Jsnzkpg
     site: https://github.com/Jsnzkpg/Jsnzkpg
     url: https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
     enabled: true
   - id: 10
-    remarks: 节点池10
-    site: https://github.com/freefq/free
-    url: https://raw.githubusercontent.com/freefq/free/master/v2
+    remarks: alanbobs999
+    site: https://github.com/alanbobs999/TopFreeProxies
+    url: https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity.yml
     enabled: true
   - id: 11
     remarks: 节点池11
@@ -178,9 +181,4 @@ SubList:
     remarks: 节点池34
     site: https://gfwglass.tk/
     url: https://gfwglass.tk/ssr/sub
-    enabled: true
-  - id: 35
-    remarks: 节点池35
-    site: https://github.com/alanbobs999/TopFreeProxies
-    url: https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity.yml
     enabled: true
