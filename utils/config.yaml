@@ -1,13 +1,19 @@
+# 远端转换服务器，也可以在本地架设
 remote_conver: http://127.0.0.1:25500/sub
+# 转换时使用的配置，说实话，这个没鸟用，因为不需要，写着玩，可以不写，但不能写错
 remote_config: https://raw.nameless13.com/api/public/dl/zKF9vFbb/easy.ini
-clash:
-  host: 127.0.0.1
-  port: 9090
+# 本地clash RESTful API 地址 
+clash_api: http://127.0.0.1:9090/
+# 本地clash RESTful API secret 
+clash_secret: "88888888888"
+
+# 拉取订阅时的代理
 proxy:
   host: 127.0.0.1
   port: 7890
   protocol: http
   enabled: false
+# 节点池列表
 SubList:
   - id: 1
     remarks: openit

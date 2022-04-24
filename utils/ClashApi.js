@@ -1,16 +1,23 @@
-const request = require("./request");
+
+const axios = require("axios");
+const config = require("./config")
+const request = axios.create({
+    timeout: 30000, // 请求超时时间
+    baseURL: `${config.$config.clash_api}`,
+    headers: {Authorization: `Bearer ${config.$config.clash_secret}` },
+})
 
 //重载配置文件
 module.exports.setConfigs=async (path)=>{
-  return  request.put("http://127.0.0.1:9090/configs",{path})
+  return  request.put("/configs",{path})
 }
 //获取配置
 module.exports.getConfigs=async ()=>{
- return  request.get("http://127.0.0.1:9090/configs")
+ return  request.get("/configs")
 }
 //获取所有的节点
 module.exports.getProxies=async ()=>{
-    return  request.get("http://127.0.0.1:9090/proxies")
+    return  request.get("/proxies")
 }
 
 //获取单个节点延迟
@@ -18,13 +25,13 @@ module.exports.getProxies=async ()=>{
 //timeout超时时间
 //url测试的网址
 module.exports.getDelay=async (name,timeout,url="http://www.gstatic.com/generate_204")=>{
-    return  request.get(`http://127.0.0.1:9090/proxies/${encodeURIComponent(name)}/delay?timeout=${timeout}&url=${encodeURIComponent(url)}`)
+    return  request.get(`/proxies/${encodeURIComponent(name)}/delay?timeout=${timeout}&url=${encodeURIComponent(url)}`)
 }
 
 //设置当前选择的节点
 //groups 分组
 //name 节点名
 module.exports.setSelector=async (groups,name)=>{
-    return  request.put(`http://124.222.33.208:9090/proxies/${encodeURIComponent(groups)}`,{name})
+    return  request.put(`/proxies/${encodeURIComponent(groups)}`,{name})
 }
 
