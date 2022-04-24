@@ -620,9 +620,9 @@ proxies:
   - {name: CA-Openit.ml 35, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: CA-Openit.ml 36, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: CA-Openit.ml 37, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: RELAY-Openit.ml 6, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
-  - {name: US-Openit.ml 148, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
-  - {name: RELAY-Openit.ml 7, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: US-Openit.ml 148, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
+  - {name: RELAY-Openit.ml 6, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
+  - {name: US-Openit.ml 149, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
   - {name: CN-Openit.ml 210, server: ff01.nfeng6.pp.ua, port: 20142, type: trojan, password: bd6f3e15-7e93-3db3-bdc0-caf8f2ad2bee, sni: ff01.nfeng6.pp.ua, skip-cert-verify: true, udp: true}
   - {name: CN-Openit.ml 211, server: dy2.9218561.xyz, port: 23452, type: trojan, password: 10095c32-253a-4f6d-92eb-bffe635c7b14, sni: nn.sslmisaka.dnsfree.top, skip-cert-verify: true, udp: true}
   - {name: CN-Openit.ml 212, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
@@ -631,8 +631,8 @@ proxies:
   - {name: CN-Openit.ml 215, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
   - {name: IN-Openit.ml 12, server: yifaer.tk, port: 19436, type: trojan, password: WDuipbwYYl, skip-cert-verify: true, udp: true}
   - {name: TW-Openit.ml 7, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
-  - {name: US-Openit.ml 149, server: 104.194.243.145, port: 443, type: vmess, uuid: 2fe53f4d-29bf-489a-a083-f4bd806c6385, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nKCAS980y, headers: {Host: 104.194.243.145}}, udp: true}
   - {name: US-Openit.ml 150, server: 104.194.243.145, port: 443, type: vmess, uuid: 2fe53f4d-29bf-489a-a083-f4bd806c6385, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nKCAS980y, headers: {Host: 104.194.243.145}}, udp: true}
+  - {name: US-Openit.ml 151, server: 104.194.243.145, port: 443, type: vmess, uuid: 2fe53f4d-29bf-489a-a083-f4bd806c6385, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nKCAS980y, headers: {Host: 104.194.243.145}}, udp: true}
   - {name: IE-Openit.ml 7, server: 65.52.77.131, port: 409, type: vmess, uuid: ca3dc8de-89e9-4cd7-da61-9bc55c0439c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: IE-Openit.ml 8, server: 65.52.77.131, port: 409, type: vmess, uuid: ca3dc8de-89e9-4cd7-da61-9bc55c0439c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -1254,9 +1254,9 @@ proxy-groups:
       - CA-Openit.ml 35
       - CA-Openit.ml 36
       - CA-Openit.ml 37
-      - RELAY-Openit.ml 6
       - US-Openit.ml 148
-      - RELAY-Openit.ml 7
+      - RELAY-Openit.ml 6
+      - US-Openit.ml 149
       - CN-Openit.ml 210
       - CN-Openit.ml 211
       - CN-Openit.ml 212
@@ -1265,8 +1265,8 @@ proxy-groups:
       - CN-Openit.ml 215
       - IN-Openit.ml 12
       - TW-Openit.ml 7
-      - US-Openit.ml 149
       - US-Openit.ml 150
+      - US-Openit.ml 151
       - IE-Openit.ml 7
       - IE-Openit.ml 8
   - name: 规则外路由选择
