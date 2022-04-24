@@ -5,54 +5,42 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 中国_1, server: 116.129.253.134, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: https://t.me/bpjzx2, server: 103.172.116.113, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: 中国_3, server: 120.232.192.250, port: 3383, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: 中国_4, server: 120.232.192.250, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: 中国_5, server: 123.59.87.29, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: 中国_6, server: 113.31.109.30, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: 台湾_7, server: 60.249.3.229, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: 中国_8, server: 120.232.192.250, port: 3381, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: 中国_9, server: 120.232.192.250, port: 3385, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: 中国_10, server: 116.129.253.227, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: 台湾_11, server: 211.72.35.153, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: 中国_12, server: 116.129.253.201, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: 台湾_13, server: 60.249.3.231, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: 中国_14, server: 120.232.192.250, port: 3384, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: 台湾_15, server: 60.249.3.226, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: 台湾_16, server: 60.249.3.226, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: 台湾_17, server: 60.249.3.229, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: 台湾_18, server: 60.249.3.125, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: 台湾_19, server: 211.72.35.153, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: 台湾_20, server: 60.249.3.231, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: 台湾_21, server: 60.249.3.125, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: https://t.me/bpjzx1, server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: tg频道:@bpjzx2, server: 120.240.168.56, port: 10010, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: tg频道:@bpjzx2 2, server: 183.232.163.120, port: 21140, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 183.232.163.120}}, udp: true}
+  - {name: tg频道:@bpjzx2 3, server: 120.240.168.56, port: 10009, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: tg频道:@bpjzx2 4, server: 183.232.163.120, port: 21118, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 183.232.163.120}}, udp: true}
+  - {name: tg频道:@bpjzx2 5, server: 183.232.163.120, port: 21113, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 183.232.163.120}}, udp: true}
+  - {name: tg频道:@bpjzx2 6, server: 183.232.163.120, port: 21117, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 183.232.163.120}}, udp: true}
+  - {name: tg频道:@bpjzx2 7, server: 183.232.163.120, port: 21136, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 183.232.163.120}}, udp: true}
+  - {name: tg频道:@bpjzx2 8, server: 120.240.168.56, port: 10007, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: tg频道:@bpjzx2 9, server: 120.240.168.56, port: 10008, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: tg频道:@bpjzx2 10, server: 120.240.168.56, port: 10005, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: tg频道:@bpjzx2 11, server: 183.232.163.120, port: 21133, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 183.232.163.120}}, udp: true}
+  - {name: tg频道:@bpjzx2 12, server: 120.240.168.56, port: 10004, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: tg频道:@bpjzx2 13, server: 120.240.168.56, port: 10006, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: tg频道:@bpjzx2 14, server: 120.240.168.56, port: 10003, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: tg频道:@bpjzx2 15, server: 120.233.10.230, port: 50700, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
+  - {name: tg频道:@bpjzx2 16, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
 proxy-groups:
   - name: 代理
     type: select
     proxies:
-      - 中国_1
-      - https://t.me/bpjzx2
-      - 中国_3
-      - 中国_4
-      - 中国_5
-      - 中国_6
-      - 台湾_7
-      - 中国_8
-      - 中国_9
-      - 中国_10
-      - 台湾_11
-      - 中国_12
-      - 台湾_13
-      - 中国_14
-      - 台湾_15
-      - 台湾_16
-      - 台湾_17
-      - 台湾_18
-      - 台湾_19
-      - 台湾_20
-      - 台湾_21
-      - https://t.me/bpjzx1
+      - tg频道:@bpjzx2
+      - tg频道:@bpjzx2 2
+      - tg频道:@bpjzx2 3
+      - tg频道:@bpjzx2 4
+      - tg频道:@bpjzx2 5
+      - tg频道:@bpjzx2 6
+      - tg频道:@bpjzx2 7
+      - tg频道:@bpjzx2 8
+      - tg频道:@bpjzx2 9
+      - tg频道:@bpjzx2 10
+      - tg频道:@bpjzx2 11
+      - tg频道:@bpjzx2 12
+      - tg频道:@bpjzx2 13
+      - tg频道:@bpjzx2 14
+      - tg频道:@bpjzx2 15
+      - tg频道:@bpjzx2 16
   - name: 规则外路由选择
     type: select
     proxies:
