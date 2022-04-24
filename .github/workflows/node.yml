@@ -8,8 +8,8 @@ on:
  schedule:
     # - cron: '*/5 * * * *'
     # 表达式生成  https://crontab.guru/
-    # 每60分钟运行一次
-    - cron: '*/60 * * * *'
+    # 每90分钟运行一次
+    - cron: '*/90 * * * *'
 jobs:
   start:
     runs-on: ubuntu-latest
@@ -31,15 +31,15 @@ jobs:
         cd /home/runner/work/clashpool/clashpool
     - name: 安装依赖
       run: npm i
-    - name: 升级geoip-lite数据库
-      run: npm run updatedb
+    # - name: 升级geoip-lite数据库
+    #   run: npm run updatedb
     - name: 执行任务
       run: node index.js
    
     - name: 提交更改
       run: |                 
-         git config --local user.email "wally94@163.com"
-         git config --local user.name "wally94"
+         git config --local user.email "actions@workflows.com"
+         git config --local user.name "actions@workflows"
          git add ./
          git commit -m "更新订阅链接"
     - name: 推送更改
