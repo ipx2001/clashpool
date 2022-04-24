@@ -1,8 +1,8 @@
 remote_conver: http://127.0.0.1:25500/sub
 remote_config: https://raw.nameless13.com/api/public/dl/zKF9vFbb/easy.ini
-clash: 
- host: 127.0.0.1
- port: 9090
+clash:
+  host: 127.0.0.1
+  port: 9090
 proxy:
   host: 127.0.0.1
   port: 7890
@@ -117,8 +117,8 @@ SubList:
   - id: 22
     remarks: 节点池22
     site: https://github.com/pojiezhiyuanjun/freev2
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0423.txt
-    lastUpdateTime: 2022-04-23
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0424.txt
+    lastUpdateTime: 2022-04-24
     enabled: true
   - id: 23
     remarks: 节点池23
