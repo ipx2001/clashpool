@@ -5,48 +5,98 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇹🇼TW_403, server: 14.29.124.168, port: 24014, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_407, server: 14.29.124.168, port: 24015, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_416, server: 14.29.124.168, port: 24020, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_423, server: v3-node60.mimemi-y7et.com, port: 13124, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 256:ySh8ar, obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_432, server: v4-node66.mimemi-u1sd.com, port: 13114, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 256:ySh8ar, obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_439, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_441, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: HK_907, server: hkaz007.xmrth-node.xyz, port: 10296, type: vmess, uuid: 471273e7-81e0-317c-9cb4-a9eacf775219, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz007.xmrth-node.xyz}}, udp: true}
-  - {name: HK_908, server: hkaz004.xmrth-node.xyz, port: 10003, type: vmess, uuid: 471273e7-81e0-317c-9cb4-a9eacf775219, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz004.xmrth-node.xyz}}, udp: true}
-  - {name: Pool_🇭🇰HK_909, server: 43.229.115.134, port: 47950, type: vmess, uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_910, server: hkaz004.xmrth-node.xyz, port: 10003, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz004.xmrth-node.xyz}}, udp: true}
-  - {name: TW_1668, server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW_1669, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}, udp: true}
-  - {name: TW_1670, server: 60.249.3.125, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: TW_1671, server: 60.249.3.125, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: TW_1672, server: 60.249.3.125, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: TW_1673, server: 60.249.3.125, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: TW_1674, server: 60.249.3.125, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: TW_1675, server: 60.249.3.125, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_399, server: cm07.paofuvip.xyz, port: 5964, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_400, server: cm09.paofuvip.xyz, port: 5963, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_401, server: cm09.paofuvip.xyz, port: 5966, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_402, server: cm07.paofuvip.xyz, port: 5963, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_403, server: cm09.paofuvip.xyz, port: 5961, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_404, server: cm09.paofuvip.xyz, port: 5962, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_407, server: cm08.paofuvip.xyz, port: 5969, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_408, server: cm09.paofuvip.xyz, port: 5960, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_409, server: cm09.paofuvip.xyz, port: 5969, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_410, server: cm07.paofuvip.xyz, port: 5962, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_413, server: cm09.paofuvip.xyz, port: 5967, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_414, server: cm08.paofuvip.xyz, port: 5962, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_416, server: cm08.paofuvip.xyz, port: 5963, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_420, server: cm09.paofuvip.xyz, port: 5964, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_421, server: cm08.paofuvip.xyz, port: 5961, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_422, server: cm07.paofuvip.xyz, port: 5969, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_424, server: cm08.paofuvip.xyz, port: 5968, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_425, server: cm08.paofuvip.xyz, port: 5960, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_427, server: cm08.paofuvip.xyz, port: 5964, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_428, server: cm08.paofuvip.xyz, port: 5966, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_429, server: cm08.paofuvip.xyz, port: 5967, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_430, server: cm07.paofuvip.xyz, port: 5965, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_431, server: cm09.paofuvip.xyz, port: 5968, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_432, server: cm07.paofuvip.xyz, port: 5960, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_433, server: cm07.paofuvip.xyz, port: 5967, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_434, server: cm07.paofuvip.xyz, port: 5961, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_435, server: cm09.paofuvip.xyz, port: 5965, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_436, server: cm07.paofuvip.xyz, port: 5966, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_437, server: cm07.paofuvip.xyz, port: 5968, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_443, server: 14.29.124.168, port: 24020, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_460, server: 14.29.124.168, port: 24014, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_473, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_474, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇭🇰HK_931, server: 43.229.115.134, port: 47950, type: vmess, uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_932, server: baidu.hongkong.dnsfree.top, port: 55093, type: trojan, password: b71056e2-d8ad-4f7b-a1ba-57b67d0f854b, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_933, server: TJ-NODE-4-B.GFWAIRPORT.NET, port: 50001, type: trojan, password: f5e59d18-a23a-4b94-b484-33d188a0af21, skip-cert-verify: true, udp: true}
+  - {name: TW_1689, server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TW_1690, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}, udp: true}
+  - {name: TW_1691, server: 60.249.3.125, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: TW_1692, server: 60.249.3.125, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
+  - {name: TW_1693, server: 60.249.3.125, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: TW_1694, server: 60.249.3.125, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: TW_1695, server: 60.249.3.125, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: TW_1696, server: 60.249.3.125, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 代理
     type: select
     proxies:
-      - Relay_🇨🇳CN-🇹🇼TW_403
-      - Relay_🇨🇳CN-🇹🇼TW_407
-      - Relay_🇨🇳CN-🇹🇼TW_416
-      - Relay_🇨🇳CN-🇭🇰HK_423
-      - Relay_🇨🇳CN-🇭🇰HK_432
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇭🇰HK_441
-      - HK_907
-      - HK_908
-      - Pool_🇭🇰HK_909
-      - HK_910
-      - TW_1668
-      - TW_1669
-      - TW_1670
-      - TW_1671
-      - TW_1672
-      - TW_1673
-      - TW_1674
-      - TW_1675
+      - Relay_🇨🇳 CN-🇭🇰HK_399
+      - Relay_🇨🇳 CN-🇭🇰HK_400
+      - Relay_🇨🇳 CN-🇭🇰HK_401
+      - Relay_🇨🇳 CN-🇭🇰HK_402
+      - Relay_🇨🇳 CN-🇭🇰HK_403
+      - Relay_🇨🇳 CN-🇭🇰HK_404
+      - Relay_🇨🇳 CN-🇭🇰HK_407
+      - Relay_🇨🇳 CN-🇭🇰HK_408
+      - Relay_🇨🇳 CN-🇭🇰HK_409
+      - Relay_🇨🇳 CN-🇭🇰HK_410
+      - Relay_🇨🇳 CN-🇭🇰HK_413
+      - Relay_🇨🇳 CN-🇭🇰HK_414
+      - Relay_🇨🇳 CN-🇭🇰HK_416
+      - Relay_🇨🇳 CN-🇭🇰HK_420
+      - Relay_🇨🇳 CN-🇭🇰HK_421
+      - Relay_🇨🇳 CN-🇭🇰HK_422
+      - Relay_🇨🇳 CN-🇭🇰HK_424
+      - Relay_🇨🇳 CN-🇭🇰HK_425
+      - Relay_🇨🇳 CN-🇭🇰HK_427
+      - Relay_🇨🇳 CN-🇭🇰HK_428
+      - Relay_🇨🇳 CN-🇭🇰HK_429
+      - Relay_🇨🇳 CN-🇭🇰HK_430
+      - Relay_🇨🇳 CN-🇭🇰HK_431
+      - Relay_🇨🇳 CN-🇭🇰HK_432
+      - Relay_🇨🇳 CN-🇭🇰HK_433
+      - Relay_🇨🇳 CN-🇭🇰HK_434
+      - Relay_🇨🇳 CN-🇭🇰HK_435
+      - Relay_🇨🇳 CN-🇭🇰HK_436
+      - Relay_🇨🇳 CN-🇭🇰HK_437
+      - Relay_🇨🇳CN-🇹🇼TW_443
+      - Relay_🇨🇳CN-🇹🇼TW_460
+      - Relay_🇨🇳CN-🇹🇼TW_473
+      - Relay_🇨🇳CN-🇭🇰HK_474
+      - Pool_🇭🇰HK_931
+      - HK_932
+      - Relay_🇭🇰HK-🇭🇰HK_933
+      - TW_1689
+      - TW_1690
+      - TW_1691
+      - TW_1692
+      - TW_1693
+      - TW_1694
+      - TW_1695
+      - TW_1696
   - name: 规则外路由选择
     type: select
     proxies:
