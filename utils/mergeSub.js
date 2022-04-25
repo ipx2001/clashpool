@@ -112,7 +112,7 @@ module.exports = async (config) => {
     for (const { proxie } of proxies_list) {
 
         i++
-        console.log(`重命名中---(${i}/${proxies_list.length})`);
+        // console.log(`重命名中---(${i}/${proxies_list.length})`);
         let area = "其他";
         //重命名
         const { err, address } = await lookup(proxie.server)

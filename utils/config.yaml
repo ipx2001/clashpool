@@ -186,3 +186,8 @@ SubList:
     site: https://github.com/arlenWKX/Free-Node-Merge
     url: https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity.yml
     enabled: true
+  - id: 36
+    remarks: 节点池36
+    site: https://github.com/samjoeyang/subscribe
+    url: https://raw.githubusercontent.com/samjoeyang/subscribe/main/fly
+    enabled: true
