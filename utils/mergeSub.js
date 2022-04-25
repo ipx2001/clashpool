@@ -98,7 +98,7 @@ module.exports = async (config) => {
                         }
                     } else {
                         count++
-                        if (count < 4) {
+                        if (count < 3) {
                             console.log(`节点${proxie.name}网络错误，重试第${count}次`);
                             Speedtest(count)
                         }else{

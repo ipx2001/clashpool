@@ -9,7 +9,7 @@ on:
     # - cron: '*/5 * * * *'
     # 表达式生成  https://crontab.guru/
     # 每90分钟运行一次
-    - cron: '*/90 * * * *'
+    - cron: '*/120 * * * *'
 jobs:
   start:
     runs-on: ubuntu-latest
