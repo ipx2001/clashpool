@@ -229,7 +229,7 @@ proxies:
   - {name: CN-Openit.ml 125, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
   - {name: HK-Openit.ml 31, server: 43.129.97.237, port: 80, type: vmess, uuid: f613af75-f9eb-3d84-9357-7c3b00d950a2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live/cctv6_2/index.m3u8, headers: {Host: hk12.speedsvip.co}}, udp: true}
   - {name: HK-Openit.ml 32, server: 421hk.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 421hk.fans8.xyz}}, udp: true}
-  - {name: RELAY-Openit.ml 2, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
+  - {name: US-Openit.ml 8, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
   - {name: KH-Openit.ml, server: 220.158.232.87, port: 443, type: vmess, uuid: 55dc9daf-ea0e-38f1-aa82-ed76c8b19df2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /apple-home, headers: {Host: hk1.academicpapers.eu.org}}, udp: true}
   - {name: SG-Openit.ml 5, server: sg2.31vpn.com, port: 80, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/seikozero/62621831a0fc7/, headers: {Host: sg2.31vpn.com}}, udp: true}
   - {name: CN-Openit.ml 126, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.fnyun.cyou}}, udp: true}
@@ -244,12 +244,12 @@ proxies:
   - {name: CN-Openit.ml 134, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
   - {name: CN-Openit.ml 135, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
   - {name: CN-Openit.ml 136, server: hncu.relay.qchwnd.moe, port: 10201, type: trojan, password: 5b059403-c05c-4609-ab01-a9352041d2e4, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 8, server: share.fanqiangvpn.com, port: 80, type: vmess, uuid: ee8d15c0-927d-497a-ba84-65447a790f56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: share.fanqiangvpn.com}}, udp: true}
+  - {name: US-Openit.ml 9, server: share.fanqiangvpn.com, port: 80, type: vmess, uuid: ee8d15c0-927d-497a-ba84-65447a790f56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: share.fanqiangvpn.com}}, udp: true}
   - {name: IN-Openit.ml 5, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
   - {name: RU-Openit.ml 4, server: 213.183.53.177, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
   - {name: RU-Openit.ml 5, server: 213.183.53.177, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
   - {name: CN-Openit.ml 137, server: ff01.nfeng6.pp.ua, port: 20142, type: trojan, password: bd6f3e15-7e93-3db3-bdc0-caf8f2ad2bee, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 9, server: 65.49.214.185, port: 30658, type: vmess, uuid: 351c64c1-2f7d-4900-a2d2-8f09a6501603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 10, server: 65.49.214.185, port: 30658, type: vmess, uuid: 351c64c1-2f7d-4900-a2d2-8f09a6501603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN-Openit.ml 138, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bgp.zhongzhuan.fnyun.cyou}}, udp: true}
   - {name: DE-Openit.ml 6, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
   - {name: KR-Openit.ml 19, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, skip-cert-verify: true, udp: true}
@@ -265,24 +265,54 @@ proxies:
   - {name: RU-Openit.ml 9, server: 213.183.53.177, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
   - {name: RU-Openit.ml 10, server: 213.183.53.177, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
   - {name: RU-Openit.ml 11, server: 213.183.53.177, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: US-Openit.ml 10, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: node.774.gs}}, udp: true}
+  - {name: US-Openit.ml 11, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: node.774.gs}}, udp: true}
   - {name: GB-Openit.ml 2, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
   - {name: JP-Openit.ml 9, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
   - {name: CN-Openit.ml 140, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN-Openit.ml 141, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 142, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml 143, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cz.fnyun.cyou}}, udp: true}
-  - {name: CN-Openit.ml 144, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: GB-Openit.ml 3, server: yin1.qingyun123.xyz, port: 10000, type: trojan, password: f29d8ac6-4ffd-48c1-84ad-6adcfd13db2a, skip-cert-verify: true, udp: true}
-  - {name: SG-Openit.ml 7, server: sg2.31vpn.com, port: 80, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/seikozero/62621831a0fc7/, headers: {Host: sg2.31vpn.com}}, udp: true}
-  - {name: JP-Openit.ml 10, server: jp.567568.ml, port: 443, type: trojan, password: 1293e022-6347-4d7e-8425-e65576b6ae0e, skip-cert-verify: true, udp: true}
-  - {name: KH-Openit.ml 2, server: 220.158.232.87, port: 443, type: vmess, uuid: 55dc9daf-ea0e-38f1-aa82-ed76c8b19df2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /apple-home, headers: {Host: hk1.academicpapers.eu.org}}, udp: true}
-  - {name: US-Openit.ml 11, server: 104.194.243.145, port: 443, type: vmess, uuid: 2fe53f4d-29bf-489a-a083-f4bd806c6385, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nKCAS980y, headers: {Host: 104.194.243.145}}, udp: true}
-  - {name: KR-Openit.ml 20, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 928bb264-85ee-48f7-9e1d-6f78e625caf8, skip-cert-verify: true, udp: true}
-  - {name: HK-Openit.ml 33, server: hknf1.qingyun123.xyz, port: 10050, type: trojan, password: f29d8ac6-4ffd-48c1-84ad-6adcfd13db2a, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 12, server: 104.194.243.145, port: 443, type: vmess, uuid: 2fe53f4d-29bf-489a-a083-f4bd806c6385, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nKCAS980y, headers: {Host: 104.194.243.145}}, udp: true}
-  - {name: PL-Openit.ml 9, server: 217.30.10.66, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: AU-Openit.ml 2, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml 141, server: cm03.paofuvip.xyz, port: 1190, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 142, server: cm03.paofuvip.xyz, port: 1191, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 143, server: cm03.paofuvip.xyz, port: 1192, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 144, server: cm03.paofuvip.xyz, port: 1193, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 145, server: cm03.paofuvip.xyz, port: 1194, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 146, server: cm07.paofuvip.xyz, port: 5960, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 147, server: cm07.paofuvip.xyz, port: 5961, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 148, server: cm07.paofuvip.xyz, port: 5962, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 149, server: cm07.paofuvip.xyz, port: 5963, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 150, server: cm07.paofuvip.xyz, port: 5964, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 151, server: cm07.paofuvip.xyz, port: 5965, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 152, server: cm07.paofuvip.xyz, port: 5966, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 153, server: cm07.paofuvip.xyz, port: 5967, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 154, server: cm07.paofuvip.xyz, port: 5968, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 155, server: cm07.paofuvip.xyz, port: 5969, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 156, server: cm08.paofuvip.xyz, port: 5960, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 157, server: cm08.paofuvip.xyz, port: 5961, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 158, server: cm08.paofuvip.xyz, port: 5962, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 159, server: cm08.paofuvip.xyz, port: 5963, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 160, server: cm08.paofuvip.xyz, port: 5964, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 161, server: cm08.paofuvip.xyz, port: 5965, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 162, server: cm08.paofuvip.xyz, port: 5966, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 163, server: cm08.paofuvip.xyz, port: 5967, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 164, server: cm08.paofuvip.xyz, port: 5968, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 165, server: cm08.paofuvip.xyz, port: 5969, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 166, server: cm03.paofuvip.xyz, port: 1196, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 167, server: cm03.paofuvip.xyz, port: 1197, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 168, server: cm03.paofuvip.xyz, port: 1198, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 169, server: cm01.paofuvip.xyz, port: 1156, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 170, server: cm01.paofuvip.xyz, port: 1157, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 171, server: cm01.paofuvip.xyz, port: 1158, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 172, server: cm02.paofuvip.xyz, port: 1186, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 173, server: cm02.paofuvip.xyz, port: 1187, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 174, server: cm02.paofuvip.xyz, port: 1188, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 175, server: cm09.paofuvip.xyz, port: 5969, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 176, server: cm09.paofuvip.xyz, port: 5968, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 177, server: cm09.paofuvip.xyz, port: 5967, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 178, server: cm09.paofuvip.xyz, port: 5966, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 179, server: cm09.paofuvip.xyz, port: 5965, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 180, server: cm09.paofuvip.xyz, port: 5964, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 181, server: cm09.paofuvip.xyz, port: 5963, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 182, server: cm09.paofuvip.xyz, port: 5962, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 183, server: cm09.paofuvip.xyz, port: 5961, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
+  - {name: CN-Openit.ml 184, server: cm09.paofuvip.xyz, port: 5960, type: ss, cipher: rc4-md5, password: Paofu, udp: true}
 proxy-groups:
   - name: 代理
     type: select
@@ -511,7 +541,7 @@ proxy-groups:
       - CN-Openit.ml 125
       - HK-Openit.ml 31
       - HK-Openit.ml 32
-      - RELAY-Openit.ml 2
+      - US-Openit.ml 8
       - KH-Openit.ml
       - SG-Openit.ml 5
       - CN-Openit.ml 126
@@ -526,12 +556,12 @@ proxy-groups:
       - CN-Openit.ml 134
       - CN-Openit.ml 135
       - CN-Openit.ml 136
-      - US-Openit.ml 8
+      - US-Openit.ml 9
       - IN-Openit.ml 5
       - RU-Openit.ml 4
       - RU-Openit.ml 5
       - CN-Openit.ml 137
-      - US-Openit.ml 9
+      - US-Openit.ml 10
       - CN-Openit.ml 138
       - DE-Openit.ml 6
       - KR-Openit.ml 19
@@ -547,7 +577,7 @@ proxy-groups:
       - RU-Openit.ml 9
       - RU-Openit.ml 10
       - RU-Openit.ml 11
-      - US-Openit.ml 10
+      - US-Openit.ml 11
       - GB-Openit.ml 2
       - JP-Openit.ml 9
       - CN-Openit.ml 140
@@ -555,16 +585,46 @@ proxy-groups:
       - CN-Openit.ml 142
       - CN-Openit.ml 143
       - CN-Openit.ml 144
-      - GB-Openit.ml 3
-      - SG-Openit.ml 7
-      - JP-Openit.ml 10
-      - KH-Openit.ml 2
-      - US-Openit.ml 11
-      - KR-Openit.ml 20
-      - HK-Openit.ml 33
-      - US-Openit.ml 12
-      - PL-Openit.ml 9
-      - AU-Openit.ml 2
+      - CN-Openit.ml 145
+      - CN-Openit.ml 146
+      - CN-Openit.ml 147
+      - CN-Openit.ml 148
+      - CN-Openit.ml 149
+      - CN-Openit.ml 150
+      - CN-Openit.ml 151
+      - CN-Openit.ml 152
+      - CN-Openit.ml 153
+      - CN-Openit.ml 154
+      - CN-Openit.ml 155
+      - CN-Openit.ml 156
+      - CN-Openit.ml 157
+      - CN-Openit.ml 158
+      - CN-Openit.ml 159
+      - CN-Openit.ml 160
+      - CN-Openit.ml 161
+      - CN-Openit.ml 162
+      - CN-Openit.ml 163
+      - CN-Openit.ml 164
+      - CN-Openit.ml 165
+      - CN-Openit.ml 166
+      - CN-Openit.ml 167
+      - CN-Openit.ml 168
+      - CN-Openit.ml 169
+      - CN-Openit.ml 170
+      - CN-Openit.ml 171
+      - CN-Openit.ml 172
+      - CN-Openit.ml 173
+      - CN-Openit.ml 174
+      - CN-Openit.ml 175
+      - CN-Openit.ml 176
+      - CN-Openit.ml 177
+      - CN-Openit.ml 178
+      - CN-Openit.ml 179
+      - CN-Openit.ml 180
+      - CN-Openit.ml 181
+      - CN-Openit.ml 182
+      - CN-Openit.ml 183
+      - CN-Openit.ml 184
   - name: 规则外路由选择
     type: select
     proxies:
