@@ -5,66 +5,20 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: tg频道:@bpjzx2, server: 113.201.107.77, port: 11216, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 2, server: 113.201.107.81, port: 11508, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 3, server: 113.201.107.77, port: 11217, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 4, server: 113.201.107.77, port: 11215, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 5, server: 113.201.107.76, port: 11202, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 6, server: 113.201.107.80, port: 11208, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 7, server: 113.201.107.80, port: 11107, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 8, server: 113.201.107.80, port: 11102, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 9, server: 113.201.107.81, port: 11507, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 10, server: 113.201.107.81, port: 11506, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 11, server: 113.201.107.77, port: 11218, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 12, server: 113.201.107.80, port: 11207, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 13, server: 113.201.107.80, port: 11605, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 14, server: 113.201.107.80, port: 11103, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 15, server: 113.201.107.81, port: 11510, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 16, server: 113.201.107.80, port: 11210, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 17, server: 113.201.107.80, port: 11209, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 18, server: 113.201.107.76, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 19, server: 113.201.107.76, port: 11801, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 20, server: 113.201.107.81, port: 11509, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 21, server: 113.201.107.77, port: 11403, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 22, server: 113.201.107.76, port: 11203, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 23, server: 113.201.107.80, port: 11206, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 24, server: 113.201.107.75, port: 11603, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 25, server: 113.201.107.76, port: 11205, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 26, server: 113.201.107.75, port: 11602, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 27, server: 113.201.107.81, port: 11705, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: tg频道:@bpjzx2 28, server: 113.201.107.76, port: 11204, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
+  - {name: 日本-tg频道:@bpjzx2, server: hncu.relay.qchwnd.moe, port: 10201, type: trojan, password: 5b059403-c05c-4609-ab01-a9352041d2e4, skip-cert-verify: true, udp: true}
+  - {name: 香港-tg频道:@bpjzx2, server: 220.158.232.87, port: 443, type: vmess, uuid: 55dc9daf-ea0e-38f1-aa82-ed76c8b19df2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /apple-home, headers: {Host: hk1.academicpapers.eu.org}}, udp: true}
+  - {name: 美国-tg频道:@bpjzx2, server: 65.49.214.185, port: 30658, type: vmess, uuid: 351c64c1-2f7d-4900-a2d2-8f09a6501603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 2, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
+  - {name: 马来西亚-tg频道:@bpjzx2, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 代理
     type: select
     proxies:
-      - tg频道:@bpjzx2
-      - tg频道:@bpjzx2 2
-      - tg频道:@bpjzx2 3
-      - tg频道:@bpjzx2 4
-      - tg频道:@bpjzx2 5
-      - tg频道:@bpjzx2 6
-      - tg频道:@bpjzx2 7
-      - tg频道:@bpjzx2 8
-      - tg频道:@bpjzx2 9
-      - tg频道:@bpjzx2 10
-      - tg频道:@bpjzx2 11
-      - tg频道:@bpjzx2 12
-      - tg频道:@bpjzx2 13
-      - tg频道:@bpjzx2 14
-      - tg频道:@bpjzx2 15
-      - tg频道:@bpjzx2 16
-      - tg频道:@bpjzx2 17
-      - tg频道:@bpjzx2 18
-      - tg频道:@bpjzx2 19
-      - tg频道:@bpjzx2 20
-      - tg频道:@bpjzx2 21
-      - tg频道:@bpjzx2 22
-      - tg频道:@bpjzx2 23
-      - tg频道:@bpjzx2 24
-      - tg频道:@bpjzx2 25
-      - tg频道:@bpjzx2 26
-      - tg频道:@bpjzx2 27
-      - tg频道:@bpjzx2 28
+      - 日本-tg频道:@bpjzx2
+      - 香港-tg频道:@bpjzx2
+      - 美国-tg频道:@bpjzx2
+      - 香港-tg频道:@bpjzx2 2
+      - 马来西亚-tg频道:@bpjzx2
   - name: 规则外路由选择
     type: select
     proxies:
