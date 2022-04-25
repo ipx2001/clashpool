@@ -15,51 +15,51 @@ proxies:
   - {name: RELAY-Openit.ml 4, server: gzyd.xxcv.cc, port: 36660, type: vmess, uuid: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hinet?ed=2048", headers: {Host: huayun.xyz}}, udp: true}
   - {name: RELAY-Openit.ml 5, server: 113.240.72.244, port: 22004, type: ss, cipher: chacha20-ietf-poly1305, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, udp: true}
   - {name: RELAY-Openit.ml 6, server: 113.240.72.244, port: 22005, type: ss, cipher: chacha20-ietf-poly1305, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, udp: true}
-  - {name: JP-Openit.ml, server: azjp.9218561.xyz, port: 36653, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: NOWHERE-Openit.ml, server: azjp.9218561.xyz, port: 36653, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: HK-Openit.ml 3, server: 210.0.159.90, port: 38443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: RELAY-Openit.ml 7, server: gzyd.xxcv.cc, port: 20030, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: NOWHERE-Openit.ml, server: bjaws.xxcv.cc, port: 20030, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 8, server: bjaws2.jingjuyun.com, port: 20030, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: SG-Openit.ml, server: 165.22.53.6, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: SG-Openit.ml 2, server: 206.189.156.88, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 8, server: gdyd.xxcv.cc, port: 42001, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 9, server: gzyd.xxcv.cc, port: 20010, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: NOWHERE-Openit.ml 2, server: bjaws.xxcv.cc, port: 20010, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: NOWHERE-Openit.ml 3, server: bjaws.xxcv.cc, port: 20060, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 10, server: bjaz.xxcv.cc, port: 20060, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 2, server: 139.162.124.250, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 3, server: 172.104.96.170, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: NOWHERE-Openit.ml 4, server: bjaws.xxcv.cc, port: 20020, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 11, server: gzyd.xxcv.cc, port: 20040, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: NOWHERE-Openit.ml 5, server: bjaws.xxcv.cc, port: 20040, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 9, server: gdyd.xxcv.cc, port: 42001, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 10, server: gzyd.xxcv.cc, port: 20010, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 11, server: bjaws2.jingjuyun.com, port: 20010, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 12, server: bjaws2.jingjuyun.com, port: 20060, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 13, server: bjaz.xxcv.cc, port: 20060, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml, server: 139.162.124.250, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 2, server: 172.104.96.170, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 14, server: bjaws2.jingjuyun.com, port: 20020, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 15, server: gzyd.xxcv.cc, port: 20040, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 16, server: bjaws2.jingjuyun.com, port: 20040, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: DE-Openit.ml, server: 159.223.29.152, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: DE-Openit.ml 2, server: 165.22.93.103, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 12, server: gzyd.xxcv.cc, port: 20050, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 13, server: bjaz.xxcv.cc, port: 20050, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: NOWHERE-Openit.ml 6, server: bjaws.xxcv.cc, port: 20070, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 14, server: bjaz.xxcv.cc, port: 20040, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 17, server: gzyd.xxcv.cc, port: 20050, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 18, server: bjaz.xxcv.cc, port: 20050, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 19, server: bjaws2.jingjuyun.com, port: 20070, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 20, server: bjaz.xxcv.cc, port: 20040, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: DE-Openit.ml 3, server: 164.92.171.104, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 15, server: gzyd.xxcv.cc, port: 20060, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 21, server: gzyd.xxcv.cc, port: 20060, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: DE-Openit.ml 4, server: 80.78.132.177, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: NOWHERE-Openit.ml 7, server: bjaws.xxcv.cc, port: 20050, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 16, server: bjaz.xxcv.cc, port: 20030, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 22, server: bjaws2.jingjuyun.com, port: 20050, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 23, server: bjaz.xxcv.cc, port: 20030, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: HK-Openit.ml 4, server: 20.205.98.64, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: HK-Openit.ml 5, server: 20.239.157.77, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: HK-Openit.ml 6, server: 20.24.205.175, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 17, server: gzyd.xxcv.cc, port: 20070, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 18, server: bjaz.xxcv.cc, port: 20070, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 24, server: gzyd.xxcv.cc, port: 20070, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 25, server: bjaz.xxcv.cc, port: 20070, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: TW-Openit.ml, server: hinet.xxcv.cc, port: 38443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 19, server: gzyd.xxcv.cc, port: 20020, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 20, server: bjaz.xxcv.cc, port: 20020, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 26, server: gzyd.xxcv.cc, port: 20020, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 27, server: bjaz.xxcv.cc, port: 20020, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: US-Openit.ml, server: 13.124.60.125, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: KR-Openit.ml, server: 15.164.228.182, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: KR-Openit.ml 2, server: 52.79.44.148, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: KR-Openit.ml 3, server: 54.180.139.211, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: KR-Openit.ml 4, server: 52.78.89.199, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: KR-Openit.ml 5, server: 3.34.94.150, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 21, server: gzyd.xxcv.cc, port: 20080, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 22, server: 161.189.9.254, port: 20080, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: NOWHERE-Openit.ml 8, server: bjaws.xxcv.cc, port: 20080, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 23, server: bjaz.xxcv.cc, port: 20080, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 28, server: gzyd.xxcv.cc, port: 20080, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 29, server: 161.189.9.254, port: 20080, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 30, server: bjaws2.jingjuyun.com, port: 20080, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 31, server: bjaz.xxcv.cc, port: 20080, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: TW-Openit.ml 2, server: kaizen-tw-1.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
   - {name: TW-Openit.ml 3, server: kaizen-tw-2.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
   - {name: TW-Openit.ml 4, server: kaizen-tw-3.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
@@ -67,20 +67,20 @@ proxies:
   - {name: TW-Openit.ml 6, server: kaizen-tw-5.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
   - {name: TW-Openit.ml 7, server: kaizen-tw-6.paolu.co, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
   - {name: TW-Openit.ml 8, server: kaizen-tw-7.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 4, server: kaizen-jp-1.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 5, server: kaizen-jp-2.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 6, server: kaizen-jp-3.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 7, server: kaizen-jp-4.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 8, server: kaizen-jp-5.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 9, server: kaizen-jp-6.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 10, server: kaizen-jp-7.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 11, server: kaizen-jp-8.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 12, server: kaizen-jp-9.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 13, server: kaizen-jp-10.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 14, server: kaizen-jp-11.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 15, server: kaizen-jp-12.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: JP-Openit.ml 16, server: kaizen-jp-13.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: NOWHERE-Openit.ml 9, server: kaizen-jp-15.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 3, server: kaizen-jp-1.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 4, server: kaizen-jp-2.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 5, server: kaizen-jp-3.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 6, server: kaizen-jp-4.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 7, server: kaizen-jp-5.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 8, server: kaizen-jp-6.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 9, server: kaizen-jp-7.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 10, server: kaizen-jp-8.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 11, server: kaizen-jp-9.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 12, server: kaizen-jp-10.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 13, server: kaizen-jp-11.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 14, server: kaizen-jp-12.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: JP-Openit.ml 15, server: kaizen-jp-13.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: NOWHERE-Openit.ml 2, server: kaizen-jp-15.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
   - {name: US-Openit.ml 2, server: kaizen-us-01.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
   - {name: US-Openit.ml 3, server: kaizen-us-02.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
   - {name: US-Openit.ml 4, server: kaizen-us-03.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
@@ -152,64 +152,54 @@ proxies:
   - {name: GB-Openit.ml, server: l2-uk-a.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
   - {name: VN-Openit.ml, server: l2-vn-a.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
   - {name: AR-Openit.ml, server: zhilian-ar-a.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 24, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.fnyun.cyou}}, udp: true}
-  - {name: RELAY-Openit.ml 25, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cz.fnyun.cyou}}, udp: true}
-  - {name: RELAY-Openit.ml 26, server: cm.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hl.fnyun.cyou}}, udp: true}
-  - {name: RELAY-Openit.ml 27, server: cm.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: il.fnyun.cyou}}, udp: true}
-  - {name: RELAY-Openit.ml 28, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sk.fnyun.cyou}}, udp: true}
-  - {name: RELAY-Openit.ml 29, server: 103.163.46.132, port: 80, type: vmess, uuid: b6e70de1-03da-3a34-bec2-067c0fc25b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: pull.free.video.10010.com}}, udp: true}
-  - {name: RELAY-Openit.ml 30, server: tw.justcn2.top, port: 80, type: vmess, uuid: b6e70de1-03da-3a34-bec2-067c0fc25b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/JJkuv3?ed=2048", headers: {Host: tw.justcn2.top}}, udp: true}
+  - {name: RELAY-Openit.ml 32, server: 103.163.46.132, port: 80, type: vmess, uuid: b6e70de1-03da-3a34-bec2-067c0fc25b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: pull.free.video.10010.com}}, udp: true}
+  - {name: US-Openit.ml 45, server: tw.justcn2.top, port: 80, type: vmess, uuid: b6e70de1-03da-3a34-bec2-067c0fc25b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/JJkuv3?ed=2048", headers: {Host: tw.justcn2.top}}, udp: true}
   - {name: HK-Openit.ml 16, server: 43.128.1.148, port: 80, type: vmess, uuid: b6e70de1-03da-3a34-bec2-067c0fc25b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/JJkuv3?ed=2048", headers: {Host: tw.justcn2.top}}, udp: true}
-  - {name: RELAY-Openit.ml 31, server: 103.163.46.132, port: 80, type: vmess, uuid: b6e70de1-03da-3a34-bec2-067c0fc25b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wsapi?ed=2048", headers: {Host: pull.free.video.10010.com}}, udp: true}
+  - {name: RELAY-Openit.ml 33, server: 103.163.46.132, port: 80, type: vmess, uuid: b6e70de1-03da-3a34-bec2-067c0fc25b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/wsapi?ed=2048", headers: {Host: pull.free.video.10010.com}}, udp: true}
   - {name: HK-Openit.ml 17, server: xg1.justcn2.top, port: 80, type: vmess, uuid: b6e70de1-03da-3a34-bec2-067c0fc25b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/JJkuv3?ed=2048", headers: {Host: pull.free.video.10010.com}}, udp: true}
   - {name: HK-Openit.ml 18, server: 43.128.1.148, port: 80, type: vmess, uuid: b6e70de1-03da-3a34-bec2-067c0fc25b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gd.189.cn}}, udp: true}
   - {name: HK-Openit.ml 19, server: xg3.justcn2.top, port: 80, type: vmess, uuid: b6e70de1-03da-3a34-bec2-067c0fc25b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2050", headers: {Host: gd.189.cn}}, udp: true}
-  - {name: RELAY-Openit.ml 32, server: t1.yunshang.co.uk, port: 55501, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 33, server: t2.yunshang.co.uk, port: 55501, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 34, server: t3.yunshang.co.uk, port: 55501, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 35, server: t1.yunshang.co.uk, port: 55503, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 36, server: t2.yunshang.co.uk, port: 55503, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 37, server: t3.yunshang.co.uk, port: 55503, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 38, server: t1.yunshang.co.uk, port: 55504, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 39, server: t2.yunshang.co.uk, port: 55504, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 40, server: t3.yunshang.co.uk, port: 55504, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 41, server: t1.yunshang.co.uk, port: 55506, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 42, server: t2.yunshang.co.uk, port: 55506, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 43, server: t3.yunshang.co.uk, port: 55506, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 44, server: t1.yunshang.co.uk, port: 55507, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 45, server: t2.yunshang.co.uk, port: 55507, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 46, server: t3.yunshang.co.uk, port: 55507, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 47, server: t1.yunshang.co.uk, port: 55505, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 48, server: t2.yunshang.co.uk, port: 55505, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 49, server: t3.yunshang.co.uk, port: 55505, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 50, server: t1.yunshang.co.uk, port: 55508, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 51, server: t2.yunshang.co.uk, port: 55508, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 52, server: t3.yunshang.co.uk, port: 55508, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 53, server: t1.yunshang.co.uk, port: 55509, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 54, server: t2.yunshang.co.uk, port: 55509, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RELAY-Openit.ml 55, server: t3.yunshang.co.uk, port: 55509, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: US-Openit.ml 45, server: gg1.dotpig.net, port: 50555, type: vmess, uuid: 24e1272e-9d9a-3ea1-8227-ac17314eedb2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: gg1.dotpig.net}}, udp: true}
-  - {name: US-Openit.ml 46, server: gg2.dotpig.net, port: 53333, type: vmess, uuid: 24e1272e-9d9a-3ea1-8227-ac17314eedb2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: gg2.dotpig.net}}, udp: true}
-  - {name: RELAY-Openit.ml 56, server: sh-cu.mikuyun.xyz, port: 19901, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: RELAY-Openit.ml 57, server: sh-cu.mikuyun.xyz, port: 19902, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: RELAY-Openit.ml 58, server: sh-cu.mikuyun.xyz, port: 19903, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: RELAY-Openit.ml 59, server: sh-cu.mikuyun.xyz, port: 19911, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: RELAY-Openit.ml 60, server: sh-cu.mikuyun.xyz, port: 19912, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: RELAY-Openit.ml 61, server: sh-cu.mikuyun.xyz, port: 19913, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: RELAY-Openit.ml 62, server: sh-cu.mikuyun.xyz, port: 19921, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: RELAY-Openit.ml 63, server: sh-cu.mikuyun.xyz, port: 19922, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: RELAY-Openit.ml 64, server: sh-cu.mikuyun.xyz, port: 19923, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: RELAY-Openit.ml 65, server: sh-cu.mikuyun.xyz, port: 19931, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: RELAY-Openit.ml 66, server: sh-cu.mikuyun.xyz, port: 19932, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: RELAY-Openit.ml 67, server: sh-cu.mikuyun.xyz, port: 19933, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: RELAY-Openit.ml 68, server: sh-cu.mikuyun.xyz, port: 19941, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: RELAY-Openit.ml 69, server: sh-cu.mikuyun.xyz, port: 19942, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: RELAY-Openit.ml 70, server: sh-cu.mikuyun.xyz, port: 19943, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
-  - {name: RELAY-Openit.ml 71, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.fnyun.cyou}}, udp: true}
-  - {name: RELAY-Openit.ml 72, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cz.fnyun.cyou}}, udp: true}
-  - {name: RELAY-Openit.ml 73, server: cm.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hl.fnyun.cyou}}, udp: true}
-  - {name: RELAY-Openit.ml 74, server: cm.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: il.fnyun.cyou}}, udp: true}
-  - {name: RELAY-Openit.ml 75, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sk.fnyun.cyou}}, udp: true}
+  - {name: RELAY-Openit.ml 34, server: t1.yunshang.co.uk, port: 55501, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 35, server: t2.yunshang.co.uk, port: 55501, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 36, server: t3.yunshang.co.uk, port: 55501, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 37, server: t1.yunshang.co.uk, port: 55503, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 38, server: t2.yunshang.co.uk, port: 55503, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 39, server: t3.yunshang.co.uk, port: 55503, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 40, server: t1.yunshang.co.uk, port: 55504, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 41, server: t2.yunshang.co.uk, port: 55504, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 42, server: t3.yunshang.co.uk, port: 55504, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 43, server: t1.yunshang.co.uk, port: 55506, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 44, server: t2.yunshang.co.uk, port: 55506, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 45, server: t3.yunshang.co.uk, port: 55506, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 46, server: t1.yunshang.co.uk, port: 55507, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 47, server: t2.yunshang.co.uk, port: 55507, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 48, server: t3.yunshang.co.uk, port: 55507, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 49, server: t1.yunshang.co.uk, port: 55505, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 50, server: t2.yunshang.co.uk, port: 55505, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 51, server: t3.yunshang.co.uk, port: 55505, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 52, server: t1.yunshang.co.uk, port: 55508, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 53, server: t2.yunshang.co.uk, port: 55508, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 54, server: t3.yunshang.co.uk, port: 55508, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 55, server: t1.yunshang.co.uk, port: 55509, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 56, server: t2.yunshang.co.uk, port: 55509, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RELAY-Openit.ml 57, server: t3.yunshang.co.uk, port: 55509, type: trojan, password: 17064520-25c1-4b3d-9f0c-8cec30784a29, sni: sni.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: US-Openit.ml 46, server: gg1.dotpig.net, port: 50555, type: vmess, uuid: 24e1272e-9d9a-3ea1-8227-ac17314eedb2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: gg1.dotpig.net}}, udp: true}
+  - {name: US-Openit.ml 47, server: gg2.dotpig.net, port: 53333, type: vmess, uuid: 24e1272e-9d9a-3ea1-8227-ac17314eedb2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: gg2.dotpig.net}}, udp: true}
+  - {name: RELAY-Openit.ml 58, server: sh-cu.mikuyun.xyz, port: 19901, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: RELAY-Openit.ml 59, server: sh-cu.mikuyun.xyz, port: 19902, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: RELAY-Openit.ml 60, server: sh-cu.mikuyun.xyz, port: 19903, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: RELAY-Openit.ml 61, server: sh-cu.mikuyun.xyz, port: 19911, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: RELAY-Openit.ml 62, server: sh-cu.mikuyun.xyz, port: 19912, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: RELAY-Openit.ml 63, server: sh-cu.mikuyun.xyz, port: 19913, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: RELAY-Openit.ml 64, server: sh-cu.mikuyun.xyz, port: 19921, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: RELAY-Openit.ml 65, server: sh-cu.mikuyun.xyz, port: 19922, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: RELAY-Openit.ml 66, server: sh-cu.mikuyun.xyz, port: 19923, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: RELAY-Openit.ml 67, server: sh-cu.mikuyun.xyz, port: 19931, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: RELAY-Openit.ml 68, server: sh-cu.mikuyun.xyz, port: 19932, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: RELAY-Openit.ml 69, server: sh-cu.mikuyun.xyz, port: 19933, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: RELAY-Openit.ml 70, server: sh-cu.mikuyun.xyz, port: 19941, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: RELAY-Openit.ml 71, server: sh-cu.mikuyun.xyz, port: 19942, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: RELAY-Openit.ml 72, server: sh-cu.mikuyun.xyz, port: 19943, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
 proxy-groups:
   - name: 代理
     type: select
@@ -224,51 +214,51 @@ proxy-groups:
       - RELAY-Openit.ml 4
       - RELAY-Openit.ml 5
       - RELAY-Openit.ml 6
-      - JP-Openit.ml
+      - NOWHERE-Openit.ml
       - HK-Openit.ml 3
       - RELAY-Openit.ml 7
-      - NOWHERE-Openit.ml
+      - RELAY-Openit.ml 8
       - SG-Openit.ml
       - SG-Openit.ml 2
-      - RELAY-Openit.ml 8
       - RELAY-Openit.ml 9
-      - NOWHERE-Openit.ml 2
-      - NOWHERE-Openit.ml 3
       - RELAY-Openit.ml 10
-      - JP-Openit.ml 2
-      - JP-Openit.ml 3
-      - NOWHERE-Openit.ml 4
       - RELAY-Openit.ml 11
-      - NOWHERE-Openit.ml 5
-      - DE-Openit.ml
-      - DE-Openit.ml 2
       - RELAY-Openit.ml 12
       - RELAY-Openit.ml 13
-      - NOWHERE-Openit.ml 6
+      - JP-Openit.ml
+      - JP-Openit.ml 2
       - RELAY-Openit.ml 14
-      - DE-Openit.ml 3
       - RELAY-Openit.ml 15
-      - DE-Openit.ml 4
-      - NOWHERE-Openit.ml 7
       - RELAY-Openit.ml 16
+      - DE-Openit.ml
+      - DE-Openit.ml 2
+      - RELAY-Openit.ml 17
+      - RELAY-Openit.ml 18
+      - RELAY-Openit.ml 19
+      - RELAY-Openit.ml 20
+      - DE-Openit.ml 3
+      - RELAY-Openit.ml 21
+      - DE-Openit.ml 4
+      - RELAY-Openit.ml 22
+      - RELAY-Openit.ml 23
       - HK-Openit.ml 4
       - HK-Openit.ml 5
       - HK-Openit.ml 6
-      - RELAY-Openit.ml 17
-      - RELAY-Openit.ml 18
+      - RELAY-Openit.ml 24
+      - RELAY-Openit.ml 25
       - TW-Openit.ml
-      - RELAY-Openit.ml 19
-      - RELAY-Openit.ml 20
+      - RELAY-Openit.ml 26
+      - RELAY-Openit.ml 27
       - US-Openit.ml
       - KR-Openit.ml
       - KR-Openit.ml 2
       - KR-Openit.ml 3
       - KR-Openit.ml 4
       - KR-Openit.ml 5
-      - RELAY-Openit.ml 21
-      - RELAY-Openit.ml 22
-      - NOWHERE-Openit.ml 8
-      - RELAY-Openit.ml 23
+      - RELAY-Openit.ml 28
+      - RELAY-Openit.ml 29
+      - RELAY-Openit.ml 30
+      - RELAY-Openit.ml 31
       - TW-Openit.ml 2
       - TW-Openit.ml 3
       - TW-Openit.ml 4
@@ -276,6 +266,7 @@ proxy-groups:
       - TW-Openit.ml 6
       - TW-Openit.ml 7
       - TW-Openit.ml 8
+      - JP-Openit.ml 3
       - JP-Openit.ml 4
       - JP-Openit.ml 5
       - JP-Openit.ml 6
@@ -288,8 +279,7 @@ proxy-groups:
       - JP-Openit.ml 13
       - JP-Openit.ml 14
       - JP-Openit.ml 15
-      - JP-Openit.ml 16
-      - NOWHERE-Openit.ml 9
+      - NOWHERE-Openit.ml 2
       - US-Openit.ml 2
       - US-Openit.ml 3
       - US-Openit.ml 4
@@ -361,20 +351,13 @@ proxy-groups:
       - GB-Openit.ml
       - VN-Openit.ml
       - AR-Openit.ml
-      - RELAY-Openit.ml 24
-      - RELAY-Openit.ml 25
-      - RELAY-Openit.ml 26
-      - RELAY-Openit.ml 27
-      - RELAY-Openit.ml 28
-      - RELAY-Openit.ml 29
-      - RELAY-Openit.ml 30
+      - RELAY-Openit.ml 32
+      - US-Openit.ml 45
       - HK-Openit.ml 16
-      - RELAY-Openit.ml 31
+      - RELAY-Openit.ml 33
       - HK-Openit.ml 17
       - HK-Openit.ml 18
       - HK-Openit.ml 19
-      - RELAY-Openit.ml 32
-      - RELAY-Openit.ml 33
       - RELAY-Openit.ml 34
       - RELAY-Openit.ml 35
       - RELAY-Openit.ml 36
@@ -397,10 +380,10 @@ proxy-groups:
       - RELAY-Openit.ml 53
       - RELAY-Openit.ml 54
       - RELAY-Openit.ml 55
-      - US-Openit.ml 45
-      - US-Openit.ml 46
       - RELAY-Openit.ml 56
       - RELAY-Openit.ml 57
+      - US-Openit.ml 46
+      - US-Openit.ml 47
       - RELAY-Openit.ml 58
       - RELAY-Openit.ml 59
       - RELAY-Openit.ml 60
@@ -416,9 +399,6 @@ proxy-groups:
       - RELAY-Openit.ml 70
       - RELAY-Openit.ml 71
       - RELAY-Openit.ml 72
-      - RELAY-Openit.ml 73
-      - RELAY-Openit.ml 74
-      - RELAY-Openit.ml 75
   - name: 规则外路由选择
     type: select
     proxies:

@@ -5,42 +5,208 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: tg频道:@bpjzx2, server: 120.240.168.56, port: 10010, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: tg频道:@bpjzx2 2, server: 183.232.163.120, port: 21140, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 183.232.163.120}}, udp: true}
-  - {name: tg频道:@bpjzx2 3, server: 120.240.168.56, port: 10009, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: tg频道:@bpjzx2 4, server: 183.232.163.120, port: 21118, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 183.232.163.120}}, udp: true}
-  - {name: tg频道:@bpjzx2 5, server: 183.232.163.120, port: 21113, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 183.232.163.120}}, udp: true}
-  - {name: tg频道:@bpjzx2 6, server: 183.232.163.120, port: 21117, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 183.232.163.120}}, udp: true}
-  - {name: tg频道:@bpjzx2 7, server: 183.232.163.120, port: 21136, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 183.232.163.120}}, udp: true}
-  - {name: tg频道:@bpjzx2 8, server: 120.240.168.56, port: 10007, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: tg频道:@bpjzx2 9, server: 120.240.168.56, port: 10008, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: tg频道:@bpjzx2 10, server: 120.240.168.56, port: 10005, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: tg频道:@bpjzx2 11, server: 183.232.163.120, port: 21133, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 183.232.163.120}}, udp: true}
-  - {name: tg频道:@bpjzx2 12, server: 120.240.168.56, port: 10004, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: tg频道:@bpjzx2 13, server: 120.240.168.56, port: 10006, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: tg频道:@bpjzx2 14, server: 120.240.168.56, port: 10003, type: vmess, uuid: b442d349-cbe9-407d-a39f-d80f3d75eac2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: tg频道:@bpjzx2 15, server: 120.233.10.230, port: 50700, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
-  - {name: tg频道:@bpjzx2 16, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
+  - {name: 阿姆斯特丹-tg频道:@bpjzx2, server: 101.230.149.9, port: 1700, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 阿姆斯特丹-tg频道:@bpjzx2 2, server: 183.232.56.176, port: 1700, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 东京-tg频道:@bpjzx2, server: 183.232.56.176, port: 6305, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 东京-tg频道:@bpjzx2 2, server: 101.230.149.9, port: 2601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 东京-tg频道:@bpjzx2 3, server: 183.232.56.176, port: 6301, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 法兰克福-tg频道:@bpjzx2 2, server: 183.232.56.176, port: 2401, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 法兰克福-tg频道:@bpjzx2 3, server: 101.230.149.8, port: 2402, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 法兰克福-tg频道:@bpjzx2 4, server: 101.230.149.9, port: 2401, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 弗里蒙特-tg频道:@bpjzx2, server: 120.233.10.152, port: 1098, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 弗里蒙特-tg频道:@bpjzx2 2, server: 120.232.215.251, port: 874, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 弗里蒙特-tg频道:@bpjzx2 3, server: 120.232.214.29, port: 1158, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 弗里蒙特-tg频道:@bpjzx2 4, server: 120.232.215.147, port: 1098, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 弗里蒙特-tg频道:@bpjzx2 5, server: 120.232.215.251, port: 1098, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 弗里蒙特-tg频道:@bpjzx2 6, server: 120.232.214.247, port: 874, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 哥伦多-tg频道:@bpjzx2, server: 101.230.149.10, port: 1103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 伦敦-tg频道:@bpjzx2 10, server: 101.230.149.9, port: 1605, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 伦敦-tg频道:@bpjzx2 11, server: 101.230.149.10, port: 1604, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 伦敦-tg频道:@bpjzx2 12, server: 101.230.149.9, port: 1604, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 伦敦-tg频道:@bpjzx2 13, server: 101.230.149.7, port: 1606, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 伦敦-tg频道:@bpjzx2 14, server: 183.232.56.176, port: 1606, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 伦敦-tg频道:@bpjzx2 3, server: 101.230.149.8, port: 1602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 伦敦-tg频道:@bpjzx2 4, server: 120.232.214.29, port: 1603, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 伦敦-tg频道:@bpjzx2 5, server: 120.232.214.29, port: 1601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 伦敦-tg频道:@bpjzx2 6, server: 101.230.149.7, port: 1603, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 伦敦-tg频道:@bpjzx2 8, server: 120.232.214.29, port: 1604, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 伦敦-tg频道:@bpjzx2 9, server: 101.230.149.10, port: 1606, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 洛杉矶-tg频道:@bpjzx2, server: 183.232.56.176, port: 1151, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 洛杉矶-tg频道:@bpjzx2 10, server: 120.232.214.29, port: 1155, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 洛杉矶-tg频道:@bpjzx2 11, server: 120.232.214.29, port: 1157, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 洛杉矶-tg频道:@bpjzx2 2, server: 120.232.214.29, port: 1156, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 洛杉矶-tg频道:@bpjzx2 3, server: 101.230.149.9, port: 1153, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 洛杉矶-tg频道:@bpjzx2 4, server: 101.230.149.9, port: 1151, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 洛杉矶-tg频道:@bpjzx2 6, server: 101.230.149.7, port: 1154, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 洛杉矶-tg频道:@bpjzx2 8, server: 101.230.149.7, port: 1156, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 洛杉矶-tg频道:@bpjzx2 9, server: 101.230.149.7, port: 1151, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 孟买-tg频道:@bpjzx2, server: 101.230.149.9, port: 2702, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 孟买-tg频道:@bpjzx2 2, server: 183.232.56.176, port: 2701, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 孟买-tg频道:@bpjzx2 3, server: 101.230.149.7, port: 2702, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 孟买-tg频道:@bpjzx2 4, server: 183.232.56.176, port: 2702, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 孟买-tg频道:@bpjzx2 5, server: 101.230.149.8, port: 2701, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 莫斯科-tg频道:@bpjzx2, server: 183.232.56.176, port: 1104, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 首尔-tg频道:@bpjzx2, server: 120.233.10.152, port: 6102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 首尔-tg频道:@bpjzx2 10, server: 120.233.10.153, port: 6102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 首尔-tg频道:@bpjzx2 12, server: 120.232.214.247, port: 6101, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 首尔-tg频道:@bpjzx2 13, server: 120.232.214.247, port: 6102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 首尔-tg频道:@bpjzx2 14, server: 120.232.214.29, port: 2303, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 首尔-tg频道:@bpjzx2 15, server: 101.230.149.8, port: 2301, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 首尔-tg频道:@bpjzx2 17, server: 101.230.149.10, port: 2303, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 首尔-tg频道:@bpjzx2 18, server: 101.230.149.9, port: 2303, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 首尔-tg频道:@bpjzx2 19, server: 120.232.214.29, port: 2301, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 首尔-tg频道:@bpjzx2 2, server: 120.232.215.147, port: 6102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 首尔-tg频道:@bpjzx2 4, server: 183.232.56.176, port: 2506, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 首尔-tg频道:@bpjzx2 5, server: 101.230.149.7, port: 2301, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 首尔-tg频道:@bpjzx2 6, server: 101.230.149.10, port: 2302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 首尔-tg频道:@bpjzx2 7, server: 101.230.149.9, port: 2302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 首尔-tg频道:@bpjzx2 9, server: 101.230.149.7, port: 2506, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 台湾-tg频道:@bpjzx2 11, server: 120.232.215.147, port: 6501, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 台湾-tg频道:@bpjzx2 12, server: 101.230.149.7, port: 1112, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 台湾-tg频道:@bpjzx2 13, server: 120.232.215.147, port: 699, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 台湾-tg频道:@bpjzx2 14, server: 101.230.149.7, port: 1114, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 台湾-tg频道:@bpjzx2 2, server: 101.230.149.10, port: 1112, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 台湾-tg频道:@bpjzx2 3, server: 101.230.149.7, port: 1113, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 台湾-tg频道:@bpjzx2 4, server: 101.230.149.9, port: 1113, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 台湾-tg频道:@bpjzx2 6, server: 101.230.149.9, port: 1114, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 台湾-tg频道:@bpjzx2 7, server: 120.233.10.152, port: 699, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 台湾-tg频道:@bpjzx2 8, server: 101.230.149.10, port: 1114, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 台湾-tg频道:@bpjzx2 9, server: 101.230.149.7, port: 1116, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 香港-tg频道:@bpjzx2 10, server: 120.232.215.196, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 香港-tg频道:@bpjzx2 11, server: 101.230.149.8, port: 2103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 香港-tg频道:@bpjzx2 12, server: 120.233.10.152, port: 6011, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 香港-tg频道:@bpjzx2 15, server: 101.230.149.9, port: 2104, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 香港-tg频道:@bpjzx2 16, server: 120.233.10.153, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 香港-tg频道:@bpjzx2 17, server: 120.232.215.251, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 香港-tg频道:@bpjzx2 18, server: 101.230.149.8, port: 2109, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 香港-tg频道:@bpjzx2 2, server: 183.232.56.176, port: 2105, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 香港-tg频道:@bpjzx2 20, server: 120.232.215.196, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 香港-tg频道:@bpjzx2 3, server: 120.232.215.251, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 香港-tg频道:@bpjzx2 4, server: 101.230.149.10, port: 2102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 香港-tg频道:@bpjzx2 5, server: 101.230.149.10, port: 2103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 香港-tg频道:@bpjzx2 6, server: 101.230.149.7, port: 2108, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 香港-tg频道:@bpjzx2 7, server: 101.230.149.8, port: 2101, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 香港-tg频道:@bpjzx2 9, server: 101.230.149.8, port: 2108, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 10, server: 120.232.215.147, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 11, server: 120.232.214.247, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 12, server: 120.232.214.247, port: 2002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 13, server: 120.233.10.153, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 14, server: 120.232.215.196, port: 2002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 15, server: 101.230.149.8, port: 2201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 16, server: 101.230.149.9, port: 2203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 17, server: 120.232.214.247, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 18, server: 120.232.215.147, port: 3212, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 19, server: 120.233.10.152, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 2, server: 120.232.214.247, port: 3212, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 4, server: 120.232.214.247, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 5, server: 120.233.10.152, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 6, server: 120.232.215.147, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 7, server: 120.232.215.147, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 8, server: 120.233.10.152, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 163819:5622, obfs-param: "", udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 9, server: 101.230.149.8, port: 2203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 163819:5622, obfs-param: "", udp: true}
 proxy-groups:
   - name: 代理
     type: select
     proxies:
-      - tg频道:@bpjzx2
-      - tg频道:@bpjzx2 2
-      - tg频道:@bpjzx2 3
-      - tg频道:@bpjzx2 4
-      - tg频道:@bpjzx2 5
-      - tg频道:@bpjzx2 6
-      - tg频道:@bpjzx2 7
-      - tg频道:@bpjzx2 8
-      - tg频道:@bpjzx2 9
-      - tg频道:@bpjzx2 10
-      - tg频道:@bpjzx2 11
-      - tg频道:@bpjzx2 12
-      - tg频道:@bpjzx2 13
-      - tg频道:@bpjzx2 14
-      - tg频道:@bpjzx2 15
-      - tg频道:@bpjzx2 16
+      - 阿姆斯特丹-tg频道:@bpjzx2
+      - 阿姆斯特丹-tg频道:@bpjzx2 2
+      - 东京-tg频道:@bpjzx2
+      - 东京-tg频道:@bpjzx2 2
+      - 东京-tg频道:@bpjzx2 3
+      - 法兰克福-tg频道:@bpjzx2 2
+      - 法兰克福-tg频道:@bpjzx2 3
+      - 法兰克福-tg频道:@bpjzx2 4
+      - 弗里蒙特-tg频道:@bpjzx2
+      - 弗里蒙特-tg频道:@bpjzx2 2
+      - 弗里蒙特-tg频道:@bpjzx2 3
+      - 弗里蒙特-tg频道:@bpjzx2 4
+      - 弗里蒙特-tg频道:@bpjzx2 5
+      - 弗里蒙特-tg频道:@bpjzx2 6
+      - 哥伦多-tg频道:@bpjzx2
+      - 伦敦-tg频道:@bpjzx2 10
+      - 伦敦-tg频道:@bpjzx2 11
+      - 伦敦-tg频道:@bpjzx2 12
+      - 伦敦-tg频道:@bpjzx2 13
+      - 伦敦-tg频道:@bpjzx2 14
+      - 伦敦-tg频道:@bpjzx2 3
+      - 伦敦-tg频道:@bpjzx2 4
+      - 伦敦-tg频道:@bpjzx2 5
+      - 伦敦-tg频道:@bpjzx2 6
+      - 伦敦-tg频道:@bpjzx2 8
+      - 伦敦-tg频道:@bpjzx2 9
+      - 洛杉矶-tg频道:@bpjzx2
+      - 洛杉矶-tg频道:@bpjzx2 10
+      - 洛杉矶-tg频道:@bpjzx2 11
+      - 洛杉矶-tg频道:@bpjzx2 2
+      - 洛杉矶-tg频道:@bpjzx2 3
+      - 洛杉矶-tg频道:@bpjzx2 4
+      - 洛杉矶-tg频道:@bpjzx2 6
+      - 洛杉矶-tg频道:@bpjzx2 8
+      - 洛杉矶-tg频道:@bpjzx2 9
+      - 孟买-tg频道:@bpjzx2
+      - 孟买-tg频道:@bpjzx2 2
+      - 孟买-tg频道:@bpjzx2 3
+      - 孟买-tg频道:@bpjzx2 4
+      - 孟买-tg频道:@bpjzx2 5
+      - 莫斯科-tg频道:@bpjzx2
+      - 首尔-tg频道:@bpjzx2
+      - 首尔-tg频道:@bpjzx2 10
+      - 首尔-tg频道:@bpjzx2 12
+      - 首尔-tg频道:@bpjzx2 13
+      - 首尔-tg频道:@bpjzx2 14
+      - 首尔-tg频道:@bpjzx2 15
+      - 首尔-tg频道:@bpjzx2 17
+      - 首尔-tg频道:@bpjzx2 18
+      - 首尔-tg频道:@bpjzx2 19
+      - 首尔-tg频道:@bpjzx2 2
+      - 首尔-tg频道:@bpjzx2 4
+      - 首尔-tg频道:@bpjzx2 5
+      - 首尔-tg频道:@bpjzx2 6
+      - 首尔-tg频道:@bpjzx2 7
+      - 首尔-tg频道:@bpjzx2 9
+      - 台湾-tg频道:@bpjzx2 11
+      - 台湾-tg频道:@bpjzx2 12
+      - 台湾-tg频道:@bpjzx2 13
+      - 台湾-tg频道:@bpjzx2 14
+      - 台湾-tg频道:@bpjzx2 2
+      - 台湾-tg频道:@bpjzx2 3
+      - 台湾-tg频道:@bpjzx2 4
+      - 台湾-tg频道:@bpjzx2 6
+      - 台湾-tg频道:@bpjzx2 7
+      - 台湾-tg频道:@bpjzx2 8
+      - 台湾-tg频道:@bpjzx2 9
+      - 香港-tg频道:@bpjzx2 10
+      - 香港-tg频道:@bpjzx2 11
+      - 香港-tg频道:@bpjzx2 12
+      - 香港-tg频道:@bpjzx2 15
+      - 香港-tg频道:@bpjzx2 16
+      - 香港-tg频道:@bpjzx2 17
+      - 香港-tg频道:@bpjzx2 18
+      - 香港-tg频道:@bpjzx2 2
+      - 香港-tg频道:@bpjzx2 20
+      - 香港-tg频道:@bpjzx2 3
+      - 香港-tg频道:@bpjzx2 4
+      - 香港-tg频道:@bpjzx2 5
+      - 香港-tg频道:@bpjzx2 6
+      - 香港-tg频道:@bpjzx2 7
+      - 香港-tg频道:@bpjzx2 9
+      - 新加坡-tg频道:@bpjzx2 10
+      - 新加坡-tg频道:@bpjzx2 11
+      - 新加坡-tg频道:@bpjzx2 12
+      - 新加坡-tg频道:@bpjzx2 13
+      - 新加坡-tg频道:@bpjzx2 14
+      - 新加坡-tg频道:@bpjzx2 15
+      - 新加坡-tg频道:@bpjzx2 16
+      - 新加坡-tg频道:@bpjzx2 17
+      - 新加坡-tg频道:@bpjzx2 18
+      - 新加坡-tg频道:@bpjzx2 19
+      - 新加坡-tg频道:@bpjzx2 2
+      - 新加坡-tg频道:@bpjzx2 4
+      - 新加坡-tg频道:@bpjzx2 5
+      - 新加坡-tg频道:@bpjzx2 6
+      - 新加坡-tg频道:@bpjzx2 7
+      - 新加坡-tg频道:@bpjzx2 8
+      - 新加坡-tg频道:@bpjzx2 9
   - name: 规则外路由选择
     type: select
     proxies:

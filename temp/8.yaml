@@ -7,90 +7,36 @@ external-controller: :9090
 proxies:
   - {name: "️‍🌈[TG电报群]https://t.me/payday4478", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDN, sni: payday2.eu.org, skip-cert-verify: true, udp: true}
   - {name: "️‍🌈[TG电报频道]https://t.me/payday501", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDM, sni: payday2.eu.org, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚(绿头外网集团)(Public), server: gzcm.relay02.insnow.xyz, port: 19937, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: au.node01.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚(绿头外网集团)(Public) 2, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
-  - {name: 加拿大(绿头外网集团)(Public), server: rr019.zhuan666.top, port: 11219, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 英国(绿头外网集团)(Public), server: kr.alinkrelay.com, port: 10000, type: trojan, password: c8d3d54f-3175-49a6-a651-7ea889a704f6, skip-cert-verify: true, udp: true}
-  - {name: 英国(绿头外网集团)(Public) 2, server: e004.zhuan666.top, port: 11104, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 香港(绿头外网集团)(Public), server: h003.zhuan666.top, port: 11403, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 印度(绿头外网集团)(Public), server: gzcm.relay02.insnow.xyz, port: 19921, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: doin.node001.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印度(绿头外网集团)(Public) 2, server: rr007.zhuan666.top, port: 11207, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 印度(绿头外网集团)(Public) 3, server: rr008.zhuan666.top, port: 11208, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 日本(绿头外网集团)(Public), server: rr009.zhuan666.top, port: 11209, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 2, server: superjapan1111.dnsfree.top, port: 12391, type: trojan, password: 10095c32-253a-4f6d-92eb-bffe635c7b14, sni: superjapan1111.dnsfree.top, skip-cert-verify: true, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 3, server: rr010.zhuan666.top, port: 11210, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 韩国(绿头外网集团)(Public), server: gzcm.relay02.insnow.xyz, port: 19912, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: kr.node003.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(绿头外网集团)(Public), server: e005.zhuan666.top, port: 11105, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public), server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 2, server: dd005.zhuan666.top, port: 11605, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 3, server: rr006.zhuan666.top, port: 11206, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 4, server: rr005.zhuan666.top, port: 11205, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 5, server: rr002.zhuan666.top, port: 11202, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 6, server: rr001.zhuan666.top, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 7, server: dd004.zhuan666.top, port: 11604, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 8, server: rr003.zhuan666.top, port: 11203, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 9, server: dd002.zhuan666.top, port: 11602, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(绿头外网集团)(Public), server: mm003.zhuan666.top, port: 11508, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 2, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 928bb264-85ee-48f7-9e1d-6f78e625caf8, skip-cert-verify: true, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 3, server: rr017.zhuan666.top, port: 11217, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 4, server: rr015.zhuan666.top, port: 11215, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 5, server: mm001.zhuan666.top, port: 11506, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 6, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 7, server: rr014.zhuan666.top, port: 11214, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 8, server: rr012.zhuan666.top, port: 11212, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 9, server: in1.alink.qchwnd.moe, port: 10200, type: trojan, password: c8d3d54f-3175-49a6-a651-7ea889a704f6, skip-cert-verify: true, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 10, server: mm005.zhuan666.top, port: 11510, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 11, server: mm002.zhuan666.top, port: 11507, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 12, server: mm004.zhuan666.top, port: 11509, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 13, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 14, server: rr013.zhuan666.top, port: 11213, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 15, server: rr016.zhuan666.top, port: 11216, type: ss, cipher: chacha20-ietf-poly1305, password: ba4b3751-f74a-420e-9b52-dc7d4f65d833, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 16, server: cs.anoob.icu, port: 12001, type: ss, cipher: chacha20-ietf-poly1305, password: 72b8aca3-ddcc-4c84-980a-98e853b3b10c, udp: true}
+  - {name: 香港(绿头外网集团)(Public), server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 2, server: sh-cu.mikuyun.xyz, port: 19902, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: 日本(绿头外网集团)(Public), server: hncu.relay.qchwnd.moe, port: 10201, type: trojan, password: 5b059403-c05c-4609-ab01-a9352041d2e4, skip-cert-verify: true, udp: true}
+  - {name: 马来西亚(绿头外网集团)(Public), server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public), server: sh-cu.mikuyun.xyz, port: 19932, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 2, server: sh-cu.mikuyun.xyz, port: 19933, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 3, server: sh-cu.mikuyun.xyz, port: 19931, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: 台湾(绿头外网集团)(Public), server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 2, server: 60.249.3.125, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: 美国(绿头外网集团)(Public), server: sh-cu.mikuyun.xyz, port: 19942, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 2, server: sh-cu.mikuyun.xyz, port: 19943, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 3, server: sh-cu.mikuyun.xyz, port: 19941, type: ss, cipher: aes-256-gcm, password: 9d1e86ca-0f7a-472a-95ec-8e535a3956de, udp: true}
 proxy-groups:
   - name: 代理
     type: select
     proxies:
       - ️‍🌈[TG电报群]https://t.me/payday4478
       - ️‍🌈[TG电报频道]https://t.me/payday501
-      - 澳大利亚(绿头外网集团)(Public)
-      - 澳大利亚(绿头外网集团)(Public) 2
-      - 加拿大(绿头外网集团)(Public)
-      - 英国(绿头外网集团)(Public)
-      - 英国(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public)
-      - 印度(绿头外网集团)(Public)
-      - 印度(绿头外网集团)(Public) 2
-      - 印度(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 2
       - 日本(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public) 3
-      - 韩国(绿头外网集团)(Public)
-      - 俄罗斯(绿头外网集团)(Public)
+      - 马来西亚(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
       - 新加坡(绿头外网集团)(Public) 3
-      - 新加坡(绿头外网集团)(Public) 4
-      - 新加坡(绿头外网集团)(Public) 5
-      - 新加坡(绿头外网集团)(Public) 6
-      - 新加坡(绿头外网集团)(Public) 7
-      - 新加坡(绿头外网集团)(Public) 8
-      - 新加坡(绿头外网集团)(Public) 9
+      - 台湾(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
       - 美国(绿头外网集团)(Public)
       - 美国(绿头外网集团)(Public) 2
       - 美国(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public) 4
-      - 美国(绿头外网集团)(Public) 5
-      - 美国(绿头外网集团)(Public) 6
-      - 美国(绿头外网集团)(Public) 7
-      - 美国(绿头外网集团)(Public) 8
-      - 美国(绿头外网集团)(Public) 9
-      - 美国(绿头外网集团)(Public) 10
-      - 美国(绿头外网集团)(Public) 11
-      - 美国(绿头外网集团)(Public) 12
-      - 美国(绿头外网集团)(Public) 13
-      - 美国(绿头外网集团)(Public) 14
-      - 美国(绿头外网集团)(Public) 15
-      - 美国(绿头外网集团)(Public) 16
   - name: 规则外路由选择
     type: select
     proxies:
