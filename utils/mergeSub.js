@@ -83,21 +83,33 @@ module.exports = async (config) => {
     await Clash.setConfigs(path.join(process.cwd(), "/temp/nodes.yaml"))
     for (const proxie of yaml_config.proxies) {
         console.log(`正在测速---(${proxie.name}/${yaml_config.proxies.length})---当前有效节点数${proxies_list.length}`);
-        if (proxie.server != "localhost" || proxie.server != "127.0.0.1") {
-            try {
-                const res = await Clash.getDelay(proxie.name, 5000)
-                proxies_list.push({
-                    delay: res.data.delay,
-                    proxie
-                })
-            } catch (error) {
-                if (error.response) {
-                    if (error.response.status == 504 && error.response.data.message == "Timeout") {
-                        console.log(`${error.response.data.message} 节点${proxie.name}超时，剔除此节点`);
+        async function Speedtest(count = 0) {
+            if (proxie.server != "localhost" || proxie.server != "127.0.0.1") {
+                try {
+                    const res = await Clash.getDelay(proxie.name, 5000)
+                    proxies_list.push({
+                        delay: res.data.delay,
+                        proxie
+                    })
+                } catch (error) {
+                    if (error.response) {
+                        if (error.response.status == 504 && error.response.data.message == "Timeout") {
+                            console.log(`${error.response.data.message} 节点${proxie.name}超时，剔除此节点`);
+                        }
+                    } else {
+                        count++
+                        if (count < 4) {
+                            console.log(`节点${proxie.name}网络错误，重试第${count}次`);
+                            Speedtest(count)
+                        }else{
+                            console.log(`节点${proxie.name}网络错误，剔除此节点`);
+                        }
                     }
                 }
             }
         }
+        Speedtest()
+
     }
     console.log(`测速完成，共${proxies_list.length}个有效节点`);
     console.log(`*******************开始排序和重命名**************************`);
