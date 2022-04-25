@@ -100,7 +100,7 @@ module.exports = async (config) => {
                         count++
                         if (count < 3) {
                             console.log(`节点${proxie.name}网络错误，重试第${count}次`);
-                            Speedtest(count)
+                        return  Speedtest(count)
                         }else{
                             console.log(`节点${proxie.name}网络错误，剔除此节点`);
                         }
@@ -108,7 +108,7 @@ module.exports = async (config) => {
                 }
             }
         }
-        Speedtest()
+      await  Speedtest()
 
     }
     console.log(`测速完成，共${proxies_list.length}个有效节点`);
