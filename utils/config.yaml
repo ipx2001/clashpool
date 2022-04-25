@@ -181,7 +181,7 @@ SubList:
     site: https://gfwglass.tk/
     url: https://gfwglass.tk/ssr/sub
     enabled: true
-  - id: arlenWKX
+  - id: 35
     remarks: 节点池35
     site: https://github.com/arlenWKX/Free-Node-Merge
     url: https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity.yml

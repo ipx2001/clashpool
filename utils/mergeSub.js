@@ -165,7 +165,7 @@ module.exports = async (config) => {
         if (AreaGroups[Area].length > 0) {
             const Groups = {
                 name: Area,
-                type: "load-balance",
+                type: "url-test",
                 url: "https://www.google.com/gen_204",
                 interval: 180,
                 proxies: []
