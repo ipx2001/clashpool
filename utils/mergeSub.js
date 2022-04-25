@@ -18,27 +18,7 @@ function unique(arr) {
     }
     return finalResult;
 }
-async function lookup(server) {
-    return new Promise((resolve, reject) => {
-        dns.lookup(server, function (err, address) {
-            resolve({ err, address })
-        })
-    })
-}
-const emoji = {
-    'US': ['🇺🇸', "美国"], 'HK': ['🇭🇰', "香港"], 'SG': ['🇸🇬', "新加坡"],
-    'JP': ['🇯🇵', "日本"], 'TW': ['🇹🇼', "台湾"], 'CA': ['🇨🇦', "加拿大"],
-    'GB': ['🇬🇧', "英国"], 'CN': ['🇨🇳', "中国"], 'NL': ['🇳🇱', "荷兰"],
-    'TH': ['🇹🇭', "泰国"], 'BE': ['🇧🇪', "比利时"], 'IN': ['🇮🇳', '印度'],
-    'IT': ['🇮🇹', "意大利"], 'DE': ['🇩🇪', "德国"], 'PE': ['🇵🇪', '秘鲁'], 'RO': ['🇷🇴', '罗马尼亚'],
-    'AU': ['🇦🇺', '澳大利亚'], 'RU': ['🇷🇺', '俄罗斯'],
-    'KR': ['🇰🇷', '韩国'], 'DK': ['🇩🇰', '丹麦'], 'PT': ['🇵🇹', '葡萄牙'],
-    'FR': ['🇫🇷', '法兰西'], 'ES': ['🇪🇸', '西班牙'],
-    'VN': ['🇻🇳', '越南'],
-    'CH': ['🇨🇭', '瑞士'], 'BG': ['🇧🇬', '保加利亚'], 'ZA': ['🇿🇦', '南非'],
-    'RELAY': ['', '中转'],
-    'NOWHERE': ['', '未知'],
-}
+
 module.exports = async (config) => {
     var proxies = []
     const sub_list = config.$config.SubList
@@ -71,10 +51,31 @@ module.exports = async (config) => {
     });
     console.log(`共${yaml_config.proxies.length}个节点，写入文件:./temp/nodes.yaml`);
     fs.writeFileSync(`./temp/nodes.yaml`, yaml.stringify(yaml_config))
-    await Clash.setConfigs(path.join(process.cwd(), "/temp/nodes.yaml"))
-
-    var proxies_list = []
+   
     console.log(`*******************开始测速**************************`);
+    var proxies_list = []
+    async function lookup(server) {
+        return new Promise((resolve, reject) => {
+            dns.lookup(server, function (err, address) {
+                resolve({ err, address })
+            })
+        })
+    }
+    const emoji = {
+        'US': ['🇺🇸', "美国"], 'HK': ['🇭🇰', "香港"], 'SG': ['🇸🇬', "新加坡"],
+        'JP': ['🇯🇵', "日本"], 'TW': ['🇹🇼', "台湾"], 'CA': ['🇨🇦', "加拿大"],
+        'GB': ['🇬🇧', "英国"], 'CN': ['🇨🇳', "中国"], 'NL': ['🇳🇱', "荷兰"],
+        'TH': ['🇹🇭', "泰国"], 'BE': ['🇧🇪', "比利时"], 'IN': ['🇮🇳', '印度'],
+        'IT': ['🇮🇹', "意大利"], 'DE': ['🇩🇪', "德国"], 'PE': ['🇵🇪', '秘鲁'], 'RO': ['🇷🇴', '罗马尼亚'],
+        'AU': ['🇦🇺', '澳大利亚'], 'RU': ['🇷🇺', '俄罗斯'],
+        'KR': ['🇰🇷', '韩国'], 'DK': ['🇩🇰', '丹麦'], 'PT': ['🇵🇹', '葡萄牙'],
+        'FR': ['🇫🇷', '法兰西'], 'ES': ['🇪🇸', '西班牙'],
+        'VN': ['🇻🇳', '越南'],
+        'CH': ['🇨🇭', '瑞士'], 'BG': ['🇧🇬', '保加利亚'], 'ZA': ['🇿🇦', '南非'],
+        'RELAY': ['🌏', '中转'],
+        'NOWHERE': ['🌐', '未知'],
+    }
+    await Clash.setConfigs(path.join(process.cwd(), "/temp/nodes.yaml"))
     for (const proxie of yaml_config.proxies) {
         console.log(`正在测速---(${proxie.name}/${yaml_config.proxies.length})---当前有效节点数${proxies_list.length}`);
         if (proxie.server != "localhost" || proxie.server != "127.0.0.1") {
@@ -182,7 +183,7 @@ module.exports = async (config) => {
         }
     }
     fs.writeFileSync(`./sub/clash.yaml`, yaml.stringify(results_config))
-    
+
 }
 
 
