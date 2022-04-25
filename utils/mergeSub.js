@@ -196,10 +196,11 @@ module.exports = async (config) => {
     try {
         const res = await request({ url })
         fs.writeFileSync(`./sub/v2ray.text`,res.data)
+      
     } catch (error) {
         console.log("转换v2ray错误");
     }
-   
+    server.close()
 
 }
 
