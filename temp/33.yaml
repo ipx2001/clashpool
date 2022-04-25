@@ -6,78 +6,94 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 45.77.48.44:8099, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 152.89.210.105:9032, server: 152.89.210.105, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: 152.89.210.105:9084, server: 152.89.210.105, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: 152.89.210.105:9038, server: 152.89.210.105, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: 152.89.210.105:9045, server: 152.89.210.105, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: 152.89.210.105:9056, server: 152.89.210.105, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: 152.89.210.105:9042, server: 152.89.210.105, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: 152.89.210.105:9064, server: 152.89.210.105, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
   - {name: 152.89.210.105:9050, server: 152.89.210.105, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 152.89.210.105:9045, server: 152.89.210.105, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: 152.89.210.105:9064, server: 152.89.210.105, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: 152.89.210.105:9084, server: 152.89.210.105, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
   - {name: 152.89.210.105:9073, server: 152.89.210.105, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: 152.89.210.105:9088, server: 152.89.210.105, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 152.89.210.105:9032, server: 152.89.210.105, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
   - {name: 152.89.210.105:9093, server: 152.89.210.105, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
   - {name: 152.89.210.105:9046, server: 152.89.210.105, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 152.89.210.105:9056, server: 152.89.210.105, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: 152.89.210.105:9088, server: 152.89.210.105, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 152.89.210.105:9042, server: 152.89.210.105, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: 152.89.210.105:9038, server: 152.89.210.105, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: 213.183.53.202:9057, server: 213.183.53.202, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 213.183.53.200:9088, server: 213.183.53.200, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 213.183.53.177:9060, server: 213.183.53.177, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 213.183.53.177:9088, server: 213.183.53.177, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 213.183.53.177:9014, server: 213.183.53.177, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 213.183.53.177:9040, server: 213.183.53.177, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: 213.183.53.202:9018, server: 213.183.53.202, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 213.183.53.200:9033, server: 213.183.53.200, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: 213.183.53.202:9059, server: 213.183.53.202, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: 213.183.53.177:9042, server: 213.183.53.177, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: 213.183.53.202:9038, server: 213.183.53.202, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: 213.183.53.202:9033, server: 213.183.53.202, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: 213.183.53.202:9093, server: 213.183.53.202, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: 213.183.53.202:9001, server: 213.183.53.202, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: 213.183.53.200:9043, server: 213.183.53.200, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 213.183.53.200:9040, server: 213.183.53.200, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: 213.183.53.200:9014, server: 213.183.53.200, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 213.183.53.202:9045, server: 213.183.53.202, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
   - {name: 213.183.53.200:9060, server: 213.183.53.200, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
   - {name: 213.183.53.202:9064, server: 213.183.53.202, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
   - {name: 213.183.53.177:9045, server: 213.183.53.177, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: 213.183.53.202:9045, server: 213.183.53.202, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: 213.183.53.200:9014, server: 213.183.53.200, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: 213.183.53.200:9040, server: 213.183.53.200, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: 213.183.53.200:9043, server: 213.183.53.200, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: 213.183.53.202:9093, server: 213.183.53.202, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: 213.183.53.202:9033, server: 213.183.53.202, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: 213.183.53.202:9038, server: 213.183.53.202, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: 213.183.53.202:9059, server: 213.183.53.202, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: 213.183.53.200:9033, server: 213.183.53.200, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: 213.183.53.202:9018, server: 213.183.53.202, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: 213.183.53.177:9008, server: 213.183.53.177, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: 213.183.53.177:9094, server: 213.183.53.177, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
   - {name: 213.183.53.200:9010, server: 213.183.53.200, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: 213.183.53.202:9057, server: 213.183.53.202, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: 213.183.53.200:9088, server: 213.183.53.200, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: 213.183.53.202:9001, server: 213.183.53.202, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: 213.183.53.200:9024, server: 213.183.53.200, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
   - {name: 213.183.53.200:9098, server: 213.183.53.200, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 213.183.53.177:9027, server: 213.183.53.177, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: 213.183.53.177:9024, server: 213.183.53.177, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: 213.183.53.200:9073, server: 213.183.53.200, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
   - {name: 185.126.116.125:9043, server: 185.126.116.125, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: us-am32-5.eqnode.net:8081, server: us-am32-5.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 103.172.116.9:9070, server: 103.172.116.9, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
 proxy-groups:
   - name: 代理
     type: select
     proxies:
       - 45.77.48.44:8099
-      - 152.89.210.105:9032
-      - 152.89.210.105:9084
-      - 152.89.210.105:9038
-      - 152.89.210.105:9045
-      - 152.89.210.105:9056
-      - 152.89.210.105:9042
-      - 152.89.210.105:9064
       - 152.89.210.105:9050
+      - 152.89.210.105:9045
+      - 152.89.210.105:9064
+      - 152.89.210.105:9084
       - 152.89.210.105:9073
-      - 152.89.210.105:9088
+      - 152.89.210.105:9032
       - 152.89.210.105:9093
       - 152.89.210.105:9046
+      - 152.89.210.105:9056
+      - 152.89.210.105:9088
+      - 152.89.210.105:9042
+      - 152.89.210.105:9038
+      - 213.183.53.202:9057
+      - 213.183.53.200:9088
+      - 213.183.53.177:9060
+      - 213.183.53.177:9088
+      - 213.183.53.177:9014
+      - 213.183.53.177:9040
+      - 213.183.53.202:9018
+      - 213.183.53.200:9033
+      - 213.183.53.202:9059
+      - 213.183.53.177:9042
+      - 213.183.53.202:9038
+      - 213.183.53.202:9033
+      - 213.183.53.202:9093
+      - 213.183.53.202:9001
+      - 213.183.53.200:9043
+      - 213.183.53.200:9040
+      - 213.183.53.200:9014
+      - 213.183.53.202:9045
       - 213.183.53.200:9060
       - 213.183.53.202:9064
       - 213.183.53.177:9045
-      - 213.183.53.202:9045
-      - 213.183.53.200:9014
-      - 213.183.53.200:9040
-      - 213.183.53.200:9043
-      - 213.183.53.202:9093
-      - 213.183.53.202:9033
-      - 213.183.53.202:9038
-      - 213.183.53.202:9059
-      - 213.183.53.200:9033
-      - 213.183.53.202:9018
-      - 213.183.53.177:9008
+      - 213.183.53.177:9094
       - 213.183.53.200:9010
-      - 213.183.53.202:9057
-      - 213.183.53.200:9088
-      - 213.183.53.202:9001
+      - 213.183.53.200:9024
       - 213.183.53.200:9098
+      - 213.183.53.177:9027
+      - 213.183.53.177:9024
+      - 213.183.53.200:9073
       - 185.126.116.125:9043
-      - us-am32-5.eqnode.net:8081
       - 103.172.116.9:9070
   - name: 规则外路由选择
     type: select
