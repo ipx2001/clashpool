@@ -5,40 +5,38 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港-tg频道:@ripaojiedian, server: 421hk.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 421hk.fans8.xyz}}, udp: true}
-  - {name: 新加坡ssr-tg频道:@ripaojiedian, server: ieplszhk-sz.qqgg.work, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 香港2-tg频道:@ripaojiedian, server: 43.129.97.237, port: 80, type: vmess, uuid: f613af75-f9eb-3d84-9357-7c3b00d950a2, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /live/cctv6_2/index.m3u8, headers: {Host: hk12.speedsvip.co}}, udp: true}
+  - {name: 台湾2-tg频道:@ripaojiedian, server: 35.241.72.154, port: 443, type: vmess, uuid: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/guolicheng/hinet?ed=2048", headers: {Host: hinet.meizhiyuanya.xyz}}, udp: true}
   - {name: 台湾-tg频道:@ripaojiedian, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
-  - {name: 日本1-tg频道:@ripaojiedian, server: superjapan1111.dnsfree.top, port: 12391, type: trojan, password: 10095c32-253a-4f6d-92eb-bffe635c7b14, sni: superjapan1111.dnsfree.top, skip-cert-verify: true, udp: true}
-  - {name: 新加坡2-tg频道:@ripaojiedian, server: sg04.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg04.xqkj.cloud}}, udp: true}
-  - {name: 香港2-tg频道:@ripaojiedian, server: dy2.9218561.xyz, port: 23452, type: trojan, password: 10095c32-253a-4f6d-92eb-bffe635c7b14, sni: nn.sslmisaka.dnsfree.top, skip-cert-verify: true, udp: true}
-  - {name: 香港3-tg频道:@ripaojiedian, server: 20.239.49.44, port: 59814, type: ss, cipher: chacha20-ietf-poly1305, password: 4cafb0f4-d4e9-424a-9ba4-e58cec66ac85, udp: true}
-  - {name: 新加坡1-tg频道:@ripaojiedian, server: 421sg2.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 421sg2.fans8.xyz}}, udp: true}
-  - {name: 东京tg频道:@ripaojiedian, server: 45.77.22.155, port: 49192, type: vmess, uuid: 190e9608-0d6c-4b59-8665-c2fb0d632b6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国-tg频道:@ripaojiedian, server: aead.tls.sksupersususu.dnsfree.top, port: 80, type: vmess, uuid: 10095c32-253a-4f6d-92eb-bffe635c7b14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tiebapic.baidu.com}}, udp: true}
-  - {name: 频道还有破解vpn, server: 65.52.77.131, port: 409, type: vmess, uuid: ca3dc8de-89e9-4cd7-da61-9bc55c0439c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 免费节点分享频道@ripaojiedian, server: 20.91.188.160, port: 235, type: vmess, uuid: e3aa90f7-57b9-4e46-a539-6e8d0c4db6ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港4-tg频道:@ripaojiedian, server: shcu.relay01.insnow.xyz, port: 19901, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: shcu.relay01.insnow.xyz, skip-cert-verify: true, udp: true}
   - {name: 新加坡-tg频道:@ripaojiedian, server: sg2.31vpn.com, port: 80, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/seikozero/62621831a0fc7/, headers: {Host: sg2.31vpn.com}}, udp: true}
+  - {name: 新加坡2-tg频道:@ripaojiedian, server: 165.22.53.6, port: 28443, type: trojan, password: 72e9af0c-83b4-4069-8406-7fd8ee3e474a, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡1-tg频道:@ripaojiedian, server: 421sg2.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 421sg2.fans8.xyz}}, udp: true}
+  - {name: 新加坡ssr-tg频道:@ripaojiedian, server: ieplszhk-sz.qqgg.work, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 香港3-tg频道:@ripaojiedian, server: 220.158.232.87, port: 443, type: vmess, uuid: 55dc9daf-ea0e-38f1-aa82-ed76c8b19df2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /apple-home, headers: {Host: hk1.academicpapers.eu.org}}, udp: true}
+  - {name: 美国3-tg频道:@ripaojiedian, server: 104.19.3.36, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}, udp: true}
+  - {name: 美国2-tg频道:@ripaojiedian, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
+  - {name: 香港-tg频道:@ripaojiedian, server: 421hk.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 421hk.fans8.xyz}}, udp: true}
+  - {name: 卢森堡-tg频道:@ripaojiedian, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
   - {name: 美国-tg频道:@ripaojiedian, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.fnyun.cyou}}, udp: true}
+  - {name: 荷兰-tg频道:@ripaojiedian, server: cm.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hl.fnyun.cyou}}, udp: true}
 proxy-groups:
   - name: 代理
     type: select
     proxies:
-      - 香港-tg频道:@ripaojiedian
-      - 新加坡ssr-tg频道:@ripaojiedian
-      - 台湾-tg频道:@ripaojiedian
-      - 日本1-tg频道:@ripaojiedian
-      - 新加坡2-tg频道:@ripaojiedian
       - 香港2-tg频道:@ripaojiedian
-      - 香港3-tg频道:@ripaojiedian
-      - 新加坡1-tg频道:@ripaojiedian
-      - 东京tg频道:@ripaojiedian
-      - 韩国-tg频道:@ripaojiedian
-      - 频道还有破解vpn
-      - 免费节点分享频道@ripaojiedian
-      - 香港4-tg频道:@ripaojiedian
+      - 台湾2-tg频道:@ripaojiedian
+      - 台湾-tg频道:@ripaojiedian
       - 新加坡-tg频道:@ripaojiedian
+      - 新加坡2-tg频道:@ripaojiedian
+      - 新加坡1-tg频道:@ripaojiedian
+      - 新加坡ssr-tg频道:@ripaojiedian
+      - 香港3-tg频道:@ripaojiedian
+      - 美国3-tg频道:@ripaojiedian
+      - 美国2-tg频道:@ripaojiedian
+      - 香港-tg频道:@ripaojiedian
+      - 卢森堡-tg频道:@ripaojiedian
       - 美国-tg频道:@ripaojiedian
+      - 荷兰-tg频道:@ripaojiedian
   - name: 规则外路由选择
     type: select
     proxies:
