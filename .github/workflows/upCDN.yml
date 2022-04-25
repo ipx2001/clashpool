@@ -1,0 +1,18 @@
+name: CDN_Update
+on: 
+   schedule:
+      - cron: "6/15 * * * *"
+   workflow_dispatch:
+jobs:
+  job1: 
+    name: clash.yaml
+    runs-on: ubuntu-latest
+    steps:
+    - name: CDN
+      run: curl https://purge.jsdelivr.net/gh/git-wally94/clashpool@main/sub/clash.yaml
+  job2: 
+    name: v2ray.txt
+    runs-on: ubuntu-latest
+    steps:
+    - name: CDN
+      run: curl https://purge.jsdelivr.net/gh/git-wally94/clashpool@main/sub/v2ray.txt
