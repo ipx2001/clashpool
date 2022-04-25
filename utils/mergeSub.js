@@ -1,10 +1,14 @@
 const yaml = require("yaml");
 const path = require("path")
+const http = require('http');
+const Koa = require('koa');
 const fs = require("fs");
 const geoip = require("geoip-lite")
 const dns = require("dns");
+const request = require("./request");
 const Clash = require("./ClashApi");
 const results_config = require("./template.json")
+
 
 //数组去重的方法
 function unique(arr) {
@@ -51,7 +55,7 @@ module.exports = async (config) => {
     });
     console.log(`共${yaml_config.proxies.length}个节点，写入文件:./temp/nodes.yaml`);
     fs.writeFileSync(`./temp/nodes.yaml`, yaml.stringify(yaml_config))
-   
+
     console.log(`*******************开始测速**************************`);
     var proxies_list = []
     async function lookup(server) {
@@ -183,6 +187,19 @@ module.exports = async (config) => {
         }
     }
     fs.writeFileSync(`./sub/clash.yaml`, yaml.stringify(results_config))
+    const app = new Koa();
+    app.use(async ctx => {
+        ctx.body = yaml.stringify(results_config);
+    });
+    const server = http.createServer(app.callback()).listen(5566);
+    const url= `${config.$config.remote_conver}?target=v2ray&insert=false&url=${encodeURIComponent("http://127.0.0.1:5566")}`
+    try {
+        const res = await request({ url })
+        fs.writeFileSync(`./sub/v2ray.text`,res.data)
+    } catch (error) {
+        console.log("转换v2ray错误");
+    }
+   
 
 }
 
