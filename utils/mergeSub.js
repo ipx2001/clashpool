@@ -15,7 +15,8 @@ function unique(arr) {
     let result = {};
     let finalResult = [];
     for (let i = 0; i < arr.length; i++) {
-        result[arr[i].server] = arr[i];
+        const {server,port,type}= arr[i]
+        result[type+server+port] = arr[i];
     }
     for (item in result) {
         finalResult.push(result[item]);
@@ -195,7 +196,7 @@ module.exports = async (config) => {
     const url= `${config.$config.remote_conver}?target=v2ray&insert=false&url=${encodeURIComponent("http://127.0.0.1:5566")}`
     try {
         const res = await request({ url })
-        fs.writeFileSync(`./sub/v2ray.text`,res.data)
+        fs.writeFileSync(`./sub/v2ray.txt`,res.data)
       
     } catch (error) {
         console.log("转换v2ray错误");
