@@ -7,6 +7,7 @@ external-controller: :9090
 proxies:
   - {name: _US_美国->🇩🇪_DE_德国_12, server: fumetsuseiko.tk, port: 443, type: vmess, uuid: 3364a992-7e4a-4551-d488-e3fad37421ad, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fumetsuseiko.tk}}, udp: true}
   - {name: _US_美国_14, server: share.fanqiangvpn.com, port: 80, type: vmess, uuid: ee8d15c0-927d-497a-ba84-65447a790f56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: share.fanqiangvpn.com}}, udp: true}
+  - {name: gonetflix_xyzfree01_1, server: free-sg-01.gonetflix.xyz, port: 443, type: vmess, uuid: 402d7490-6d4b-42d4-80ed-e681b0e6f1f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ws, headers: {Host: free-sg-01.gonetflix.xyz}}, udp: true}
   - {name: _US_美国_7, server: share.fanqiangvpn.com, port: 80, type: vmess, uuid: ee8d15c0-927d-497a-ba84-65447a790f56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: share.fanqiangvpn.com}}, udp: true}
   - {name: _JP_日本_8, server: jp1.wanss.win, port: 23344, type: vmess, uuid: 3FF32A43-8E7F-5EA8-72E9-0A3103FAA1C7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp1.wanss.win}}, udp: true}
   - {name: _US_美国_20, server: 65.49.214.185, port: 30658, type: vmess, uuid: 351c64c1-2f7d-4900-a2d2-8f09a6501603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -59,6 +60,7 @@ proxies:
   - {name: github_com/freefq-土耳其41_42, server: tk-nf-route.teacher2060.com, port: 31256, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: github_com/freefq-荷兰45_46, server: ru1.lolvps.xyz, port: 40040, type: vmess, uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6129CFHR, headers: {Host: ru1.lolvps.xyz}}, udp: true}
   - {name: _SG_新加坡_3, server: sg03.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg03.xqkj.cloud}}, udp: true}
+  - {name: _US_美国_12, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: node.774.gs}}, udp: true}
   - {name: 美国_BGP中转_0_5x_16, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bgp.zhongzhuan.fnyun.cyou}}, udp: true}
   - {name: 荷兰_移动中转_0_5x_17, server: cm.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.zhongzhuan.fnyun.cyou}}, udp: true}
   - {name: Relay_🇯🇵JP-🇯🇵JP_1114, server: v2.godlight.xyz, port: 26933, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f34f3-f32f364, headers: {Host: v2.godlight.xyz}}, udp: true}
@@ -97,6 +99,7 @@ proxies:
   - {name: Relay_🇺🇸US-🇺🇸US_439_19_43Mb_44, server: freestarway.tk, port: 443, type: vmess, uuid: 68de58a5-2f9f-45e9-cb64-2d87fdf5f031, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freestarway.tk}}, udp: true}
   - {name: Relay__37_30Mb_45, server: us2.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/nznlani/62639c9cac992/, headers: {Host: us2.31vpn.com}}, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_3797, server: 4.ezydfdd.com, port: 443, type: vmess, uuid: c0cb6989-5967-447d-ea34-b4b0aa70b9f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 4.ezydfdd.com}}, udp: true}
+  - {name: _JP_日本_10, server: jp1.wanss.win, port: 23344, type: vmess, uuid: 3FF32A43-8E7F-5EA8-72E9-0A3103FAA1C7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp1.wanss.win}}, udp: true}
   - {name: _US_美国->🇩🇪_DE_德国_7, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 6a856d0a-c374-4d25-b4db-327801ca9dc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6d1.moonfree.top}}, udp: true}
   - {name: _SE_瑞典_8, server: 20.91.188.160, port: 235, type: vmess, uuid: e3aa90f7-57b9-4e46-a539-6e8d0c4db6ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _IE_爱尔兰_10, server: 65.52.77.131, port: 409, type: vmess, uuid: ca3dc8de-89e9-4cd7-da61-9bc55c0439c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -139,12 +142,17 @@ proxies:
   - {name: _KR_韩国_5, server: v2-5.godlight.xyz, port: 39783, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /71h4b3s1f53, headers: {Host: v2-5.godlight.xyz}}, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国_19, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bgp.zhongzhuan.fnyun.cyou}}, udp: true}
   - {name: LosAngeles_96_45_163_53, server: 96.45.163.53, port: 9999, type: vmess, uuid: f9f8ffc1-6bf3-415d-a169-84edbf634f28, alterId: 52, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_21, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bgp.zhongzhuan.fnyun.cyou}}, udp: true}
+  - {name: _US_美国_30, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: node.774.gs}}, udp: true}
+  - {name: _US_美国_36, server: share.fanqiangvpn.com, port: 80, type: vmess, uuid: ee8d15c0-927d-497a-ba84-65447a790f56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: share.fanqiangvpn.com}}, udp: true}
+  - {name: _US_美国_45, server: 65.49.214.185, port: 30658, type: vmess, uuid: 351c64c1-2f7d-4900-a2d2-8f09a6501603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 代理
     type: select
     proxies:
       - _US_美国->🇩🇪_DE_德国_12
       - _US_美国_14
+      - gonetflix_xyzfree01_1
       - _US_美国_7
       - _JP_日本_8
       - _US_美国_20
@@ -197,6 +205,7 @@ proxy-groups:
       - github_com/freefq-土耳其41_42
       - github_com/freefq-荷兰45_46
       - _SG_新加坡_3
+      - _US_美国_12
       - 美国_BGP中转_0_5x_16
       - 荷兰_移动中转_0_5x_17
       - Relay_🇯🇵JP-🇯🇵JP_1114
@@ -235,6 +244,7 @@ proxy-groups:
       - Relay_🇺🇸US-🇺🇸US_439_19_43Mb_44
       - Relay__37_30Mb_45
       - Relay_🇺🇸US-🇺🇸US_3797
+      - _JP_日本_10
       - _US_美国->🇩🇪_DE_德国_7
       - _SE_瑞典_8
       - _IE_爱尔兰_10
@@ -277,6 +287,10 @@ proxy-groups:
       - _KR_韩国_5
       - _CN_中国->🇺🇸_US_美国_19
       - LosAngeles_96_45_163_53
+      - _CN_中国->🇺🇸_US_美国_21
+      - _US_美国_30
+      - _US_美国_36
+      - _US_美国_45
   - name: 规则外路由选择
     type: select
     proxies:

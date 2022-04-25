@@ -1,0 +1,840 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: "[中国SS]122.9.62.37:4720", server: 122.9.62.37, port: 4720, type: ss, cipher: chacha20-ietf-poly1305, password: 573d4c8f31e9e003ea3cb800aa29f00a4c744f63ed57a807cbbc6e725db1e21d, udp: true}
+  - {name: "[中国SS]120.232.214.153:3223", server: 120.232.214.153, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
+  - {name: "[中国SS]120.232.214.240:3223", server: 120.232.214.240, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
+  - {name: "[中国SS]DE-S-ROUTE.TEACHER2060.COM:31617", server: de-s-route.teacher2060.com, port: 31617, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 76820787, udp: true}
+  - {name: "[中国SS]HK-S-ROUTE.TEACHER2060.COM:603", server: hk-s-route.teacher2060.com, port: 603, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 76820787, udp: true}
+  - {name: "[中国SS]JP-S-ROUTE.TEACHER2060.COM:601", server: jp-s-route.teacher2060.com, port: 601, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 76820787, udp: true}
+  - {name: "[中国SS]SG-S-ROUTE.TEACHER2060.COM:602", server: sg-s-route.teacher2060.com, port: 602, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 76820787, udp: true}
+  - {name: "[中国SS]122.9.54.40:3947", server: 122.9.54.40, port: 3947, type: ss, cipher: chacha20-ietf-poly1305, password: 853cc71c85896eb5658696f9a027815eb31ab225b1ccd8bbb6c033e6d016fe53, udp: true}
+  - {name: "[中国SS]122.9.54.58:2266", server: 122.9.54.58, port: 2266, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
+  - {name: "[中国SS]122.9.62.6:3281", server: 122.9.62.6, port: 3281, type: ss, cipher: chacha20-ietf-poly1305, password: 8a8e405848b39f173e22c44437aba4ef2a4edf3a8cacae1837eca32c42da8569, udp: true}
+  - {name: "[中国SS]GY-HKHGC.FENGLINGCLOUD.COM:28001", server: gy-hkhgc.fenglingcloud.com, port: 28001, type: ss, cipher: chacha20-ietf-poly1305, password: 958e2b96-d28e-46b4-8447-06f72089d11b, udp: true}
+  - {name: "[中国SS]GZ.BGP.RX.NAIUN.PW:45144", server: gz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: "[中国SS]GZ.BGP.RX.NAIUN.PW:45183", server: gz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: "[中国SS]GZ.BGP.RX.NAIUN.PW:45190", server: gz.bgp.rx.naiun.pw, port: 45190, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: "[中国SS]GZ.BGP.RX.NAIUN.PW:45240", server: gz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: "[中国SS]GZ.BGP.RX.NAIUN.PW:45251", server: gz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: "[中国SS]GZ.BGP.RX.NAIUN.PW:45392", server: gz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: "[中国SS]HZ.BGP.RX.NAIUN.PW:45144", server: hz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: "[中国SS]HZ.BGP.RX.NAIUN.PW:45183", server: hz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: "[中国SS]HZ.BGP.RX.NAIUN.PW:45190", server: hz.bgp.rx.naiun.pw, port: 45190, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: "[中国SS]HZ.BGP.RX.NAIUN.PW:45240", server: hz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: "[中国SS]HZ.BGP.RX.NAIUN.PW:45251", server: hz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: "[中国SS]HZ.BGP.RX.NAIUN.PW:45392", server: hz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 99ee69d6-e018-432d-ab85-bf95f67776a5, udp: true}
+  - {name: "[韩国SS]SS-NODE-2-B.GFWAIRPORT.NET:50001", server: SS-NODE-2-B.GFWAIRPORT.NET, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 9e7256ac-f3bb-4f60-830f-48e75191c207, udp: true}
+  - {name: "[新加坡SS]SS-NODE-3-B.GFWAIRPORT.NET:50001", server: SS-NODE-3-B.GFWAIRPORT.NET, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 9e7256ac-f3bb-4f60-830f-48e75191c207, udp: true}
+  - {name: "[香港SS]SS-NODE-4-B.GFWAIRPORT.NET:50001", server: SS-NODE-4-B.GFWAIRPORT.NET, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 9e7256ac-f3bb-4f60-830f-48e75191c207, udp: true}
+  - {name: "[美国SS]SS-NODE-5-B.GFWAIRPORT.NET:50001", server: SS-NODE-5-B.GFWAIRPORT.NET, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 9e7256ac-f3bb-4f60-830f-48e75191c207, udp: true}
+  - {name: "[中国SS]IN.IPLC.SKIN:11109", server: in.iplc.skin, port: 11109, type: ss, cipher: chacha20-ietf-poly1305, password: 10ca989d-17b5-421d-bf30-23593bf1cc3b, udp: true}
+  - {name: "[中国SS]KH.IPLC.SKIN:11121", server: kh.iplc.skin, port: 11121, type: ss, cipher: chacha20-ietf-poly1305, password: 10ca989d-17b5-421d-bf30-23593bf1cc3b, udp: true}
+  - {name: "[中国SS]HK-S-ROUTE.TEACHER2060.COM:603 2", server: hk-s-route.teacher2060.com, port: 603, type: ss, cipher: chacha20-ietf-poly1305, password: oq7Hsx00G4, udp: true}
+  - {name: "[中国SS]SG-S-ROUTE.TEACHER2060.COM:602 2", server: sg-s-route.teacher2060.com, port: 602, type: ss, cipher: chacha20-ietf-poly1305, password: oq7Hsx00G4, udp: true}
+  - {name: "[中国SS]14.29.124.168:25256", server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "[中国SS]14.29.124.168:25279", server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "[中国SS]14.29.124.168:25294", server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "[中国SS]14.29.124.168:25295", server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "[中国SS]14.29.124.168:25296", server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "[中国SS]CM.NEWHUA99.GA:21681", server: cm.newhua99.ga, port: 21681, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM.NEWHUA99.GA:21682", server: cm.newhua99.ga, port: 21682, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM.NEWHUA99.GA:21684", server: cm.newhua99.ga, port: 21684, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM.NEWHUA99.GA:21686", server: cm.newhua99.ga, port: 21686, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM.NEWHUA99.GA:21687", server: cm.newhua99.ga, port: 21687, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM.NEWHUA99.GA:21690", server: cm.newhua99.ga, port: 21690, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM.NEWHUA99.GA:21691", server: cm.newhua99.ga, port: 21691, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM.NEWHUA99.GA:21693", server: cm.newhua99.ga, port: 21693, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM.NEWHUA99.GA:21694", server: cm.newhua99.ga, port: 21694, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM.NEWHUA99.GA:21695", server: cm.newhua99.ga, port: 21695, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM.NEWHUA99.GA:21696", server: cm.newhua99.ga, port: 21696, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM.NEWHUA99.GA:21697", server: cm.newhua99.ga, port: 21697, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM.NEWHUA99.GA:21698", server: cm.newhua99.ga, port: 21698, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM.NEWHUA99.GA:21699", server: cm.newhua99.ga, port: 21699, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM2.NEWHUA99.GA:21681", server: cm2.newhua99.ga, port: 21681, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM2.NEWHUA99.GA:21683", server: cm2.newhua99.ga, port: 21683, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM2.NEWHUA99.GA:21693", server: cm2.newhua99.ga, port: 21693, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM2.NEWHUA99.GA:21694", server: cm2.newhua99.ga, port: 21694, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM2.NEWHUA99.GA:21696", server: cm2.newhua99.ga, port: 21696, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM2.NEWHUA99.GA:21697", server: cm2.newhua99.ga, port: 21697, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM2.NEWHUA99.GA:21698", server: cm2.newhua99.ga, port: 21698, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CM2.NEWHUA99.GA:21699", server: cm2.newhua99.ga, port: 21699, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CU.NEWHUA99.GA:21682", server: cu.newhua99.ga, port: 21682, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CU.NEWHUA99.GA:21684", server: cu.newhua99.ga, port: 21684, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CU.NEWHUA99.GA:21685", server: cu.newhua99.ga, port: 21685, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CU.NEWHUA99.GA:21686", server: cu.newhua99.ga, port: 21686, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CU.NEWHUA99.GA:21687", server: cu.newhua99.ga, port: 21687, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CU.NEWHUA99.GA:21689", server: cu.newhua99.ga, port: 21689, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CU.NEWHUA99.GA:21695", server: cu.newhua99.ga, port: 21695, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f, udp: true}
+  - {name: "[中国SS]CN1.RELAY.IEPL.PW:50200", server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: "[中国SS]CN1.RELAY.IEPL.PW:50300", server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: "[中国SS]CN1.RELAY.IEPL.PW:50400", server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: "[中国SS]CN1.RELAY.IEPL.PW:50500", server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: "[中国SS]CN1.RELAY.IEPL.PW:50600", server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: "[中国SS]CN1.RELAY.IEPL.PW:50700", server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: "[中国SS]120.232.174.85:24089", server: 120.232.174.85, port: 24089, type: ss, cipher: aes-128-gcm, password: cXm6HzEGLeB0yJgh, udp: true}
+  - {name: "[中国SS]120.232.174.85:25081", server: 120.232.174.85, port: 25081, type: ss, cipher: aes-128-gcm, password: cXm6HzEGLeB0yJgh, udp: true}
+  - {name: "[中国SS]120.232.174.85:27419", server: 120.232.174.85, port: 27419, type: ss, cipher: aes-128-gcm, password: cXm6HzEGLeB0yJgh, udp: true}
+  - {name: "[中国SS]120.232.174.85:27938", server: 120.232.174.85, port: 27938, type: ss, cipher: aes-128-gcm, password: cXm6HzEGLeB0yJgh, udp: true}
+  - {name: "[中国SS]120.232.174.85:29147", server: 120.232.174.85, port: 29147, type: ss, cipher: aes-128-gcm, password: cXm6HzEGLeB0yJgh, udp: true}
+  - {name: "[中国SS]120.232.174.85:33200", server: 120.232.174.85, port: 33200, type: ss, cipher: aes-128-gcm, password: cXm6HzEGLeB0yJgh, udp: true}
+  - {name: "[中国SS]120.232.174.85:33201", server: 120.232.174.85, port: 33201, type: ss, cipher: aes-128-gcm, password: cXm6HzEGLeB0yJgh, udp: true}
+  - {name: "[中国SS]120.232.174.85:33510", server: 120.232.174.85, port: 33510, type: ss, cipher: aes-128-gcm, password: cXm6HzEGLeB0yJgh, udp: true}
+  - {name: "[中国SS]120.232.174.85:45445", server: 120.232.174.85, port: 45445, type: ss, cipher: aes-128-gcm, password: cXm6HzEGLeB0yJgh, udp: true}
+  - {name: "[中国SS]120.232.174.85:45647", server: 120.232.174.85, port: 45647, type: ss, cipher: aes-128-gcm, password: cXm6HzEGLeB0yJgh, udp: true}
+  - {name: "[中国SS]120.232.174.85:45793", server: 120.232.174.85, port: 45793, type: ss, cipher: aes-128-gcm, password: cXm6HzEGLeB0yJgh, udp: true}
+  - {name: "[中国SS]120.232.174.85:45862", server: 120.232.174.85, port: 45862, type: ss, cipher: aes-128-gcm, password: cXm6HzEGLeB0yJgh, udp: true}
+  - {name: "[中国SS]120.232.174.85:47985", server: 120.232.174.85, port: 47985, type: ss, cipher: aes-128-gcm, password: cXm6HzEGLeB0yJgh, udp: true}
+  - {name: "[中国SS]CN1.IEPL.STARLINK.ST:50500", server: cn1.iepl.starlink.st, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: "[中国SS]101.91.121.247:50004", server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9059", server: 217.30.10.66, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: "[波兰SS]217.30.10.67:9020", server: 217.30.10.67, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9024", server: 217.30.10.64, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: "[荷兰SS]213.183.51.171:9031", server: 213.183.51.171, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9031", server: 217.30.10.66, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: "[澳大利亚SS]185.167.116.253:9019", server: 185.167.116.253, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: "[荷兰SS]213.183.51.171:9019", server: 213.183.51.171, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9019", server: 217.30.10.65, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9019", server: 217.30.10.66, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9027", server: 217.30.10.66, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9006", server: 217.30.10.64, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9050", server: 217.30.10.66, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: "[荷兰SS]213.183.51.171:9014", server: 213.183.51.171, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9014", server: 217.30.10.64, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9014", server: 217.30.10.65, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: "[澳大利亚SS]185.167.116.253:9043", server: 185.167.116.253, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: "[俄罗斯联邦SS]213.183.53.200:9043", server: 213.183.53.200, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9043", server: 217.30.10.64, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9003", server: 217.30.10.64, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9003", server: 217.30.10.66, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9045", server: 217.30.10.64, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9045", server: 217.30.10.65, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9045", server: 217.30.10.66, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: "[澳大利亚SS]185.167.116.253:9011", server: 185.167.116.253, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: "[荷兰SS]213.183.51.171:9011", server: 213.183.51.171, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9011", server: 217.30.10.65, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: "[俄罗斯联邦SS]213.183.53.200:9046", server: 213.183.53.200, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9046", server: 217.30.10.64, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: "[荷兰SS]213.183.51.171:9097", server: 213.183.51.171, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: "[波兰SS]217.30.10.67:9097", server: 217.30.10.67, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: "[荷兰SS]213.183.51.171:9026", server: 213.183.51.171, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9026", server: 217.30.10.64, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9026", server: 217.30.10.65, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: "[波兰SS]217.30.10.67:9026", server: 217.30.10.67, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: "[荷兰SS]213.183.51.171:9042", server: 213.183.51.171, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9042", server: 217.30.10.64, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9042", server: 217.30.10.65, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: "[波兰SS]217.30.10.67:9042", server: 217.30.10.67, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: "[荷兰SS]213.183.51.171:9037", server: 213.183.51.171, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9037", server: 217.30.10.64, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: "[波兰SS]217.30.10.67:9037", server: 217.30.10.67, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: "[荷兰SS]213.183.51.171:9079", server: 213.183.51.171, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9079", server: 217.30.10.65, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9079", server: 217.30.10.66, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: "[波兰SS]217.30.10.67:9079", server: 217.30.10.67, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: "[澳大利亚SS]185.167.116.252:9041", server: 185.167.116.252, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: "[荷兰SS]213.183.51.171:9041", server: 213.183.51.171, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9041", server: 217.30.10.64, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9041", server: 217.30.10.66, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: "[荷兰SS]213.183.51.172:9033", server: 213.183.51.172, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9033", server: 217.30.10.64, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: "[波兰SS]217.30.10.67:9032", server: 217.30.10.67, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9001", server: 217.30.10.64, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9001", server: 217.30.10.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: "[澳大利亚SS]185.167.116.252:9080", server: 185.167.116.252, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: "[澳大利亚SS]185.167.116.253:9080", server: 185.167.116.253, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: "[波兰SS]217.30.10.67:9025", server: 217.30.10.67, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9005", server: 217.30.10.64, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: "[澳大利亚SS]185.167.116.252:9015", server: 185.167.116.252, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9015", server: 217.30.10.64, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9015", server: 217.30.10.65, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9015", server: 217.30.10.66, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: "[波兰SS]217.30.10.67:9015", server: 217.30.10.67, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: "[澳大利亚SS]185.167.116.252:9064", server: 185.167.116.252, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9000", server: 217.30.10.66, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: "[波兰SS]217.30.10.67:9000", server: 217.30.10.67, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9098", server: 217.30.10.66, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9070", server: 217.30.10.64, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9070", server: 217.30.10.65, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: "[荷兰SS]213.183.51.171:9084", server: 213.183.51.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9084", server: 217.30.10.65, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: "[澳大利亚SS]185.167.116.253:9038", server: 185.167.116.253, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9038", server: 217.30.10.65, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9038", server: 217.30.10.66, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: "[澳大利亚SS]185.167.116.253:9073", server: 185.167.116.253, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9010", server: 217.30.10.65, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9088", server: 217.30.10.64, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9088", server: 217.30.10.65, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9018", server: 217.30.10.65, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: "[荷兰SS]213.183.51.171:9040", server: 213.183.51.171, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9040", server: 217.30.10.64, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9040", server: 217.30.10.65, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9040", server: 217.30.10.66, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: "[荷兰SS]213.183.51.171:9056", server: 213.183.51.171, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9056", server: 217.30.10.65, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9094", server: 217.30.10.66, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: "[俄罗斯联邦SS]213.183.53.200:9093", server: 213.183.53.200, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9093", server: 217.30.10.65, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: "[波兰SS]217.30.10.67:9093", server: 217.30.10.67, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: "[波兰SS]217.30.10.64:9057", server: 217.30.10.64, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9057", server: 217.30.10.66, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: "[荷兰SS]213.183.51.171:9060", server: 213.183.51.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: "[波兰SS]217.30.10.65:9060", server: 217.30.10.65, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9060", server: 217.30.10.66, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: "[荷兰SS]213.183.51.171:9008", server: 213.183.51.171, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: "[波兰SS]217.30.10.66:9008", server: 217.30.10.66, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: "[中国SS]JM-YD-3421.CLOUDAPICLOUDAPI.TOP:1008", server: jm-yd-3421.cloudapicloudapi.top, port: 1008, type: ss, cipher: aes-256-gcm, password: 615CC959-8002-9CB4-1F8F-6B38C4166368, udp: true}
+  - {name: "[加拿大SS]134.195.196.68:443", server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "[中国SS]183.213.21.67:18584", server: 183.213.21.67, port: 18584, type: ss, cipher: rc4-md5, password: CvnbM0, udp: true}
+  - {name: "��8��\x1b���]2�׮��.�ְ�<��9���5", server: 211.99.100.60, port: 38575, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: ��3�ۺ�j8�z3, obfs-param: "�ilk\x1c��\x0b�i�n", udp: true}
+  - {name: "��8��\x1b���]]���M[�뱶H_��߶.r��:�92%�", server: cm2s.made1nheaven.xyz, port: 39275, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]]���M[�뱶H_��߶.r��:�94%�", server: cm2s.made1nheaven.xyz, port: 39415, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]]���M[�뱶H_��߶.r��:�94%� 2", server: cm2s.made1nheaven.xyz, port: 39431, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]]���M[�뱶H_��߶.r��:�90%�", server: cmcm.made1nheaven.xyz, port: 39091, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]]���M[�뱶H_��߶.r��:�91%�", server: cmcm.made1nheaven.xyz, port: 39155, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]]���M[�뱶H_��߶.r��:�93%�", server: cmcm.made1nheaven.xyz, port: 39318, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]]���M[�뱶H_��߶.r��:�93%� 2", server: cmcm.made1nheaven.xyz, port: 39348, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]]���M[�뱶H_��߶.r��:�93%� 3", server: cmcm.made1nheaven.xyz, port: 39342, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]]���M[�뱶H_��߶.r��:�93%� 4", server: cmcm.made1nheaven.xyz, port: 39378, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]]���M[�뱶H_��߶.r��:�94%�", server: cmcm.made1nheaven.xyz, port: 39429, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]]���M[�뱶H_��߶.r��:�94%� 2", server: cmcm.made1nheaven.xyz, port: 39437, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]]���M[�뱶H_��߶.r��:�94%� 3", server: cmcm.made1nheaven.xyz, port: 39442, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]]���M[�뱶H_��߶.r��:�94%� 4", server: cmcm.made1nheaven.xyz, port: 39443, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�90%�", server: kctr.made1nheaven.xyz, port: 39065, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�91%�", server: kctr.made1nheaven.xyz, port: 39149, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�91%� 2", server: kctr.made1nheaven.xyz, port: 39172, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�92%�", server: kctr.made1nheaven.xyz, port: 39252, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�93%�", server: kctr.made1nheaven.xyz, port: 39315, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�93%� 2", server: kctr.made1nheaven.xyz, port: 39324, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�93%� 3", server: kctr.made1nheaven.xyz, port: 39326, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�93%� 4", server: kctr.made1nheaven.xyz, port: 39322, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�93%� 5", server: kctr.made1nheaven.xyz, port: 39347, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�93%� 6", server: kctr.made1nheaven.xyz, port: 39354, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�93%� 7", server: kctr.made1nheaven.xyz, port: 39372, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�93%� 8", server: kctr.made1nheaven.xyz, port: 39384, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�94%�", server: kctr.made1nheaven.xyz, port: 39405, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�94%� 2", server: kctr.made1nheaven.xyz, port: 39409, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�94%� 3", server: kctr.made1nheaven.xyz, port: 39419, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�94%� 4", server: kctr.made1nheaven.xyz, port: 39424, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�94%� 5", server: kctr.made1nheaven.xyz, port: 39426, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�94%� 6", server: kctr.made1nheaven.xyz, port: 39420, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�94%� 7", server: kctr.made1nheaven.xyz, port: 39439, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�94%� 8", server: kctr.made1nheaven.xyz, port: 39432, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�94%� 9", server: kctr.made1nheaven.xyz, port: 39433, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Z�M[�뱶H_��߶.r��:�94%� 10", server: kctr.made1nheaven.xyz, port: 39480, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Wm�M[�뱶H_��߶.r��:�92%�", server: kcws.made1nheaven.xyz, port: 39228, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Wm�M[�뱶H_��߶.r��:�92%� 2", server: kcws.made1nheaven.xyz, port: 39234, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Wm�M[�뱶H_��߶.r��:�92%� 3", server: kcws.made1nheaven.xyz, port: 39247, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Wm�M[�뱶H_��߶.r��:�94%�", server: kcws.made1nheaven.xyz, port: 39408, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]e�Wm�M[�뱶H_��߶.r��:�94%� 2", server: kcws.made1nheaven.xyz, port: 39412, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]g���K�O_�Ji��d�7���r��:�92%�ɕ��ɭ��ⷖ�0�.\x05$�\x15)", server: mapi.enjoenjoenjo111.xyz, port: 39240, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]g���K�O_�Ji��d�7���r��:�92%�ɕ��ɭ��ⷖ�0�.\x05$�\x15) 2", server: mapi.enjoenjoenjo111.xyz, port: 39276, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]g���K�O_�Ji��d�7���r��:�92%�ɕ��ɭ��ⷖ�0�.\x05$�\x15) 3", server: mapi.enjoenjoenjo111.xyz, port: 39280, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]g���K�O_�Ji��d�7���r��:�93%�ɕ��ɭ��ⷖ�0�.\x05$�\x15)", server: mapi.enjoenjoenjo111.xyz, port: 39310, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]g���K�O_�Ji��d�7���r��:�93%�ɕ��ɭ��ⷖ�0�.\x05$�\x15) 2", server: mapi.enjoenjoenjo111.xyz, port: 39311, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]g���K�O_�Ji��d�7���r��:�93%�ɕ��ɭ��ⷖ�0�.\x05$�\x15) 3", server: mapi.enjoenjoenjo111.xyz, port: 39344, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]g�J�.g��ߚ�b����.��Z�9��:�", server: mcdns.made1nheaven.xyz, port: 39244, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: ��3�ۺ�j8�z3, obfs-param: "�ilk\x1c��\x0b�i�n", udp: true}
+  - {name: "��8��\x1b���]g�J�.g��ߚ�b����.��Z�9��9�", server: mcdns.made1nheaven.xyz, port: 39230, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: ��3�ۺ�j8�z3, obfs-param: "�ilk\x1c��\x0b�i�n", udp: true}
+  - {name: "��8��\x1b���]g�J�.g��ߚ�b����.��Z�9��:�", server: mcdns.made1nheaven.xyz, port: 39346, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: ��3�ۺ�j8�z3, obfs-param: "�ilk\x1c��\x0b�i�n", udp: true}
+  - {name: "��8��\x1b���]g�J�.g��ߚ�b����.��Z�9��<�", server: mcdns.made1nheaven.xyz, port: 39367, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: ��3�ۺ�j8�z3, obfs-param: "�ilk\x1c��\x0b�i�n", udp: true}
+  - {name: "��8��\x1b���]g�J�.g��ߚ�b����.��Z�9��75", server: mcdns.made1nheaven.xyz, port: 39375, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: ��3�ۺ�j8�z3, obfs-param: "�ilk\x1c��\x0b�i�n", udp: true}
+  - {name: "��8��\x1b���]g�J�.g��ߚ�b����.��Z�9��81", server: mcdns.made1nheaven.xyz, port: 39381, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: ��3�ۺ�j8�z3, obfs-param: "�ilk\x1c��\x0b�i�n", udp: true}
+  - {name: "��8��\x1b���]g�J�.g��ߚ�b����.��Z�9��86", server: mcdns.made1nheaven.xyz, port: 39386, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: ��3�ۺ�j8�z3, obfs-param: "�ilk\x1c��\x0b�i�n", udp: true}
+  - {name: "��8��\x1b���]g�J�.g��ߚ�b����.��Z�9��88", server: mcdns.made1nheaven.xyz, port: 39388, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: ��3�ۺ�j8�z3, obfs-param: "�ilk\x1c��\x0b�i�n", udp: true}
+  - {name: "��8��\x1b���]g�J�.g��ߚ�b����.��Z�9��93", server: mcdns.made1nheaven.xyz, port: 39393, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: ��3�ۺ�j8�z3, obfs-param: "�ilk\x1c��\x0b�i�n", udp: true}
+  - {name: "��8��\x1b���]g�J�.g��ߚ�b����.��Z�9��8�", server: mcdns.made1nheaven.xyz, port: 39325, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: ��3�ۺ�j8�z3, obfs-param: "�ilk\x1c��\x0b�i�n", udp: true}
+  - {name: "��8��\x1b���]g�J�.g��ߚ�b����.��Z�9��ַ", server: mcdns.made1nheaven.xyz, port: 39407, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: ��3�ۺ�j8�z3, obfs-param: "�ilk\x1c��\x0b�i�n", udp: true}
+  - {name: "��8��\x1b���]g�J�.g��ߚ�b����.��Z�9��ױ", server: mcdns.made1nheaven.xyz, port: 39411, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: ��3�ۺ�j8�z3, obfs-param: "�ilk\x1c��\x0b�i�n", udp: true}
+  - {name: "��8��\x1b���]g�J�.g��ߚ�b����.��Z�9��׸", server: mcdns.made1nheaven.xyz, port: 39418, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: ��3�ۺ�j8�z3, obfs-param: "�ilk\x1c��\x0b�i�n", udp: true}
+  - {name: "��8��\x1b���]g�J�.g��ߚ�b����.��Z�9��ٴ", server: mcdns.made1nheaven.xyz, port: 39434, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: ��3�ۺ�j8�z3, obfs-param: "�ilk\x1c��\x0b�i�n", udp: true}
+  - {name: "��8��\x1b���]l�[�M[�뱶H_��߶.r��:�94%�", server: rrus.made1nheaven.xyz, port: 39413, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]l�[�M[�뱶H_��߶.r��:�94%� 2", server: rrus.made1nheaven.xyz, port: 39476, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "��8��\x1b���]l�[�M[�뱶H_��߶.r��:�94%� 3", server: rrus.made1nheaven.xyz, port: 39479, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "[英国TROJAN]JGWLD1.GAOX.ML:443", server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: "[韩国TROJAN]TJ-NODE-2.GFWAIRPORT.NET:50001", server: tj-node-2.gfwairport.net, port: 50001, type: trojan, password: 122b9200-c5e0-4003-836c-973eef59b6b2, skip-cert-verify: true, udp: true}
+  - {name: "[美国TROJAN]V.9051246.XYZ:443", server: v.9051246.xyz, port: 443, type: trojan, password: !<str> 18825786, skip-cert-verify: true, udp: true}
+  - {name: "[日本TROJAN]210.152.13.168:443", server: 210.152.13.168, port: 443, type: trojan, password: 18e513fe-f7f4-353d-84ca-bc9646fb2528mielink, skip-cert-verify: true, udp: true}
+  - {name: "[香港TROJAN]API.TCPBBR.NET:443", server: api.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: "[卢森堡TROJAN]S1.UPYUN.ONLINE:12340", server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: "[卢森堡TROJAN]S2.UPYUN.ONLINE:12340", server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: "[德国TROJAN]S3.UPYUN.ONLINE:12340", server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: free.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: "[澳大利亚TROJAN]HK-SERVER-02.SELFUPAY.COM:443", server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: "[新加坡TROJAN]HK31.SSGNODE.GA:443", server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, skip-cert-verify: true, udp: true}
+  - {name: "[香港TROJAN]BAIDU.HONGKONG.DNSFREE.TOP:12345", server: baidu.hongkong.dnsfree.top, port: 12345, type: trojan, password: 44d62787-1cbf-42aa-99d7-21e9bcdb1c24, sni: baidu.hongkong.dnsfree.top, skip-cert-verify: true, udp: true}
+  - {name: "[香港TROJAN]PRO.TLS.HONGKONGAZ.DNSFREE.TOP:55091", server: pro.tls.hongkongaz.dnsfree.top, port: 55091, type: trojan, password: 44d62787-1cbf-42aa-99d7-21e9bcdb1c24, sni: pro.tls.hongkongaz.dnsfree.top, skip-cert-verify: true, udp: true}
+  - {name: "[美国TROJAN]SUPERJAPAN1111.DNSFREE.TOP:12387", server: superjapan1111.dnsfree.top, port: 12387, type: trojan, password: 44d62787-1cbf-42aa-99d7-21e9bcdb1c24, sni: superjapan1111.dnsfree.top, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]GUANGZHOU.KULI888.XYZ:52004", server: guangzhou.kuli888.xyz, port: 52004, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, sni: guangzhou.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[香港TROJAN]HKT.NODE.QCHWND.MOE:44609", server: hkt.node.qchwnd.moe, port: 44609, type: trojan, password: 57e797a5-9a1d-4a26-b658-91fbf97f7741, skip-cert-verify: true, udp: true}
+  - {name: "[新加坡TROJAN]SG1-TROJAN.BONDS.ID:443", server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: "[台湾TROJAN]TW.TCPBBR.NET:443", server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]S1.LG-BLPOP.WDS-DSA.COM:19705", server: s1.lg-blpop.wds-dsa.com, port: 19705, type: trojan, password: 5d1ab994-348c-3a3e-8947-ce7e9dfeee25, sni: download.soloxxy.com, skip-cert-verify: true, udp: true}
+  - {name: "[新加坡TROJAN]5.44.249.43:3389", server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
+  - {name: "[英国TROJAN]JGWCC1.GAOX.ML:443", server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
+  - {name: "[美国TROJAN]S162.S2022.XYZ:23802", server: s162.s2022.xyz, port: 23802, type: trojan, password: 770c9e92-f51b-3e52-b932-eba13fb56801, skip-cert-verify: true, udp: true}
+  - {name: "[日本TROJAN]TKY3.SSGNODE.GA:443", server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: "[日本TROJAN]JGWDB3.GAOX.ML:443", server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]CM-JM.OKVPN.XYZ:20003", server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, skip-cert-verify: true, udp: true}
+  - {name: "[美国TROJAN]JGWCC2.GAOX.ML:443", server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
+  - {name: "[日本TROJAN]TJ-NODE-1-B.GFWAIRPORT.NET:50001", server: TJ-NODE-1-B.GFWAIRPORT.NET, port: 50001, type: trojan, password: 9e7256ac-f3bb-4f60-830f-48e75191c207, skip-cert-verify: true, udp: true}
+  - {name: "[韩国TROJAN]TJ-NODE-2-B.GFWAIRPORT.NET:50001", server: TJ-NODE-2-B.GFWAIRPORT.NET, port: 50001, type: trojan, password: 9e7256ac-f3bb-4f60-830f-48e75191c207, skip-cert-verify: true, udp: true}
+  - {name: "[新加坡TROJAN]TJ-NODE-3-B.GFWAIRPORT.NET:50001", server: TJ-NODE-3-B.GFWAIRPORT.NET, port: 50001, type: trojan, password: 9e7256ac-f3bb-4f60-830f-48e75191c207, skip-cert-verify: true, udp: true}
+  - {name: "[香港TROJAN]TJ-NODE-4-B.GFWAIRPORT.NET:50001", server: TJ-NODE-4-B.GFWAIRPORT.NET, port: 50001, type: trojan, password: 9e7256ac-f3bb-4f60-830f-48e75191c207, skip-cert-verify: true, udp: true}
+  - {name: "[加拿大TROJAN]CA-TROJAN.BONDS.ID:443", server: ca-trojan.bonds.id, port: 443, type: trojan, password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]106.75.168.104:3389", server: 106.75.168.104, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]106.75.233.91:3389", server: 106.75.233.91, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]113.31.155.165:3389", server: 113.31.155.165, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]116.129.253.177:3389", server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]116.129.253.201:3389", server: 116.129.253.201, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]116.129.254.29:3389", server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]116.129.254.47:3389", server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]117.50.106.86:3389", server: 117.50.106.86, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]120.132.50.158:3389", server: 120.132.50.158, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: "[台湾TROJAN]211.72.35.153:3389", server: 211.72.35.153, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: "[韩国TROJAN]JGW3.GAOX.ML:443", server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, skip-cert-verify: true, udp: true}
+  - {name: "[新加坡TROJAN]184.168.127.50:443", server: 184.168.127.50, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: "[澳大利亚TROJAN]JP-SERVER-02.SELFUPAY.COM:443", server: jp-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: "[澳大利亚TROJAN]SG-SERVER-01.SELFUPAY.COM:443", server: sg-server-01.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: "[美国TROJAN]JGWCC3.GAOX.ML:443", server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
+  - {name: "[韩国TROJAN]JGW4.GAOX.ML:443", server: jgw4.gaox.ml, port: 443, type: trojan, password: b7e0e71f-070c-437a-9826-6e23caeb0307, skip-cert-verify: true, udp: true}
+  - {name: "[美国TROJAN]TROJAN.WEFUCKGFW.GQ:443", server: trojan.wefuckgfw.gq, port: 443, type: trojan, password: bHzDpuel, skip-cert-verify: true, udp: true}
+  - {name: "[英国TROJAN]YIN1.QINGYUN123.XYZ:10000", server: yin1.qingyun123.xyz, port: 10000, type: trojan, password: be968b43-e7c9-4118-9c52-8c4a9108daf1, sni: yin1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[美国TROJAN]JGWDB2.GAOX.ML:443", server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
+  - {name: "[澳大利亚TROJAN]JGWXN2.GAOX.ML:443", server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
+  - {name: "[美国TROJAN]US-TROJAN.BONDS.ID:443", server: us-trojan.bonds.id, port: 443, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: "[美国TROJAN]RBMF.SPEEDCNCNFORWARD3.TK:10004", server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: d0173f59-c7e7-4bb0-bc09-3da657c70dd6, skip-cert-verify: true, udp: true}
+  - {name: "[美国TROJAN]RBMF.SPEEDCNCNFORWARD3.TK:10004 2", server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: d0173f59-c7e7-4bb0-bc09-3da657c70dd6, skip-cert-verify: true, udp: true}
+  - {name: "[美国TROJAN]FHCAMD2.GAOX.ML:443", server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]116.129.253.130:3389", server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]116.129.253.134:3389", server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]116.129.253.187:3389", server: 116.129.253.187, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]116.129.253.191:3389", server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]116.129.253.227:3389", server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: "[中国TROJAN]120.232.192.250:3385", server: 120.232.192.250, port: 3385, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: "[美国TROJAN]RBMF.SPEEDCNCNFORWARD3.TK:10004 3", server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
+  - {name: "[美国TROJAN]NAT-US-1.LICOM.GA:60002", server: nat-us-1.licom.ga, port: 60002, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, skip-cert-verify: true, udp: true}
+  - {name: "[美国TROJAN]API.MJJ-HOME.COM:443", server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, skip-cert-verify: true, udp: true}
+  - {name: "[捷克TROJAN]V2CROSS.COM.04.V2CE.COM:443", server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
+  - {name: v2cross_com_11, server: cmjm.senlinss.link, port: 21114, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: v2cross_com_24, server: cmjm.senlinss.link, port: 21115, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: v2cross_com_8, server: cmjm.senlinss.link, port: 21118, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: v2cross_com_13, server: cmjm.senlinss.link, port: 21119, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: v2cross_com_28, server: cmjm.senlinss.link, port: 21113, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: v2cross_com_21, server: cmjm.senlinss.link, port: 21124, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: v2cross_com_22, server: cmjm.senlinss.link, port: 21126, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: v2cross_com_12, server: cmjm.senlinss.link, port: 21120, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: v2cross_com_36, server: cmjm.senlinss.link, port: 21134, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: v2cross_com_31, server: cmjm.senlinss.link, port: 21139, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: v2cross_com_35, server: cmjm.senlinss.link, port: 21132, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: v2cross_com_37, server: cmjm.senlinss.link, port: 21133, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: v2cross_com_10, server: cmjm.senlinss.link, port: 21147, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: v2cross_com_25, server: cmjm.senlinss.link, port: 21148, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: v2cross_com_32, server: cmjm.senlinss.link, port: 21140, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: v2cross_com_16, server: cmjm.senlinss.link, port: 21142, type: vmess, uuid: 55171fb2-d7ef-3dfa-af3f-cea69e5666e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: "%7B%22host%22%3A%22cmjm.senlinss.link%22%7D"}}, udp: true}
+  - {name: 330hk02.fans8.xyz:443, server: 330hk02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fray", headers: {Host: 330hk02.fans8.xyz}}, udp: true}
+  - {name: 412sgsg.fans8.xyz:443, server: 412sgsg.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fray", headers: {Host: 412sgsg.fans8.xyz}}, udp: true}
+  - {name: v2cross_com_38, server: in04.dns2333.xyz, port: 63004, type: vmess, uuid: 61fefbce-2368-3809-8979-de696ffd3841, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: "%7B%22host%22%3A%22mugua-kr01.covid19.rip%22%7D"}}, udp: true}
+  - {name: v2cross_com_9, server: in05.dns2333.xyz, port: 63081, type: vmess, uuid: 61fefbce-2368-3809-8979-de696ffd3841, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: "%7B%22host%22%3A%22hkt2-cdn.tencent.best%22%7D"}}, udp: true}
+  - {name: www.digitalocean.com:443, server: www.digitalocean.com, port: 443, type: vmess, uuid: 6bf68fb9-e0d2-1418-6704-ef5805258a5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fcctvvws", headers: {Host: olo.aoyyds.tk}}, udp: true}
+  - {name: la-01.linkstar.icu:50924, server: la-01.linkstar.icu, port: 50924, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: nl-01.linkstar.icu:51014, server: nl-01.linkstar.icu, port: 51014, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: tw-04.linkstar.icu:50706, server: tw-04.linkstar.icu, port: 50706, type: vmess, uuid: 820924a5-f512-436b-b62d-be471b2e48ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: tw-04.linkstar.icu}}, udp: true}
+  - {name: v2cross_com_30, server: cu.fanqie.world, port: 10008, type: vmess, uuid: 892a5d33-5965-3914-8a2e-e9bec0ef5d76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: cu.fanqie.world}}, udp: true}
+  - {name: v2cross_com_18, server: cu.fanqie.world, port: 10010, type: vmess, uuid: 892a5d33-5965-3914-8a2e-e9bec0ef5d76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: cu.fanqie.world}}, udp: true}
+  - {name: v2cross_com_34, server: cmjm.senlinss.link, port: 21117, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_33, server: cmjm.senlinss.link, port: 21125, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_29, server: cmjm.senlinss.link, port: 21121, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: v2cross_com_26, server: cmjm.senlinss.link, port: 21122, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: vpn2.52tgds666.tk:443, server: vpn2.52tgds666.tk, port: 443, type: vmess, uuid: 976cf9fb-3ff1-48f7-939d-56a0e25f7376, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fray", headers: {Host: "%257b%2522host%2522%3A%2522vpnb.tgds.workers.dev%2522%257d"}}, udp: true}
+  - {name: gz.bgp.rx.naiun.pw:45149, server: gz.bgp.rx.naiun.pw, port: 45149, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: gz.bgp.rx.naiun.pw:45184, server: gz.bgp.rx.naiun.pw, port: 45184, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: gz.bgp.rx.naiun.pw:45194, server: gz.bgp.rx.naiun.pw, port: 45194, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: gz.bgp.rx.naiun.pw:45239, server: gz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: gz.bgp.rx.naiun.pw:45250, server: gz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: gz.bgp.rx.naiun.pw:45394, server: gz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: hz.bgp.rx.naiun.pw:45149, server: hz.bgp.rx.naiun.pw, port: 45149, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: hz.bgp.rx.naiun.pw:45184, server: hz.bgp.rx.naiun.pw, port: 45184, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: hz.bgp.rx.naiun.pw:45194, server: hz.bgp.rx.naiun.pw, port: 45194, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: hz.bgp.rx.naiun.pw:45239, server: hz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: hz.bgp.rx.naiun.pw:45250, server: hz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: hz.bgp.rx.naiun.pw:45394, server: hz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: 99ee69d6-e018-432d-ab85-bf95f67776a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: ca.iplc.skin:11119, server: ca.iplc.skin, port: 11119, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: ca.iplc.skin}}, udp: true}
+  - {name: cz.iplc.skin:11123, server: cz.iplc.skin, port: 11123, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: cz.iplc.skin}}, udp: true}
+  - {name: hk.iplc.skin:11101, server: hk.iplc.skin, port: 11101, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: hk.iplc.skin}}, udp: true}
+  - {name: my.iplc.skin:11110, server: my.iplc.skin, port: 11110, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: my.iplc.skin}}, udp: true}
+  - {name: ph.iplc.skin:11125, server: ph.iplc.skin, port: 11125, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: ph.iplc.skin}}, udp: true}
+  - {name: pt.iplc.skin:11124, server: pt.iplc.skin, port: 11124, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: pt.iplc.skin}}, udp: true}
+  - {name: tr.iplc.skin:11117, server: tr.iplc.skin, port: 11117, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: tr.iplc.skin}}, udp: true}
+  - {name: vn.iplc.skin:11113, server: vn.iplc.skin, port: 11113, type: vmess, uuid: 10ca989d-17b5-421d-bf30-23593bf1cc3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: vn.iplc.skin}}, udp: true}
+  - {name: v2.godlight.xyz:26933, server: v2.godlight.xyz, port: 26933, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Ff34f3-f32f364", headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: 138.197.236.77:443, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fray", headers: {Host: 138.197.236.77}}, udp: true}
+  - {name: niaop.tk:443, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fwsssdr1", headers: {Host: niaop.tk}}, udp: true}
+  - {name: 20.24.144.178:8009, server: 20.24.144.178, port: 8009, type: vmess, uuid: a7c876a7-a838-3083-a970-95571fe7b57f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: 20.24.144.178}}, udp: true}
+  - {name: jp3.bpyun.live:443, server: jp3.bpyun.live, port: 443, type: vmess, uuid: b081acc8-a10c-359a-85b0-97157767fe8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fcocksucker", headers: {Host: jp3.bpyun.live}}, udp: true}
+  - {name: in-v1.sdgdn.com:50205, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
+  - {name: in-v1.sdgdn.com:50206, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: telegram.channel.p2psharing}}, udp: true}
+  - {name: in-v1.sdgdn.com:50207, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: in-v1.sdgdn.com:50301, server: in-v1.sdgdn.com, port: 50301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: in-v1.sdgdn.com:50401, server: in-v1.sdgdn.com, port: 50401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: in-v1.sdgdn.com:50701, server: in-v1.sdgdn.com, port: 50701, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: telegram.channel.ripaojiedian}}, udp: true}
+  - {name: _fi_芬兰(yudou66_com玉豆分享)_48, server: oz.moonfree.top, port: 443, type: vmess, uuid: ecea9b32-d571-460f-bb74-2010c6acd6ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: "%7B%22host%22%3A%22oz.moonfree.top%22%7D"}}, udp: true}
+  - {name: 2.71137223.xyz:443, server: 2.71137223.xyz, port: 443, type: vmess, uuid: f99f4e79-a924-4890-a0df-b8a470b77a31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fbfwhvws%3Fed%3D2048", headers: {Host: 2.71137223.xyz}}, udp: true}
+  - {name: whatsapp-cn-route.teacher2040.com:31601, server: whatsapp-cn-route.teacher2040.com, port: 31601, type: vmess, uuid: 8723E8EE-D100-A8BF-4E77-F734A7A3651B, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, udp: true}
+  - {name: cmjm.senlinss.link:21114, server: cmjm.senlinss.link, port: 21114, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21115, server: cmjm.senlinss.link, port: 21115, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21116, server: cmjm.senlinss.link, port: 21116, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21117, server: cmjm.senlinss.link, port: 21117, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21118, server: cmjm.senlinss.link, port: 21118, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21119, server: cmjm.senlinss.link, port: 21119, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21111, server: cmjm.senlinss.link, port: 21111, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21112, server: cmjm.senlinss.link, port: 21112, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21113, server: cmjm.senlinss.link, port: 21113, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21124, server: cmjm.senlinss.link, port: 21124, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21125, server: cmjm.senlinss.link, port: 21125, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21126, server: cmjm.senlinss.link, port: 21126, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21127, server: cmjm.senlinss.link, port: 21127, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21128, server: cmjm.senlinss.link, port: 21128, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21129, server: cmjm.senlinss.link, port: 21129, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21120, server: cmjm.senlinss.link, port: 21120, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21121, server: cmjm.senlinss.link, port: 21121, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21122, server: cmjm.senlinss.link, port: 21122, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21123, server: cmjm.senlinss.link, port: 21123, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21134, server: cmjm.senlinss.link, port: 21134, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21135, server: cmjm.senlinss.link, port: 21135, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21136, server: cmjm.senlinss.link, port: 21136, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21139, server: cmjm.senlinss.link, port: 21139, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21130, server: cmjm.senlinss.link, port: 21130, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21131, server: cmjm.senlinss.link, port: 21131, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21132, server: cmjm.senlinss.link, port: 21132, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21133, server: cmjm.senlinss.link, port: 21133, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21147, server: cmjm.senlinss.link, port: 21147, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21148, server: cmjm.senlinss.link, port: 21148, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21140, server: cmjm.senlinss.link, port: 21140, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21141, server: cmjm.senlinss.link, port: 21141, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: cmjm.senlinss.link:21142, server: cmjm.senlinss.link, port: 21142, type: vmess, uuid: 14e3a75c-dc5a-3821-b74d-9f75f7c1a8a2, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Findex", headers: {Host: cmjm.senlinss.link}}, udp: true}
+  - {name: hk2704.cloudmatrix.xyz:2704, server: hk2704.cloudmatrix.xyz, port: 2704, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: hk2704.cloudmatrix.xyz}}, udp: true}
+  - {name: hk2701.cloudmatrix.xyz:2701, server: hk2701.cloudmatrix.xyz, port: 2701, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: hk2701.cloudmatrix.xyz}}, udp: true}
+  - {name: hk2702.cloudmatrix.xyz:2702, server: hk2702.cloudmatrix.xyz, port: 2702, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: hk2702.cloudmatrix.xyz}}, udp: true}
+  - {name: hk2703.cloudmatrix.xyz:2703, server: hk2703.cloudmatrix.xyz, port: 2703, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: hk2703.cloudmatrix.xyz}}, udp: true}
+  - {name: jp2802.cloudmatrix.xyz:2802, server: jp2802.cloudmatrix.xyz, port: 2802, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: jp2802.cloudmatrix.xyz}}, udp: true}
+  - {name: jp2803.cloudmatrix.xyz:2803, server: jp2803.cloudmatrix.xyz, port: 2803, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: jp2803.cloudmatrix.xyz}}, udp: true}
+  - {name: sg2604.cloudmatrix.xyz:2604, server: sg2604.cloudmatrix.xyz, port: 2604, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: sg2604.cloudmatrix.xyz}}, udp: true}
+  - {name: sg2601.cloudmatrix.xyz:2601, server: sg2601.cloudmatrix.xyz, port: 2601, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: sg2601.cloudmatrix.xyz}}, udp: true}
+  - {name: sg2602.cloudmatrix.xyz:2602, server: sg2602.cloudmatrix.xyz, port: 2602, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: sg2602.cloudmatrix.xyz}}, udp: true}
+  - {name: sg2603.cloudmatrix.xyz:2603, server: sg2603.cloudmatrix.xyz, port: 2603, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: sg2603.cloudmatrix.xyz}}, udp: true}
+  - {name: tw2504.cloudmatrix.xyz:2504, server: tw2504.cloudmatrix.xyz, port: 2504, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: tw2504.cloudmatrix.xyz}}, udp: true}
+  - {name: tw2505.cloudmatrix.xyz:2505, server: tw2505.cloudmatrix.xyz, port: 2505, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: tw2505.cloudmatrix.xyz}}, udp: true}
+  - {name: tw2506.cloudmatrix.xyz:2506, server: tw2506.cloudmatrix.xyz, port: 2506, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: tw2506.cloudmatrix.xyz}}, udp: true}
+  - {name: tw2501.cloudmatrix.xyz:2501, server: tw2501.cloudmatrix.xyz, port: 2501, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: tw2501.cloudmatrix.xyz}}, udp: true}
+  - {name: tw2502.cloudmatrix.xyz:2502, server: tw2502.cloudmatrix.xyz, port: 2502, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: tw2502.cloudmatrix.xyz}}, udp: true}
+  - {name: tw2503.cloudmatrix.xyz:2503, server: tw2503.cloudmatrix.xyz, port: 2503, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: tw2503.cloudmatrix.xyz}}, udp: true}
+  - {name: uk2901.cloudmatrix.xyz:2901, server: uk2901.cloudmatrix.xyz, port: 2901, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: uk2901.cloudmatrix.xyz}}, udp: true}
+  - {name: us2406.cloudmatrix.xyz:2406, server: us2406.cloudmatrix.xyz, port: 2406, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: us2406.cloudmatrix.xyz}}, udp: true}
+  - {name: us2407.cloudmatrix.xyz:2407, server: us2407.cloudmatrix.xyz, port: 2407, type: vmess, uuid: 32ea0987-24dc-319d-aa8b-e0dcddc711f8, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fhls%2Fcctv5phd.m3u8", headers: {Host: us2407.cloudmatrix.xyz}}, udp: true}
+  - {name: hk-iii.bpldply.xyz:80, server: hk-iii.bpldply.xyz, port: 80, type: vmess, uuid: b8cd4ac8-ad57-3174-8619-610da96b31af, alterId: 0, cipher: none, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fwroot1", headers: {Host: www.jd.hk}}, udp: true}
+proxy-groups:
+  - name: 代理
+    type: select
+    proxies:
+      - "[中国SS]122.9.62.37:4720"
+      - "[中国SS]120.232.214.153:3223"
+      - "[中国SS]120.232.214.240:3223"
+      - "[中国SS]DE-S-ROUTE.TEACHER2060.COM:31617"
+      - "[中国SS]HK-S-ROUTE.TEACHER2060.COM:603"
+      - "[中国SS]JP-S-ROUTE.TEACHER2060.COM:601"
+      - "[中国SS]SG-S-ROUTE.TEACHER2060.COM:602"
+      - "[中国SS]122.9.54.40:3947"
+      - "[中国SS]122.9.54.58:2266"
+      - "[中国SS]122.9.62.6:3281"
+      - "[中国SS]GY-HKHGC.FENGLINGCLOUD.COM:28001"
+      - "[中国SS]GZ.BGP.RX.NAIUN.PW:45144"
+      - "[中国SS]GZ.BGP.RX.NAIUN.PW:45183"
+      - "[中国SS]GZ.BGP.RX.NAIUN.PW:45190"
+      - "[中国SS]GZ.BGP.RX.NAIUN.PW:45240"
+      - "[中国SS]GZ.BGP.RX.NAIUN.PW:45251"
+      - "[中国SS]GZ.BGP.RX.NAIUN.PW:45392"
+      - "[中国SS]HZ.BGP.RX.NAIUN.PW:45144"
+      - "[中国SS]HZ.BGP.RX.NAIUN.PW:45183"
+      - "[中国SS]HZ.BGP.RX.NAIUN.PW:45190"
+      - "[中国SS]HZ.BGP.RX.NAIUN.PW:45240"
+      - "[中国SS]HZ.BGP.RX.NAIUN.PW:45251"
+      - "[中国SS]HZ.BGP.RX.NAIUN.PW:45392"
+      - "[韩国SS]SS-NODE-2-B.GFWAIRPORT.NET:50001"
+      - "[新加坡SS]SS-NODE-3-B.GFWAIRPORT.NET:50001"
+      - "[香港SS]SS-NODE-4-B.GFWAIRPORT.NET:50001"
+      - "[美国SS]SS-NODE-5-B.GFWAIRPORT.NET:50001"
+      - "[中国SS]IN.IPLC.SKIN:11109"
+      - "[中国SS]KH.IPLC.SKIN:11121"
+      - "[中国SS]HK-S-ROUTE.TEACHER2060.COM:603 2"
+      - "[中国SS]SG-S-ROUTE.TEACHER2060.COM:602 2"
+      - "[中国SS]14.29.124.168:25256"
+      - "[中国SS]14.29.124.168:25279"
+      - "[中国SS]14.29.124.168:25294"
+      - "[中国SS]14.29.124.168:25295"
+      - "[中国SS]14.29.124.168:25296"
+      - "[中国SS]CM.NEWHUA99.GA:21681"
+      - "[中国SS]CM.NEWHUA99.GA:21682"
+      - "[中国SS]CM.NEWHUA99.GA:21684"
+      - "[中国SS]CM.NEWHUA99.GA:21686"
+      - "[中国SS]CM.NEWHUA99.GA:21687"
+      - "[中国SS]CM.NEWHUA99.GA:21690"
+      - "[中国SS]CM.NEWHUA99.GA:21691"
+      - "[中国SS]CM.NEWHUA99.GA:21693"
+      - "[中国SS]CM.NEWHUA99.GA:21694"
+      - "[中国SS]CM.NEWHUA99.GA:21695"
+      - "[中国SS]CM.NEWHUA99.GA:21696"
+      - "[中国SS]CM.NEWHUA99.GA:21697"
+      - "[中国SS]CM.NEWHUA99.GA:21698"
+      - "[中国SS]CM.NEWHUA99.GA:21699"
+      - "[中国SS]CM2.NEWHUA99.GA:21681"
+      - "[中国SS]CM2.NEWHUA99.GA:21683"
+      - "[中国SS]CM2.NEWHUA99.GA:21693"
+      - "[中国SS]CM2.NEWHUA99.GA:21694"
+      - "[中国SS]CM2.NEWHUA99.GA:21696"
+      - "[中国SS]CM2.NEWHUA99.GA:21697"
+      - "[中国SS]CM2.NEWHUA99.GA:21698"
+      - "[中国SS]CM2.NEWHUA99.GA:21699"
+      - "[中国SS]CU.NEWHUA99.GA:21682"
+      - "[中国SS]CU.NEWHUA99.GA:21684"
+      - "[中国SS]CU.NEWHUA99.GA:21685"
+      - "[中国SS]CU.NEWHUA99.GA:21686"
+      - "[中国SS]CU.NEWHUA99.GA:21687"
+      - "[中国SS]CU.NEWHUA99.GA:21689"
+      - "[中国SS]CU.NEWHUA99.GA:21695"
+      - "[中国SS]CN1.RELAY.IEPL.PW:50200"
+      - "[中国SS]CN1.RELAY.IEPL.PW:50300"
+      - "[中国SS]CN1.RELAY.IEPL.PW:50400"
+      - "[中国SS]CN1.RELAY.IEPL.PW:50500"
+      - "[中国SS]CN1.RELAY.IEPL.PW:50600"
+      - "[中国SS]CN1.RELAY.IEPL.PW:50700"
+      - "[中国SS]120.232.174.85:24089"
+      - "[中国SS]120.232.174.85:25081"
+      - "[中国SS]120.232.174.85:27419"
+      - "[中国SS]120.232.174.85:27938"
+      - "[中国SS]120.232.174.85:29147"
+      - "[中国SS]120.232.174.85:33200"
+      - "[中国SS]120.232.174.85:33201"
+      - "[中国SS]120.232.174.85:33510"
+      - "[中国SS]120.232.174.85:45445"
+      - "[中国SS]120.232.174.85:45647"
+      - "[中国SS]120.232.174.85:45793"
+      - "[中国SS]120.232.174.85:45862"
+      - "[中国SS]120.232.174.85:47985"
+      - "[中国SS]CN1.IEPL.STARLINK.ST:50500"
+      - "[中国SS]101.91.121.247:50004"
+      - "[波兰SS]217.30.10.66:9059"
+      - "[波兰SS]217.30.10.67:9020"
+      - "[波兰SS]217.30.10.64:9024"
+      - "[荷兰SS]213.183.51.171:9031"
+      - "[波兰SS]217.30.10.66:9031"
+      - "[澳大利亚SS]185.167.116.253:9019"
+      - "[荷兰SS]213.183.51.171:9019"
+      - "[波兰SS]217.30.10.65:9019"
+      - "[波兰SS]217.30.10.66:9019"
+      - "[波兰SS]217.30.10.66:9027"
+      - "[波兰SS]217.30.10.64:9006"
+      - "[波兰SS]217.30.10.66:9050"
+      - "[荷兰SS]213.183.51.171:9014"
+      - "[波兰SS]217.30.10.64:9014"
+      - "[波兰SS]217.30.10.65:9014"
+      - "[澳大利亚SS]185.167.116.253:9043"
+      - "[俄罗斯联邦SS]213.183.53.200:9043"
+      - "[波兰SS]217.30.10.64:9043"
+      - "[波兰SS]217.30.10.64:9003"
+      - "[波兰SS]217.30.10.66:9003"
+      - "[波兰SS]217.30.10.64:9045"
+      - "[波兰SS]217.30.10.65:9045"
+      - "[波兰SS]217.30.10.66:9045"
+      - "[澳大利亚SS]185.167.116.253:9011"
+      - "[荷兰SS]213.183.51.171:9011"
+      - "[波兰SS]217.30.10.65:9011"
+      - "[俄罗斯联邦SS]213.183.53.200:9046"
+      - "[波兰SS]217.30.10.64:9046"
+      - "[荷兰SS]213.183.51.171:9097"
+      - "[波兰SS]217.30.10.67:9097"
+      - "[荷兰SS]213.183.51.171:9026"
+      - "[波兰SS]217.30.10.64:9026"
+      - "[波兰SS]217.30.10.65:9026"
+      - "[波兰SS]217.30.10.67:9026"
+      - "[荷兰SS]213.183.51.171:9042"
+      - "[波兰SS]217.30.10.64:9042"
+      - "[波兰SS]217.30.10.65:9042"
+      - "[波兰SS]217.30.10.67:9042"
+      - "[荷兰SS]213.183.51.171:9037"
+      - "[波兰SS]217.30.10.64:9037"
+      - "[波兰SS]217.30.10.67:9037"
+      - "[荷兰SS]213.183.51.171:9079"
+      - "[波兰SS]217.30.10.65:9079"
+      - "[波兰SS]217.30.10.66:9079"
+      - "[波兰SS]217.30.10.67:9079"
+      - "[澳大利亚SS]185.167.116.252:9041"
+      - "[荷兰SS]213.183.51.171:9041"
+      - "[波兰SS]217.30.10.64:9041"
+      - "[波兰SS]217.30.10.66:9041"
+      - "[荷兰SS]213.183.51.172:9033"
+      - "[波兰SS]217.30.10.64:9033"
+      - "[波兰SS]217.30.10.67:9032"
+      - "[波兰SS]217.30.10.64:9001"
+      - "[波兰SS]217.30.10.66:9001"
+      - "[澳大利亚SS]185.167.116.252:9080"
+      - "[澳大利亚SS]185.167.116.253:9080"
+      - "[波兰SS]217.30.10.67:9025"
+      - "[波兰SS]217.30.10.64:9005"
+      - "[澳大利亚SS]185.167.116.252:9015"
+      - "[波兰SS]217.30.10.64:9015"
+      - "[波兰SS]217.30.10.65:9015"
+      - "[波兰SS]217.30.10.66:9015"
+      - "[波兰SS]217.30.10.67:9015"
+      - "[澳大利亚SS]185.167.116.252:9064"
+      - "[波兰SS]217.30.10.66:9000"
+      - "[波兰SS]217.30.10.67:9000"
+      - "[波兰SS]217.30.10.66:9098"
+      - "[波兰SS]217.30.10.64:9070"
+      - "[波兰SS]217.30.10.65:9070"
+      - "[荷兰SS]213.183.51.171:9084"
+      - "[波兰SS]217.30.10.65:9084"
+      - "[澳大利亚SS]185.167.116.253:9038"
+      - "[波兰SS]217.30.10.65:9038"
+      - "[波兰SS]217.30.10.66:9038"
+      - "[澳大利亚SS]185.167.116.253:9073"
+      - "[波兰SS]217.30.10.65:9010"
+      - "[波兰SS]217.30.10.64:9088"
+      - "[波兰SS]217.30.10.65:9088"
+      - "[波兰SS]217.30.10.65:9018"
+      - "[荷兰SS]213.183.51.171:9040"
+      - "[波兰SS]217.30.10.64:9040"
+      - "[波兰SS]217.30.10.65:9040"
+      - "[波兰SS]217.30.10.66:9040"
+      - "[荷兰SS]213.183.51.171:9056"
+      - "[波兰SS]217.30.10.65:9056"
+      - "[波兰SS]217.30.10.66:9094"
+      - "[俄罗斯联邦SS]213.183.53.200:9093"
+      - "[波兰SS]217.30.10.65:9093"
+      - "[波兰SS]217.30.10.67:9093"
+      - "[波兰SS]217.30.10.64:9057"
+      - "[波兰SS]217.30.10.66:9057"
+      - "[荷兰SS]213.183.51.171:9060"
+      - "[波兰SS]217.30.10.65:9060"
+      - "[波兰SS]217.30.10.66:9060"
+      - "[荷兰SS]213.183.51.171:9008"
+      - "[波兰SS]217.30.10.66:9008"
+      - "[中国SS]JM-YD-3421.CLOUDAPICLOUDAPI.TOP:1008"
+      - "[加拿大SS]134.195.196.68:443"
+      - "[中国SS]183.213.21.67:18584"
+      - "[英国TROJAN]JGWLD1.GAOX.ML:443"
+      - "[韩国TROJAN]TJ-NODE-2.GFWAIRPORT.NET:50001"
+      - "[美国TROJAN]V.9051246.XYZ:443"
+      - "[日本TROJAN]210.152.13.168:443"
+      - "[香港TROJAN]API.TCPBBR.NET:443"
+      - "[卢森堡TROJAN]S1.UPYUN.ONLINE:12340"
+      - "[卢森堡TROJAN]S2.UPYUN.ONLINE:12340"
+      - "[德国TROJAN]S3.UPYUN.ONLINE:12340"
+      - "[澳大利亚TROJAN]HK-SERVER-02.SELFUPAY.COM:443"
+      - "[新加坡TROJAN]HK31.SSGNODE.GA:443"
+      - "[香港TROJAN]BAIDU.HONGKONG.DNSFREE.TOP:12345"
+      - "[香港TROJAN]PRO.TLS.HONGKONGAZ.DNSFREE.TOP:55091"
+      - "[美国TROJAN]SUPERJAPAN1111.DNSFREE.TOP:12387"
+      - "[中国TROJAN]GUANGZHOU.KULI888.XYZ:52004"
+      - "[香港TROJAN]HKT.NODE.QCHWND.MOE:44609"
+      - "[新加坡TROJAN]SG1-TROJAN.BONDS.ID:443"
+      - "[台湾TROJAN]TW.TCPBBR.NET:443"
+      - "[中国TROJAN]S1.LG-BLPOP.WDS-DSA.COM:19705"
+      - "[新加坡TROJAN]5.44.249.43:3389"
+      - "[英国TROJAN]JGWCC1.GAOX.ML:443"
+      - "[美国TROJAN]S162.S2022.XYZ:23802"
+      - "[日本TROJAN]TKY3.SSGNODE.GA:443"
+      - "[日本TROJAN]JGWDB3.GAOX.ML:443"
+      - "[中国TROJAN]CM-JM.OKVPN.XYZ:20003"
+      - "[美国TROJAN]JGWCC2.GAOX.ML:443"
+      - "[日本TROJAN]TJ-NODE-1-B.GFWAIRPORT.NET:50001"
+      - "[韩国TROJAN]TJ-NODE-2-B.GFWAIRPORT.NET:50001"
+      - "[新加坡TROJAN]TJ-NODE-3-B.GFWAIRPORT.NET:50001"
+      - "[香港TROJAN]TJ-NODE-4-B.GFWAIRPORT.NET:50001"
+      - "[加拿大TROJAN]CA-TROJAN.BONDS.ID:443"
+      - "[中国TROJAN]106.75.168.104:3389"
+      - "[中国TROJAN]106.75.233.91:3389"
+      - "[中国TROJAN]113.31.155.165:3389"
+      - "[中国TROJAN]116.129.253.177:3389"
+      - "[中国TROJAN]116.129.253.201:3389"
+      - "[中国TROJAN]116.129.254.29:3389"
+      - "[中国TROJAN]116.129.254.47:3389"
+      - "[中国TROJAN]117.50.106.86:3389"
+      - "[中国TROJAN]120.132.50.158:3389"
+      - "[台湾TROJAN]211.72.35.153:3389"
+      - "[韩国TROJAN]JGW3.GAOX.ML:443"
+      - "[新加坡TROJAN]184.168.127.50:443"
+      - "[澳大利亚TROJAN]JP-SERVER-02.SELFUPAY.COM:443"
+      - "[澳大利亚TROJAN]SG-SERVER-01.SELFUPAY.COM:443"
+      - "[美国TROJAN]JGWCC3.GAOX.ML:443"
+      - "[韩国TROJAN]JGW4.GAOX.ML:443"
+      - "[美国TROJAN]TROJAN.WEFUCKGFW.GQ:443"
+      - "[英国TROJAN]YIN1.QINGYUN123.XYZ:10000"
+      - "[美国TROJAN]JGWDB2.GAOX.ML:443"
+      - "[澳大利亚TROJAN]JGWXN2.GAOX.ML:443"
+      - "[美国TROJAN]US-TROJAN.BONDS.ID:443"
+      - "[美国TROJAN]RBMF.SPEEDCNCNFORWARD3.TK:10004"
+      - "[美国TROJAN]RBMF.SPEEDCNCNFORWARD3.TK:10004 2"
+      - "[美国TROJAN]FHCAMD2.GAOX.ML:443"
+      - "[中国TROJAN]116.129.253.130:3389"
+      - "[中国TROJAN]116.129.253.134:3389"
+      - "[中国TROJAN]116.129.253.187:3389"
+      - "[中国TROJAN]116.129.253.191:3389"
+      - "[中国TROJAN]116.129.253.227:3389"
+      - "[中国TROJAN]120.232.192.250:3385"
+      - "[美国TROJAN]RBMF.SPEEDCNCNFORWARD3.TK:10004 3"
+      - "[美国TROJAN]NAT-US-1.LICOM.GA:60002"
+      - "[美国TROJAN]API.MJJ-HOME.COM:443"
+      - "[捷克TROJAN]V2CROSS.COM.04.V2CE.COM:443"
+      - v2cross_com_11
+      - v2cross_com_24
+      - v2cross_com_8
+      - v2cross_com_13
+      - v2cross_com_28
+      - v2cross_com_21
+      - v2cross_com_22
+      - v2cross_com_12
+      - v2cross_com_36
+      - v2cross_com_31
+      - v2cross_com_35
+      - v2cross_com_37
+      - v2cross_com_10
+      - v2cross_com_25
+      - v2cross_com_32
+      - v2cross_com_16
+      - 330hk02.fans8.xyz:443
+      - 412sgsg.fans8.xyz:443
+      - v2cross_com_38
+      - v2cross_com_9
+      - www.digitalocean.com:443
+      - la-01.linkstar.icu:50924
+      - nl-01.linkstar.icu:51014
+      - tw-04.linkstar.icu:50706
+      - v2cross_com_30
+      - v2cross_com_18
+      - v2cross_com_34
+      - v2cross_com_33
+      - v2cross_com_29
+      - v2cross_com_26
+      - vpn2.52tgds666.tk:443
+      - gz.bgp.rx.naiun.pw:45149
+      - gz.bgp.rx.naiun.pw:45184
+      - gz.bgp.rx.naiun.pw:45194
+      - gz.bgp.rx.naiun.pw:45239
+      - gz.bgp.rx.naiun.pw:45250
+      - gz.bgp.rx.naiun.pw:45394
+      - hz.bgp.rx.naiun.pw:45149
+      - hz.bgp.rx.naiun.pw:45184
+      - hz.bgp.rx.naiun.pw:45194
+      - hz.bgp.rx.naiun.pw:45239
+      - hz.bgp.rx.naiun.pw:45250
+      - hz.bgp.rx.naiun.pw:45394
+      - ca.iplc.skin:11119
+      - cz.iplc.skin:11123
+      - hk.iplc.skin:11101
+      - my.iplc.skin:11110
+      - ph.iplc.skin:11125
+      - pt.iplc.skin:11124
+      - tr.iplc.skin:11117
+      - vn.iplc.skin:11113
+      - v2.godlight.xyz:26933
+      - 138.197.236.77:443
+      - niaop.tk:443
+      - 20.24.144.178:8009
+      - jp3.bpyun.live:443
+      - in-v1.sdgdn.com:50205
+      - in-v1.sdgdn.com:50206
+      - in-v1.sdgdn.com:50207
+      - in-v1.sdgdn.com:50301
+      - in-v1.sdgdn.com:50401
+      - in-v1.sdgdn.com:50701
+      - _fi_芬兰(yudou66_com玉豆分享)_48
+      - 2.71137223.xyz:443
+      - whatsapp-cn-route.teacher2040.com:31601
+      - cmjm.senlinss.link:21114
+      - cmjm.senlinss.link:21115
+      - cmjm.senlinss.link:21116
+      - cmjm.senlinss.link:21117
+      - cmjm.senlinss.link:21118
+      - cmjm.senlinss.link:21119
+      - cmjm.senlinss.link:21111
+      - cmjm.senlinss.link:21112
+      - cmjm.senlinss.link:21113
+      - cmjm.senlinss.link:21124
+      - cmjm.senlinss.link:21125
+      - cmjm.senlinss.link:21126
+      - cmjm.senlinss.link:21127
+      - cmjm.senlinss.link:21128
+      - cmjm.senlinss.link:21129
+      - cmjm.senlinss.link:21120
+      - cmjm.senlinss.link:21121
+      - cmjm.senlinss.link:21122
+      - cmjm.senlinss.link:21123
+      - cmjm.senlinss.link:21134
+      - cmjm.senlinss.link:21135
+      - cmjm.senlinss.link:21136
+      - cmjm.senlinss.link:21139
+      - cmjm.senlinss.link:21130
+      - cmjm.senlinss.link:21131
+      - cmjm.senlinss.link:21132
+      - cmjm.senlinss.link:21133
+      - cmjm.senlinss.link:21147
+      - cmjm.senlinss.link:21148
+      - cmjm.senlinss.link:21140
+      - cmjm.senlinss.link:21141
+      - cmjm.senlinss.link:21142
+      - hk2704.cloudmatrix.xyz:2704
+      - hk2701.cloudmatrix.xyz:2701
+      - hk2702.cloudmatrix.xyz:2702
+      - hk2703.cloudmatrix.xyz:2703
+      - jp2802.cloudmatrix.xyz:2802
+      - jp2803.cloudmatrix.xyz:2803
+      - sg2604.cloudmatrix.xyz:2604
+      - sg2601.cloudmatrix.xyz:2601
+      - sg2602.cloudmatrix.xyz:2602
+      - sg2603.cloudmatrix.xyz:2603
+      - tw2504.cloudmatrix.xyz:2504
+      - tw2505.cloudmatrix.xyz:2505
+      - tw2506.cloudmatrix.xyz:2506
+      - tw2501.cloudmatrix.xyz:2501
+      - tw2502.cloudmatrix.xyz:2502
+      - tw2503.cloudmatrix.xyz:2503
+      - uk2901.cloudmatrix.xyz:2901
+      - us2406.cloudmatrix.xyz:2406
+      - us2407.cloudmatrix.xyz:2407
+      - hk-iii.bpldply.xyz:80
+  - name: 规则外路由选择
+    type: select
+    proxies:
+      - 代理
+      - DIRECT
+rules:
+ - DOMAIN-SUFFIX,local,DIRECT
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR6,::1/128,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+ - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+ - PROCESS-NAME,aria2c,DIRECT
+ - PROCESS-NAME,fdm,DIRECT
+ - PROCESS-NAME,Folx,DIRECT
+ - PROCESS-NAME,NetTransport,DIRECT
+ - PROCESS-NAME,Thunder,DIRECT
+ - PROCESS-NAME,Transmission,DIRECT
+ - PROCESS-NAME,uTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent,DIRECT
+ - PROCESS-NAME,WebTorrent Helper,DIRECT
+ - PROCESS-NAME,DownloadService,DIRECT
+ - PROCESS-NAME,Weiyun,DIRECT
+ - DOMAIN-KEYWORD,aria2,DIRECT
+ - DOMAIN-KEYWORD,xunlei,DIRECT
+ - DOMAIN-KEYWORD,yunpan,DIRECT
+ - DOMAIN-KEYWORD,Thunder,DIRECT
+ - DOMAIN-KEYWORD,XLLiveUD,DIRECT
+ - MATCH,规则外路由选择
