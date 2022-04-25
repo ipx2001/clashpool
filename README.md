@@ -1,5 +1,6 @@
 # clashpool
 # 不要fork 不要star  低调使用，否则删库跑路
+# 自行测速筛选，节点太多了，全用会很卡的
 ### 订阅链接:
 clash：https://raw.githubusercontent.com/wally94/clashpool/main/sub/clash.yaml
 v2ray:https://raw.githubusercontent.com/wally94/clashpool/main/sub/v2ray.txt
