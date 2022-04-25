@@ -22,7 +22,8 @@ jobs:
         node-version: 16.x
         cache: 'npm'
     - name: 启动转换服务器
-      run: docker run -d -p 25500:25500 --name subconverter tindy2013/subconverter
+      run: docker run -d --net=host --name subconverter tindy2013/subconverter
+      # run: docker run -d -p 25500:25500 --name subconverter tindy2013/subconverter
     - name: 启动 clash 
       run: |
         cd utils/clash 
