@@ -116,8 +116,8 @@ SubList:
   - id: 22
     remarks: 节点池22
     site: https://github.com/pojiezhiyuanjun/freev2
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0425.txt
-    lastUpdateTime: 2022-04-25
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0426.txt
+    lastUpdateTime: 2022-04-26
     enabled: true
   - id: 23
     remarks: 节点池23
