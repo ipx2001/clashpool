@@ -5,326 +5,296 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _02 |22.09Mb, server: 158.247.223.116, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Relay_-🇰🇷KR_03 | 7.13Mb, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|18.34Mb", server: 147.182.151.24, port: 20110, type: ss, cipher: aes-256-cfb, password: f5e0ecc4e6b84a668ee9ed98e0a30ca9, udp: true}
-  - {name: Relay_ |12.06Mb, server: v4-node66.mimemi-9mih.com, port: 13114, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 9525:QxHsQf, obfs-param: hk2sch70d9e9525.wns.windows.com, udp: true}
-  - {name: AU_09 | 2.86Mb, server: 185.167.116.252, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: AU_10 | 3.00Mb, server: 185.167.116.252, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
-  - {name: AU_12 | 0.18Mb, server: 185.167.116.252, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: "|28.04Mb", server: 43.154.72.145, port: 27091, type: vmess, uuid: 2f1e82e4-5319-4278-92aa-74d49c04683f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 43.154.72.145, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_14 | 3.70Mb, server: 421hk.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: 421hk.fans8.xyz, network: ws, ws-opts: {path: /ray, headers: {Host: 421hk.fans8.xyz}}, udp: true}
-  - {name: AU_15 |36.91Mb, server: 43.155.117.192, port: 37132, type: vmess, uuid: 0dda776a-5426-4003-8b08-c791971613c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 43.155.117.192, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: "|29.87Mb", server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 43.129.227.60, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_17 | 5.77Mb, server: 421sg2.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: 421sg2.fans8.xyz, network: ws, ws-opts: {path: /ray, headers: {Host: 421sg2.fans8.xyz}}, udp: true}
-  - {name: "|32.27Mb", server: 43.135.70.192, port: 24740, type: vmess, uuid: 3749de34-a1a9-44db-b72a-510712a52d11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 43.135.70.192, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: AU_19 | 4.31Mb, server: 43.154.102.246, port: 39509, type: vmess, uuid: 9555680d-9857-4266-a97b-cb8b393d6e98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|43.15Mb", server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 43.154.104.180, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: Relay_🇦🇺AU-🇯🇵JP_21 |23.55Mb, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_22 | 7.83Mb, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: 330tw.fans8.xyz, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
-  - {name: CN_23 | 6.03Mb, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳 CN-🇩🇪DE_24 | 8.31Mb, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇱🇺LU_25 | 1.46Mb, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
-  - {name: CN_26 | 8.47Mb, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_27 | 9.03Mb, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|12.61Mb", server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_29 | 8.47Mb, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_30 | 9.79Mb, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_31 | 8.34Mb, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_32 |37.98Mb, server: 14.29.124.168, port: 24003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|10.28Mb", server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|38.43Mb", server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|14.22Mb", server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_36 | 7.83Mb, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|10.67Mb", server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_38 | 5.78Mb, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_39 | 7.39Mb, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_40 | 8.44Mb, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_41 | 9.51Mb, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_42 | 6.92Mb, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_43, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
-  - {name: CN_44 | 5.61Mb, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: CN_45 | 7.67Mb, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇰🇷KR_46 |20.71Mb, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_47, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
-  - {name: CN_48 | 7.18Mb, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_49 |22.15Mb, server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_50 | 2.37Mb, server: gzyd-01.yyuuii.cyou, port: 23033, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇦UA_51 | 9.99Mb, server: gz2.52168.xyz, port: 2110, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_52 | 6.92Mb, server: gz2.52168.xyz, port: 2102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_55 | 2.27Mb, server: jp2802.cloudmatrix.xyz, port: 2802, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: jp2802.cloudmatrix.xyz, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp2802.cloudmatrix.xyz}}, udp: true}
-  - {name: Relay_ |790.66Mb, server: jp2802.cloudmatrix.xyz, port: 2802, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: t.me/vpnhat, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp2802.cloudmatrix.xyz}}, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_57 | 5.19Mb, server: 183.240.181.57, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, servername: telegram.channel.p2psharing, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
-  - {name: Relay_🇨🇳CN-🏁ZZ_58 | 6.87Mb, server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, servername: t.me/vpnhat, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_59 |68.39Mb, server: whcu.cwcsrsyby.xyz, port: 2193, type: vmess, uuid: 1d6c60fe-4088-4828-844d-e34967458d54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: whcu.cwcsrsyby.xyz, udp: true}
-  - {name: Relay_ |10.27Mb, server: cu.fanqie.world, port: 10015, type: vmess, uuid: 892a5d33-5965-3914-8a2e-e9bec0ef5d76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: cu.fanqie.world, network: ws, ws-opts: {path: /, headers: {Host: cu.fanqie.world}}, udp: true}
-  - {name: Relay_🇨🇳CN-🏁ZZ_62 |36.40Mb, server: 120.240.48.20, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, servername: t.me/vpnhat, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
-  - {name: Relay_🇨🇳CN-🏁ZZ_63 | 5.45Mb, server: 120.240.48.20, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, servername: t.me/vpnhat, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_64 |20.83Mb, server: us24052.cloudmatrix.xyz, port: 24052, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: t.me/vpnhat, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24052.cloudmatrix.xyz}}, udp: true}
-  - {name: Relay_ |11.12Mb, server: 116.129.253.128, port: 20001, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: node.franxx.codes, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |67.26Mb, server: 120.232.173.119, port: 20004, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: node.franxx.codes, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |38.37Mb, server: 120.232.173.119, port: 20001, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: node.franxx.codes, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |47.10Mb, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇲🇾MY_70 | 3.20Mb, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |44.81Mb, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇱🇺LU_72 | 6.20Mb, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |10.77Mb, server: cm-jm.okvpn.xyz, port: 20004, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_74 | 9.18Mb, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |24.82Mb, server: 202.81.231.38.ipssh.net, port: 23456, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: sg2.kanikig.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |88.21Mb, server: gy.sharecentrepro.tk, port: 13397, type: trojan, password: d3b04e55-f2ae-4500-b317-e23946dde463, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇿CZ-🇨🇿CZ_77 | 0.96Mb, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
-  - {name: GB_78 | 2.21Mb, server: 185.167.117.171, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: GB_79 | 0.24Mb, server: 185.167.117.171, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: GB_80 | 2.44Mb, server: 185.167.117.171, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: GB_82 | 2.37Mb, server: 185.167.117.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: GB_83 | 2.24Mb, server: 185.167.117.171, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: GB_85 | 2.12Mb, server: 185.167.117.171, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_87 | 9.07Mb, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
-  - {name: HK_88 |14.53Mb, server: 45.125.64.201, port: 27442, type: vmess, uuid: 3463f354-529a-4f40-9019-b9b10dc08233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ID_89 | 2.26Mb, server: 103.28.23.162, port: 12300, type: vmess, uuid: 55dc9daf-ea0e-38f1-aa82-ed76c8b19df2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: in.academicpapers.eu.org, network: ws, ws-opts: {path: /apple-home}, udp: true}
-  - {name: Relay_🇮🇳IN-🇺🇸US_90 | 1.43Mb, server: in-am2.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: fD0KP8PWA, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: IR_91 |34.80Mb, server: 185.148.14.204, port: 28888, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: node.franxx.codes, skip-cert-verify: true, udp: true}
-  - {name: JP_92, server: 141.164.35.41, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: JP_93, server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: JP_94, server: 141.164.53.152, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Relay_🇯🇵JP-🇬🇧GB_95 | 6.13Mb, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵JP-🇺🇸US_96 |37.39Mb, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
-  - {name: KR_97, server: 132.145.80.237, port: 12323, type: vmess, uuid: fb55a817-a3ac-46ca-ecee-0a2c6903d265, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: myyuming.cf, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: KR_98 | 2.87Mb, server: 132.145.80.237, port: 33329, type: vmess, uuid: 4886a8c9-a6e6-4932-ddca-09b1203518a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: myyuming.cf, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: LT_101 | 1.21Mb, server: 213.183.53.177, port: 9056, type: ssr, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_102 | 2.64Mb, server: 213.183.53.200, port: 9059, type: ssr, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_105 | 1.86Mb, server: 213.183.53.200, port: 9070, type: ssr, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_107 | 2.12Mb, server: 213.183.53.200, port: 9056, type: ssr, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_108 | 1.28Mb, server: 213.183.53.200, port: 9025, type: ssr, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_110 | 4.47Mb, server: 213.183.53.177, port: 9094, type: ssr, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_113 | 1.98Mb, server: 213.183.53.200, port: 9057, type: ssr, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_114 | 2.09Mb, server: 213.183.53.177, port: 9001, type: ssr, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_115 | 2.52Mb, server: 213.183.53.177, port: 9097, type: ssr, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_117 | 1.41Mb, server: 213.183.53.177, port: 9050, type: ssr, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_118 | 0.98Mb, server: 213.183.53.177, port: 9060, type: ssr, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_119 | 1.28Mb, server: 213.183.53.200, port: 9040, type: ssr, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_120 | 3.99Mb, server: 213.183.53.177, port: 9098, type: ssr, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_121 | 2.25Mb, server: 213.183.53.177, port: 9073, type: ssr, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_122 | 6.20Mb, server: 213.183.53.177, port: 9031, type: ssr, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_123 | 1.76Mb, server: 213.183.53.200, port: 9024, type: ssr, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_124 | 0.28Mb, server: 213.183.53.200, port: 9084, type: ssr, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_125 | 2.98Mb, server: 213.183.53.177, port: 9043, type: ssr, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_126 |13.89Mb, server: 213.183.53.177, port: 9019, type: ssr, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_127 | 2.50Mb, server: 213.183.53.177, port: 9053, type: ssr, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_128 |12.94Mb, server: 213.183.53.177, port: 9040, type: ssr, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: LT_130 | 1.68Mb, server: 213.183.53.177, port: 9037, type: ssr, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: NL_131 | 4.05Mb, server: 213.183.51.171, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: NL_132 | 4.33Mb, server: 213.183.51.171, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: NL_133 |12.62Mb, server: 213.183.59.229, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: NL_134 | 4.20Mb, server: 213.183.51.171, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: NL_135 | 1.91Mb, server: 213.183.51.171, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: NL_136 | 2.15Mb, server: 213.183.51.172, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: NL_137 | 6.32Mb, server: 213.183.51.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: NL_138 | 5.90Mb, server: 213.183.51.171, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: NL_139 | 2.21Mb, server: 213.183.51.172, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: NL_140 | 2.01Mb, server: 213.183.51.172, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: NL_142 | 1.46Mb, server: 213.183.51.172, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: NL_143 | 1.48Mb, server: 213.183.51.172, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: NL_144 | 1.64Mb, server: 213.183.51.172, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: NL_145 | 2.06Mb, server: 213.183.51.172, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: Pool_🇳🇱NL_146 | 6.94Mb, server: 85.209.159.107, port: 20403, type: vmess, uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 85.209.159.107, network: ws, ws-opts: {path: /Asq7j5Mb/}, udp: true}
-  - {name: Relay_🇳🇱NL-🇳🇱NL_147 | 9.16Mb, server: trojan2.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: true, udp: true}
-  - {name: RO_148 | 1.11Mb, server: 185.126.116.125, port: 9011, type: ssr, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: RO_149 | 3.58Mb, server: 185.126.116.125, port: 9040, type: ssr, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: RO_150 | 1.55Mb, server: 185.126.116.125, port: 9043, type: ssr, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: RO_151 | 1.04Mb, server: 185.126.116.125, port: 9038, type: ssr, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: RU_152 | 4.34Mb, server: 217.30.10.66, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: RU_153 | 5.90Mb, server: 217.30.10.64, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: RU_154 | 3.81Mb, server: 217.30.10.64, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: RU_155 | 4.50Mb, server: 217.30.10.64, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: RU_156 | 4.20Mb, server: 217.30.10.64, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: RU_157 | 7.23Mb, server: 217.30.10.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: RU_158 | 7.50Mb, server: 217.30.10.66, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: RU_159 | 4.27Mb, server: 217.30.10.64, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: RU_160 | 2.15Mb, server: 217.30.10.64, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: Relay_🇺🇦UA-🇺🇦UA_161 | 2.00Mb, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
-  - {name: US_162, server: 158.247.224.3, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_163, server: 158.247.208.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_164 |11.13Mb, server: SS-NODE-4-B.GFWAIRPORT.NET, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 5e053988-980b-4527-88c3-97e222f25fba, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_165 | 2.46Mb, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 1.ezydfdd.com, network: ws, ws-opts: {path: /nmsl, headers: {Host: 1.ezydfdd.com}}, udp: true}
-  - {name: Relay_ |39.25Mb, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: hkaz1.xmrth-node.xyz, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
-  - {name: Relay_ |16.48Mb, server: 104.25.234.170, port: 443, type: vmess, uuid: f78db9ae-24c2-4a83-9d96-e8def79d0379, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp02.884899.cf, network: ws, ws-opts: {path: /Support-Putin-Kill-all-Ukrainians_vws}, udp: true}
-  - {name: US_168 |21.13Mb, server: 66.42.111.55, port: 35874, type: vmess, uuid: b0602b3e-c3e2-11ec-9e4a-560003f65c5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0BFK7hzT/}, udp: true}
-  - {name: US_169 |13.52Mb, server: 89.208.248.114, port: 443, type: vmess, uuid: ef1af6e9-2029-4d16-9fc5-c23ff022f143, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_170 |48.82Mb, server: jpaz4.xmrth-node.xyz, port: 13869, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /index, headers: {Host: jpaz4.xmrth-node.xyz}}, udp: true}
-  - {name: US_171 | 9.98Mb, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_172 | 1.96Mb, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_173, server: kraws002.xmrth-node.xyz, port: 12702, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /index, headers: {Host: kraws002.xmrth-node.xyz}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_174 |21.05Mb, server: top.njiang.tk, port: 443, type: vmess, uuid: b2d062be-1912-4523-96c9-4f0f101c931b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: top.njiang.tk, network: ws, ws-opts: {path: /wivhvws, headers: {Host: top.njiang.tk}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_175 | 9.45Mb, server: freestarway.tk, port: 443, type: vmess, uuid: 68de58a5-2f9f-45e9-cb64-2d87fdf5f031, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freestarway.tk}}, udp: true}
-  - {name: Relay_🇺🇸US-🇿🇦ZA_176 | 2.36Mb, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.lolvps.xyz, network: ws, ws-opts: {path: /AY920UMR, headers: {Host: us1.lolvps.xyz}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_177 | 9.71Mb, server: vw.vwvwvw.xyz, port: 8443, type: vmess, uuid: dd350843-2ff2-cda7-e5b0-575448c5b370, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vw.vwvwvw.xyz, network: ws, ws-opts: {path: /osqlvws, headers: {Host: vw.vwvwvw.xyz}}, udp: true}
-  - {name: Relay_ |13.70Mb, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lu1.gogogoo.cyou, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_179 |16.96Mb, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |18.40Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_181 | 5.85Mb, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: "|22.09Mb", server: 158.247.223.116, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "| 7.13Mb", server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "| 7.22Mb", server: 147.182.151.24, port: 20110, type: ss, cipher: aes-256-cfb, password: f5e0ecc4e6b84a668ee9ed98e0a30ca9, udp: true}
+  - {name: "|21.63Mb", server: v4-node66.mimemi-9mih.com, port: 13114, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 9525:QxHsQf, obfs-param: hk2sch70d9e9525.wns.windows.com, udp: true}
+  - {name: AU | 2.86Mb, server: 185.167.116.252, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: "| 0.20Mb", server: 185.167.116.252, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: AU | 0.18Mb, server: 185.167.116.252, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: AU |28.04Mb, server: 43.154.72.145, port: 27091, type: vmess, uuid: 2f1e82e4-5319-4278-92aa-74d49c04683f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 43.154.72.145, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: AU | 0.41Mb, server: 421hk.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: 421hk.fans8.xyz, network: ws, ws-opts: {path: /ray, headers: {Host: 421hk.fans8.xyz}}, udp: true}
+  - {name: AU |36.91Mb, server: 43.155.117.192, port: 37132, type: vmess, uuid: 0dda776a-5426-4003-8b08-c791971613c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 43.155.117.192, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: AU |17.66Mb, server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 43.129.227.60, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: AU | 1.03Mb, server: 421sg2.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: 421sg2.fans8.xyz, network: ws, ws-opts: {path: /ray, headers: {Host: 421sg2.fans8.xyz}}, udp: true}
+  - {name: AU |20.80Mb, server: 43.135.70.192, port: 24740, type: vmess, uuid: 3749de34-a1a9-44db-b72a-510712a52d11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 43.135.70.192, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: "| 7.26Mb", server: 43.154.102.246, port: 39509, type: vmess, uuid: 9555680d-9857-4266-a97b-cb8b393d6e98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AU |41.92Mb, server: 43.154.104.180, port: 43318, type: vmess, uuid: d6941f19-de1e-4176-b1c8-b328c9b98ccb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 43.154.104.180, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: "|11.77Mb", server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
+  - {name: CA | 5.23Mb, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: 330tw.fans8.xyz, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: CN | 6.03Mb, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN | 4.16Mb, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: CN | 1.46Mb, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: CN | 8.47Mb, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN | 7.95Mb, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN |12.61Mb, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN | 7.77Mb, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN | 8.13Mb, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN | 8.34Mb, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|37.98Mb", server: 14.29.124.168, port: 24003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN |10.28Mb, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN |38.43Mb, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN |14.22Mb, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN | 7.83Mb, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN |10.67Mb, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN | 5.78Mb, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN | 7.39Mb, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN | 8.44Mb, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN | 9.51Mb, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN | 6.92Mb, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: CN | 3.58Mb, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: CN | 7.67Mb, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN | 5.51Mb, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 2, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: CN | 7.18Mb, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|22.15Mb", server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: "| 2.37Mb", server: gzyd-01.yyuuii.cyou, port: 23033, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "| 9.99Mb", server: gz2.52168.xyz, port: 2110, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: "| 6.92Mb", server: gz2.52168.xyz, port: 2102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: "| 2.27Mb", server: jp2802.cloudmatrix.xyz, port: 2802, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: jp2802.cloudmatrix.xyz, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp2802.cloudmatrix.xyz}}, udp: true}
+  - {name: CN | 0.86Mb, server: 183.240.181.57, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, servername: telegram.channel.p2psharing, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: CN | 6.87Mb, server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, servername: t.me/vpnhat, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: "|68.39Mb", server: whcu.cwcsrsyby.xyz, port: 2193, type: vmess, uuid: 1d6c60fe-4088-4828-844d-e34967458d54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: whcu.cwcsrsyby.xyz, udp: true}
+  - {name: CN |10.58Mb, server: cu.fanqie.world, port: 10015, type: vmess, uuid: 892a5d33-5965-3914-8a2e-e9bec0ef5d76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: cu.fanqie.world, network: ws, ws-opts: {path: /, headers: {Host: cu.fanqie.world}}, udp: true}
+  - {name: CN |10.22Mb, server: 120.240.48.20, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, servername: t.me/vpnhat, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: CN | 5.45Mb, server: 120.240.48.20, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, servername: t.me/vpnhat, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: "| 7.80Mb", server: us24052.cloudmatrix.xyz, port: 24052, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: t.me/vpnhat, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: us24052.cloudmatrix.xyz}}, udp: true}
+  - {name: CN |51.50Mb, server: 116.129.253.128, port: 20001, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: node.franxx.codes, skip-cert-verify: true, udp: true}
+  - {name: CN |72.86Mb, server: 120.232.173.119, port: 20004, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: node.franxx.codes, skip-cert-verify: true, udp: true}
+  - {name: CN |38.37Mb, server: 120.232.173.119, port: 20001, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: node.franxx.codes, skip-cert-verify: true, udp: true}
+  - {name: CN |30.23Mb, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, skip-cert-verify: true, udp: true}
+  - {name: CN |15.55Mb, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, skip-cert-verify: true, udp: true}
+  - {name: CN |29.52Mb, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, skip-cert-verify: true, udp: true}
+  - {name: CN | 1.16Mb, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true, udp: true}
+  - {name: CN | 4.86Mb, server: cm-jm.okvpn.xyz, port: 20004, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, skip-cert-verify: true, udp: true}
+  - {name: CN | 7.77Mb 2, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, skip-cert-verify: true, udp: true}
+  - {name: CN |25.35Mb, server: 202.81.231.38.ipssh.net, port: 23456, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: sg2.kanikig.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN |76.09Mb, server: gy.sharecentrepro.tk, port: 13397, type: trojan, password: d3b04e55-f2ae-4500-b317-e23946dde463, skip-cert-verify: true, udp: true}
+  - {name: "| 0.96Mb", server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
+  - {name: GB | 0.03Mb, server: 185.167.117.171, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: "| 2.37Mb 2", server: 185.167.117.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: "| 2.12Mb", server: 185.167.117.171, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: "| 9.07Mb", server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
+  - {name: "|14.53Mb", server: 45.125.64.201, port: 27442, type: vmess, uuid: 3463f354-529a-4f40-9019-b9b10dc08233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ID | 2.26Mb, server: 103.28.23.162, port: 12300, type: vmess, uuid: 55dc9daf-ea0e-38f1-aa82-ed76c8b19df2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: in.academicpapers.eu.org, network: ws, ws-opts: {path: /apple-home}, udp: true}
+  - {name: "|34.80Mb", server: 185.148.14.204, port: 28888, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: node.franxx.codes, skip-cert-verify: true, udp: true}
+  - {name: "", server: 141.164.35.41, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: " 2", server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: " 3", server: 141.164.53.152, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP | 6.13Mb, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
+  - {name: "|16.08Mb", server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
+  - {name: KR, server: 132.145.80.237, port: 12323, type: vmess, uuid: fb55a817-a3ac-46ca-ecee-0a2c6903d265, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: myyuming.cf, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: KR | 0.16Mb, server: 132.145.80.237, port: 33329, type: vmess, uuid: 4886a8c9-a6e6-4932-ddca-09b1203518a0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: myyuming.cf, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "| 1.21Mb", server: 213.183.53.177, port: 9056, type: ssr, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "| 2.64Mb", server: 213.183.53.200, port: 9059, type: ssr, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: LT | 0.64Mb, server: 213.183.53.177, port: 9094, type: ssr, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: LT | 1.98Mb, server: 213.183.53.200, port: 9057, type: ssr, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: LT | 2.09Mb, server: 213.183.53.177, port: 9001, type: ssr, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: LT | 0.06Mb, server: 213.183.53.177, port: 9097, type: ssr, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: LT | 1.28Mb, server: 213.183.53.200, port: 9040, type: ssr, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "| 3.99Mb", server: 213.183.53.177, port: 9098, type: ssr, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: LT | 2.25Mb, server: 213.183.53.177, port: 9073, type: ssr, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: LT | 1.16Mb, server: 213.183.53.177, port: 9031, type: ssr, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "| 1.76Mb", server: 213.183.53.200, port: 9024, type: ssr, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "| 0.19Mb", server: 213.183.53.177, port: 9043, type: ssr, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: LT |13.89Mb, server: 213.183.53.177, port: 9019, type: ssr, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "| 2.50Mb", server: 213.183.53.177, port: 9053, type: ssr, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "| 3.18Mb", server: 213.183.53.177, port: 9040, type: ssr, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "| 0.51Mb", server: 213.183.51.171, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: NL | 4.33Mb, server: 213.183.51.171, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: NL | 6.64Mb, server: 213.183.59.229, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: NL | 4.20Mb, server: 213.183.51.171, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: NL | 2.15Mb, server: 213.183.51.172, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: NL | 6.32Mb, server: 213.183.51.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: "| 5.90Mb", server: 213.183.51.171, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: "| 2.21Mb", server: 213.183.51.172, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: "| 2.01Mb", server: 213.183.51.172, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: "| 1.38Mb", server: 213.183.51.172, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: NL | 1.46Mb, server: 213.183.51.172, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: NL | 2.50Mb, server: 213.183.51.172, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: NL | 1.84Mb, server: 213.183.51.172, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: NL | 6.94Mb, server: 85.209.159.107, port: 20403, type: vmess, uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 85.209.159.107, network: ws, ws-opts: {path: /Asq7j5Mb/}, udp: true}
+  - {name: NL | 9.16Mb, server: trojan2.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: true, udp: true}
+  - {name: RO | 2.09Mb, server: 185.126.116.125, port: 9011, type: ssr, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: RO | 2.73Mb, server: 185.126.116.125, port: 9040, type: ssr, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: RU | 4.34Mb, server: 217.30.10.66, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: RU | 5.90Mb, server: 217.30.10.64, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: RU | 3.81Mb, server: 217.30.10.64, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: "| 4.50Mb", server: 217.30.10.64, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: RU | 4.20Mb, server: 217.30.10.64, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: "| 7.23Mb", server: 217.30.10.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: RU | 7.50Mb, server: 217.30.10.66, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: "| 4.27Mb", server: 217.30.10.64, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: "| 2.15Mb", server: 217.30.10.64, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: "| 2.00Mb", server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
+  - {name: " 4", server: 158.247.224.3, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: " 5", server: 158.247.208.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|11.13Mb", server: SS-NODE-4-B.GFWAIRPORT.NET, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 5e053988-980b-4527-88c3-97e222f25fba, udp: true}
+  - {name: US | 9.50Mb, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 1.ezydfdd.com, network: ws, ws-opts: {path: /nmsl, headers: {Host: 1.ezydfdd.com}}, udp: true}
+  - {name: US |24.84Mb, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: hkaz1.xmrth-node.xyz, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
+  - {name: US |16.48Mb, server: 104.25.234.170, port: 443, type: vmess, uuid: f78db9ae-24c2-4a83-9d96-e8def79d0379, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp02.884899.cf, network: ws, ws-opts: {path: /Support-Putin-Kill-all-Ukrainians_vws}, udp: true}
+  - {name: "|21.13Mb", server: 66.42.111.55, port: 35874, type: vmess, uuid: b0602b3e-c3e2-11ec-9e4a-560003f65c5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0BFK7hzT/}, udp: true}
+  - {name: US |10.83Mb, server: 89.208.248.114, port: 443, type: vmess, uuid: ef1af6e9-2029-4d16-9fc5-c23ff022f143, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: US |38.87Mb, server: jpaz4.xmrth-node.xyz, port: 13869, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /index, headers: {Host: jpaz4.xmrth-node.xyz}}, udp: true}
+  - {name: "| 9.98Mb", server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "| 1.96Mb", server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US, server: kraws002.xmrth-node.xyz, port: 12702, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /index, headers: {Host: kraws002.xmrth-node.xyz}}, udp: true}
+  - {name: "|21.05Mb", server: top.njiang.tk, port: 443, type: vmess, uuid: b2d062be-1912-4523-96c9-4f0f101c931b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: top.njiang.tk, network: ws, ws-opts: {path: /wivhvws, headers: {Host: top.njiang.tk}}, udp: true}
+  - {name: "| 9.45Mb", server: freestarway.tk, port: 443, type: vmess, uuid: 68de58a5-2f9f-45e9-cb64-2d87fdf5f031, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freestarway.tk}}, udp: true}
+  - {name: US | 2.36Mb, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us1.lolvps.xyz, network: ws, ws-opts: {path: /AY920UMR, headers: {Host: us1.lolvps.xyz}}, udp: true}
+  - {name: US | 5.79Mb, server: vw.vwvwvw.xyz, port: 8443, type: vmess, uuid: dd350843-2ff2-cda7-e5b0-575448c5b370, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vw.vwvwvw.xyz, network: ws, ws-opts: {path: /osqlvws, headers: {Host: vw.vwvwvw.xyz}}, udp: true}
+  - {name: US |13.70Mb, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lu1.gogogoo.cyou, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
+  - {name: "|16.96Mb", server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
+  - {name: "|18.40Mb", server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: "| 5.85Mb", server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 代理
     type: select
     proxies:
-      - _02 |22.09Mb
-      - Relay_-🇰🇷KR_03 | 7.13Mb
-      - "|18.34Mb"
-      - Relay_ |12.06Mb
-      - AU_09 | 2.86Mb
-      - AU_10 | 3.00Mb
-      - AU_12 | 0.18Mb
-      - "|28.04Mb"
-      - Relay_🇦🇺AU-🇦🇺AU_14 | 3.70Mb
-      - AU_15 |36.91Mb
-      - "|29.87Mb"
-      - Relay_🇦🇺AU-🇦🇺AU_17 | 5.77Mb
-      - "|32.27Mb"
-      - AU_19 | 4.31Mb
-      - "|43.15Mb"
-      - Relay_🇦🇺AU-🇯🇵JP_21 |23.55Mb
-      - Relay_🇨🇦CA-🇨🇦CA_22 | 7.83Mb
-      - CN_23 | 6.03Mb
-      - Relay_🇨🇳 CN-🇩🇪DE_24 | 8.31Mb
-      - Relay_🇨🇳 CN-🇱🇺LU_25 | 1.46Mb
-      - CN_26 | 8.47Mb
-      - CN_27 | 9.03Mb
-      - "|12.61Mb"
-      - CN_29 | 8.47Mb
-      - CN_30 | 9.79Mb
-      - CN_31 | 8.34Mb
-      - Relay_🇨🇳CN-🇹🇼TW_32 |37.98Mb
-      - "|10.28Mb"
-      - "|38.43Mb"
-      - "|14.22Mb"
-      - CN_36 | 7.83Mb
-      - "|10.67Mb"
-      - CN_38 | 5.78Mb
-      - CN_39 | 7.39Mb
-      - CN_40 | 8.44Mb
-      - CN_41 | 9.51Mb
-      - CN_42 | 6.92Mb
-      - CN_43
-      - CN_44 | 5.61Mb
-      - CN_45 | 7.67Mb
-      - Relay_🇨🇳CN-🇰🇷KR_46 |20.71Mb
-      - CN_47
-      - CN_48 | 7.18Mb
-      - Relay_🇨🇳CN-🇩🇪DE_49 |22.15Mb
-      - Relay_🇨🇳CN-🇺🇸US_50 | 2.37Mb
-      - Relay_🇨🇳CN-🇺🇦UA_51 | 9.99Mb
-      - Relay_🇨🇳CN-🇺🇸US_52 | 6.92Mb
-      - Relay_🇨🇳CN-🇯🇵JP_55 | 2.27Mb
-      - Relay_ |790.66Mb
-      - Relay_🇨🇳CN-🇬🇧GB_57 | 5.19Mb
-      - Relay_🇨🇳CN-🏁ZZ_58 | 6.87Mb
-      - Relay_🇨🇳CN-🇺🇸US_59 |68.39Mb
-      - Relay_ |10.27Mb
-      - Relay_🇨🇳CN-🏁ZZ_62 |36.40Mb
-      - Relay_🇨🇳CN-🏁ZZ_63 | 5.45Mb
-      - Relay_🇨🇳CN-🇺🇸US_64 |20.83Mb
-      - Relay_ |11.12Mb
-      - Relay_ |67.26Mb
-      - Relay_ |38.37Mb
-      - Relay_ |47.10Mb
-      - Relay_🇨🇳CN-🇲🇾MY_70 | 3.20Mb
-      - Relay_ |44.81Mb
-      - Relay_🇨🇳CN-🇱🇺LU_72 | 6.20Mb
-      - Relay_ |10.77Mb
-      - Relay_🇨🇳CN-🇺🇸US_74 | 9.18Mb
-      - Relay_ |24.82Mb
-      - Relay_ |88.21Mb
-      - Relay_🇨🇿CZ-🇨🇿CZ_77 | 0.96Mb
-      - GB_78 | 2.21Mb
-      - GB_79 | 0.24Mb
-      - GB_80 | 2.44Mb
-      - GB_82 | 2.37Mb
-      - GB_83 | 2.24Mb
-      - GB_85 | 2.12Mb
-      - Relay_🇬🇧GB-🇬🇧GB_87 | 9.07Mb
-      - HK_88 |14.53Mb
-      - ID_89 | 2.26Mb
-      - Relay_🇮🇳IN-🇺🇸US_90 | 1.43Mb
-      - IR_91 |34.80Mb
-      - JP_92
-      - JP_93
-      - JP_94
-      - Relay_🇯🇵JP-🇬🇧GB_95 | 6.13Mb
-      - Relay_🇯🇵JP-🇺🇸US_96 |37.39Mb
-      - KR_97
-      - KR_98 | 2.87Mb
-      - LT_101 | 1.21Mb
-      - LT_102 | 2.64Mb
-      - LT_105 | 1.86Mb
-      - LT_107 | 2.12Mb
-      - LT_108 | 1.28Mb
-      - LT_110 | 4.47Mb
-      - LT_113 | 1.98Mb
-      - LT_114 | 2.09Mb
-      - LT_115 | 2.52Mb
-      - LT_117 | 1.41Mb
-      - LT_118 | 0.98Mb
-      - LT_119 | 1.28Mb
-      - LT_120 | 3.99Mb
-      - LT_121 | 2.25Mb
-      - LT_122 | 6.20Mb
-      - LT_123 | 1.76Mb
-      - LT_124 | 0.28Mb
-      - LT_125 | 2.98Mb
-      - LT_126 |13.89Mb
-      - LT_127 | 2.50Mb
-      - LT_128 |12.94Mb
-      - LT_130 | 1.68Mb
-      - NL_131 | 4.05Mb
-      - NL_132 | 4.33Mb
-      - NL_133 |12.62Mb
-      - NL_134 | 4.20Mb
-      - NL_135 | 1.91Mb
-      - NL_136 | 2.15Mb
-      - NL_137 | 6.32Mb
-      - NL_138 | 5.90Mb
-      - NL_139 | 2.21Mb
-      - NL_140 | 2.01Mb
-      - NL_142 | 1.46Mb
-      - NL_143 | 1.48Mb
-      - NL_144 | 1.64Mb
-      - NL_145 | 2.06Mb
-      - Pool_🇳🇱NL_146 | 6.94Mb
-      - Relay_🇳🇱NL-🇳🇱NL_147 | 9.16Mb
-      - RO_148 | 1.11Mb
-      - RO_149 | 3.58Mb
-      - RO_150 | 1.55Mb
-      - RO_151 | 1.04Mb
-      - RU_152 | 4.34Mb
-      - RU_153 | 5.90Mb
-      - RU_154 | 3.81Mb
-      - RU_155 | 4.50Mb
-      - RU_156 | 4.20Mb
-      - RU_157 | 7.23Mb
-      - RU_158 | 7.50Mb
-      - RU_159 | 4.27Mb
-      - RU_160 | 2.15Mb
-      - Relay_🇺🇦UA-🇺🇦UA_161 | 2.00Mb
-      - US_162
-      - US_163
-      - Relay_🇺🇸US-🇺🇸US_164 |11.13Mb
-      - Relay_🇺🇸US-🇺🇸US_165 | 2.46Mb
-      - Relay_ |39.25Mb
-      - Relay_ |16.48Mb
-      - US_168 |21.13Mb
-      - US_169 |13.52Mb
-      - Relay_🇺🇸US-🇯🇵JP_170 |48.82Mb
-      - US_171 | 9.98Mb
-      - Relay_🇺🇸US-🇺🇸US_172 | 1.96Mb
-      - US_173
-      - Relay_🇺🇸US-🇺🇸US_174 |21.05Mb
-      - Relay_🇺🇸US-🇺🇸US_175 | 9.45Mb
-      - Relay_🇺🇸US-🇿🇦ZA_176 | 2.36Mb
-      - Relay_🇺🇸US-🇺🇸US_177 | 9.71Mb
-      - Relay_ |13.70Mb
-      - Relay_🇺🇸US-🇺🇸US_179 |16.96Mb
-      - Relay_ |18.40Mb
-      - Relay_🇺🇸US-🇺🇸US_181 | 5.85Mb
+      - "|22.09Mb"
+      - "| 7.13Mb"
+      - "| 7.22Mb"
+      - "|21.63Mb"
+      - AU | 2.86Mb
+      - "| 0.20Mb"
+      - AU | 0.18Mb
+      - AU |28.04Mb
+      - AU | 0.41Mb
+      - AU |36.91Mb
+      - AU |17.66Mb
+      - AU | 1.03Mb
+      - AU |20.80Mb
+      - "| 7.26Mb"
+      - AU |41.92Mb
+      - "|11.77Mb"
+      - CA | 5.23Mb
+      - CN | 6.03Mb
+      - CN | 4.16Mb
+      - CN | 1.46Mb
+      - CN | 8.47Mb
+      - CN | 7.95Mb
+      - CN |12.61Mb
+      - CN | 7.77Mb
+      - CN | 8.13Mb
+      - CN | 8.34Mb
+      - "|37.98Mb"
+      - CN |10.28Mb
+      - CN |38.43Mb
+      - CN |14.22Mb
+      - CN | 7.83Mb
+      - CN |10.67Mb
+      - CN | 5.78Mb
+      - CN | 7.39Mb
+      - CN | 8.44Mb
+      - CN | 9.51Mb
+      - CN | 6.92Mb
+      - CN
+      - CN | 3.58Mb
+      - CN | 7.67Mb
+      - CN | 5.51Mb
+      - CN 2
+      - CN | 7.18Mb
+      - "|22.15Mb"
+      - "| 2.37Mb"
+      - "| 9.99Mb"
+      - "| 6.92Mb"
+      - "| 2.27Mb"
+      - CN | 0.86Mb
+      - CN | 6.87Mb
+      - "|68.39Mb"
+      - CN |10.58Mb
+      - CN |10.22Mb
+      - CN | 5.45Mb
+      - "| 7.80Mb"
+      - CN |51.50Mb
+      - CN |72.86Mb
+      - CN |38.37Mb
+      - CN |30.23Mb
+      - CN |15.55Mb
+      - CN |29.52Mb
+      - CN | 1.16Mb
+      - CN | 4.86Mb
+      - CN | 7.77Mb 2
+      - CN |25.35Mb
+      - CN |76.09Mb
+      - "| 0.96Mb"
+      - GB | 0.03Mb
+      - "| 2.37Mb 2"
+      - "| 2.12Mb"
+      - "| 9.07Mb"
+      - "|14.53Mb"
+      - ID | 2.26Mb
+      - "|34.80Mb"
+      - ""
+      - " 2"
+      - " 3"
+      - JP | 6.13Mb
+      - "|16.08Mb"
+      - KR
+      - KR | 0.16Mb
+      - "| 1.21Mb"
+      - "| 2.64Mb"
+      - LT | 0.64Mb
+      - LT | 1.98Mb
+      - LT | 2.09Mb
+      - LT | 0.06Mb
+      - LT | 1.28Mb
+      - "| 3.99Mb"
+      - LT | 2.25Mb
+      - LT | 1.16Mb
+      - "| 1.76Mb"
+      - "| 0.19Mb"
+      - LT |13.89Mb
+      - "| 2.50Mb"
+      - "| 3.18Mb"
+      - "| 0.51Mb"
+      - NL | 4.33Mb
+      - NL | 6.64Mb
+      - NL | 4.20Mb
+      - NL | 2.15Mb
+      - NL | 6.32Mb
+      - "| 5.90Mb"
+      - "| 2.21Mb"
+      - "| 2.01Mb"
+      - "| 1.38Mb"
+      - NL | 1.46Mb
+      - NL | 2.50Mb
+      - NL | 1.84Mb
+      - NL | 6.94Mb
+      - NL | 9.16Mb
+      - RO | 2.09Mb
+      - RO | 2.73Mb
+      - RU | 4.34Mb
+      - RU | 5.90Mb
+      - RU | 3.81Mb
+      - "| 4.50Mb"
+      - RU | 4.20Mb
+      - "| 7.23Mb"
+      - RU | 7.50Mb
+      - "| 4.27Mb"
+      - "| 2.15Mb"
+      - "| 2.00Mb"
+      - " 4"
+      - " 5"
+      - "|11.13Mb"
+      - US | 9.50Mb
+      - US |24.84Mb
+      - US |16.48Mb
+      - "|21.13Mb"
+      - US |10.83Mb
+      - US |38.87Mb
+      - "| 9.98Mb"
+      - "| 1.96Mb"
+      - US
+      - "|21.05Mb"
+      - "| 9.45Mb"
+      - US | 2.36Mb
+      - US | 5.79Mb
+      - US |13.70Mb
+      - "|16.96Mb"
+      - "|18.40Mb"
+      - "| 5.85Mb"
   - name: 规则外路由选择
     type: select
     proxies:
