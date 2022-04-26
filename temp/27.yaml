@@ -5,11 +5,41 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: _ZA_南非_1, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _ZA_南非_12, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _ZA_南非_2, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _ZA_南非_1, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国-5_13MB/s(Youtube:不良林)_8, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
   - {name: _ZA_南非_3, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: BD_06, server: 220.158.232.87, port: 443, type: vmess, uuid: 55dc9daf-ea0e-38f1-aa82-ed76c8b19df2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /apple-home}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_11, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_12, server: sg2603.cloudmatrix.xyz, port: 2603, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg2603.cloudmatrix.xyz}}, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_13, server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_14, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_15, server: in-v1.sdgdn.com, port: 50401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_16, server: 120.240.48.20, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_17, server: v8.heduian.online, port: 30866, type: vmess, uuid: bba2cd65-2149-3089-9f1a-fed4c69c76bf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.online}}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_18, server: 101.230.149.29, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_19, server: sg21102.cloudmatrix.xyz, port: 21102, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg21102.cloudmatrix.xyz}}, udp: true}
+  - {name: HK_24, server: hkaz003.xmrth-node.xyz, port: 10002, type: vmess, uuid: 471273e7-81e0-317c-9cb4-a9eacf775219, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz003.xmrth-node.xyz}}, udp: true}
+  - {name: HK_25, server: hkaz007.xmrth-node.xyz, port: 10296, type: vmess, uuid: 471273e7-81e0-317c-9cb4-a9eacf775219, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz007.xmrth-node.xyz}}, udp: true}
+  - {name: HK_26, server: hkaz004.xmrth-node.xyz, port: 10003, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz004.xmrth-node.xyz}}, udp: true}
+  - {name: Pool_🇳🇱NL_32, server: 88.218.92.145, port: 22407, type: vmess, uuid: 7a894129-eb94-43e3-b48e-25a255a0f346, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: Pool_🇳🇱NL_33, server: 85.209.159.107, port: 20403, type: vmess, uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Asq7j5Mb/}, udp: true}
+  - {name: Relay_🇸🇬SG-🇨🇦CA_36, server: sg2.31vpn.com, port: 80, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/seikozero/62621831a0fc7/, headers: {Host: sg2.31vpn.com}}, udp: true}
+  - {name: Relay_🇹🇷TR-🇹🇷TR_37, server: tk-nf-route.teacher2060.com, port: 31256, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇬🇧GB_43, server: app.ssfree.ru, port: 443, type: vmess, uuid: 2e9ee9f4-c44c-11ec-9e4e-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_44, server: streaming-1-route.teacher2050.com, port: 31222, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_45, server: us2.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/nznlani/62639c9cac992/, headers: {Host: us2.31vpn.com}}, udp: true}
+  - {name: US_46, server: 66.42.111.55, port: 35874, type: vmess, uuid: b0602b3e-c3e2-11ec-9e4a-560003f65c5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0BFK7hzT/}, udp: true}
+  - {name: US_47, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇨🇦CA_48, server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 8.ezydfdd.com}}, udp: true}
+  - {name: Relay_🇺🇸US-🇫🇮FI_49, server: vps.qweasdzxc.ml, port: 443, type: vmess, uuid: 4850777c-1d10-4651-9936-27a2a500b9a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vps.qweasdzxc.ml}}, udp: true}
+  - {name: US_50, server: hkaz5.xmrth-node.xyz, port: 11495, type: vmess, uuid: 471273e7-81e0-317c-9cb4-a9eacf775219, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz5.xmrth-node.xyz}}, udp: true}
+  - {name: 新加坡_tg频道:atunivstar_37, server: rm002.zhuan666.top, port: 80, type: vmess, uuid: 392d4a06-69cd-4c8f-ad70-f9a145d2d834, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rm002.zhuan666.top}}, udp: true}
+  - {name: 新加坡_tg频道:atunivstar_38, server: rm003.zhuan666.top, port: 80, type: vmess, uuid: 392d4a06-69cd-4c8f-ad70-f9a145d2d834, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rm003.zhuan666.top}}, udp: true}
+  - {name: 新加坡_tg频道:atunivstar_39, server: rm004.zhuan666.top, port: 80, type: vmess, uuid: 392d4a06-69cd-4c8f-ad70-f9a145d2d834, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rm004.zhuan666.top}}, udp: true}
+  - {name: 中国_tg频道:atunivstar_40, server: rm005.zhuan666.top, port: 11803, type: vmess, uuid: 392d4a06-69cd-4c8f-ad70-f9a145d2d834, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rm005.zhuan666.top}}, udp: true}
+  - {name: 中国_tg频道:atunivstar_41, server: rm006.zhuan666.top, port: 11804, type: vmess, uuid: 392d4a06-69cd-4c8f-ad70-f9a145d2d834, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rm006.zhuan666.top}}, udp: true}
   - {name: "", server: 104.128.191.195, port: 62864, type: vmess, uuid: f1a5d2f8-a8fa-4188-aeac-42a34227cf6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _ZA_南非_36, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 233v2_com_104_128_190_115, server: 104.128.190.115, port: 44771, type: vmess, uuid: a4aa83d4-db1c-42a6-844d-135d6635b463, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -89,10 +119,37 @@ proxies:
   - {name: ӡ�ȣ�TGat��ΰ�Ƽ�/�͹ܣ�4_140, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
   - {name: ӡ�ȣ�TGat��ΰ�Ƽ�/�͹ܣ�5_141, server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
   - {name: 0219_1128_wulabing_kirakirasevennine_com_1, server: kirakirasevennine.com, port: 443, type: vmess, uuid: 67068812-0f6c-437e-ab13-f480f23bf004, alterId: 13, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9f21/, headers: {Host: kirakirasevennine.com}}, udp: true}
+  - {name: 新加坡_tg频道:univstar_37, server: rm002.zhuan666.top, port: 80, type: vmess, uuid: 392d4a06-69cd-4c8f-ad70-f9a145d2d834, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rm002.zhuan666.top}}, udp: true}
+  - {name: 新加坡_tg频道:univstar_38, server: rm003.zhuan666.top, port: 80, type: vmess, uuid: 392d4a06-69cd-4c8f-ad70-f9a145d2d834, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rm003.zhuan666.top}}, udp: true}
+  - {name: 新加坡_tg频道:univstar_39, server: rm004.zhuan666.top, port: 80, type: vmess, uuid: 392d4a06-69cd-4c8f-ad70-f9a145d2d834, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rm004.zhuan666.top}}, udp: true}
+  - {name: 中国_tg频道:univstar_40, server: rm005.zhuan666.top, port: 11803, type: vmess, uuid: 392d4a06-69cd-4c8f-ad70-f9a145d2d834, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rm005.zhuan666.top}}, udp: true}
+  - {name: 中国_tg频道:univstar_41, server: rm006.zhuan666.top, port: 11804, type: vmess, uuid: 392d4a06-69cd-4c8f-ad70-f9a145d2d834, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rm006.zhuan666.top}}, udp: true}
   - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_4, server: cm.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.zhongzhuan.fnyun.cyou}}, udp: true}
   - {name: _ZA_南非_5, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: HK001_1, server: hkaz001.xmrth-node.xyz, port: 10163, type: vmess, uuid: f27e1078-88f6-3e69-9e46-63424b9b2cfd, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz001.xmrth-node.xyz}}, udp: true}
+  - {name: _54_3_99Mb_1, server: 154.23.190.162, port: 443, type: vmess, uuid: b9984674-f771-4e67-a198-c7e60720ba2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _ZA_南非_43, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港_1, server: 4.vip341.xyz, port: 443, type: vmess, uuid: 79c82b92-bc4c-382c-8042-b50d27b9c564, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 4.vip341.xyz}}, udp: true}
+  - {name: _SG_新加坡_2, server: v2-2.godlight.xyz, port: 30526, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}, udp: true}
+  - {name: _KR_韩国_3, server: oracle.170525.xyz, port: 443, type: vmess, uuid: edb35525-703d-4fb0-c62f-62ed36c5def6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_10, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
+  - {name: _US_美国_11, server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}, udp: true}
+  - {name: _US_美国_15, server: top.njiang.tk, port: 443, type: vmess, uuid: b2d062be-1912-4523-96c9-4f0f101c931b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wivhvws, headers: {Host: top.njiang.tk}}, udp: true}
+  - {name: _US_美国_16, server: sanfranciscolafayette.club, port: 443, type: vmess, uuid: cc0b4469-c0e5-4efb-8f69-a6df64db24ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /neuromancer, headers: {Host: sanfranciscolafayette.club}}, udp: true}
+  - {name: _US_美国_18, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: _US_美国_20, server: vfly5.xyz, port: 443, type: vmess, uuid: 825136bb-fc0a-4f43-8307-dc2e36f27e2d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly5.xyz}}, udp: true}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_21, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
+  - {name: _US_美国_27, server: 1chuan.top, port: 443, type: vmess, uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /evo, headers: {Host: 1chuan.top}}, udp: true}
+  - {name: _US_美国->🇫🇷_FR_法国_29, server: freestarway.tk, port: 443, type: vmess, uuid: 68de58a5-2f9f-45e9-cb64-2d87fdf5f031, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freestarway.tk}}, udp: true}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_30, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
+  - {name: _KR_韩国_33, server: spare.170525.xyz, port: 443, type: vmess, uuid: f7ecd78a-2c86-4a6b-aff2-ee5b618b39aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇰🇷_KR_韩国_43, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /happy, headers: {Host: v2ray.788644.xyz}}, udp: true}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_45, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
+  - {name: _US_美国->🇨🇿_CZ_捷克_46, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
+  - {name: _SG_新加坡_47, server: 103.253.26.20, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
+  - {name: _HK_香港_48, server: 43.129.97.237, port: 80, type: vmess, uuid: f613af75-f9eb-3d84-9357-7c3b00d950a2, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /live/cctv6_2/index.m3u8}, udp: true}
+  - {name: _US_美国->🇱🇺_LU_卢森堡_49, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
+  - {name: default_name_51, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
   - {name: _ZA_南非_35, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: github_com/freefq-香港Microsoft数据中心1_1, server: hkaz008.xmrth-node.xyz, port: 10287, type: vmess, uuid: 471273e7-81e0-317c-9cb4-a9eacf775219, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz008.xmrth-node.xyz}}, udp: true}
   - {name: github_com/freefq-新加坡Amazon数据中心2_2, server: V2-NODE-3-B.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 8f19a2d0-4fd0-4a7d-816d-761e1f5d87d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: V2-NODE-3-B.GFWAIRPORT.NET}}, udp: true}
@@ -126,50 +183,80 @@ proxies:
   - {name: github_com/freefq-浙江省衢州市移动51_44, server: sg2603.cloudmatrix.xyz, port: 2603, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg2603.cloudmatrix.xyz}}, udp: true}
   - {name: github_com/freefq-湖南省长沙市腾讯云57_49, server: ru2902.cloudmatrix.xyz, port: 2902, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ru2902.cloudmatrix.xyz}}, udp: true}
   - {name: github_com/freefq-美国58_50, server: streaming-1-route.teacher2050.com, port: 31222, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_11, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_12, server: sg2603.cloudmatrix.xyz, port: 2603, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg2603.cloudmatrix.xyz}}, udp: true}
-  - {name: Relay_🇨🇳CN-🏁ZZ_13, server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_14, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_15, server: in-v1.sdgdn.com, port: 50401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
-  - {name: Relay_🇨🇳CN-🏁ZZ_16, server: 120.240.48.20, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_17, server: v8.heduian.online, port: 30866, type: vmess, uuid: bba2cd65-2149-3089-9f1a-fed4c69c76bf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.online}}, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_18, server: 101.230.149.29, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_19, server: sg21102.cloudmatrix.xyz, port: 21102, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg21102.cloudmatrix.xyz}}, udp: true}
-  - {name: HK_24, server: hkaz003.xmrth-node.xyz, port: 10002, type: vmess, uuid: 471273e7-81e0-317c-9cb4-a9eacf775219, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz003.xmrth-node.xyz}}, udp: true}
-  - {name: HK_25, server: hkaz007.xmrth-node.xyz, port: 10296, type: vmess, uuid: 471273e7-81e0-317c-9cb4-a9eacf775219, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz007.xmrth-node.xyz}}, udp: true}
-  - {name: HK_26, server: hkaz004.xmrth-node.xyz, port: 10003, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz004.xmrth-node.xyz}}, udp: true}
-  - {name: Pool_🇳🇱NL_32, server: 88.218.92.145, port: 22407, type: vmess, uuid: 7a894129-eb94-43e3-b48e-25a255a0f346, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Pool_🇳🇱NL_33, server: 85.209.159.107, port: 20403, type: vmess, uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Asq7j5Mb/}, udp: true}
-  - {name: Relay_🇸🇬SG-🇨🇦CA_36, server: sg2.31vpn.com, port: 80, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/seikozero/62621831a0fc7/, headers: {Host: sg2.31vpn.com}}, udp: true}
-  - {name: Relay_🇺🇸US-🇬🇧GB_43, server: app.ssfree.ru, port: 443, type: vmess, uuid: 2e9ee9f4-c44c-11ec-9e4e-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_44, server: streaming-1-route.teacher2050.com, port: 31222, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_45, server: us2.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/nznlani/62639c9cac992/, headers: {Host: us2.31vpn.com}}, udp: true}
-  - {name: US_46, server: 66.42.111.55, port: 35874, type: vmess, uuid: b0602b3e-c3e2-11ec-9e4a-560003f65c5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0BFK7hzT/}, udp: true}
-  - {name: US_47, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇫🇮FI_49, server: vps.qweasdzxc.ml, port: 443, type: vmess, uuid: 4850777c-1d10-4651-9936-27a2a500b9a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vps.qweasdzxc.ml}}, udp: true}
-  - {name: US_50, server: hkaz5.xmrth-node.xyz, port: 11495, type: vmess, uuid: 471273e7-81e0-317c-9cb4-a9eacf775219, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz5.xmrth-node.xyz}}, udp: true}
+  - {name: _TW_台湾_10, server: tw01.v2.gay, port: 2613, type: vmess, uuid: 1d049f56-c337-11ec-a4f1-a77b2d86a171, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_tg频道：univstar_28, server: jpaz1.xmrth-node.xyz, port: 10058, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpaz1.xmrth-node.xyz}}, udp: true}
+  - {name: 中国_tg频道：univstar_29, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_tg频道：univstar_30, server: whcu.cwcsrsyby.xyz, port: 11775, type: vmess, uuid: 05cf79e9-c279-491a-fb04-494bbbf583b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_tg频道：univstar_31, server: jpaz1.xmrth-node.xyz, port: 10058, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpaz1.xmrth-node.xyz}}, udp: true}
+  - {name: 美国_tg频道：univstar_40, server: 154.17.18.22, port: 40091, type: vmess, uuid: 40857065-7603-41e3-8120-c947821c1201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_tg频道：univstar_41, server: whcu.cwcsrsyby.xyz, port: 2193, type: vmess, uuid: 1d6c60fe-4088-4828-844d-e34967458d54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本_tg频道：univstar_43, server: v2.godlight.xyz, port: 26936, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: 日本_tg频道：univstar_44, server: v2-1.godlight.xyz, port: 12236, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2-1.godlight.xyz}}, udp: true}
+  - {name: 新加坡_tg频道：univstar_45, server: v2-2.godlight.xyz, port: 30526, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2-2.godlight.xyz}}, udp: true}
+  - {name: 新加坡_tg频道：univstar_46, server: v2-3.godlight.xyz, port: 39276, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2-3.godlight.xyz}}, udp: true}
+  - {name: 韩国_tg频道：univstar_47, server: v2-4.godlight.xyz, port: 50496, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2-4.godlight.xyz}}, udp: true}
+  - {name: 韩国_tg频道：univstar_48, server: v2-5.godlight.xyz, port: 39786, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2-5.godlight.xyz}}, udp: true}
+  - {name: 台湾_tg频道：univstar_49, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: 香港_tg频道：univstar_50, server: 43.129.222.46, port: 443, type: vmess, uuid: cb76d9c8-682e-4721-950c-1455caa3e5a8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 美国_tg频道：univstar_52, server: 154.17.18.22, port: 40091, type: vmess, uuid: 40857065-7603-41e3-8120-c947821c1201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港_tg频道：univstar_57, server: yyyy.wwwbhjy.com, port: 2443, type: vmess, uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yyyy.wwwbhjy.com}}, udp: true}
+  - {name: 日本_tg频道：univstar_58, server: 210.140.75.152, port: 80, type: vmess, uuid: f613af75-f9eb-3d84-9357-7c3b00d950a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 美国_tg频道：univstar_60, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
+  - {name: 香港_tg频道：univstar_61, server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
+  - {name: 香港_tg频道：univstar_62, server: hkaz3.xmrth-node.xyz, port: 12567, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
+  - {name: 香港_tg频道：univstar_63, server: s313.s2022.xyz, port: 25159, type: vmess, uuid: 503d5b19-259f-32bc-ab59-e8659a12d003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s313.s2022.xyz}}, udp: true}
+  - {name: AU_05, server: 43.154.102.246, port: 39509, type: vmess, uuid: 9555680d-9857-4266-a97b-cb8b393d6e98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇦🇺AU-🇦🇺AU_06, server: 421sg2.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 421sg2.fans8.xyz}}, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_09, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_15, server: 120.240.48.20, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_16, server: sg2603.cloudmatrix.xyz, port: 2603, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg2603.cloudmatrix.xyz}}, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_17, server: sg2603.cloudmatrix.xyz, port: 2603, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sg2603.cloudmatrix.xyz}}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_18, server: tw21402.cloudmatrix.xyz, port: 21402, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tw21402.cloudmatrix.xyz}}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_19, server: 119.147.20.236, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇺RU_20, server: ru21701.cloudmatrix.xyz, port: 21701, type: vmess, uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ru21701.cloudmatrix.xyz}}, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_21, server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_22, server: v8.heduian.online, port: 30866, type: vmess, uuid: bba2cd65-2149-3089-9f1a-fed4c69c76bf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.online}}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_23, server: in-v1.sdgdn.com, port: 50401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_24, server: whcu.cwcsrsyby.xyz, port: 2193, type: vmess, uuid: 1d6c60fe-4088-4828-844d-e34967458d54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_25, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
+  - {name: HK_27, server: hkaz004.xmrth-node.xyz, port: 10003, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz004.xmrth-node.xyz}}, udp: true}
+  - {name: HK_28, server: hkaz009.xmrth-node.xyz, port: 13131, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz009.xmrth-node.xyz}}, udp: true}
+  - {name: HK_29, server: hkaz003.xmrth-node.xyz, port: 10002, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz003.xmrth-node.xyz}}, udp: true}
+  - {name: HK_30, server: hkaz002.xmrth-node.xyz, port: 10281, type: vmess, uuid: 471273e7-81e0-317c-9cb4-a9eacf775219, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz002.xmrth-node.xyz}}, udp: true}
+  - {name: HK_31, server: 103.135.251.139, port: 49958, type: vmess, uuid: 8a72519a-8c31-4876-9670-de9edb7ef1d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP_32, server: 210.140.75.152, port: 80, type: vmess, uuid: f613af75-f9eb-3d84-9357-7c3b00d950a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /live/cctv6_2/index.m3u8}, udp: true}
+  - {name: Pool_🇳🇱NL_38, server: 88.218.92.145, port: 22407, type: vmess, uuid: 7a894129-eb94-43e3-b48e-25a255a0f346, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: Relay_🇸🇬SG-🇯🇵JP_40, server: jp1.wanss.win, port: 23344, type: vmess, uuid: 3FF32A43-8E7F-5EA8-72E9-0A3103FAA1C7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp1.wanss.win}}, udp: true}
+  - {name: Relay_🇸🇬SG-🇸🇬SG_41, server: sanfranciscolafayette.club, port: 443, type: vmess, uuid: cc0b4469-c0e5-4efb-8f69-a6df64db24ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /neuromancer, headers: {Host: sanfranciscolafayette.club}}, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_42, server: tw01.v2.gay, port: 2613, type: vmess, uuid: 1d049f56-c337-11ec-a4f1-a77b2d86a171, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_46, server: vfly5.xyz, port: 443, type: vmess, uuid: 825136bb-fc0a-4f43-8307-dc2e36f27e2d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly5.xyz}}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_47, server: jpaz1.xmrth-node.xyz, port: 10058, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: jpaz1.xmrth-node.xyz}}, udp: true}
+  - {name: US_48, server: 65.49.210.47, port: 10895, type: vmess, uuid: 51a66487-e65e-47cb-8c6d-6054bb29a5f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇨🇦CA_49, server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 8.ezydfdd.com}}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_50, server: spare.170525.xyz, port: 443, type: vmess, uuid: f7ecd78a-2c86-4a6b-aff2-ee5b618b39aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_51, server: top.njiang.tk, port: 443, type: vmess, uuid: b2d062be-1912-4523-96c9-4f0f101c931b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wivhvws, headers: {Host: top.njiang.tk}}, udp: true}
+  - {name: US_52, server: 154.17.18.22, port: 40091, type: vmess, uuid: 40857065-7603-41e3-8120-c947821c1201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇬🇧GB_53, server: app.ssfree.ru, port: 443, type: vmess, uuid: c3c4ab18-c4b0-11ec-9c13-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
+  - {name: Relay_🇺🇸US-🇫🇮FI_54, server: vps.qweasdzxc.ml, port: 443, type: vmess, uuid: 4850777c-1d10-4651-9936-27a2a500b9a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vps.qweasdzxc.ml}}, udp: true}
+  - {name: US_55, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_56, server: 66.42.111.55, port: 35874, type: vmess, uuid: b0602b3e-c3e2-11ec-9e4a-560003f65c5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0BFK7hzT/}, udp: true}
+  - {name: Relay_🇺🇸US-🇩🇪DE_57, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
+  - {name: Pool_🇺🇸US_58, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
   - {name: _ZA_南非_13, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港_1, server: 4.vip341.xyz, port: 443, type: vmess, uuid: 79c82b92-bc4c-382c-8042-b50d27b9c564, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 4.vip341.xyz}}, udp: true}
-  - {name: _SG_新加坡_2, server: v2-2.godlight.xyz, port: 30526, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}, udp: true}
-  - {name: _KR_韩国_3, server: oracle.170525.xyz, port: 443, type: vmess, uuid: edb35525-703d-4fb0-c62f-62ed36c5def6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_10, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
-  - {name: _US_美国_11, server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}, udp: true}
-  - {name: _US_美国_15, server: top.njiang.tk, port: 443, type: vmess, uuid: b2d062be-1912-4523-96c9-4f0f101c931b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wivhvws, headers: {Host: top.njiang.tk}}, udp: true}
-  - {name: _US_美国_16, server: sanfranciscolafayette.club, port: 443, type: vmess, uuid: cc0b4469-c0e5-4efb-8f69-a6df64db24ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /neuromancer, headers: {Host: sanfranciscolafayette.club}}, udp: true}
-  - {name: _US_美国_18, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: _US_美国_20, server: vfly5.xyz, port: 443, type: vmess, uuid: 825136bb-fc0a-4f43-8307-dc2e36f27e2d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly5.xyz}}, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_21, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
-  - {name: _US_美国_27, server: 1chuan.top, port: 443, type: vmess, uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /evo, headers: {Host: 1chuan.top}}, udp: true}
-  - {name: _US_美国->🇫🇷_FR_法国_29, server: freestarway.tk, port: 443, type: vmess, uuid: 68de58a5-2f9f-45e9-cb64-2d87fdf5f031, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freestarway.tk}}, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_30, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}, udp: true}
-  - {name: _KR_韩国_33, server: spare.170525.xyz, port: 443, type: vmess, uuid: f7ecd78a-2c86-4a6b-aff2-ee5b618b39aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇰🇷_KR_韩国_43, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /happy, headers: {Host: v2ray.788644.xyz}}, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦_45, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}, udp: true}
-  - {name: _US_美国->🇨🇿_CZ_捷克_46, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}, udp: true}
-  - {name: _SG_新加坡_47, server: 103.253.26.20, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
-  - {name: _HK_香港_48, server: 43.129.97.237, port: 80, type: vmess, uuid: f613af75-f9eb-3d84-9357-7c3b00d950a2, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /live/cctv6_2/index.m3u8}, udp: true}
-  - {name: _US_美国->🇱🇺_LU_卢森堡_49, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
-  - {name: default_name_51, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
+  - {name: 中转_加拿大01_2, server: aflzz-us.yixuedianzishu.com, port: 42171, type: vmess, uuid: 559b002a-4e59-3d60-9414-03603f3894da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Anycast_日本_3, server: aflcn.yixuedianzishu.com, port: 51512, type: vmess, uuid: 559b002a-4e59-3d60-9414-03603f3894da, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflcn.yixuedianzishu.com}}, udp: true}
+  - {name: Anycast_台湾_4, server: aflcn.yixuedianzishu.com, port: 51514, type: vmess, uuid: 559b002a-4e59-3d60-9414-03603f3894da, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflcn.yixuedianzishu.com}}, udp: true}
+  - {name: Anycast_泰国_5, server: aflcn.yixuedianzishu.com, port: 51527, type: vmess, uuid: 559b002a-4e59-3d60-9414-03603f3894da, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflcn.yixuedianzishu.com}}, udp: true}
+  - {name: Anycast_美国_6, server: aflcn.yixuedianzishu.com, port: 51513, type: vmess, uuid: 559b002a-4e59-3d60-9414-03603f3894da, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflcn.yixuedianzishu.com}}, udp: true}
+  - {name: Anycast_英国_7, server: aflcn.yixuedianzishu.com, port: 51518, type: vmess, uuid: 559b002a-4e59-3d60-9414-03603f3894da, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflcn.yixuedianzishu.com}}, udp: true}
+  - {name: Anycast_德国_8, server: aflcn.yixuedianzishu.com, port: 51519, type: vmess, uuid: 559b002a-4e59-3d60-9414-03603f3894da, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflcn.yixuedianzishu.com}}, udp: true}
+  - {name: Anycast_加拿大_9, server: aflcn.yixuedianzishu.com, port: 51520, type: vmess, uuid: 559b002a-4e59-3d60-9414-03603f3894da, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflcn.yixuedianzishu.com}}, udp: true}
+  - {name: Anycast_韩国_10, server: aflcn.yixuedianzishu.com, port: 51522, type: vmess, uuid: 559b002a-4e59-3d60-9414-03603f3894da, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflcn.yixuedianzishu.com}}, udp: true}
+  - {name: Anycast_俄罗斯_11, server: aflcn.yixuedianzishu.com, port: 51525, type: vmess, uuid: 559b002a-4e59-3d60-9414-03603f3894da, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflcn.yixuedianzishu.com}}, udp: true}
+  - {name: Anycast_印度_12, server: aflcn.yixuedianzishu.com, port: 51524, type: vmess, uuid: 559b002a-4e59-3d60-9414-03603f3894da, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflcn.yixuedianzishu.com}}, udp: true}
+  - {name: Anycast_巴西_13, server: aflcn.yixuedianzishu.com, port: 51530, type: vmess, uuid: 559b002a-4e59-3d60-9414-03603f3894da, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflcn.yixuedianzishu.com}}, udp: true}
+  - {name: Anycast_土耳其_14, server: aflcn.yixuedianzishu.com, port: 51531, type: vmess, uuid: 559b002a-4e59-3d60-9414-03603f3894da, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflcn.yixuedianzishu.com}}, udp: true}
+  - {name: Anycast_法国_15, server: aflcn.yixuedianzishu.com, port: 51526, type: vmess, uuid: 559b002a-4e59-3d60-9414-03603f3894da, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflcn.yixuedianzishu.com}}, udp: true}
   - {name: 美国-5_42MB/s(Youtube:不良林)_8, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}, udp: true}
   - {name: github_com/freefq-美国Microsoft数据中心1_2, server: hkaz6.xmrth-node.xyz, port: 11283, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz6.xmrth-node.xyz}}, udp: true}
   - {name: github_com/freefq-新加坡Amazon数据中心3_4, server: sgaws001.xmrth-node.xyz, port: 12868, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: sgaws001.xmrth-node.xyz}}, udp: true}
@@ -189,6 +276,7 @@ proxies:
   - {name: github_com/freefq-土耳其21_22, server: tk-nf-route.teacher2060.com, port: 31256, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: github_com/freefq-美国新泽西州皮斯卡特维Vultr数据中心22_23, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: github_com/freefq-美国CloudFlare节点24_25, server: vps.qweasdzxc.ml, port: 443, type: vmess, uuid: 4850777c-1d10-4651-9936-27a2a500b9a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vps.qweasdzxc.ml}}, udp: true}
+  - {name: _ZA_南非_50, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _ZA_南非_34, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US_1418, server: 152.69.228.27, port: 29363, type: vmess, uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Relay_🇭🇰HK-🇭🇰HK_928, server: 3.vip341.xyz, port: 443, type: vmess, uuid: 79c82b92-bc4c-382c-8042-b50d27b9c564, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 3.vip341.xyz}}, udp: true}
@@ -218,6 +306,8 @@ proxies:
   - {name: Relay_🇺🇸US-🇺🇸US_3795, server: 4.ezydfdd.com, port: 443, type: vmess, uuid: c0cb6989-5967-447d-ea34-b4b0aa70b9f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 4.ezydfdd.com}}, udp: true}
   - {name: Relay_🇨🇳CN-🏁ZZ_452, server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
   - {name: HK_930, server: 103.135.251.139, port: 49958, type: vmess, uuid: 8a72519a-8c31-4876-9670-de9edb7ef1d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: sg3_31vpn_com_1, server: sg3.31vpn.com, port: 443, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ntmdq/6267584ee4988/, headers: {Host: sg3.31vpn.com}}, udp: true}
+  - {name: sg3_31vpn_com_2, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ntmdq/6267584ee4988/, headers: {Host: sg3.31vpn.com}}, udp: true}
   - {name: 香港跳板_1, server: buy1.xp812.cn, port: 443, type: vmess, uuid: 3437291e-27f5-471d-bb77-be45eb026ded, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Ttbo66uv6Vjz, headers: {Host: buy1.xp812.cn}}, udp: true}
   - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦_5, server: cm.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.zhongzhuan.fnyun.cyou}}, udp: true}
   - {name: _ZA_南非_6, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -265,11 +355,41 @@ proxy-groups:
   - name: 代理
     type: select
     proxies:
+      - _ZA_南非_1
       - _ZA_南非_12
       - _ZA_南非_2
-      - _ZA_南非_1
       - 美国-5_13MB/s(Youtube:不良林)_8
       - _ZA_南非_3
+      - BD_06
+      - Relay_🇨🇳CN-🇭🇰HK_11
+      - Relay_🇨🇳CN-🇸🇬SG_12
+      - Relay_🇨🇳CN-🏁ZZ_13
+      - Relay_🇨🇳CN-🇭🇰HK_14
+      - Relay_🇨🇳CN-🇺🇸US_15
+      - Relay_🇨🇳CN-🏁ZZ_16
+      - Relay_🇨🇳CN-🇺🇸US_17
+      - Relay_🇨🇳CN-🇭🇰HK_18
+      - Relay_🇨🇳CN-🇸🇬SG_19
+      - HK_24
+      - HK_25
+      - HK_26
+      - Pool_🇳🇱NL_32
+      - Pool_🇳🇱NL_33
+      - Relay_🇸🇬SG-🇨🇦CA_36
+      - Relay_🇹🇷TR-🇹🇷TR_37
+      - Relay_🇺🇸US-🇬🇧GB_43
+      - Relay_🇺🇸US-🇺🇸US_44
+      - Relay_🇺🇸US-🇺🇸US_45
+      - US_46
+      - US_47
+      - Relay_🇺🇸US-🇨🇦CA_48
+      - Relay_🇺🇸US-🇫🇮FI_49
+      - US_50
+      - 新加坡_tg频道:atunivstar_37
+      - 新加坡_tg频道:atunivstar_38
+      - 新加坡_tg频道:atunivstar_39
+      - 中国_tg频道:atunivstar_40
+      - 中国_tg频道:atunivstar_41
       - ""
       - _ZA_南非_36
       - 233v2_com_104_128_190_115
@@ -349,10 +469,37 @@ proxy-groups:
       - ӡ�ȣ�TGat��ΰ�Ƽ�/�͹ܣ�4_140
       - ӡ�ȣ�TGat��ΰ�Ƽ�/�͹ܣ�5_141
       - 0219_1128_wulabing_kirakirasevennine_com_1
+      - 新加坡_tg频道:univstar_37
+      - 新加坡_tg频道:univstar_38
+      - 新加坡_tg频道:univstar_39
+      - 中国_tg频道:univstar_40
+      - 中国_tg频道:univstar_41
       - _CN_中国->🇷🇺_RU_俄罗斯联邦_4
       - _ZA_南非_5
       - HK001_1
+      - _54_3_99Mb_1
       - _ZA_南非_43
+      - _HK_香港_1
+      - _SG_新加坡_2
+      - _KR_韩国_3
+      - _US_美国_10
+      - _US_美国_11
+      - _US_美国_15
+      - _US_美国_16
+      - _US_美国_18
+      - _US_美国_20
+      - _US_美国->🇷🇺_RU_俄罗斯联邦_21
+      - _US_美国_27
+      - _US_美国->🇫🇷_FR_法国_29
+      - _US_美国->🇷🇺_RU_俄罗斯联邦_30
+      - _KR_韩国_33
+      - _US_美国->🇰🇷_KR_韩国_43
+      - _US_美国->🇷🇺_RU_俄罗斯联邦_45
+      - _US_美国->🇨🇿_CZ_捷克_46
+      - _SG_新加坡_47
+      - _HK_香港_48
+      - _US_美国->🇱🇺_LU_卢森堡_49
+      - default_name_51
       - _ZA_南非_35
       - github_com/freefq-香港Microsoft数据中心1_1
       - github_com/freefq-新加坡Amazon数据中心2_2
@@ -386,50 +533,80 @@ proxy-groups:
       - github_com/freefq-浙江省衢州市移动51_44
       - github_com/freefq-湖南省长沙市腾讯云57_49
       - github_com/freefq-美国58_50
-      - Relay_🇨🇳CN-🇭🇰HK_11
-      - Relay_🇨🇳CN-🇸🇬SG_12
-      - Relay_🇨🇳CN-🏁ZZ_13
-      - Relay_🇨🇳CN-🇭🇰HK_14
-      - Relay_🇨🇳CN-🇺🇸US_15
-      - Relay_🇨🇳CN-🏁ZZ_16
-      - Relay_🇨🇳CN-🇺🇸US_17
-      - Relay_🇨🇳CN-🇭🇰HK_18
-      - Relay_🇨🇳CN-🇸🇬SG_19
-      - HK_24
-      - HK_25
-      - HK_26
-      - Pool_🇳🇱NL_32
-      - Pool_🇳🇱NL_33
-      - Relay_🇸🇬SG-🇨🇦CA_36
-      - Relay_🇺🇸US-🇬🇧GB_43
-      - Relay_🇺🇸US-🇺🇸US_44
-      - Relay_🇺🇸US-🇺🇸US_45
-      - US_46
-      - US_47
-      - Relay_🇺🇸US-🇫🇮FI_49
-      - US_50
+      - _TW_台湾_10
+      - 美国_tg频道：univstar_28
+      - 中国_tg频道：univstar_29
+      - 中国_tg频道：univstar_30
+      - 美国_tg频道：univstar_31
+      - 美国_tg频道：univstar_40
+      - 中国_tg频道：univstar_41
+      - 日本_tg频道：univstar_43
+      - 日本_tg频道：univstar_44
+      - 新加坡_tg频道：univstar_45
+      - 新加坡_tg频道：univstar_46
+      - 韩国_tg频道：univstar_47
+      - 韩国_tg频道：univstar_48
+      - 台湾_tg频道：univstar_49
+      - 香港_tg频道：univstar_50
+      - 美国_tg频道：univstar_52
+      - 香港_tg频道：univstar_57
+      - 日本_tg频道：univstar_58
+      - 美国_tg频道：univstar_60
+      - 香港_tg频道：univstar_61
+      - 香港_tg频道：univstar_62
+      - 香港_tg频道：univstar_63
+      - AU_05
+      - Relay_🇦🇺AU-🇦🇺AU_06
+      - Relay_🇨🇦CA-🇨🇦CA_09
+      - Relay_🇨🇳CN-🏁ZZ_15
+      - Relay_🇨🇳CN-🇸🇬SG_16
+      - Relay_🇨🇳CN-🇸🇬SG_17
+      - Relay_🇨🇳CN-🇹🇼TW_18
+      - Relay_🇨🇳CN-🇭🇰HK_19
+      - Relay_🇨🇳CN-🇷🇺RU_20
+      - Relay_🇨🇳CN-🏁ZZ_21
+      - Relay_🇨🇳CN-🇺🇸US_22
+      - Relay_🇨🇳CN-🇺🇸US_23
+      - Relay_🇨🇳CN-🇺🇸US_24
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - HK_27
+      - HK_28
+      - HK_29
+      - HK_30
+      - HK_31
+      - JP_32
+      - Pool_🇳🇱NL_38
+      - Relay_🇸🇬SG-🇯🇵JP_40
+      - Relay_🇸🇬SG-🇸🇬SG_41
+      - Relay_🇹🇼TW-🇹🇼TW_42
+      - Relay_🇺🇸US-🇺🇸US_46
+      - Relay_🇺🇸US-🇺🇸US_47
+      - US_48
+      - Relay_🇺🇸US-🇨🇦CA_49
+      - Relay_🇺🇸US-🇺🇸US_50
+      - Relay_🇺🇸US-🇺🇸US_51
+      - US_52
+      - Relay_🇺🇸US-🇬🇧GB_53
+      - Relay_🇺🇸US-🇫🇮FI_54
+      - US_55
+      - US_56
+      - Relay_🇺🇸US-🇩🇪DE_57
+      - Pool_🇺🇸US_58
       - _ZA_南非_13
-      - _HK_香港_1
-      - _SG_新加坡_2
-      - _KR_韩国_3
-      - _US_美国_10
-      - _US_美国_11
-      - _US_美国_15
-      - _US_美国_16
-      - _US_美国_18
-      - _US_美国_20
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_21
-      - _US_美国_27
-      - _US_美国->🇫🇷_FR_法国_29
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_30
-      - _KR_韩国_33
-      - _US_美国->🇰🇷_KR_韩国_43
-      - _US_美国->🇷🇺_RU_俄罗斯联邦_45
-      - _US_美国->🇨🇿_CZ_捷克_46
-      - _SG_新加坡_47
-      - _HK_香港_48
-      - _US_美国->🇱🇺_LU_卢森堡_49
-      - default_name_51
+      - 中转_加拿大01_2
+      - Anycast_日本_3
+      - Anycast_台湾_4
+      - Anycast_泰国_5
+      - Anycast_美国_6
+      - Anycast_英国_7
+      - Anycast_德国_8
+      - Anycast_加拿大_9
+      - Anycast_韩国_10
+      - Anycast_俄罗斯_11
+      - Anycast_印度_12
+      - Anycast_巴西_13
+      - Anycast_土耳其_14
+      - Anycast_法国_15
       - 美国-5_42MB/s(Youtube:不良林)_8
       - github_com/freefq-美国Microsoft数据中心1_2
       - github_com/freefq-新加坡Amazon数据中心3_4
@@ -449,6 +626,7 @@ proxy-groups:
       - github_com/freefq-土耳其21_22
       - github_com/freefq-美国新泽西州皮斯卡特维Vultr数据中心22_23
       - github_com/freefq-美国CloudFlare节点24_25
+      - _ZA_南非_50
       - _ZA_南非_34
       - US_1418
       - Relay_🇭🇰HK-🇭🇰HK_928
@@ -478,6 +656,8 @@ proxy-groups:
       - Relay_🇺🇸US-🇺🇸US_3795
       - Relay_🇨🇳CN-🏁ZZ_452
       - HK_930
+      - sg3_31vpn_com_1
+      - sg3_31vpn_com_2
       - 香港跳板_1
       - _CN_中国->🇷🇺_RU_俄罗斯联邦_5
       - _ZA_南非_6

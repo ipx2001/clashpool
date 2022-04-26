@@ -5,20 +5,136 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本-tg频道:@bpjzx2, server: hncu.relay.qchwnd.moe, port: 10201, type: trojan, password: 5b059403-c05c-4609-ab01-a9352041d2e4, skip-cert-verify: true, udp: true}
-  - {name: 香港-tg频道:@bpjzx2, server: 220.158.232.87, port: 443, type: vmess, uuid: 55dc9daf-ea0e-38f1-aa82-ed76c8b19df2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /apple-home, headers: {Host: hk1.academicpapers.eu.org}}, udp: true}
-  - {name: 美国-tg频道:@bpjzx2, server: 65.49.214.185, port: 30658, type: vmess, uuid: 351c64c1-2f7d-4900-a2d2-8f09a6501603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港-tg频道:@bpjzx2 2, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
-  - {name: 马来西亚-tg频道:@bpjzx2, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, skip-cert-verify: true, udp: true}
+  - {name: 香港-tg频道:@bpjzx2, server: cm07.paofuvip.xyz, port: 5961, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 2, server: cm07.paofuvip.xyz, port: 5962, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 3, server: cm07.paofuvip.xyz, port: 5963, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 4, server: cm07.paofuvip.xyz, port: 5964, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 5, server: cm07.paofuvip.xyz, port: 5965, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 6, server: cm07.paofuvip.xyz, port: 5966, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 7, server: cm07.paofuvip.xyz, port: 5967, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 8, server: cm07.paofuvip.xyz, port: 5969, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 9, server: cm08.paofuvip.xyz, port: 5962, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 10, server: cm08.paofuvip.xyz, port: 5963, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 11, server: cm08.paofuvip.xyz, port: 5965, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 12, server: cm08.paofuvip.xyz, port: 5967, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 13, server: cm08.paofuvip.xyz, port: 5968, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 14, server: cm08.paofuvip.xyz, port: 5969, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: IEPL-香港-tg频道:@bpjzx2, server: cm09.paofuvip.xyz, port: 5969, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: IEPL-香港-tg频道:@bpjzx2 2, server: cm09.paofuvip.xyz, port: 5968, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: IEPL-香港-tg频道:@bpjzx2 3, server: cm09.paofuvip.xyz, port: 5967, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: IEPL-香港-tg频道:@bpjzx2 4, server: cm09.paofuvip.xyz, port: 5966, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: IEPL-香港-tg频道:@bpjzx2 5, server: cm09.paofuvip.xyz, port: 5962, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: IEPL-香港-tg频道:@bpjzx2 6, server: cm09.paofuvip.xyz, port: 5961, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: IEPL-香港-tg频道:@bpjzx2 7, server: cm09.paofuvip.xyz, port: 5960, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2, server: cm03.paofuvip.xyz, port: 1193, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 新加坡-tg频道:@bpjzx2 2, server: cm03.paofuvip.xyz, port: 1194, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: IEPL-新加坡-tg频道:@bpjzx2, server: cm03.paofuvip.xyz, port: 1196, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: IEPL-新加坡-tg频道:@bpjzx2 2, server: cm03.paofuvip.xyz, port: 1197, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: IEPL-新加坡-tg频道:@bpjzx2 3, server: cm03.paofuvip.xyz, port: 1198, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 47eaf191202.microsoft.com}, udp: true}
+  - {name: 中国_-tg频道:@bpjzx2, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国-tg频道:@bpjzx2, server: jpaz1.xmrth-node.xyz, port: 10058, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 中国_-tg频道:@bpjzx2 2, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_-tg频道:@bpjzx2 3, server: whcu.cwcsrsyby.xyz, port: 11775, type: vmess, uuid: 05cf79e9-c279-491a-fb04-494bbbf583b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-tg频道:@bpjzx2 2, server: jpaz1.xmrth-node.xyz, port: 10058, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: jpaz1.xmrth-node.xyz}}, udp: true}
+  - {name: 中国_-tg频道:@bpjzx2 4, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国_-tg频道:@bpjzx2 5, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国_-tg频道:@bpjzx2 6, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国_-tg频道:@bpjzx2 7, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国_-tg频道:@bpjzx2 8, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国_-tg频道:@bpjzx2 9, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国_-tg频道:@bpjzx2 10, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 英国_-tg频道:@bpjzx2, server: 172.99.190.90, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国-tg频道:@bpjzx2 3, server: 154.17.18.22, port: 40091, type: vmess, uuid: 40857065-7603-41e3-8120-c947821c1201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_-tg频道:@bpjzx2 11, server: whcu.cwcsrsyby.xyz, port: 2193, type: vmess, uuid: 1d6c60fe-4088-4828-844d-e34967458d54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港_-tg频道:@bpjzx2, server: kaizen-hk-2.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: 日本_-tg频道:@bpjzx2, server: v2.godlight.xyz, port: 26936, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f34f3-f32f364, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: 日本_-tg频道:@bpjzx2 2, server: v2-1.godlight.xyz, port: 12236, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /j75g1461x, headers: {Host: v2-1.godlight.xyz}}, udp: true}
+  - {name: 新加坡_-tg频道:@bpjzx2, server: v2-2.godlight.xyz, port: 30526, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}, udp: true}
+  - {name: 新加坡_-tg频道:@bpjzx2 2, server: v2-3.godlight.xyz, port: 39276, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f45361465j175, headers: {Host: v2-3.godlight.xyz}}, udp: true}
+  - {name: 韩国_-tg频道:@bpjzx2, server: v2-4.godlight.xyz, port: 50496, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /g1641hvx, headers: {Host: v2-4.godlight.xyz}}, udp: true}
+  - {name: 韩国_-tg频道:@bpjzx2 2, server: v2-5.godlight.xyz, port: 39786, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /71h4b3s1f53, headers: {Host: v2-5.godlight.xyz}}, udp: true}
+  - {name: 台湾_-tg频道:@bpjzx2, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 15, server: 43.129.222.46, port: 443, type: vmess, uuid: cb76d9c8-682e-4721-950c-1455caa3e5a8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /km_ws, headers: {Host: hello.km12.tk}}, udp: true}
+  - {name: 美国-tg频道:@bpjzx2 4, server: 38.68.134.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国-tg频道:@bpjzx2 5, server: 154.17.18.22, port: 40091, type: vmess, uuid: 40857065-7603-41e3-8120-c947821c1201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-tg频道:@bpjzx2 6, server: kaizen-us-13.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: 美国-tg频道:@bpjzx2 7, server: zhilian-us-k.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: 美国-tg频道:@bpjzx2 8, server: kaizen-us-11.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: 美国-tg频道:@bpjzx2 9, server: zhilian-us-i.cmy-dns.com, port: 443, type: trojan, password: 8a6d7c39-977c-35ea-afd2-eaf25b656b88cmynw, sni: paydiu.com, skip-cert-verify: true, udp: true}
+  - {name: 香港_-tg频道:@bpjzx2 2, server: yyyy.wwwbhjy.com, port: 2443, type: vmess, uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /8a76fb13/, headers: {Host: yyyy.wwwbhjy.com}}, udp: true}
+  - {name: 日本_-tg频道:@bpjzx2 3, server: 210.140.75.152, port: 80, type: vmess, uuid: f613af75-f9eb-3d84-9357-7c3b00d950a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /live/cctv6_2/index.m3u8}, udp: true}
+  - {name: 美国-tg频道:@bpjzx2 10, server: 38.68.134.191, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国-tg频道:@bpjzx2 11, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 16, server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 17, server: hkaz3.xmrth-node.xyz, port: 12567, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
+  - {name: 香港-tg频道:@bpjzx2 18, server: s313.s2022.xyz, port: 25159, type: vmess, uuid: 503d5b19-259f-32bc-ab59-e8659a12d003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /panelmyadmin, headers: {Host: s313.s2022.xyz}}, udp: true}
 proxy-groups:
   - name: 代理
     type: select
     proxies:
-      - 日本-tg频道:@bpjzx2
       - 香港-tg频道:@bpjzx2
-      - 美国-tg频道:@bpjzx2
       - 香港-tg频道:@bpjzx2 2
-      - 马来西亚-tg频道:@bpjzx2
+      - 香港-tg频道:@bpjzx2 3
+      - 香港-tg频道:@bpjzx2 4
+      - 香港-tg频道:@bpjzx2 5
+      - 香港-tg频道:@bpjzx2 6
+      - 香港-tg频道:@bpjzx2 7
+      - 香港-tg频道:@bpjzx2 8
+      - 香港-tg频道:@bpjzx2 9
+      - 香港-tg频道:@bpjzx2 10
+      - 香港-tg频道:@bpjzx2 11
+      - 香港-tg频道:@bpjzx2 12
+      - 香港-tg频道:@bpjzx2 13
+      - 香港-tg频道:@bpjzx2 14
+      - IEPL-香港-tg频道:@bpjzx2
+      - IEPL-香港-tg频道:@bpjzx2 2
+      - IEPL-香港-tg频道:@bpjzx2 3
+      - IEPL-香港-tg频道:@bpjzx2 4
+      - IEPL-香港-tg频道:@bpjzx2 5
+      - IEPL-香港-tg频道:@bpjzx2 6
+      - IEPL-香港-tg频道:@bpjzx2 7
+      - 新加坡-tg频道:@bpjzx2
+      - 新加坡-tg频道:@bpjzx2 2
+      - IEPL-新加坡-tg频道:@bpjzx2
+      - IEPL-新加坡-tg频道:@bpjzx2 2
+      - IEPL-新加坡-tg频道:@bpjzx2 3
+      - 中国_-tg频道:@bpjzx2
+      - 美国-tg频道:@bpjzx2
+      - 中国_-tg频道:@bpjzx2 2
+      - 中国_-tg频道:@bpjzx2 3
+      - 美国-tg频道:@bpjzx2 2
+      - 中国_-tg频道:@bpjzx2 4
+      - 中国_-tg频道:@bpjzx2 5
+      - 中国_-tg频道:@bpjzx2 6
+      - 中国_-tg频道:@bpjzx2 7
+      - 中国_-tg频道:@bpjzx2 8
+      - 中国_-tg频道:@bpjzx2 9
+      - 中国_-tg频道:@bpjzx2 10
+      - 英国_-tg频道:@bpjzx2
+      - 美国-tg频道:@bpjzx2 3
+      - 中国_-tg频道:@bpjzx2 11
+      - 香港_-tg频道:@bpjzx2
+      - 日本_-tg频道:@bpjzx2
+      - 日本_-tg频道:@bpjzx2 2
+      - 新加坡_-tg频道:@bpjzx2
+      - 新加坡_-tg频道:@bpjzx2 2
+      - 韩国_-tg频道:@bpjzx2
+      - 韩国_-tg频道:@bpjzx2 2
+      - 台湾_-tg频道:@bpjzx2
+      - 香港-tg频道:@bpjzx2 15
+      - 美国-tg频道:@bpjzx2 4
+      - 美国-tg频道:@bpjzx2 5
+      - 美国-tg频道:@bpjzx2 6
+      - 美国-tg频道:@bpjzx2 7
+      - 美国-tg频道:@bpjzx2 8
+      - 美国-tg频道:@bpjzx2 9
+      - 香港_-tg频道:@bpjzx2 2
+      - 日本_-tg频道:@bpjzx2 3
+      - 美国-tg频道:@bpjzx2 10
+      - 美国-tg频道:@bpjzx2 11
+      - 香港-tg频道:@bpjzx2 16
+      - 香港-tg频道:@bpjzx2 17
+      - 香港-tg频道:@bpjzx2 18
   - name: 规则外路由选择
     type: select
     proxies:
