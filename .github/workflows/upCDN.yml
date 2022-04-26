@@ -1,7 +1,7 @@
 name: CDN_Update
 on: 
    schedule:
-      - cron: "6/15 * * * *"
+      - cron: "6/60 * * * *"
    workflow_dispatch:
 jobs:
   job1: 
