@@ -48,10 +48,8 @@ Spider:
       with:
          # github_token: ${{ secrets.TOKEN }}
          branch: main
-   CDN:
-      runs-on: ubuntu-latest
-      steps:
-      - name: ClashCDN
-        run: curl https://purge.jsdelivr.net/gh/git-wally94/clashpool@main/sub/clash.yaml
-      - name: V2rayCDN   
-        run: curl https://purge.jsdelivr.net/gh/git-wally94/clashpool@main/sub/v2ray.txt
+    - name: ClashCDN
+      run: curl https://purge.jsdelivr.net/gh/git-wally94/clashpool@main/sub/clash.yaml
+    - name: V2rayCDN   
+      run: curl https://purge.jsdelivr.net/gh/git-wally94/clashpool@main/sub/v2ray.txt
+
