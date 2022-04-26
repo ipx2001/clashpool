@@ -10,8 +10,8 @@ on:
     # 表达式生成  https://crontab.guru/
     # 每120分钟运行一次
     - cron: '*/120 * * * *'
-Spider:
-  start:
+jobs:
+  Spider:
     runs-on: ubuntu-latest
     steps:
     - name: 迁出代码
@@ -46,8 +46,10 @@ Spider:
     - name: 推送更改
       uses:  ad-m/github-push-action@master
       with:
-         # github_token: ${{ secrets.TOKEN }}
          branch: main
+  CDN:
+    runs-on: ubuntu-latest
+    steps:
     - name: ClashCDN
       run: curl https://purge.jsdelivr.net/gh/git-wally94/clashpool@main/sub/clash.yaml
     - name: V2rayCDN   
