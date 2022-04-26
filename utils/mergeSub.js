@@ -86,7 +86,7 @@ module.exports = async (config) => {
         async function Speedtest(count = 0) {
             if (proxie.server != "localhost" || proxie.server != "127.0.0.1") {
                 try {
-                    const res = await Clash.getDelay(proxie.name, 2000)
+                    const res = await Clash.getDelay(proxie.name, 1000)
                     proxies_list.push({
                         delay: res.data.delay,
                         proxie
