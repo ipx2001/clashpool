@@ -42,7 +42,7 @@ const dowmload = {
             if (count < 3) {
                 //如果失败，重试三次
                 //暂停1秒，因为有时候请求太快转换服务器好像有问题
-                await sleep(1000)
+                await sleep(500)
                 console.log(`订阅ID${sub.id} 解析失败，尝试重试，第${count}次`)
                 return dowmload.common(sub, config, count)
             }
